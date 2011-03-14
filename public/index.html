@@ -1,239 +1,221 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Ruby on Rails: Welcome aboard</title>
-    <style type="text/css" media="screen">
-      body {
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Гео-Iнформацiйнний авто-дорожнiй портал</title>
+	
+	<script src="https://www.google.com/jsapi?key=ABQIAAAAoboZS-nzwx1YaGkU-ISITBSZbqWu_yCLftQ5Cx-x_HqOIUCHaBQUYqtrk_058i-_cvilWaf0yJw2jA" type="text/javascript"></script>
+	
+    <link rel="stylesheet" href="stylesheets/temp/reset.css" type="text/css" />
+	<link rel="stylesheet" href="stylesheets/temp/style.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/temp/theme.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/temp/jquery-ui-1.8.9.custom.css" type="text/css" />
 
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
+    <script src="javascripts/temp/jquery-1.4.4.min.js"></script>
+    <script src="javascripts/temp/jquery-ui-1.8.9.custom.min.js"></script>
 
-      a  {color: #03c}
-      a:hover {
-        background-color: #03c;
-        color: white;
-        text-decoration: none;
-      }
+    <script type="text/javascript" src="javascripts/temp/OpenLayers.js"></script>
+    <script type="text/javascript" src="javascripts/temp/proj4js.js"></script>
+    <script type="text/javascript" src="javascripts/temp/OLExtended.js"></script>
+    <script type="text/javascript" src="javascripts/temp/autodor.js"></script>
+    <script type="text/javascript" src="javascripts/temp/yours_a.js"></script>
+    <script type="text/javascript" src="javascripts/temp/yournavigation_a.js"></script>
 
-
-      #page {
-        background-color: #f0f0f0;
-        width: 750px;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      #content {
-        float: left;
-        background-color: white;
-        border: 3px solid #aaa;
-        border-top: none;
-        padding: 25px;
-        width: 500px;
-      }
-
-      #sidebar {
-        float: right;
-        width: 175px;
-      }
-
-      #footer {
-        clear: both;
-      }
-
-
-      #header, #about, #getting-started {
-        padding-left: 75px;
-        padding-right: 30px;
-      }
-
-
-      #header {
-        background-image: url("images/rails.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        height: 64px;
-      }
-      #header h1, #header h2 {margin: 0}
-      #header h2 {
-        color: #888;
-        font-weight: normal;
-        font-size: 16px;
-      }
-
-
-      #about h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 14px;
-      }
-
-      #about-content {
-        background-color: #ffd;
-        border: 1px solid #fc0;
-        margin-left: -55px;
-        margin-right: -10px;
-      }
-      #about-content table {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 11px;
-        border-collapse: collapse;
-      }
-      #about-content td {
-        padding: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      #about-content td.name  {color: #555}
-      #about-content td.value {color: #000}
-
-      #about-content ul {
-        padding: 0;
-        list-style-type: none;
-      }
-
-      #about-content.failure {
-        background-color: #fcc;
-        border: 1px solid #f00;
-      }
-      #about-content.failure p {
-        margin: 0;
-        padding: 10px;
-      }
-
-
-      #getting-started {
-        border-top: 1px solid #ccc;
-        margin-top: 25px;
-        padding-top: 15px;
-      }
-      #getting-started h1 {
-        margin: 0;
-        font-size: 20px;
-      }
-      #getting-started h2 {
-        margin: 0;
-        font-size: 14px;
-        font-weight: normal;
-        color: #333;
-        margin-bottom: 25px;
-      }
-      #getting-started ol {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #getting-started li {
-        font-size: 18px;
-        color: #888;
-        margin-bottom: 25px;
-      }
-      #getting-started li h2 {
-        margin: 0;
-        font-weight: normal;
-        font-size: 18px;
-        color: #333;
-      }
-      #getting-started li p {
-        color: #555;
-        font-size: 13px;
-      }
-
-
-      #sidebar ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #sidebar ul h3 {
-        margin-top: 25px;
-        font-size: 16px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-      }
-      #sidebar li {
-        list-style-type: none;
-      }
-      #sidebar ul.links li {
-        margin-bottom: 5px;
-      }
-
-    </style>
-    <script type="text/javascript">
-      function about() {
-        info = document.getElementById('about-content');
-        if (window.XMLHttpRequest)
-          { xhr = new XMLHttpRequest(); }
-        else
-          { xhr = new ActiveXObject("Microsoft.XMLHTTP"); }
-        xhr.open("GET","rails/info/properties",false);
-        xhr.send("");
-        info.innerHTML = xhr.responseText;
-        info.style.display = 'block'
-      }
+    <script src="javascripts/temp/map1_objects_tr.js"></script>
+    <script src="javascripts/temp/map_autocomplte.js"></script>
+    <script src="theme/main/js/test.js"></script>
+    <script>
+        if (typeof console != "object") {
+            console = {};
+            console.log = function(args){}
+        }
     </script>
-  </head>
-  <body>
-    <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Browse the documentation</h3>
-            <ul class="links">
-              <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
-              <li><a href="http://stdlib.rubyonrails.org/">Ruby standard library</a></li>
-              <li><a href="http://corelib.rubyonrails.org/">Ruby core</a></li>
-              <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <div id="content">
-        <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
-        </div>
-
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
-        </div>
-
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
-
-          <ol>
-            <li>
-              <h2>Use <code>rails generate</code> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
-
-            <li>
-              <h2>Set up a default route and remove or rename this file</h2>
-              <p>Routes are set up in config/routes.rb.</p>
-            </li>
-
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <code>rake db:migrate</code> to create your database. If you're not using SQLite (the default), edit <code>config/database.yml</code> with your username and password.</p>
-            </li>
-          </ol>
-        </div>
-      </div>
-
-      <div id="footer">&nbsp;</div>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <a href="/" title="Гео-Iнформацiйнний авто-дорожнiй портал"><img alt="" src="/images/temp/euro2012-logo.jpg"></a>
     </div>
-  </body>
+
+    <div class="stadiums">
+        <div class="city">
+            <a class="logo" onclick="addCity('kiev');"><img src="/images/logo/kiev.jpg" alt=""></a>
+            <a class="link" onclick="addCity('kiev');"><img src="/images/logo/uk-kiev.gif" alt=""></a>
+        </div>
+        <div class="city">
+            <a class="logo" onclick="addCity('kharkiv');"><img src="/images/logo/kharkiv.jpg" alt=""></a>
+            <a class="link" onclick="addCity('kharkiv');"><img src="/images/logo/uk-kharkiv.gif" alt=""></a>
+        </div>
+        <div class="city">
+            <a class="logo" onclick="addCity('donetsk');"><img src="/images/logo/donetsk.jpg" alt=""></a>
+            <a class="link" onclick="addCity('donetsk');"><img src="/images/logo/uk-donetsk.gif" alt=""></a>
+        </div>
+        <div class="city">
+            <a class="logo" onclick="addCity('lviv');"><img src="/images/logo/lviv.jpg" alt=""></a>
+            <a class="link" onclick="addCity('lviv');"><img src="/images/logo/uk-lviv.gif" alt=""></a>
+        </div>
+            </div><!--/.stadiums-->
+
+    <div class="language_icons">
+        <a href="/?lang=en"><img alt="" src="/images/temp/flag/en.png"></a>
+        <a href="/?lang=uk"><img alt="" src="/images/temp/flag/uk.png"></a>
+        <a href="/?lang=ru"><img alt="" src="logos/flag/ru.png"></a>
+    </div>
+</div><!--/.header-->
+
+    <div class="main">
+	    <div class="outer">
+            <div class="panel">
+                <div id="nav_header">
+                    <!--
+                    <ul>
+                        <li><a href="#fragment-route"><span>Маршрут</span></a></li>
+                        <li><a href="#object_list"><span>Об’єкти</span></a></li>
+                        <li><a href="#situation_list"><span>Ситуації</span></a></li>
+                    </ul>
+                    -->
+
+                    <h3>Маршрут</h3>
+                    <div id="fragment-route">
+
+                          <form id="route" name="route" action="#" onsubmit="return false;">
+                              <ul id="route_via" class="route_via">
+                              </ul>
+                              <ul>
+                                  <li>
+                                      <div>
+
+                                          <img src="theme/main/images/waypoints/markers/marker-yellow.png" alt="marker to" height="30" style="vertical-align:middle;"/>
+                                          <input type="button" name="add waypoint" onclick="elementClick(this);" value="Додати точку" tabindex="4"/>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </form>
+                          <form action="#">
+                              <p>Додаткова iнформацiя</p>
+                              <input type="checkbox" onclick="Autodor.Weather.click(this);" />Погода                          </form>
+                          <form id="parameters" action="#">
+                              <!--<div id="parameters">-->
+                              <p>Type of transport</p>
+
+                              <ul>
+                                  <li><input type="radio" name="type" onclick="typeChange(this);" value="motorcar" checked="checked" />Car</li>
+                              </ul>
+                          </form>
+                          <form id="options" action="#">
+                              <p>Режим пошуку</p>
+                              <div id="routing_methods">
+                                  <input type="radio" id="route_short" name="method" value="shortest" checked="checked" /><label for="route_short">Найкоротший</label>
+                                  <input type="radio" id="route_fast"  name="method" value="fastest" /><label for="route_fast">Найшвидший</label>
+                              </div>
+                              <!--</div>-->
+                          </form>
+
+                          <form id="calculate" action="#">
+                              <div id="route_action">
+                                  <input type="button" name="calculate" onclick="elementClick(this);" value="Шукати" tabindex="3"/>
+                                  <input type="button" name="clear" onclick="elementClick(this); Autodor.Routing.clearRoute();" value="Очистити" tabindex="5"/>
+                                  <input type="button" name="reverse" onclick="elementClick(this);" value="Зворотнiй" tabindex="7"/>
+                              </div>
+                          </form>
+                          <div id="status"></div>
+                          <div id="route_instructions"><div class="inner" id="route_instructions_inner"></div></div>
+
+                          <div class="clr"></div>
+                    </div>
+
+                    <h3>Об’єкти</h3>
+                    <div id="object_list"><ul></ul></div>
+
+                    <h3>Ситуації</h3>
+                    <div id="situation_list"><ul></ul></div>
+
+
+                </div>
+                <script>
+
+                    $("#nav_header").height($(window).height() - 140);
+                    $("#nav_header").accordion({
+                            autoHeight: false,
+			                navigation: true,
+                            fillSpace: true
+                        });
+                    $("#routing_methods").buttonset();
+                    $("#route_action input").button();
+
+                </script>
+            </div>
+	    </div>
+        <div class="content">
+            <div id="map"></div>
+        </div>
+    </div>
+
+
+	<script type="text/javascript" src="javascripts/temp/cloudmade.js"></script>
+    <script type="text/javascript">
+        /**/
+
+        /**/
+    </script>
+
+	<script type="text/javascript">
+        var markers = [];
+        var object_list = [];
+        var situation_list = [];
+        var selectControl;
+		var map = new OpenLayers.Map("map", {
+	      controls: [
+	         new OpenLayers.Control.Navigation(),
+	         new OpenLayers.Control.PanZoomBar(),
+	         new OpenLayers.Control.ScaleLine(),
+			 new OpenLayers.Control.Attribution(),
+			 //,
+			 new OpenLayers.Control.LayerSwitcher()
+	      ]
+	    });
+
+		var cloudmade = new OpenLayers.Layer.CloudMade("BaseLayer", {
+			key: 'BC9A493B41014CAABB98F0471D759707'
+		});
+		map.addLayer(cloudmade);
+		var epsg4326 = new OpenLayers.Projection("EPSG:4326");
+       // var epsg3857 = new OpenLayers.Projection("EPSG:3857");
+        var epsg28406 = new OpenLayers.Projection("EPSG:28406");
+        var WGS84 = new OpenLayers.Projection("EPSG:4326");//WGS 84
+        var epsg900913 = new OpenLayers.Projection("EPSG:900913");
+        map.displayProjection = WGS84;
+        /**test*
+        var t0 = new OpenLayers.LonLat(30, 50);
+        console.log("t0:",t0);
+        var t1 = new OpenLayers.LonLat(30, 50).transform(epsg4326, map.getProjectionObject());
+        console.log("t1=t0->epsg4326:",t1);
+        var t2 = t1.clone().transform(epsg900913, epsg4326);
+        console.log("t1=t1->epsg900913:",t2);
+        console.log( map.getProjectionObject() )
+        /**test**/
+
+		var center = new OpenLayers.LonLat(30, 50).transform(epsg4326, map.getProjectionObject());
+		map.setCenter(center, 6);
+
+
+
+        map.restrictedExtent =
+            new OpenLayers.Bounds(22.03,44.2, 40.26, 52.42).transform(epsg4326, map.getProjectionObject());
+
+
+        //$("#nav_header").tabs();
+        getObjectsList();
+        getSituationsList();
+
+        Autodor.Weather.init(map);
+        Autodor.ObjectList.init(map);
+        Autodor.Routing.init(map,'ru');
+        yournavigation_init();
+
+	</script>
+    <div id="jpopup">
+        <a class="close" onclick="javascript:(function($){$('#jpopup').hide()})(jQuery)"></a>
+        <div class="content"></div>
+    </div>
+</body>
 </html>
