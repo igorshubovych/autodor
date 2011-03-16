@@ -10,7 +10,7 @@ $(document).ready(function() {
 	
 	var directions = new CM.Directions(map, 'panel', '8ee2a50541944fb9bcedded5165f09d9');
 	var waypoints = [new CM.LatLng(50.433, 30.521), new CM.LatLng(49.775, 24.026, 15)];
-	directions.loadFromWaypoints(waypoints, {lang:"uk"});
+	directions.loadFromWaypoints(waypoints, {lang:"ua"});
 });
 
 function centerMap(lat, lon, zoom) {
