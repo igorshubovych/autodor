@@ -21,4 +21,3 @@ ul.side_slide_menu li {
 ul.side_slide_menu:hover li, ul.side_slide_menu li.current {
 	visibility:visible;
 }
-
