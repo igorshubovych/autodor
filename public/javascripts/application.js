@@ -1,4 +1,3 @@
-<script type="text/javascript">
 $(document).ready(function() {
     var cloudmade = new CM.Tiles.CloudMade.Web({key: 'BC9A493B41014CAABB98F0471D759707'});
     var map = new CM.Map('map', cloudmade);
@@ -7,4 +6,3 @@ $(document).ready(function() {
 	map.addControl(new CM.ScaleControl());
 	map.addControl(new CM.OverviewMapControl());
 });
-</script>
