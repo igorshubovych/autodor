@@ -23,7 +23,7 @@ ul.side_slide_menu:hover li, ul.side_slide_menu li.current {
 }
 
 div.map {
-	float:right;
+	/*float:right;*/
 	width:750px;
 	height:500px;
 }
