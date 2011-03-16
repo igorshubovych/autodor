@@ -1,0 +1,21 @@
+img.head_img {
+	float:left;
+}
+
+.language_menu {
+	float:right;
+}
+
+ul.side-slide-menu {
+	list-style:none;
+	display:inline;
+}
+
+ul.side-slide-menu li {
+	display:inline;
+	visibility:hidden;
+}
+
+ul.side-slide-menu:hover li, ul.side-slide-menu li.current {
+	visibility:visible;
+}

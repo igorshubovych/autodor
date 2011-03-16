@@ -1,5 +1,19 @@
-<h1>Home#index</h1>
+<%= image_tag("head.jpg", :alt => "heading", :class => "head_img") %>
+
+<div class="language_menu">
+	<ul class="side_slide_menu">
+	<% @languages.each do |i| %>
+		<% if i == @current_lang %>
+			<li class="current"><%= i %></li>
+		<% else %>
+			<li><%= i %></li>
+		<% end %>
+	<% end %>
+	</ul>
+</div>
+
 <div id="map" style="width: 500px; height: 500px"></div>
+
 <script type="text/javascript">
 $(document).ready(function() {
     var cloudmade = new CM.Tiles.CloudMade.Web({key: 'BC9A493B41014CAABB98F0471D759707'});
