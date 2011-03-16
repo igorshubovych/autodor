@@ -25,5 +25,5 @@ ul.side_slide_menu:hover li, ul.side_slide_menu li.current {
 .map {
 	float:right;
 	width:60%;
-	height:60%;
+	height:500px;
 }
