@@ -9,6 +9,12 @@ $(document).ready(function() {
 	map.addControl(new CM.OverviewMapControl());
 });
 
-function createMap(lat, lon, zoom) {
+function centerMap(lat, lon, zoom) {
+	if (map == null)
+	{
+		conn = new CM.Tiles.CloudMade.Web({key: 'BC9A493B41014CAABB98F0471D759707'});
+		map = new CM.Map('map', conn);
+	}
+
 	map.setCenter(new CM.LatLng(lat, lon), zoom);
 }
