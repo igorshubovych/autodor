@@ -5,11 +5,7 @@
 <div class="language_menu">
 	<ul class="side_slide_menu">
 	<% @languages.each do |i| %>
-		<% if i == @current_lang %>
-			<li class="current"><a href="#"><%= i %></a></li>
-		<% else %>
-			<li><%= i %></li>
-		<% end %>
+			<li <% 'class="current"' if i == @current_lang %>><a href="#"><%= i %></a></li>
 	<% end %>
 	</ul>
 </div>
