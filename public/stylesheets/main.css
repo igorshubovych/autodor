@@ -22,8 +22,3 @@ ul.side_slide_menu:hover li, ul.side_slide_menu li.current {
 	visibility:visible;
 }
 
-div.map {
-	/*float:right;*/
-	width:750px;
-	height:500px;
-}
