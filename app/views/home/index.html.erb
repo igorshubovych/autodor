@@ -6,7 +6,7 @@
 	<ul class="side_slide_menu">
 	<% @languages.each do |i| %>
 		<% if i == @current_lang %>
-			<li class="current"><%= i %></li>
+			<li class="current"><a href="#"><%= i %></a></li>
 		<% else %>
 			<li><%= i %></li>
 		<% end %>
