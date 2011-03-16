@@ -1,3 +1,6 @@
+google.load("jquery", "1.5.1");
+google.load("jqueryui", "1.8.10");
+
 $(document).ready(function() {
     var cloudmade = new CM.Tiles.CloudMade.Web({key: 'BC9A493B41014CAABB98F0471D759707'});
     var map = new CM.Map('map', cloudmade);
