@@ -9,6 +9,6 @@ $(document).ready(function() {
 	map.addControl(new CM.OverviewMapControl());
 });
 
-function createMap(lat, lon) {
-	map.setCenter(new CM.LatLng(lat, lon), 17);
+function createMap(lat, lon, zoom) {
+	map.setCenter(new CM.LatLng(lat, lon), zoom);
 }
