@@ -6,16 +6,16 @@ img.head_img {
 	float:right;
 }
 
-ul.side-slide-menu {
+ul.side_slide_menu {
 	list-style:none;
 	display:inline;
 }
 
-ul.side-slide-menu li {
+ul.side_slide_menu li {
 	display:inline;
 	visibility:hidden;
 }
 
-ul.side-slide-menu:hover li, ul.side-slide-menu li.current {
+ul.side_slide_menu:hover li, ul.side_slide_menu li.current {
 	visibility:visible;
 }
