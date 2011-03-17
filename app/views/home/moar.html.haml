@@ -1,44 +1,44 @@
 .header
 	.logo
 		%a{ :href => "#", :title => "hello, isden!" }
-			%img{ :alt => "", :src => "euro2012-logo.jpg" }
+			=image_tag "euro2012-logo.jpg", :alt => ""
 
 	.stadiums
 		.city
 			%a{ :class => "logo", :onclick => "addCity(&#39;kiev&#39;);" }
-				%img{ :src => "kiev.jpg", :alt => "" }
+				=image_tag "kiev.jpg", :alt => "" 
 				
 			%a{ :class => "link", :onclick => "addCity(&#39;kiev&#39;);" }
-				%img{ :src => "uk-kiev.gif", :alt => "" }
+				=image_tag "uk-kiev.gif", :alt => "" 
 		
 		.city
 			%a{ :class => "logo", :onclick => "addCity(&#39;kharkiv&#39;);" }
-				%img{ :src => "kharkiv.jpg", :alt => "" }
+				=image_tag "kharkiv.jpg", :alt => "" 
 				
 			%a{ :class => "link", :onclick => "addCity(&#39;kharkiv&#39;);" }
-				%img{ :src => "uk-kharkiv.gif", :alt => "" }
+				=image_tag "uk-kharkiv.gif", :alt => "" 
 
 		.city
 			%a{ :class => "logo", :onclick => "addCity(&#39;donetsk&#39;);" }
-				%img{ :src => "donetsk.jpg", :alt => "" }
+				=image_tag "donetsk.jpg", :alt => "" 
 				
 			%a{ :class => "link", :onclick => "addCity(&#39;donetsk&#39;);" }
-				%img{ :src => "uk-donetsk.gif", :alt => "" }
+				=image_tag "uk-donetsk.gif", :alt => "" 
 
 		.city
 			%a{ :class => "logo", :onclick => "addCity(&#39;lviv&#39;);" }
-				%img{ :src => "lviv.jpg", :alt => "" }
+				=image_tag "lviv.jpg", :alt => "" 
 				
 			%a{ :class => "link", :onclick => "addCity(&#39;lviv&#39;);" }
-				%img{ :src => "uk-lviv.gif", :alt => "" }
+				=image_tag "uk-lviv.gif", :alt => "" 
 
 	.language_icons
 		%a{ :href => "http://autodor.ihatereg.com/?lang=en" }
-			%img{ :alt => "", :src => "en.png" }
+			=image_tag "en.png" 
 		%a{ :href => "http://autodor.ihatereg.com/?lang=uk" }
-			%img{ :alt => "", :src => "uk.png" }
+			=image_tag "uk.png" 
 		%a{ :href => "http://autodor.ihatereg.com/?lang=ru" }
-			%img{ :alt => "", :src => "ru.png" }
+			=image_tag "ru.png" 
 
 .main
 	.outer
