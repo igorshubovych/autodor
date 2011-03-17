@@ -1,8 +1,9 @@
 .language_menu
 	%ul.side_slide_menu
 	- @languages.each do |i|
-	%li= "class='current'" if (i == @current_lang) 
-		%a{ :href => "#" }= i
+		%li
+			= "class='current'" if (i == @current_lang) 
+			%a{ :href => "#" }= i
 	- end
 
 %br/
