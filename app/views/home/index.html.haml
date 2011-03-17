@@ -1,0 +1,21 @@
+.language_menu
+	%ul.side_slide_menu
+	- @languages.each do |i|
+		%li
+			= "class='current'" if (i == @current_lang) 
+			%a{ :href => "#" }= i
+	- end
+
+%br/
+%a{ :onClick => "centerMap(50.433, 30.521, 15)" } Set center to Kiev
+%br/
+%a{ :onClick => "centerMap(49.980, 36.261, 15)" } Set center to Harkiv
+%br/
+%a{ :onClick => "centerMap(48.021, 37.810, 15)" } Set center to Donecck
+%br/
+%a{ :onClick => "centerMap(49.775, 24.026, 15)" } Set center to Lviv
+%br/
+
+#map{ :style => "width:500px; height:500px;"}
+%br/
+#panel{ :style => "width: 200px; float: left; padding-left: 10px"

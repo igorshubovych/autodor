@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   end
   
   def moar
-	@languages = [ "ru", "ua", "en" ]
+    @languages = [ "ru", "ua", "en" ]
   	@current_lang = "ua"
   end
 end
