@@ -1,11 +1,12 @@
 .language_menu
 	%ul.side_slide_menu
-	- @languages.each do |i|
-		- if (i == @current_lang)
-			%li.curent
-		- else
-			%li
-				%a{ :href => "#" }= i
+		- @languages.each do |i|
+			- if (i == @current_lang)
+				%li.curent
+					%a{ :href => "#" }= i
+			- else
+				%li
+					%a{ :href => "#" }= i
 
 %br/
 %a{ :onClick => "centerMap(50.433, 30.521, 15)" } Set center to Kiev
