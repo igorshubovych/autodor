@@ -1,5 +1,6 @@
 Autodor::Application.routes.draw do
-  get "home/index"
+  #get "home/index"
+  match ':controller(/:action)'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
