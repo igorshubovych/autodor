@@ -33,7 +33,7 @@ function createIcon(image) {
 	return null;
 }
 
-var initMap = function() {
+function initMap() {
 	if (map == null || cloudmade == null) {
 		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
 		map = new CM.Map('map', cloudmade);
