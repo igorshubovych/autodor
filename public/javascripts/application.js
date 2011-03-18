@@ -15,8 +15,6 @@ var markerIcons = {
 	'end': createIcon('markers/end.png')
 }
 
-var M = addMarker();
-
 var keyPoints = [];
 
 function createIcon(image) {
@@ -33,7 +31,7 @@ function createIcon(image) {
 	return null;
 }
 
-function initMap() {
+var initMap = function() {
 	if (map == null || cloudmade == null) {
 		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
 		map = new CM.Map('map', cloudmade);
@@ -65,6 +63,8 @@ function addMarker(icon, title) {
 
 $(document).ready(function() {
 	initMap();
+	
+	var M = addMarker();
 	
 	$("#map").mousemove(function(e) {
 		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
