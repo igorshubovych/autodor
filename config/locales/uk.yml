@@ -1,16 +1,16 @@
 uk:
-	place:
-		olympic: "НСК Олімпійський"
-		kyiv: "Київ"
-		lviv: "Львів"
-		donetsk: "Донецьк"
-		kharkiv: "Харків"
-	panel:
-		car_fastest_route: "Авто, найшвидший"
-		car_shortest_route: "Авто, найкоротший"
-		foot_route: "Пішки"
-		bicycle_route: "Вело"
-		routes: "Маршрут"
-		search: "Пошук"
-		objects: "Об’єкти"  
+    place:
+        olympic: "НСК Олімпійський"
+        kyiv: "Київ"
+        lviv: "Львів"
+        donetsk: "Донецьк"
+        kharkiv: "Харків"
+    panel:
+        car_fastest_route: "Авто, найшвидший"
+        car_shortest_route: "Авто, найкоротший"
+        foot_route: "Пішки"
+        bicycle_route: "Вело"
+        routes: "Маршрут"
+        search: "Пошук"
+        objects: "Об’єкти"  
 

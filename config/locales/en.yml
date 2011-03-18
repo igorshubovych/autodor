@@ -1,15 +1,15 @@
 en:
-	place:
-		olympic: "Olympic Stadium"
-		kyiv: "Kyiv"
-		lviv: "Lviv"
-		donetsk: "Donetsk"
-		kharkiv: "Kharkiv"
-	panel:
-		car_fastest_route: "Car, fastest"
-		car_shortest_route: "Car, shortest"
-		foot_route: "Footjob"
-		bicycle_route: "Bicyle"
-		routes: "Routes"
-		search: "Search"
-		objects: "Objects"
+    place:
+        olympic: "Olympic Stadium"
+        kyiv: "Kyiv"
+        lviv: "Lviv"
+        donetsk: "Donetsk"
+        kharkiv: "Kharkiv"
+    panel:
+        car_fastest_route: "Car, fastest"
+        car_shortest_route: "Car, shortest"
+        foot_route: "Footjob"
+        bicycle_route: "Bicyle"
+        routes: "Routes"
+        search: "Search"
+        objects: "Objects"
