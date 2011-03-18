@@ -46,7 +46,7 @@
 			$(function() {
 				$("#tabs").tabs();
 				$(".routeType").buttonset();
-				$(".addMarker").button();
+				$(".addMarker").button().text("Add point");
 			});
 			
 		.panel
@@ -62,7 +62,8 @@
 						%a{ :href => "#objectsTab" } Objects
 						
 				#routingTab
-					.addMarker{ :onClick => "return false;" }  hello, isden!
+					.addMarker{ :onClick => "return false;" }
+					%br/
 					%br/
 					.routeType
 						%input#carFast{ :type => "radio", :name => "routeType", :checked => "checked", :onClick => "changeRouteType('car');" }
