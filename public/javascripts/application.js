@@ -71,6 +71,7 @@ $(document).ready(function() {
 	map.addOverlay(M);
 	
 	$("#map").mousemove(function movement(e) {
+		$(".moo").text();
 		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
 	});
 	
