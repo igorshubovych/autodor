@@ -1,12 +1,16 @@
 ru:
-    place:
-        olympic: "НСК Олимпийский"
-        kyiv: "Киев"
-        lviv: "Львов"
-        donetsk: "Донецк"
-        kharkiv: "Харьков"
-    panel:
-        routes: "Маршрут"
-        search: "Поиск"
-        objects: "Объекты"  
+	place:
+		olympic: "НСК Олимпийский"
+		kyiv: "Киев"
+		lviv: "Львов"
+		donetsk: "Донецк"
+		kharkiv: "Харьков"
+	panel:
+		car_fastest_route: "Авто, быстрейший"
+		car_shortest_route: "Авто, кратчайший"
+		foot_route: "Пеший"
+		bicycle_route: "Вело"
+		routes: "Маршрут"
+		search: "Поиск"
+		objects: "Объекты"  
 
