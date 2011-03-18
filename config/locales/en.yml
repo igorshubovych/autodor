@@ -1,5 +1,11 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+    place:
+        olympic: "Olympic Stadium"
+        kyiv: "Kyiv"
+        lviv: "Lviv"
+        donetsk: "Donetsk"
+        kharkiv: "Kharkiv"
+    panel:
+        routing: "Routing"
+        search: "Search"
+        objects: "Objects"

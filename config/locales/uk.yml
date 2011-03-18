@@ -1,0 +1,12 @@
+uk:
+    place:
+        olympic: "НСК Олімпійський"
+        kyiv: "Київ"
+        lviv: "Львів"
+        donetsk: "Донецьк"
+        kharkiv: "Харків"
+    panel:
+        routing: "Маршрут"
+        search: "Пошук"
+        objects: "Об’єкти"  
+
