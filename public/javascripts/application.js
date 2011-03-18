@@ -25,6 +25,9 @@ function updateRoute() {
 			directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
 		}
 		
+		if (routeType == null)
+			routeType = 'car';
+			
 		directions.loadFromWaypoints(keyPoints, { travelMode: routeType });
 	}
 }
