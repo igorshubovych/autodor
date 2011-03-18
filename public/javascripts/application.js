@@ -82,6 +82,14 @@ var mapToPoint = function(name, zoom) {
 $(document).ready(function() {
 	initMap();
 	
+	$(".addMarker").click(function() {
+		doMarkerMode();
+		
+		if (currMarker == null)
+			$(this).text("Add point"); else
+				$(this).text("Cancel adding point");
+	}
+	
 	$("#map").click(doLeaveMarkerAlone);
 	
 	$("#map").mousemove(function(e) {
