@@ -51,23 +51,34 @@
 			#tabs
 				%ul
 					%li
-						%a{ :href => "#tabs-1" } Routing
-						
+						%a{ :href => "#tabsRouting" } Routing
 					%li
-						%a{ :href => "#tabs-2" } Search
-						
+						%a{ :href => "#tabsSearch" } Search
 					%li
-						%a{ :href => "#tabs-3" } Objects
-						
-				#tabs-1
-					%p some fucking content
-					
-				#tabs-2
+						%a{ :href => "#tabsObjects" } Objects
+				#tabsRouting
+					%form
+						%label{ :for => "point1" } Point 1:
+						%input{ :type => "edit", :name => "point1" }
+						%label{ :for => "point2" } Point 2:
+						%input{ :type => "edit", :name => "point2" }
+				#tabsSearch
 					%form
 						%input{ :type => "edit", :name => "query" }
 						%input{ :type => "submit", :name => "search", :value => "Search" }
-						
-				#tabs-3
-					%p some fucking content3
+				#tabsObjects
+					%form
+						%input{ :type => "checkbox", :name => "poi" }
+						%label{ :for => "poi" } POI
+			#panelQuickLinks{ :class => "ui-widget-content ui-corner-all" }
+				%h2{ :class => "ui-widget-header ui-corner-all" } Quick links
+				%p
+					%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)", :href => "" } Kyiv
+				%p
+					%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)", :href => "" } Kharkiv
+				%p
+					%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)", :href => "" } Donetsk
+				%p
+					%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)", :href => "" } Lviv
 	.content
 		#map.olMap
