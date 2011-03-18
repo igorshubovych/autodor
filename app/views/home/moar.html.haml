@@ -60,7 +60,7 @@
 						%a{ :href => "#tabs-3" } Objects
 						
 				#tabs-1
-					%a{ :href => "#", :onClick => "return false;" }  hello, isden!
+					%a{ :href => "#", :onClick => "doMarkerMode();" }  hello, isden!
 					
 				#tabs-2
 					%form
@@ -70,6 +70,4 @@
 				#tabs-3
 					%p some fucking content3
 	.content
-		%span#addMarker MOO STARTS HERE!
-		%br/
 		#map.olMap

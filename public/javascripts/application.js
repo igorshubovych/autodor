@@ -10,7 +10,7 @@ var points = {
 	'Lviv stadium': new CM.LatLng(49.775, 24.026)
 }
 
-var keyPoints = [];
+var markers = [];
 var currMarker = null;
 
 function doMarkerMode() {
@@ -68,7 +68,7 @@ var mapToPoint = function(name, zoom) {
 $(document).ready(function() {
 	initMap();
 	
-	$("#addMarker").click(doMarkerMode);
+	//$("#addMarker").click(doMarkerMode);
 	$("#map").click(doLeaveMarkerAlone);
 	
 	$("#map").mousemove(function(e) {
