@@ -51,8 +51,8 @@ function doLeaveMarkerAlone() {
 			var keyPoints = [];
 			var m = null;
 			
-			for (m in markers) {
-				keyPoints.push(m.getLatLng());
+			for (m = 0; m < markers.length; m++) {
+				keyPoints.push(markers[m].getLatLng());
 			}
 			
 			var directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
