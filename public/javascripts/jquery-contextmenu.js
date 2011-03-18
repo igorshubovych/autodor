@@ -43,6 +43,9 @@
 		appendTo:'body',
 		direction:'down',
 		constrainToScreen:true,
+		
+		posX:0,
+		posY:0,
 				
 		showTransition:'show',
 		hideTransition:'hide',
@@ -196,13 +199,13 @@
 		
 		// A hook to call before the menu is shown, in case special processing needs to be done.
 		// Return false to cancel the default show operation
-		beforeShow: function(x, y, e) { return true; },
+		beforeShow: function(x, y) { return true; },
 		
 		// Show the context menu
 		show: function(t,e) {
 			var cmenu=this, x=e.pageX, y=e.pageY;
 			cmenu.target = t; // Preserve the object that triggered this context menu so menu item click methods can see it
-			if (cmenu.beforeShow()!==false) {
+			if (cmenu.beforeShow(posX, posY)!==false) {
 				// If the menu content is a function, call it to populate the menu each time it is displayed
 				if (cmenu.menuFunction) {
 					if (cmenu.menu) { $(cmenu.menu).remove(); }
@@ -260,7 +263,8 @@
 		var cmenu = $.contextMenu.create(menu,options);
 		return this.each(function(){
 			$(this).bind('contextmenu',function(e){
-				cmenu.beforeShow(e.clientX - $(this).offset().left, e.clientY - $(this).offset().top, e); 
+				posX = e.clientX - this.offset().left;
+				posY = e.clientY - this.offset().top;
 				cmenu.show(this, e);
 				return false;
 			});
