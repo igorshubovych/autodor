@@ -65,8 +65,6 @@ $(document).ready(function() {
 	initMap();
 	
 	var M = new CM.Marker(map.getCenter(), {
-		title: title,
-		//icon: icon,
 		draggable: true
 	});
 	
