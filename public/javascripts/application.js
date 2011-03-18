@@ -63,7 +63,7 @@ function addMarker(icon, title) {
 
 var M = null;
 
-var movement = function(e) {
+function movement(e) {
 		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
 	}
 
