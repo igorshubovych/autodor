@@ -10,25 +10,43 @@ var points = {
 	'Lviv stadium': new CM.LatLng(49.775, 24.026)
 }
 
-var markerIcons = {
-	'start': createIcon('markers/start.png'),
-	'end': createIcon('markers/end.png')
+var keyPoints = [];
+var currMarker = null;
+
+function doMarkerMode() {
+	if (currMarker == null) {
+		currMarker = new CM.Marker(new CM.LatLon(0, 0), {
+			draggable: true
+		});
+		
+		map.addOverlay(currMarker);
+		
+		map.disableDragging();
+		map.disableScrollWheelZoom();
+		map.disableDoubleClickZoom();
+		map.disableShiftDragZoom();
+		map.disableMouseZoom();
+	} else {
+		map.removeOverlay(currMarker);
+		
+		map.enableDragging();
+		map.enableScrollWheelZoom();
+		map.enableDoubleClickZoom();
+		map.enableShiftDragZoom();
+		map.enableMouseZoom();
+	}
 }
 
-var keyPoints = [];
-
-function createIcon(image) {
-	if (image != null) {
-		var icon = new CM.Icon();
-	
-		icon.image = image;
-		//icon.iconSize = new CM.Size();
-		//icon.iconAnchor = new CM.Point();
-		
-		return icon;
+function doLeaveMarkerAlone() {
+	if (currMarker != null) {
+		map.enableDragging();
+		map.enableScrollWheelZoom();
+		map.enableDoubleClickZoom();
+		map.enableShiftDragZoom();
+		map.enableMouseZoom();
+		markers.push(currMarker);
+		currMarker = null;
 	}
-	
-	return null;
 }
 
 var initMap = function() {
@@ -47,34 +65,23 @@ var mapToPoint = function(name, zoom) {
 	map.setCenter(points[name], zoom);
 }
 
-function addMarker(icon, title) {
-	initMap();
-	
-	var marker = new CM.Marker(map.getCenter(), {
-		title: title,
-		//icon: icon,
-		draggable: true
-	});
-	
-	map.addOverlay(marker);
-	
-	keyPoints.push(marker);
-}
-
 $(document).ready(function() {
 	initMap();
 	
-	var M = new CM.Marker(map.getCenter(), {
-		draggable: true
-	});
+	$("#addMarker").click(doMarkerMode);
+	$("#map").click(doLeaveMarkerAlone);
 	
-	map.addOverlay(M);
-	
-	$("#map").mousemove(function movement(e) {
-		$(".moo").text(e.clientX + '::'  + e.clientY);
-		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
+	$("#map").mousemove(function(e) {
+		var pos = map.fromContainerPixelToLatLng(new CM.Point(e.clientX - $(this).offset().left, e.clientY - $(this).offset().top));
+				
+		//document.getElementById("moo").innerHTML = pos.lat() + "::" + pos.lng(); 
+		
+		if (currMarker != null) {
+			currMarker.setLatLng(pos);
+		}
 	});
 	
 	//var directions = new CM.Directions(map, 'panel', CM_APIKEY);
 	//var waypoints = [points['Kyiv'], points['Lviv']];	
+	//directions.loadFromWayPoints(waypoints);
 });
