@@ -10,7 +10,7 @@ var points = {
 	'Lviv stadium': new CM.LatLng(49.775, 24.026)
 }
 
-var markers = [], currMarker = null, directions = null, routeType = null;
+var markers = [], currMarker = null, directions = null, routeType = null, currPos = null;
 
 function updateRoute() {
 	if (markers.length > 1) {
@@ -125,10 +125,29 @@ $(document).ready(function() {
 	});
 	
 	var menu1 = [ 
-		{'Option 1':function(menuItem,menu) { alert("You clicked Option 1!"); } }, 
+		{'Option 1': function(menuItem, menu) { 
+			if (currPos != null) {
+				var m = new CM.Marker(currPos, {
+					draggable: true
+				});
+				
+				CM.Event.addListener(m, 'dragend', updateRoute);
+				
+				map.addOverlay(m);
+				
+				markers.push(currMarker);
+			}
+		} },
+		 
 		$.contextMenu.separator, 
-		{'Option 2':function(menuItem,menu) { alert("You clicked Option 2!"); } } 
-	]; 
+		{'Option 2': function(menuItem, menu) { 
+			alert("You clicked Option 2!"); 
+		} } 
+	];
+	
+	menu1.beforeShow = function(x, y, e) {
+		currPos = map.fromContainerPixelToLatLng(new CM.Point(x - $('#map').offset().left, y - $('#map').offset().top));
+	}
 
 	$('#map').contextMenu(menu1, { theme: 'xp'} );
 });
