@@ -61,18 +61,20 @@ function addMarker(icon, title) {
 	keyPoints.push(marker);
 }
 
-var M = null;
-
-function movement(e) {
-		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
-	}
-
 $(document).ready(function() {
 	initMap();
 	
-	M = addMarker();
+	var M = new CM.Marker(map.getCenter(), {
+		title: title,
+		//icon: icon,
+		draggable: true
+	});
 	
-	$("#map").mousemove(movement);
+	map.addOverlay(M);
+	
+	$("#map").mousemove(function movement(e) {
+		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
+	});
 	
 	//var directions = new CM.Directions(map, 'panel', CM_APIKEY);
 	//var waypoints = [points['Kyiv'], points['Lviv']];	
