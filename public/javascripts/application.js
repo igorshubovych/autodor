@@ -61,10 +61,12 @@ function addMarker(icon, title) {
 	keyPoints.push(marker);
 }
 
+var M = null;
+
 $(document).ready(function() {
 	initMap();
 	
-	var M = addMarker();
+	M = addMarker();
 	
 	$("#map").mousemove(function(e) {
 		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
