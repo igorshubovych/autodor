@@ -88,9 +88,17 @@ $(document).ready(function() {
 		if (currMarker == null)
 			$(this).text("Add point"); else
 				$(this).text("Cancel adding point");
+				
+		return false;
 	});
 	
-	$("#map").click(doLeaveMarkerAlone);
+	$("#map").click(function( {
+		doLeaveMarkerAlone();
+		
+		$(".addMarker").text("Add point");
+		
+		return false;
+	});
 	
 	$("#map").mousemove(function(e) {
 		var pos = map.fromContainerPixelToLatLng(new CM.Point(e.clientX - $(this).offset().left, e.clientY - $(this).offset().top));
