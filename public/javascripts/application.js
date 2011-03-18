@@ -10,7 +10,7 @@ var points = {
 	'Lviv stadium': new CM.LatLng(49.775, 24.026)
 }
 
-var markers = [], currMarker = null, directions = null;
+var markers = [], currMarker = null, directions = null, routeType = null;
 
 function updateRoute() {
 	if (markers.length > 1) {
@@ -25,8 +25,13 @@ function updateRoute() {
 			directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
 		}
 		
-		directions.loadFromWaypoints(keyPoints);
+		directions.loadFromWaypoints(keyPoints, { travelMode: routeType });
 	}
+}
+
+function changeRouteType(type) {
+	routeType = type;
+	updateRoute();
 }
 
 function doMarkerMode() {

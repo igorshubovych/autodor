@@ -64,19 +64,19 @@
 					%a.addMarker{ :href => "#", :onClick => "return false;" }  hello, isden!
 					%br/
 					.routeType
-						%input#carFast{ :type => "radio" }
+						%input#carFast{ :type => "radio", :onClick => "changeRouteType('car');" }
 							%label{ :for => "carFast" }
 								= t 'panel.car_fastest_route'
 							
-						%input#carShort{ :type => "radio" }
+						%input#carShort{ :type => "radio", :onClick => "changeRouteType('car/shortest');" }
 							%label{ :for => "carShort" }
 								= t 'panel.car_shortest_route'
 							
-						%input#foot{ :type => "radio" }
+						%input#foot{ :type => "radio", :onClick => "changeRouteType('foot');" }
 							%label{ :for => "foot" }
 								= t 'panel.foot_route'
 						
-						%input#bicycle{ :type => "radio" }
+						%input#bicycle{ :type => "radio", :onClick => "changeRouteType('bicycle');" }
 							%label{ :for => "bicycle" }
 								= t 'panel.bicycle_route'
 						
