@@ -57,7 +57,7 @@ function doLeaveMarkerAlone() {
 			
 			var directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
 			//var waypoints = markers; //[points['Kyiv'], points['Lviv']];	
-			directions.loadFromWayPoints(keyPoints);
+			directions.loadFromWaypoints(keyPoints);
 		}
 	}
 }
