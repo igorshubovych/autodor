@@ -127,7 +127,7 @@ $(document).ready(function() {
 	var menu1 = [ 
 		{'Option 1': function(menuItem, menu) { 
 			if (currPos != null) {
-				var m = new CM.Marker(currPos, {
+				/*var m = new CM.Marker(currPos, {
 					draggable: true
 				});
 				
@@ -135,7 +135,10 @@ $(document).ready(function() {
 				
 				map.addOverlay(m);
 				
-				markers.push(currMarker);
+				markers.push(currMarker);*/
+				alert(currPos.getLat() + ":" + currPos.getLng());
+			} else {
+				alert('curr pos is not specified');
 			}
 		} },
 		 
