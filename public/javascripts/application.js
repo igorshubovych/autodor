@@ -152,7 +152,8 @@ $(document).ready(function() {
 		theme: 'xp',
 		getPosition: function(x, y, cmenu, e) {
 			currPos = map.fromContainerPixelToLatLng(new CM.Point(x - $('#map').offset().left, y - $('#map').offset().top));
-			alert(x + ':' + y + '=>' + currPos);
+			
+			return { 'x': x, 'y': y };
 		}
 	} );
 });
