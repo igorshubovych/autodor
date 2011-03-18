@@ -135,7 +135,7 @@ $(document).ready(function() {
 				
 				map.addOverlay(m);
 				
-				markers.push(currMarker);
+				markers.push(m);
 				
 				updateRoute();
 			}
