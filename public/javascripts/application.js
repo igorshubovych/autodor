@@ -63,14 +63,16 @@ function addMarker(icon, title) {
 
 var M = null;
 
+var movement = function(e) {
+		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
+	}
+
 $(document).ready(function() {
 	initMap();
 	
 	M = addMarker();
 	
-	$("#map").mousemove(function(e) {
-		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
-	});
+	$("#map").mousemove(movement);
 	
 	//var directions = new CM.Directions(map, 'panel', CM_APIKEY);
 	//var waypoints = [points['Kyiv'], points['Lviv']];	
