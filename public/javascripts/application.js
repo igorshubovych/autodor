@@ -125,7 +125,7 @@ $(document).ready(function() {
 	});
 	
 	var menu1 = [ 
-		{'Option 1': function(menuItem, menu) { 
+		{'Add point': function(menuItem, menu) { 
 			if (currPos != null) {
 				var m = new CM.Marker(currPos, {
 					draggable: true
@@ -136,14 +136,9 @@ $(document).ready(function() {
 				map.addOverlay(m);
 				
 				markers.push(currMarker);
-			} else {
-				alert('curr pos is not specified');
+				
+				updateRoute();
 			}
-		} },
-		 
-		$.contextMenu.separator, 
-		{'Option 2': function(menuItem, menu) { 
-			alert("You clicked Option 2!"); 
 		} } 
 	];
 
