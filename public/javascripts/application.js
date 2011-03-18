@@ -15,6 +15,8 @@ var markerIcons = {
 	'end': createIcon('markers/end.png')
 }
 
+var M = addMarker();
+
 var keyPoints = [];
 
 function createIcon(image) {
@@ -63,6 +65,10 @@ var addMarker = function(icon, title) {
 
 $(document).ready(function() {
 	initMap();
+	
+	$("#map").mousemove(function(e) {
+		M.setLatLng(map.fromDivPixelToLatLng(e.clientX, e.clientY));
+	});
 	
 	//var directions = new CM.Directions(map, 'panel', CM_APIKEY);
 	//var waypoints = [points['Kyiv'], points['Lviv']];	
