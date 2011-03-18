@@ -127,7 +127,7 @@ $(document).ready(function() {
 	var menu1 = [ 
 		{'Option 1': function(menuItem, menu) { 
 			if (currPos != null) {
-				/*var m = new CM.Marker(currPos, {
+				var m = new CM.Marker(currPos, {
 					draggable: true
 				});
 				
@@ -135,8 +135,7 @@ $(document).ready(function() {
 				
 				map.addOverlay(m);
 				
-				markers.push(currMarker);*/
-				alert(currPos.getLat() + ":" + currPos.getLng());
+				markers.push(currMarker);
 			} else {
 				alert('curr pos is not specified');
 			}
@@ -151,8 +150,7 @@ $(document).ready(function() {
 	$('#map').contextMenu(menu1, { 
 		theme: 'xp',
 		beforeShow: function(x, y) {
-			//currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
-			alert(x + ':' + y);
+			currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
 		}
 	} );
 });
