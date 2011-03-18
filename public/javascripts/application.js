@@ -151,7 +151,8 @@ $(document).ready(function() {
 	$('#map').contextMenu(menu1, { 
 		theme: 'xp',
 		beforeShow: function(x, y, e) {
-			currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
+			//currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
+			alert(x + ':' + y);
 		}
 	} );
 });
