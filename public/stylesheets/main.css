@@ -1,4 +1,4 @@
-.header{ height:167px; }
+.header{ height:167px; padding-bottom: 20px; }
 
 .header div.logo{ float:left;;
     height: 117px;
@@ -8,7 +8,7 @@
 .header .stadiums .city{ float: left; margin-right: 52px; }
 .header .stadiums .logo{ display: block; }
 
-.header .language_icons{ float:right; margin-right:7px; margin-top: 6px; padding: 20px; }
+.header .language_icons{ float:right; margin-right:7px; margin-top: 6px; }
 .header .language_icons a{ display:block; margin-bottom: 5px; }
 
 .main {
