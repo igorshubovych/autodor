@@ -47,10 +47,11 @@ function doLeaveMarkerAlone() {
 		markers.push(currMarker);
 		currMarker = null;
 		
-		if (markers.length > 2) {
+		if (markers.length > 1) {
 			var keyPoints = [];
-	
-			for (var m in markers) {
+			var m = null;
+			
+			for (m in markers) {
 				keyPoints.push(m.getLatLng());
 			}
 			
