@@ -263,9 +263,14 @@
 		var cmenu = $.contextMenu.create(menu,options);
 		return this.each(function(){
 			$(this).bind('contextmenu',function(e){
-				posX = e.clientX - this.offset().left;
-				posY = e.clientY - this.offset().top;
+				posX = e.clientX - $(this).offset().left;
+				posY = e.clientY - $(this).offset().top;
 				cmenu.show(this, e);
+				return false;
+			});
+			
+			$(this).bind('click',function(e){
+				cmenu.hide();
 				return false;
 			});
 		});
