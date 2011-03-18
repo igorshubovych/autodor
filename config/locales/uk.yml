@@ -6,7 +6,7 @@ uk:
         donetsk: "Донецьк"
         kharkiv: "Харків"
     panel:
-        routing: "Маршрут"
+        routes: "Маршрут"
         search: "Пошук"
         objects: "Об’єкти"  
 

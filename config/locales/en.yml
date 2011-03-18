@@ -6,6 +6,6 @@ en:
         donetsk: "Donetsk"
         kharkiv: "Kharkiv"
     panel:
-        routing: "Routing"
+        routes: "Routes"
         search: "Search"
         objects: "Objects"
