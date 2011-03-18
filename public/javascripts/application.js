@@ -52,7 +52,7 @@ var addMarker = function(icon, title) {
 	
 	var marker = new CM.Marker(map.getCenter(), {
 		title: title,
-		icon: icon,
+		//icon: icon,
 		draggable: true
 	});
 	
