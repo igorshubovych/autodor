@@ -5,32 +5,32 @@
 
 	.stadiums
 		.city
-			%a{ :class => "logo", :onclick => "addCity(&#39;kiev&#39;);" }
+			%a{ :class => "logo", :onClick => "mapToPoint('Kyiv stadium', 15)" }
 				=image_tag "kiev.jpg", :alt => "" 
 				
-			%a{ :class => "link", :onclick => "addCity(&#39;kiev&#39;);" }
+			%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
 				=image_tag "uk-kiev.gif", :alt => "" 
 		
 		.city
-			%a{ :class => "logo", :onclick => "addCity(&#39;kharkiv&#39;);" }
+			%a{ :class => "logo", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
 				=image_tag "kharkiv.jpg", :alt => "" 
 				
-			%a{ :class => "link", :onclick => "addCity(&#39;kharkiv&#39;);" }
+			%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
 				=image_tag "uk-kharkiv.gif", :alt => "" 
 
 		.city
-			%a{ :class => "logo", :onclick => "addCity(&#39;donetsk&#39;);" }
+			%a{ :class => "logo", :onClick => "mapToPoint('Donetsk stadium', 15)" }
 				=image_tag "donetsk.jpg", :alt => "" 
 				
-			%a{ :class => "link", :onclick => "addCity(&#39;donetsk&#39;);" }
+			%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
 				=image_tag "uk-donetsk.gif", :alt => "" 
 
 		.city
-			%a{ :class => "logo", :onclick => "addCity(&#39;lviv&#39;);" }
+			%a{ :class => "logo", :onClick => "mapToPoint('Lviv stadium', 15)" }
 				=image_tag "lviv.jpg", :alt => "" 
 				
-			%a{ :class => "link", :onclick => "addCity(&#39;lviv&#39;);" }
-				=image_tag "uk-lviv.gif", :alt => "" 
+			%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
+				=image_tag "uk-lviv.gif", :alt => ""
 
 	.language_icons
 		%a{ :href => "#?lang=en" }
@@ -43,7 +43,23 @@
 .main
 	.outer
 		.panel
-			#nav_header{ :style => "height: 368px;", :class => "ui-accordion ui-widget ui-helper-reset ui-accordion-icons", :role => "tablist" }
-
+			:javascript
+				$(function() {
+					$("#tabs").tabs();
+				});
+			#tabs
+				%ul
+					%li
+						%a{ :href => "#tabs-1" } Routing
+					%li
+						%a{ :href => "#tabs-1" } Search
+					%li
+						%a{ :href => "#tabs-1" } Objects
+				#tabs-1
+					%p some fucking content
+				#tabs-2
+					%p some fucking content2
+				#tabs-3
+					%p some fucking content3
 	.content
 		#map.olMap

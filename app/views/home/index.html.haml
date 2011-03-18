@@ -1,23 +1,67 @@
-.language_menu
-	%ul.side_slide_menu
-		- @languages.each do |i|
-			- if (i == @current_lang)
-				%li.curent
-					%a{ :href => "#" }= i
-			- else
-				%li
-					%a{ :href => "#" }= i
+.header
+	.logo
+		%a{ :href => "#", :title => "Euro 2012 Ukraine-Poland" }
+			=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
 
-%br/
-%a{ :onClick => "centerMap(50.433, 30.521, 15)" } Set center to Kiev
-%br/
-%a{ :onClick => "centerMap(49.980, 36.261, 15)" } Set center to Harkiv
-%br/
-%a{ :onClick => "centerMap(48.021, 37.810, 15)" } Set center to Donecck
-%br/
-%a{ :onClick => "centerMap(49.775, 24.026, 15)" } Set center to Lviv
-%br/
+	.stadiums
+		.city
+			%a{ :class => "logo", :onClick => "mapToPoint('Kyiv stadium', 15)" }
+				=image_tag "kiev.jpg", :alt => "" 
+				
+			%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
+				=image_tag "uk-kiev.gif", :alt => "" 
+		
+		.city
+			%a{ :class => "logo", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
+				=image_tag "kharkiv.jpg", :alt => "" 
+				
+			%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
+				=image_tag "uk-kharkiv.gif", :alt => "" 
 
-#map{ :style => "width:500px; height:500px;"}
-%br/
-#panel{ :style => "width: 200px; float: left; padding-left: 10px" }
+		.city
+			%a{ :class => "logo", :onClick => "mapToPoint('Donetsk stadium', 15)" }
+				=image_tag "donetsk.jpg", :alt => "" 
+				
+			%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
+				=image_tag "uk-donetsk.gif", :alt => "" 
+
+		.city
+			%a{ :class => "logo", :onClick => "mapToPoint('Lviv stadium', 15)" }
+				=image_tag "lviv.jpg", :alt => "" 
+				
+			%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
+				=image_tag "uk-lviv.gif", :alt => ""
+
+	.language_icons
+		%a{ :href => "&lang=en" }
+			=image_tag "en.png" 
+		%a{ :href => "&lang=uk" }
+			=image_tag "uk.png" 
+		%a{ :href => "&lang=ru" }
+			=image_tag "ru.png" 
+
+.main
+	.outer
+		:javascript
+			$(function() {
+				$("#tabs").tabs();
+			});
+		.panel
+			#tabs
+				%ul
+					%li
+						%a{ :href => "#tabs-1" } Routing
+					%li
+						%a{ :href => "#tabs-2" } Search
+					%li
+						%a{ :href => "#tabs-3" } Objects
+				#tabs-1
+					%p some fucking content
+				#tabs-2
+					%form
+						%input{ :type => "edit", :name => "query" }
+						%input{ :type => "submit", :name => "search", :value => "Search" }
+				#tabs-3
+					%p some fucking content3
+	.content
+		#map.olMap

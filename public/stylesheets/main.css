@@ -28,13 +28,13 @@
     margin-left: 5px;
     margin-right: 5px;
     overflow: hidden;
-    width: 305px;
+    width: 345px;
 }
 
 .content {
     border-top: 1px solid #DDDDDD;
     height: 100%;
-    margin: 0 0 0 320px;
+    margin: 0 0 0 365px;
 }
 
 #map{
@@ -44,9 +44,9 @@
     width: 100%;
 }
 
-#nav_header{}
-
-/* Here goes moo code */
+#nav_header{
+	height: 368px;
+}
 
 img.head_img {
 	float:left;
