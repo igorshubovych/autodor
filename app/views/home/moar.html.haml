@@ -34,17 +34,18 @@
 
 	.language_icons
 		%a{ :href => "&lang=en" }
-			=image_tag "en.png" 
+			=image_tag "flags/en.png" 
 		%a{ :href => "&lang=uk" }
-			=image_tag "uk.png" 
+			=image_tag "flags/uk.png" 
 		%a{ :href => "&lang=ru" }
-			=image_tag "ru.png" 
+			=image_tag "flags/ru.png" 
 
 .main
 	.outer
 		:javascript
 			$(function() {
 				$("#tabs").tabs();
+				$(".routeType").buttonset();
 			});
 			
 		.panel
@@ -61,6 +62,20 @@
 						
 				#routingTab
 					%a.addMarker{ :href => "#", :onClick => "return false;" }  hello, isden!
+					%br/
+					.routeType
+						%input#carFast{ :type => "radio" }
+							= t 'car_fastest_route'
+							
+						%input#carShort{ :type => "radio" }
+							= t 'car_shortest_route'
+							
+						%input#foot{ :type => "radio" }
+							= t 'foot_route'
+						
+						%input#bicycle{ :type => "radio" }
+							= t 'bicycle_route'
+						
 					%br/
 					#routingPanel
 					
