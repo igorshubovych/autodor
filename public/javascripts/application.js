@@ -15,7 +15,7 @@ var currMarker = null;
 
 function doMarkerMode() {
 	if (currMarker == null) {
-		currMarker = new CM.Marker(new CM.LatLon(0, 0), {
+		currMarker = new CM.Marker(new CM.LatLng(0, 0), {
 			draggable: true
 		});
 		
