@@ -65,16 +65,20 @@
 					%br/
 					.routeType
 						%input#carFast{ :type => "radio" }
-							= t 'panel.car_fastest_route'
+							%label{ :for => "carFast" }
+								= t 'panel.car_fastest_route'
 							
 						%input#carShort{ :type => "radio" }
-							= t 'panel.car_shortest_route'
+							%label{ :for => "carShort" }
+								= t 'panel.car_shortest_route'
 							
 						%input#foot{ :type => "radio" }
-							= t 'panel.foot_route'
+							%label{ :for => "foot" }
+								= t 'panel.foot_route'
 						
 						%input#bicycle{ :type => "radio" }
-							= t 'panel.bicycle_route'
+							%label{ :for => "bicycle" }
+								= t 'panel.bicycle_route'
 						
 					%br/
 					#routingPanel
