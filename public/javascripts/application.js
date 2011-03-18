@@ -150,7 +150,7 @@ $(document).ready(function() {
 
 	$('#map').contextMenu(menu1, { 
 		theme: 'xp',
-		beforeShow: function(x, y, e) {
+		getPosition: function(x, y, cmenu, e) {
 			currPos = map.fromContainerPixelToLatLng(new CM.Point(x - $('#map').offset().left, y - $('#map').offset().top));
 			alert(x + ':' + y + '=>' + currPos);
 		}
