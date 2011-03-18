@@ -196,7 +196,7 @@
 		
 		// A hook to call before the menu is shown, in case special processing needs to be done.
 		// Return false to cancel the default show operation
-		beforeShow: function() { return true; },
+		beforeShow: function(x, y, e) { return true; },
 		
 		// Show the context menu
 		show: function(t,e) {
@@ -259,7 +259,11 @@
 	$.fn.contextMenu = function(menu,options) {
 		var cmenu = $.contextMenu.create(menu,options);
 		return this.each(function(){
-			$(this).bind('contextmenu',function(e){cmenu.show(this,e);return false;});
+			$(this).bind('contextmenu',function(e){
+				cmenu.beforeShow(e.clientX - $(this).offset().left, e.clientY - $(this).offset().top, e); 
+				cmenu.show(this, e);
+				return false;
+			});
 		});
 	};
 })(jQuery);
