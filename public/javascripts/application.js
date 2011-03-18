@@ -34,6 +34,8 @@ function doMarkerMode() {
 		map.enableDoubleClickZoom();
 		map.enableShiftDragZoom();
 		map.enableMouseZoom();
+		
+		currMarker = null;
 	}
 }
 
