@@ -49,7 +49,7 @@ var mapToPoint = function(name, zoom) {
 	map.setCenter(points[name], zoom);
 }
 
-var addMarker = function(icon, title) {
+function addMarker(icon, title) {
 	initMap();
 	
 	var marker = new CM.Marker(map.getCenter(), {
