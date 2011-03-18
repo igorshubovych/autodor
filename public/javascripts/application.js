@@ -147,11 +147,12 @@ $(document).ready(function() {
 			alert("You clicked Option 2!"); 
 		} } 
 	];
-	
-	menu1.beforeShow = function(x, y, e) {
-		currPos = map.fromContainerPixelToLatLng(new CM.Point(x - $('#map').offset().left, y - $('#map').offset().top));
-		alert(x + ':' + y + '=>' + currPos);
-	}
 
-	$('#map').contextMenu(menu1, { theme: 'xp'} );
+	$('#map').contextMenu(menu1, { 
+		theme: 'xp',
+		beforeShow: function(x, y, e) {
+			currPos = map.fromContainerPixelToLatLng(new CM.Point(x - $('#map').offset().left, y - $('#map').offset().top));
+			alert(x + ':' + y + '=>' + currPos);
+		}
+	} );
 });
