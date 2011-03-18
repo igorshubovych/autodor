@@ -46,6 +46,18 @@ function doLeaveMarkerAlone() {
 		map.enableMouseZoom();
 		markers.push(currMarker);
 		currMarker = null;
+		
+		if (markers.length > 2) {
+			var keyPoints = [];
+	
+			for (var m in markers) {
+				keyPoints.push(m.getLatLng());
+			}
+			
+			var directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
+			//var waypoints = markers; //[points['Kyiv'], points['Lviv']];	
+			directions.loadFromWayPoints(keyPoints);
+		}
 	}
 }
 
@@ -68,20 +80,13 @@ var mapToPoint = function(name, zoom) {
 $(document).ready(function() {
 	initMap();
 	
-	//$("#addMarker").click(doMarkerMode);
 	$("#map").click(doLeaveMarkerAlone);
 	
 	$("#map").mousemove(function(e) {
 		var pos = map.fromContainerPixelToLatLng(new CM.Point(e.clientX - $(this).offset().left, e.clientY - $(this).offset().top));
 				
-		//document.getElementById("moo").innerHTML = pos.lat() + "::" + pos.lng(); 
-		
 		if (currMarker != null) {
 			currMarker.setLatLng(pos);
 		}
 	});
-	
-	//var directions = new CM.Directions(map, 'panel', CM_APIKEY);
-	//var waypoints = [points['Kyiv'], points['Lviv']];	
-	//directions.loadFromWayPoints(waypoints);
 });

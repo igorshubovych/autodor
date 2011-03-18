@@ -51,23 +51,25 @@
 			#tabs
 				%ul
 					%li
-						%a{ :href => "#tabs-1" } Routing
+						%a{ :href => "#routingTab" } Routing
 						
 					%li
-						%a{ :href => "#tabs-2" } Search
+						%a{ :href => "#searchTab" } Search
 						
 					%li
-						%a{ :href => "#tabs-3" } Objects
+						%a{ :href => "#objectsTab" } Objects
 						
-				#tabs-1
+				#routingTab
 					%a{ :href => "#", :onClick => "doMarkerMode();" }  hello, isden!
+					%br/
+					#routingPanel
 					
-				#tabs-2
+				#searchTab
 					%form
 						%input{ :type => "edit", :name => "query" }
 						%input{ :type => "submit", :name => "search", :value => "Search" }
 						
-				#tabs-3
+				#objectsTab
 					%p some fucking content3
 	.content
 		#map.olMap
