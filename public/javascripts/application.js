@@ -150,10 +150,8 @@ $(document).ready(function() {
 
 	$('#map').contextMenu(menu1, { 
 		theme: 'xp',
-		getPosition: function(x, y, cmenu, e) {
-			currPos = map.fromContainerPixelToLatLng(new CM.Point(x - $('#map').offset().left, y - $('#map').offset().top));
-			
-			return { 'x': x, 'y': y };
+		show: function(target, e) {
+			currPos = map.fromContainerPixelToLatLng(new CM.Point(e.clientX - $('#map').offset().left, e.clientY - $('#map').offset().top));
 		}
 	} );
 });
