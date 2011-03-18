@@ -46,21 +46,27 @@
 			$(function() {
 				$("#tabs").tabs();
 			});
+			
 		.panel
 			#tabs
 				%ul
 					%li
 						%a{ :href => "#tabs-1" } Routing
+						
 					%li
 						%a{ :href => "#tabs-2" } Search
+						
 					%li
 						%a{ :href => "#tabs-3" } Objects
+						
 				#tabs-1
 					%p some fucking content
+					
 				#tabs-2
 					%form
 						%input{ :type => "edit", :name => "query" }
 						%input{ :type => "submit", :name => "search", :value => "Search" }
+						
 				#tabs-3
 					%p some fucking content3
 	.content

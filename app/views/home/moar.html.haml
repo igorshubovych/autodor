@@ -33,32 +33,40 @@
 				=image_tag "uk-lviv.gif", :alt => ""
 
 	.language_icons
-		%a{ :href => "#?lang=en" }
+		%a{ :href => "&lang=en" }
 			=image_tag "en.png" 
-		%a{ :href => "#?lang=uk" }
+		%a{ :href => "&lang=uk" }
 			=image_tag "uk.png" 
-		%a{ :href => "#?lang=ru" }
+		%a{ :href => "&lang=ru" }
 			=image_tag "ru.png" 
 
 .main
 	.outer
+		:javascript
+			$(function() {
+				$("#tabs").tabs();
+			});
+			
 		.panel
-			:javascript
-				$(function() {
-					$("#tabs").tabs();
-				});
 			#tabs
 				%ul
 					%li
 						%a{ :href => "#tabs-1" } Routing
+						
 					%li
-						%a{ :href => "#tabs-1" } Search
+						%a{ :href => "#tabs-2" } Search
+						
 					%li
-						%a{ :href => "#tabs-1" } Objects
+						%a{ :href => "#tabs-3" } Objects
+						
 				#tabs-1
-					%p some fucking content
+					%a{ :onClick => "" }
+					
 				#tabs-2
-					%p some fucking content2
+					%form
+						%input{ :type => "edit", :name => "query" }
+						%input{ :type => "submit", :name => "search", :value => "Search" }
+						
 				#tabs-3
 					%p some fucking content3
 	.content

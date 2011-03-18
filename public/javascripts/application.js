@@ -10,8 +10,29 @@ var points = {
 	'Lviv stadium': new CM.LatLng(49.775, 24.026)
 }
 
+var markerIcons = {
+	'start': createIcon('markers/start.png'),
+	'end': createIcon('markers/end.png')
+}
+
+var keyPoints = [];
+
+function createIcon(image) {
+	if (image != null) {
+		var icon = new CM.Icon();
+	
+		icon.image = image;
+		//icon.iconSize = new CM.Size();
+		//icon.iconAnchor = new CM.Point();
+		
+		return icon;
+	}
+	
+	return null;
+}
+
 var initMap = function() {
-	if (map == null) {
+	if (map == null || cloudmade == null) {
 		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
 		map = new CM.Map('map', cloudmade);
 		map.setCenter(points['Kyiv'], 15);
@@ -21,21 +42,28 @@ var initMap = function() {
 	}
 }
 
-var centerMap = function(lat, lon, zoom) {
-	initMap();
-	map.setCenter(new CM.LatLng(lat, lon), zoom);
-}
-
 var mapToPoint = function(name, zoom) {
 	initMap();
 	map.setCenter(points[name], zoom);
 }
 
-$(document).ready(function() {
-	//$("#tabs").tabs();
-    initMap();
+var addMarker = function(icon, title) {
+	initMap();
 	
-	var directions = new CM.Directions(map, 'panel', CM_APIKEY);
-	var waypoints = [points['Kyiv'], points['Lviv']];
-	//directions.loadFromWaypoints(waypoints, {lang:"ru"});	
+	var marker = new CM.Marker(map.getCenter(), {
+		title: title,
+		icon: icon,
+		draggable: true
+	});
+	
+	map.addOverlay(marker);
+	
+	keyPoints.push(marker);
+}
+
+$(document).ready(function() {
+	initMap();
+	
+	//var directions = new CM.Directions(map, 'panel', CM_APIKEY);
+	//var waypoints = [points['Kyiv'], points['Lviv']];	
 });
