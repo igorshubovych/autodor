@@ -52,20 +52,28 @@
 				%ul
 					%li
 						%a{ :href => "#tabsRouting" } Routing
+						
 					%li
 						%a{ :href => "#tabsSearch" } Search
+						
 					%li
 						%a{ :href => "#tabsObjects" } Objects
+						
 				#tabsRouting
 					%form
 						%label{ :for => "point1" } Point 1:
 						%input{ :type => "edit", :name => "point1" }
+						
+						%br/
+						
 						%label{ :for => "point2" } Point 2:
 						%input{ :type => "edit", :name => "point2" }
+						
 				#tabsSearch
 					%form
 						%input{ :type => "edit", :name => "query" }
 						%input{ :type => "submit", :name => "search", :value => "Search" }
+						
 				#tabsObjects
 					%form
 						%input{ :type => "checkbox", :name => "poi" }
