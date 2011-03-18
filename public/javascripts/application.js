@@ -13,11 +13,27 @@ var points = {
 var markers = [];
 var currMarker = null;
 
+function updateRoute() {
+	if (markers.length > 1) {
+		var keyPoints = [];
+		var m = null;
+		
+		for (m = 0; m < markers.length; m++) {
+			keyPoints.push(markers[m].getLatLng());
+		}
+		
+		var directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
+		directions.loadFromWaypoints(keyPoints);
+	}
+}
+
 function doMarkerMode() {
 	if (currMarker == null) {
 		currMarker = new CM.Marker(new CM.LatLng(0, 0), {
 			draggable: true
 		});
+		
+		CM.Event.addListener(currMarker, 'dragend', updateRoute);
 		
 		map.addOverlay(currMarker);
 		
@@ -49,17 +65,7 @@ function doLeaveMarkerAlone() {
 		markers.push(currMarker);
 		currMarker = null;
 		
-		if (markers.length > 1) {
-			var keyPoints = [];
-			var m = null;
-			
-			for (m = 0; m < markers.length; m++) {
-				keyPoints.push(markers[m].getLatLng());
-			}
-			
-			var directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
-			directions.loadFromWaypoints(keyPoints);
-		}
+		updateRoute();
 	}
 }
 
