@@ -55,10 +55,6 @@ function doLeaveMarkerAlone() {
 				keyPoints.push(markers[m].getLatLng());
 			}
 			
-			for (m = 0; m < markers.length; m++) {
-				map.removeOverlay(markers[m]);
-			}
-			
 			var directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
 			directions.loadFromWaypoints(keyPoints);
 		}
