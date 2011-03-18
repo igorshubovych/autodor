@@ -2,44 +2,37 @@
 	.logo
 		%a{ :href => "#", :title => "Euro 2012 Ukraine-Poland" }
 			=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
-
 	.stadiums
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Kyiv stadium', 15)" }
 				=image_tag "kiev.jpg", :alt => "" 
-				
 			%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
 				=image_tag "uk-kiev.gif", :alt => "" 
-		
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
 				=image_tag "kharkiv.jpg", :alt => "" 
 				
 			%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
 				=image_tag "uk-kharkiv.gif", :alt => "" 
-
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Donetsk stadium', 15)" }
-				=image_tag "donetsk.jpg", :alt => "" 
-				
+				=image_tag "donetsk.jpg", :alt => ""
 			%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
 				=image_tag "uk-donetsk.gif", :alt => "" 
-
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Lviv stadium', 15)" }
 				=image_tag "lviv.jpg", :alt => "" 
-				
 			%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
 				=image_tag "uk-lviv.gif", :alt => ""
 
 	.language_icons
-		%a{ :href => "&lang=en" }
+		%a{ :href => "?lang=en" }
 			=image_tag "flags/en.png" 
-		%a{ :href => "&lang=uk" }
+		%a{ :href => "?lang=uk" }
 			=image_tag "flags/uk.png" 
-		%a{ :href => "&lang=ru" }
+		%a{ :href => "?lang=ru" }
 			=image_tag "flags/ru.png" 
-
+			
 .main
 	.outer
 		:javascript
@@ -51,13 +44,13 @@
 			#tabs
 				%ul
 					%li
-						%a{ :href => "#tabsRouting" } Routing
+						%a{ :href => "#tabsRouting" }= t('panel.routes')
 						
 					%li
-						%a{ :href => "#tabsSearch" } Search
+						%a{ :href => "#tabsSearch" }= t('panel.search')
 						
 					%li
-						%a{ :href => "#tabsObjects" } Objects
+						%a{ :href => "#tabsObjects" }= t('panel.objects')
 						
 				#tabsRouting
 					%form
@@ -84,12 +77,16 @@
 			#panelQuickLinks{ :class => "ui-widget-content ui-corner-all" }
 				%h2{ :class => "ui-widget-header ui-corner-all" } Quick links
 				%p
-					%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)", :href => "" } Kyiv
+					%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)", :href => "" }
+						= t('place.kyiv')
 				%p
-					%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)", :href => "" } Kharkiv
+					%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)", :href => "" }
+						= t('place.kharkiv')
 				%p
-					%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)", :href => "" } Donetsk
+					%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)", :href => "" }
+						= t('place.donetsk')
 				%p
-					%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)", :href => "" } Lviv
+					%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)", :href => "" }
+						= t('place.lviv')
 	.content
 		#map.olMap
