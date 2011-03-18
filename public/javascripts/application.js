@@ -88,7 +88,7 @@ $(document).ready(function() {
 		if (currMarker == null)
 			$(this).text("Add point"); else
 				$(this).text("Cancel adding point");
-	}
+	});
 	
 	$("#map").click(doLeaveMarkerAlone);
 	
