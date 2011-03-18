@@ -92,7 +92,7 @@ $(document).ready(function() {
 		return false;
 	});
 	
-	$("#map").click(function( {
+	$("#map").click(function() {
 		doLeaveMarkerAlone();
 		
 		$(".addMarker").text("Add point");
