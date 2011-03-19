@@ -28,7 +28,7 @@ function updateRoute() {
 		if (routeType == null)
 			routeType = 'car';
 			
-		directions.loadFromWaypoints(keyPoints, { travelMode: routeType });
+		directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true });
 	}
 }
 
@@ -75,6 +75,8 @@ function doLeaveMarkerAlone() {
 		markers.push(currMarker);
 		currMarker = null;
 		
+		$("label[for='addWaypoint']").toggleClass("ui-state-active");
+		
 		updateRoute();
 	}
 }
@@ -95,24 +97,16 @@ var mapToPoint = function(name, zoom) {
 	map.setCenter(points[name], zoom);
 }
 
-$(document).ready(function() {
-	initMap();
-	
+var subscribeForEvents = function() {
 	// subscribing 2 mouse events 4 marker handling
-	$(".addMarker").click(function() {
+	$("#addWaypoint").click(function() {
 		doMarkerMode();
-		
-		if (currMarker == null)
-			$(this).text('add point'); else
-				$(this).text('cancel adding');
 				
 		return false;
 	});
 	
 	$("#map").click(function() {
 		doLeaveMarkerAlone();
-		
-		$(".addMarker").text('add point');
 		
 		return false;
 	});
@@ -124,7 +118,9 @@ $(document).ready(function() {
 			currMarker.setLatLng(pos);
 		}
 	});
-	
+}
+
+var createContextMenu = function() {
 	// creating context-menu
 	var menu1 = [ 
 		{'Add point': function(menuItem, menu) { 
@@ -150,15 +146,15 @@ $(document).ready(function() {
 			currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
 		}
 	} );
+}
+
+$(document).ready(function() {
+	initMap();
 	
-	// jq-ui setup
-	$("#tabs").accordion({
-		fillSpace: true
-	});
-	$(".routeType").buttonset();
-	$(".addMarker").button().text('add point');
+	subscribeForEvents();
+	createContextMenu();
 	
 	// cleaning choices
-	$("#routingTab input[type=radio][checked]").removeAttr("checked");
-	$("#routingTab input[type=radio]:first").attr("checked", "checked");
+	$(".routeType input[type=radio][checked]").removeAttr("checked");
+	$(".routeType input[type=radio]:first").attr("checked", "checked");
 });

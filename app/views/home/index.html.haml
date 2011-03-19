@@ -38,6 +38,9 @@
 		:javascript
 			$(function() {
 				$("#tabs").tabs();
+				
+				$("#addWaypoint").button();
+				$(".routeType").buttonset();
 			});
 			
 		.panel
@@ -55,27 +58,25 @@
 				%br/
 						
 				#tabsRouting
-					.addMarker{ :onClick => "return false;" }
+					%input#addWaypoint{ :type => "checkbox" }
+						%label{ :for => "addWaypoint" }
+							= image_tag "controls/add_waypoint.png"
 				
 					%br/
 					%br/
 					
 					.routeType
-						%input#carFast{ :type => "radio", :name => "routeType", :checked => "checked", :onClick => "changeRouteType('car');" }
-							%label{ :for => "carFast" }
-								= t 'panel.car_fastest_route'
-
-						%input#carShort{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car/shortest');" }
-							%label{ :for => "carShort" }
-								= t 'panel.car_shortest_route'
-
+						%input#car{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car');" }
+							%label{ :for => "car" }
+								= image_tag "controls/car.png"
+							
 						%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
 							%label{ :for => "foot" }
-								= t 'panel.foot_route'
-
+								= image_tag "controls/walking.png"
+							
 						%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
 							%label{ :for => "bicycle" }
-								= t 'panel.bicycle_route'
+								= image_tag "controls/cycling.png"
 								
 					%br/
 					

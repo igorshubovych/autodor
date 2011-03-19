@@ -52,17 +52,3 @@ img.head_img {
 .language_menu {
 	float:right;
 }
-
-ul.side_slide_menu {
-	list-style:none;
-	display:inline;
-}
-
-ul.side_slide_menu li {
-	display:inline;
-	visibility:hidden;
-}
-
-ul.side_slide_menu:hover li, ul.side_slide_menu li.current {
-	visibility:visible;
-}
