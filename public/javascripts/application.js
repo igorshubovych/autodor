@@ -148,4 +148,7 @@ $(document).ready(function() {
 			currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
 		}
 	} );
+	
+	$("#routingTab > inputp[@type=radio].selected").removeClass("selected");
+	$("#routingTab > inputp[@type=radio] :first").addClass("selected");
 });
