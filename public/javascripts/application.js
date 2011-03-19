@@ -151,12 +151,12 @@ $(document).ready(function() {
 		}
 	} );
 	
-	// cleaning choices
-	$("#routingTab > input[type=radio][checked]").removeAttr("checked");
-	$("#routingTab > input[type=radio]:first").attr("checked", "checked");
-
 	// jq-ui setup
 	$("#tabs").tabs();
-	//$(".routeType").buttonset();
+	$(".routeType").buttonset();
 	$(".addMarker").button().text("Add point");
+	
+	// cleaning choices
+	$("#routingTab input[type=radio][checked]").removeAttr("checked");
+	$("#routingTab input[type=radio]:first").attr("checked", "checked");
 });
