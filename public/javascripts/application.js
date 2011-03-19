@@ -103,8 +103,8 @@ $(document).ready(function() {
 		doMarkerMode();
 		
 		if (currMarker == null)
-			$(this).text('<%= t("panel.add_point") %>'); else
-				$(this).text('<%= t("panel.cancel_add") %>');
+			$(this).text('add point'); else
+				$(this).text('cancel adding');
 				
 		return false;
 	});
@@ -112,7 +112,7 @@ $(document).ready(function() {
 	$("#map").click(function() {
 		doLeaveMarkerAlone();
 		
-		$(".addMarker").text('<%= t("panel.add_point") %>');
+		$(".addMarker").text('add point');
 		
 		return false;
 	});
