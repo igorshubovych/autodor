@@ -152,7 +152,6 @@ $(document).ready(function() {
 	} );
 	
 	// jq-ui setup
-	//$("#tabs").tabs();
 	$("#tabs").accordion({
 		fillSpace: true
 	});
