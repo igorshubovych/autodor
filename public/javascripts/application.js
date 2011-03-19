@@ -154,7 +154,7 @@ $(document).ready(function() {
 	// jq-ui setup
 	$("#tabs").tabs();
 	$(".routeType").buttonset();
-	$(".addMarker").button().text('<%= t("panel.add_point") %>');
+	$(".addMarker").button().text('add point');
 	
 	// cleaning choices
 	$("#routingTab input[type=radio][checked]").removeAttr("checked");
