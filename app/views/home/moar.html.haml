@@ -81,7 +81,10 @@
 			#searchTab
 				%form
 					%input{ :type => "edit", :name => "query" }
-					%input{ :type => "submit", :name => "search", :value => "Search" }
+					
+					%br/
+					
+					%input{ :type => "submit", :name => "search", :value => t(panel.search) }
 
 			%h3
 				%a{ :href => "#objectsTab" }
