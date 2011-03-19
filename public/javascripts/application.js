@@ -153,7 +153,9 @@ $(document).ready(function() {
 	
 	// jq-ui setup
 	//$("#tabs").tabs();
-	$("#tabs").accordion();
+	$("#tabs").accordion({
+		fillSpace: true
+	});
 	$(".routeType").buttonset();
 	$(".addMarker").button().text('add point');
 	
