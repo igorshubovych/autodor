@@ -55,30 +55,34 @@
 					%a{ :href => "#tabsObjects" }= t('panel.objects')
 
 			#tabsRouting
-				%input#addWaypoint{ :type => "checkbox" }
-					%label{ :for => "addWaypoint" }
-						= image_tag "controls/add_waypoint.png"
-
-				%br/
-				%br/
-
-				.routeType
-					%input#car{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car');" }
-						%label{ :for => "car" }
-							= image_tag "controls/car.png"
-
-					%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
-						%label{ :for => "foot" }
-							= image_tag "controls/walking.png"
-
-					%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
-						%label{ :for => "bicycle" }
-							= image_tag "controls/cycling.png"
+				.markerList
 
 				%br/
 				
-				.moo
-					#routingPanel
+				.routeControls
+					%input#addWaypoint{ :type => "checkbox", :onClick => "return false;" }
+						%label{ :for => "addWaypoint", :style => "width: 90%" }
+							= image_tag "controls/add_waypoint.png"
+
+					%br/
+					%br/
+
+					.routeType
+						%input#car{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car');" }
+							%label{ :for => "car" }
+								= image_tag "controls/car.png"
+
+						%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
+							%label{ :for => "foot" }
+								= image_tag "controls/walking.png"
+
+						%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
+							%label{ :for => "bicycle" }
+								= image_tag "controls/cycling.png"
+
+				%br/
+				
+				#routingPanel
 
 			#tabsSearch
 				%form

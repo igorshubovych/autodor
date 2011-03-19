@@ -12,30 +12,60 @@ var points = {
 
 var markers = [], currMarker = null, directions = null, routeType = null, currPos = null;
 
-function updateRoute() {
+var updateRoute = function () {
 	initMap();
 	
-	if (markers.length > 1) {
-		var keyPoints = [];
-		var m = null;
+	var keyPoints = [], m = 0;
+	
+	if (routeType == null)
+		routeType = 'car';
 
-		for (m = 0; m < markers.length; m++) {
-			keyPoints.push(markers[m].getLatLng());
-			map.removeOverlay(markers[m]);
-		}
-
-		if (directions == null) {
-			directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
-		}
-
-		if (routeType == null)
-			routeType = 'car';
-
-		directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true });
+	for (m = 0; m < markers.length; m++) {
+		keyPoints.push(markers[m].getLatLng());
+	}
 		
+	if (true) {
+		directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true });
+
 		for (m = 0; m < markers.length; m++) {
-			markers[m] = directions.getMarker(m);
+			var t = directions.getMarker(m);
+			
+			if (t != null) {
+				markers[m] = t;
+			}
 		}
+	}
+}
+
+var removeWaypoint = function(index) {
+	if (index > -1 && index < markers.length) {
+		if (markers[index] == null)
+			return;
+			
+		map.removeOverlay(markers[index]);
+		markers.splice(index, 1);
+	}
+	
+	updateMarkersUI();
+	updateRoute();
+}
+
+var updateMarkersUI = function() {
+	var m = 0;
+	
+	if ($(".markerItem") != null)
+		$(".markerItem").remove();
+	
+	for (m = 0; m < markers.length; m++) {
+		var pos = markers[m].getLatLng(); 
+		var s = pos.lat() + " ; " + pos.lng();
+		
+		var elt = '<div class="markerItem">';
+		elt += '<img src="http://tile.cloudmade.com/wml/latest/images/routing/route_icon_' + (m + 1) + '.png" />&nbsp';
+		elt += '<input type="text" size="18" value="' + s + '" />&nbsp;';
+		elt += '<a href="#"><img src="/images/controls/remove_waypoint_hover.png" onClick="removeWaypoint(' + (m) + ');" /></a></div>';
+			
+		$(".markerList").append(elt);
 	}
 }
 
@@ -47,7 +77,7 @@ function changeRouteType(type) {
 function createMarker(lat, lon, draggedEvent) {
 	var ic = new CM.Icon();
 		
-	ic.image = 'http://tile.cloudmade.com/wml/latest/images/routing/route_icon_' + (markers.length + 1) + ".png";
+	ic.image = "http://tile.cloudmade.com/wml/latest/images/routing/route_icon_" + (markers.length + 1) + ".png";
 	ic.iconSize = new CM.Point(23, 26);
 	ic.iconAnchor = new CM.Point(10, 26);
 	
@@ -94,10 +124,13 @@ function doLeaveMarkerAlone() {
 		map.enableShiftDragZoom();
 		map.enableMouseZoom();
 		markers.push(currMarker);
+		map.removeOverlay(currMarker);
+		
 		currMarker = null;
-
+		
 		$("label[for='addWaypoint']").toggleClass("ui-state-active");
 
+		updateMarkersUI();
 		updateRoute();
 	}
 }
@@ -111,6 +144,10 @@ var initMap = function() {
 		map.addControl(new CM.LargeMapControl());
 		map.addControl(new CM.ScaleControl());
 		map.addControl(new CM.OverviewMapControl());
+	}
+	
+	if (directions == null) {
+		directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
 	}
 }
 
@@ -151,8 +188,10 @@ var createContextMenu = function() {
 				var m = createMarker(currPos.lat(), currPos.lng(), updateRoute);
 
 				markers.push(m);
+				map.removeOverlay(m);
 
 				updateRoute();
+				updateMarkersUI();
 			}
 		} }
 	];
