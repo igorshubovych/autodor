@@ -41,54 +41,54 @@
 			=image_tag "flags/ru.png"
 
 .main
-	.outer
-		.panel
-			#tabs
-				%h3
-					%a{ :href => "#routingTab" }
-						=t "panel.routes"
+	.panel
+		#tabs
+			%h3
+				%a{ :href => "#routingTab" }
+					=t "panel.routes"
 
-				#routingTab
-					.addMarker{ :onClick => "return false;" }
-					
-					%br/
-					%br/
-					
-					.routeType
-						%input#carFast{ :type => "radio", :name => "routeType", :checked => "checked", :onClick => "changeRouteType('car');" }
-							%label{ :for => "carFast" }
-								= t 'panel.car_fastest_route'
+			#routingTab
+				.addMarker{ :onClick => "return false;" }
+				
+				%br/
+				%br/
+				
+				.routeType
+					%input#carFast{ :type => "radio", :name => "routeType", :checked => "checked", :onClick => "changeRouteType('car');" }
+						%label{ :for => "carFast" }
+							= t 'panel.car_fastest_route'
 
-						%input#carShort{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car/shortest');" }
-							%label{ :for => "carShort" }
-								= t 'panel.car_shortest_route'
+					%input#carShort{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car/shortest');" }
+						%label{ :for => "carShort" }
+							= t 'panel.car_shortest_route'
 
-						%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
-							%label{ :for => "foot" }
-								= t 'panel.foot_route'
+					%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
+						%label{ :for => "foot" }
+							= t 'panel.foot_route'
 
-						%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
-							%label{ :for => "bicycle" }
-								= t 'panel.bicycle_route'
-								
-					%br/
-					
-					#routingPanel
+					%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
+						%label{ :for => "bicycle" }
+							= t 'panel.bicycle_route'
+							
+				%br/
+				
+				#routingPanel
 
-				%h3
-					%a{ :href => "#searchTab" }
-						=t "panel.search"
+			%h3
+				%a{ :href => "#searchTab" }
+					=t "panel.search"
 
-				#searchTab
-					%form
-						%input{ :type => "edit", :name => "query" }
-						%input{ :type => "submit", :name => "search", :value => "Search" }
+			#searchTab
+				%form
+					%input{ :type => "edit", :name => "query" }
+					%input{ :type => "submit", :name => "search", :value => "Search" }
 
-				%h3
-					%a{ :href => "#objectsTab" }
-						=t "panel.objects"
+			%h3
+				%a{ :href => "#objectsTab" }
+					=t "panel.objects"
 
-				#objectsTab
-					%p some fucking content3
+			#objectsTab
+				%p some fucking content3
+
 	.content
 		#map.olMap
