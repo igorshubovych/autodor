@@ -157,6 +157,6 @@ $(document).ready(function() {
 
 	// jq-ui setup
 	$("#tabs").tabs();
-	$(".routeType").buttonset();
+	//$(".routeType").buttonset();
 	$(".addMarker").button().text("Add point");
 });
