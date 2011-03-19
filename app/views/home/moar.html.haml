@@ -44,18 +44,9 @@
 	.outer			
 		.panel
 			#tabs
-				%ul
-					%li
-						%a{ :href => "#routingTab" } 
-							=t "panel.routes"
-						
-					%li
-						%a{ :href => "#searchTab" }
-							=t "panel.search"
-						
-					%li
-						%a{ :href => "#objectsTab" }
-							=t "panel.objects"
+				%h3
+					%a{ :href => "#routingTab" } 
+						=t "panel.routes"	
 						
 				#routingTab
 					.addMarker{ :onClick => "return false;" }
@@ -80,12 +71,20 @@
 						
 					%br/
 					#routingPanel
-					
+				
+				%h3
+					%a{ :href => "#searchTab" }
+						=t "panel.search"
+						
 				#searchTab
 					%form
 						%input{ :type => "edit", :name => "query" }
 						%input{ :type => "submit", :name => "search", :value => "Search" }
-						
+				
+				%h3
+					%a{ :href => "#objectsTab" }
+						=t "panel.objects"
+								
 				#objectsTab
 					%p some fucking content3
 	.content
