@@ -6,85 +6,88 @@
 	.stadiums
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Kyiv stadium', 15)" }
-				=image_tag "kiev.jpg", :alt => "" 
-				
+				=image_tag "kiev.jpg", :alt => ""
+
 			%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
-				=image_tag "uk-kiev.gif", :alt => "" 
-		
+				=image_tag "uk-kiev.gif", :alt => ""
+
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
-				=image_tag "kharkiv.jpg", :alt => "" 
-				
+				=image_tag "kharkiv.jpg", :alt => ""
+
 			%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
-				=image_tag "uk-kharkiv.gif", :alt => "" 
+				=image_tag "uk-kharkiv.gif", :alt => ""
 
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Donetsk stadium', 15)" }
-				=image_tag "donetsk.jpg", :alt => "" 
-				
+				=image_tag "donetsk.jpg", :alt => ""
+
 			%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
-				=image_tag "uk-donetsk.gif", :alt => "" 
+				=image_tag "uk-donetsk.gif", :alt => ""
 
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Lviv stadium', 15)" }
-				=image_tag "lviv.jpg", :alt => "" 
-				
+				=image_tag "lviv.jpg", :alt => ""
+
 			%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
 				=image_tag "uk-lviv.gif", :alt => ""
 
 	.language_icons
 		%a{ :href => "?locale=en" }
-			=image_tag "flags/en.png" 
+			=image_tag "flags/en.png"
 		%a{ :href => "?locale=uk" }
-			=image_tag "flags/uk.png" 
+			=image_tag "flags/uk.png"
 		%a{ :href => "?locale=ru" }
-			=image_tag "flags/ru.png" 
+			=image_tag "flags/ru.png"
 
 .main
-	.outer			
+	.outer
 		.panel
 			#tabs
 				%h3
-					%a{ :href => "#routingTab" } 
-						=t "panel.routes"	
-						
+					%a{ :href => "#routingTab" }
+						=t "panel.routes"
+
 				#routingTab
 					.addMarker{ :onClick => "return false;" }
+					
 					%br/
 					%br/
+					
 					.routeType
 						%input#carFast{ :type => "radio", :name => "routeType", :checked => "checked", :onClick => "changeRouteType('car');" }
 							%label{ :for => "carFast" }
 								= t 'panel.car_fastest_route'
-							
+
 						%input#carShort{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car/shortest');" }
 							%label{ :for => "carShort" }
 								= t 'panel.car_shortest_route'
-							
+
 						%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
 							%label{ :for => "foot" }
 								= t 'panel.foot_route'
-						
+
 						%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
 							%label{ :for => "bicycle" }
 								= t 'panel.bicycle_route'
-						
+								
 					%br/
+					
 					#routingPanel
-				
+
 				%h3
 					%a{ :href => "#searchTab" }
 						=t "panel.search"
-						
+
 				#searchTab
 					%form
 						%input{ :type => "edit", :name => "query" }
 						%input{ :type => "submit", :name => "search", :value => "Search" }
-				
+
 				%h3
 					%a{ :href => "#objectsTab" }
 						=t "panel.objects"
-								
+
 				#objectsTab
 					%p some fucking content3
 	.content
