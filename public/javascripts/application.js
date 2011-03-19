@@ -149,6 +149,6 @@ $(document).ready(function() {
 		}
 	} );
 	
-	$("#routingTab > input[type=radio].selected").removeClass("selected");
-	$("#routingTab > input[type=radio] :first").addClass("selected");
+	$("#routingTab > input[type=radio][checked]").removeAtte("checked");
+	$("#routingTab > input[type=radio] :first").attr("checked", "checked");
 });
