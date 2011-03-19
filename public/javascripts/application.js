@@ -98,6 +98,7 @@ var mapToPoint = function(name, zoom) {
 $(document).ready(function() {
 	initMap();
 	
+	// subscribing 2 mouse events 4 marker handling
 	$(".addMarker").click(function() {
 		doMarkerMode();
 		
@@ -124,6 +125,7 @@ $(document).ready(function() {
 		}
 	});
 	
+	// creating context-menu
 	var menu1 = [ 
 		{'Add point': function(menuItem, menu) { 
 			if (currPos != null) {
@@ -149,6 +151,12 @@ $(document).ready(function() {
 		}
 	} );
 	
-	$("#routingTab > input[type=radio][checked]").removeAttr("checked");
+	// cleaning choices
+	alert($("#routingTab > input[type=radio][checked]").removeAttr("checked");
 	$("#routingTab > input[type=radio] :first").attr("checked", "checked");
+
+	// jq-ui setup
+	$("#tabs").tabs();
+	$(".routeType").buttonset();
+	$(".addMarker").button().text("Add point");
 });
