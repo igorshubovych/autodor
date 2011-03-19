@@ -46,13 +46,16 @@
 			#tabs
 				%ul
 					%li
-						%a{ :href => "#routingTab" } Routing
+						%a{ :href => "#routingTab" } 
+							=t "panel.routes"
 						
 					%li
-						%a{ :href => "#searchTab" } Search
+						%a{ :href => "#searchTab" }
+							=t "panel.search"
 						
 					%li
-						%a{ :href => "#objectsTab" } Objects
+						%a{ :href => "#objectsTab" }
+							=t "panel.objects"
 						
 				#routingTab
 					.addMarker{ :onClick => "return false;" }

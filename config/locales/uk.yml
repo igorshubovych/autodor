@@ -10,6 +10,8 @@ uk:
         car_shortest_route: "Авто, найкоротший"
         foot_route: "Пішки"
         bicycle_route: "Вело"
+        add_point: "Додати точку"
+        cancel_add: "Відмінити додавання"
         routes: "Маршрут"
         search: "Пошук"
         objects: "Об’єкти"  

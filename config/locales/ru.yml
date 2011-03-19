@@ -10,6 +10,8 @@ ru:
         car_shortest_route: "Авто, кратчайший"
         foot_route: "Пеший"
         bicycle_route: "Вело"
+        add_point: "Добавить точку"
+        cancel_add: "Отменить добавление"
         routes: "Маршрут"
         search: "Поиск"
         objects: "Объекты"  

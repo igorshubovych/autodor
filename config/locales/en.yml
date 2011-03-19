@@ -10,6 +10,8 @@ en:
         car_shortest_route: "Car, shortest"
         foot_route: "Footjob"
         bicycle_route: "Bicyle"
+        add_point: "Add point"
+        cancel_add: "Cancel adding"
         routes: "Routes"
         search: "Search"
         objects: "Objects"
