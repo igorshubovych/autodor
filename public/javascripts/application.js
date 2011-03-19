@@ -152,8 +152,8 @@ $(document).ready(function() {
 	} );
 	
 	// cleaning choices
-	alert($("#routingTab > input[type=radio][checked]").removeAttr("checked");
-	$("#routingTab > input[type=radio] :first").attr("checked", "checked");
+	$("#routingTab input[type=radio][checked]").removeAttr("checked");
+	$("#routingTab input[type=radio] :first").attr("checked", "checked");
 
 	// jq-ui setup
 	$("#tabs").tabs();
