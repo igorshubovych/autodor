@@ -38,7 +38,7 @@
 		$(function() {
 			$("#tabs").tabs();
 
-			$("#addWaypoint").button();
+			$("#addWaypoint, #weatherControl").button();
 			$(".routeType").buttonset();
 		});
 
@@ -79,6 +79,13 @@
 						%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
 							%label{ :for => "bicycle" }
 								= image_tag "controls/cycling.png"
+								
+					%br/
+					%br/
+					
+					%input#weatherControl{ :type => "checkbox", :name => "showWeather", :onClick => "toggleWeather();" }
+						%label{ :for => "weatherControl" }
+							= image_tag "controls/weather.png"
 
 				%br/
 				
