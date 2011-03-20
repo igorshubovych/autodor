@@ -1,0 +1,2 @@
+module PoiHelper
+end

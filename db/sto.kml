@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	
+  <Placemark>
+    <name>Автомойка ТЕТАН</name>
+    <description>Автомойка ТЕТАН, Киев, ул. Киквидзе, 17</description>
+    <Point>        
+      <coordinates>30.550921, 50.412749</coordinates>      
+    </Point>    
+  </Placemark>
+  
+  <Placemark>
+    <name>Автомойка BIKINI</name>
+    <description>Автомойка BIKINI, Киев, ул. Автозаводская, 18</description>
+    <Point>
+      <coordinates>30.4601891711, 50.503212968</coordinates>      
+    </Point>    
+  </Placemark>
+
+  <Placemark>
+    <name>Автомойка Золотой Гепард</name>
+    <description>Автомойка Золотой Гепард, Киев, проспект Бажана, 44</description>
+    <Point>        
+      <coordinates>30.6718884148, 50.4026966167</coordinates>      
+     </Point>    
+  </Placemark>
+
+</kml>
