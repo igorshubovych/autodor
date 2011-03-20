@@ -2,7 +2,7 @@ window.onerror = function(e) {
 	alert(e);
 }
 
-var cloudmade = null, map = null;
+var cloudmade = null, map = null, directions = null, geocoder = null;
 var CM_APIKEY = 'BC9A493B41014CAABB98F0471D759707';
 
 var points = {
@@ -14,7 +14,27 @@ var points = {
 	'Lviv stadium': new CM.LatLng(49.775, 24.026)
 }
 
-var markers = [], currMarker = null, directions = null, routeType = null, currPos = null;
+var markers = [], currMarker = null, routeType = null, currPos = null;
+
+var initMap = function() {
+	if (map == null || cloudmade == null) {
+		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
+		map = new CM.Map('map', cloudmade);
+
+		map.setCenter(points['Kyiv'], 15);
+		map.addControl(new CM.LargeMapControl());
+		map.addControl(new CM.ScaleControl());
+		map.addControl(new CM.OverviewMapControl());
+	}
+	
+	if (directions == null) {
+		directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
+	}
+	
+	if (geocoder == null) {
+		geocoder = new CM.Geocoder(CM_APIKEY);
+	}
+}
 
 var updateRoute = function () {
 	initMap();
@@ -28,20 +48,14 @@ var updateRoute = function () {
 		keyPoints.push(markers[m].getLatLng());
 	}
 		
-	if (true) {
-		try {
-			directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true });
-		} catch (e) {
-			alert(e);
-		}
-		
-		for (m = 0; m < markers.length; m++) {
-			var t = directions.getMarker(m);
-			
-			//if (t != null) {
-				markers[m] = t;
-			//}
-		}
+	try {
+		directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true });
+	} catch (e) {
+		alert(e);
+	}
+	
+	for (m = 0; m < markers.length; m++) {
+		markers[m] = directions.getMarker(m);
 	}
 }
 
@@ -132,26 +146,10 @@ function doLeaveMarkerAlone() {
 		
 		currMarker = null;
 		
-		$("label[for='addWaypoint']").toggleClass("ui-state-active");
+		$("label[for='addWaypoint']").removeClass("ui-state-active");
 
 		updateMarkersUI();
 		updateRoute();
-	}
-}
-
-var initMap = function() {
-	if (map == null || cloudmade == null) {
-		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
-		map = new CM.Map('map', cloudmade);
-
-		map.setCenter(points['Kyiv'], 15);
-		map.addControl(new CM.LargeMapControl());
-		map.addControl(new CM.ScaleControl());
-		map.addControl(new CM.OverviewMapControl());
-	}
-	
-	if (directions == null) {
-		directions = new CM.Directions(map, 'routingPanel', CM_APIKEY);
 	}
 }
 
@@ -206,6 +204,53 @@ var createContextMenu = function() {
 			currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
 		}
 	} );
+}
+
+var toggleWeather = function() {
+	initMap();
+	
+	var bounds = map.getBounds();
+	
+	/*geocoder.retrieve({
+			'bbox': map.getBounds().toString(),
+			'object_type': 'city, town',
+			'results': '1000'
+		}, function(data) {
+			alert('hello, world');
+		}, function(xhr, status) {
+			alert(status + '::' + xhr.responseText);
+		}
+	);*/
+	
+	var bb = 'x1=' + bounds.getSouthWest().lat() + '&y1=' + bounds.getSouthWest().lng() + '&x2=' + bounds.getNorthEast().lat() + '&y2=' + bounds.getNorthEast().lng() + '&zoom=' + map.getZoom(); 
+	var url = 'http://62.244.10.66/gmaps/connector.php?lang=en&type=large&' + bb;
+	
+	//alert(url);
+	$.ajax({
+		url: url, 
+		success: function(data, moo) {
+			for (m in data) {
+				var ic = new CM.Icon();
+			
+				ic.image = "http://www.meteoprog.ua/pictures/markers/" + m.link;
+				ic.iconAnchor = new CM.Point(0, 0);
+				
+				var M = new CM.Marker(new CM.LatLng(m.x, m.y), {
+					draggable: false,
+					icon: ic
+				});
+
+				if (draggedEvent != null)
+					CM.Event.addListener(M, 'dragend', draggedEvent);
+
+				map.addOverlay(M);
+			}
+		},
+		dataType: 'json',
+		error: function(a,b,c) {
+			alert(b);
+		}
+	});
 }
 
 $(document).ready(function() {

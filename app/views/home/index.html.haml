@@ -34,32 +34,34 @@
 			=image_tag "flags/ru.png"
 
 .main
-	.outer
-		:javascript
-			$(function() {
-				$("#tabs").tabs();
+	:javascript
+		$(function() {
+			$("#tabs").tabs();
 
-				$("#addWaypoint").button();
-				$(".routeType").buttonset();
-			});
+			$("#addWaypoint").button();
+			$(".routeType").buttonset();
+		});
 
-		.panel
-			#tabs
-				%ul
-					%li
-						%a{ :href => "#tabsRouting" }= t('panel.routes')
+	.panel
+		#tabs
+			%ul
+				%li
+					%a{ :href => "#tabsRouting" }= t('panel.routes')
 
-					%li
-						%a{ :href => "#tabsSearch" }= t('panel.search')
+				%li
+					%a{ :href => "#tabsSearch" }= t('panel.search')
 
-					%li
-						%a{ :href => "#tabsObjects" }= t('panel.objects')
+				%li
+					%a{ :href => "#tabsObjects" }= t('panel.objects')
+
+			#tabsRouting
+				.markerList
 
 				%br/
-
-				#tabsRouting
-					%input#addWaypoint{ :type => "checkbox" }
-						%label{ :for => "addWaypoint" }
+				
+				.routeControls
+					%input#addWaypoint{ :type => "checkbox", :onClick => "return false;" }
+						%label{ :for => "addWaypoint", :style => "width: 90%" }
 							= image_tag "controls/add_waypoint.png"
 
 					%br/
@@ -78,35 +80,35 @@
 							%label{ :for => "bicycle" }
 								= image_tag "controls/cycling.png"
 
-					%br/
+				%br/
+				
+				#routingPanel
 
-					#routingPanel
+			#tabsSearch
+				%form
+					%input{ :type => "edit", :name => "query" }
+					%input{ :type => "submit", :name => "search", :value => "Search" }
 
-				#tabsSearch
-					%form
-						%input{ :type => "edit", :name => "query" }
-						%input{ :type => "submit", :name => "search", :value => "Search" }
+			#tabsObjects
+				%form
+					%input{ :type => "checkbox", :name => "poi" }
+					%label{ :for => "poi" } POI
 
-				#tabsObjects
-					%form
-						%input{ :type => "checkbox", :name => "poi" }
-						%label{ :for => "poi" } POI
+		%br/
 
-			%br/
-
-			#panelQuickLinks{ :class => "ui-widget-content ui-corner-all" }
-				%h2{ :class => "ui-widget-header ui-corner-all" } Quick links
-				%p
-					%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)", :href => "" }
-						= t('place.kyiv')
-				%p
-					%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)", :href => "" }
-						= t('place.kharkiv')
-				%p
-					%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)", :href => "" }
-						= t('place.donetsk')
-				%p
-					%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)", :href => "" }
-						= t('place.lviv')
+		#panelQuickLinks{ :class => "ui-widget-content ui-corner-all" }
+			%h2{ :class => "ui-widget-header ui-corner-all" } Quick links
+			%p
+				%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)", :href => "" }
+					= t('place.kyiv')
+			%p
+				%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)", :href => "" }
+					= t('place.kharkiv')
+			%p
+				%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)", :href => "" }
+					= t('place.donetsk')
+			%p
+				%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)", :href => "" }
+					= t('place.lviv')
 	.content
 		#map.olMap
