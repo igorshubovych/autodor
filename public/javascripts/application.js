@@ -1,3 +1,7 @@
+window.onerror = function(e) {
+	alert(e);
+}
+
 var cloudmade = null, map = null;
 var CM_APIKEY = 'BC9A493B41014CAABB98F0471D759707';
 
@@ -25,24 +29,24 @@ var updateRoute = function () {
 	}
 		
 	if (true) {
-		directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true });
-
+		try {
+			directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true });
+		} catch (e) {
+			alert(e);
+		}
+		
 		for (m = 0; m < markers.length; m++) {
 			var t = directions.getMarker(m);
 			
-			if (t != null) {
+			//if (t != null) {
 				markers[m] = t;
-			}
+			//}
 		}
 	}
 }
 
 var removeWaypoint = function(index) {
-	if (index > -1 && index < markers.length) {
-		if (markers[index] == null)
-			return;
-			
-		map.removeOverlay(markers[index]);
+	if (index > -1 && index < markers.length && markers[index] != null) {
 		markers.splice(index, 1);
 	}
 	
@@ -53,8 +57,8 @@ var removeWaypoint = function(index) {
 var updateMarkersUI = function() {
 	var m = 0;
 	
-	if ($(".markerItem") != null)
-		$(".markerItem").remove();
+	$(".markerList").empty();
+	$(".markerItem").remove();
 	
 	for (m = 0; m < markers.length; m++) {
 		var pos = markers[m].getLatLng(); 
@@ -190,8 +194,8 @@ var createContextMenu = function() {
 				markers.push(m);
 				map.removeOverlay(m);
 
-				updateRoute();
 				updateMarkersUI();
+				updateRoute();
 			}
 		} }
 	];
