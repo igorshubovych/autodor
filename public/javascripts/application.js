@@ -68,16 +68,22 @@ var subscribeForEvents = function() {
 var createContextMenu = function() {
 	// creating context-menu
 	var menu1 = [
-		{'Add point': function(menuItem, menu) {
-			if (currPos != null) {
-				var m = createMarker(currPos.lat(), currPos.lng(), {'draggedEvent': updateRoute});
+		{'Додати чортзнаяку точку': {
+			onclick: function(menuItem, menu) {
+				if (currPos != null) {
+					var m = createMarker(currPos.lat(), currPos.lng(), {'draggedEvent': updateRoute, 'addOverlay': true});
 
-				markers.push(m);
-				map.removeOverlay(m);
+					if (markers.length < 2)
+						markers.push(m); else
+							markers.splice(markers.length - 1, 0, m);
+							
+					map.removeOverlay(m);
 
-				updateMarkersUI();
-				updateRoute();
-			}
+					updateMarkersUI();
+					updateRoute();
+				}
+			},
+			id: 'contextMenuItem0' 
 		} }
 	];
 
@@ -85,6 +91,12 @@ var createContextMenu = function() {
 		theme: 'xp',
 		beforeShow: function(x, y) {
 			currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
+			
+			if (markers.length < 1)
+				$("#contextMenuItem0").html("Додати точку відправки"); else
+			if (markers.length == 1)
+				$("#contextMenuItem0").html("Додати кінцеву точку"); else
+					$("#contextMenuItem0").html("Додати проміжну точку");
 		}
 	} );
 }
@@ -245,13 +257,13 @@ var clearWeather = function() {
 	var i = 0;
 
 	for (i = 0; i < weatherMarkers.length; i++) {
-		//if (map.containsOverlay(weatherMarkers[i]) == true) {
-		if (true) {
+		if (map.containsOverlay(weatherMarkers[i]) == true) {
+		//if (true) {
 			map.removeOverlay(weatherMarkers[i]);
 		}
 	}
 
-	//weatherMarkers = [];
+	weatherMarkers = [];
 	console.log('clear.');
 }
 
@@ -274,6 +286,8 @@ var updateWeather = function() {
 	var bounds = map.getBounds();
 
 	var _url = '/home/weather/?x1=' + bounds.getSouthWest().lat() + '&y1=' + bounds.getSouthWest().lng() + '&x2=' + bounds.getNorthEast().lat() + '&y2=' + bounds.getNorthEast().lng() + '&zoom=' + map.getZoom();
+	
+	console.log(_url);
 
 	$.ajax({
 		url: _url,

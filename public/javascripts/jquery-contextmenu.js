@@ -109,7 +109,7 @@
 		
 		// Accept an Array representing a menu structure and turn it into HTML
 		createMenu: function(menu,cmenu) {
-			var className = cmenu.className;
+			var className = cmenu.className, id = cmenu.id;
 			$.each(cmenu.theme.split(","),function(i,n){className+=' '+cmenu.themePrefix+n});
 			var $t = $('<table cellspacing=0 cellpadding=0></table>').click(function(){cmenu.hide(); return false;}); // We wrap a table around it so width can be flexible
 			var $tr = $('<tr></tr>');
@@ -150,7 +150,8 @@
 				disabled:false,
 				title:'',
 				hoverItem:cmenu.hoverItem,
-				hoverItemOut:cmenu.hoverItemOut
+				hoverItemOut:cmenu.hoverItemOut,
+				id:''
 			},obj);
 			// If an icon is specified, hard-code the background-image style. Themes that don't show images should take this into account in their CSS
 			var iconStyle = (o.icon)?'background-image:url('+o.icon+');':'';
@@ -161,7 +162,7 @@
 							.hover( function(){ o.hoverItem.call(this,(cmenu.isItemDisabled(this))?cmenu.disabledItemHoverClassName:o.hoverClassName); }
 									,function(){ o.hoverItemOut.call(this,(cmenu.isItemDisabled(this))?cmenu.disabledItemHoverClassName:o.hoverClassName); }
 							);
-			var $idiv = $('<div class="'+cmenu.innerDivClassName+'" style="'+iconStyle+'">'+label+'</div>');
+			var $idiv = $('<div class="'+cmenu.innerDivClassName+'" style="'+iconStyle+'" id="' + o.id + '">'+label+'</div>');
 			$div.append($idiv);
 			return $div;
 		},
