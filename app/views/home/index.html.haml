@@ -1,31 +1,5 @@
-:javascript
-	$(function() {
-		$("#tabs").tabs();
-		$("#addWaypoint, #weatherControl").button();
-		$(".routeType").buttonset();
-	});
+.main
+	= render :partial => 'home/panel'
 
-.panel
-	#tabs
-		%ul
-			%li
-				%a{ :href => "#tabsRouting" }= t('panel.routes')
-			%li
-				%a{ :href => "#tabsSearch" }= t('panel.search')
-			%li
-				%a{ :href => "#tabsObjects" }= t('panel.objects')
-
-		= render :partial => 'home/tabRoute'
-
-		#tabsSearch
-			%form
-				%input{ :type => "edit", :name => "query" }
-				%input{ :type => "submit", :name => "search", :value => "Search" }
-
-		= render :partial => 'home/tabObjects'
-
-		%br/
-
-		= render :partial => 'home/panelQuickLinks'
-.content
-	#map.olMap
+	.content
+		#map.olMap
