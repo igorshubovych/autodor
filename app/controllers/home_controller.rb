@@ -28,6 +28,7 @@ class HomeController < ApplicationController
 		<Icon>
 			<href>http://www.meteoprog.ua/pictures/markers/#{ i['link'] }</href>
 		</Icon>
+		<scale>3</scale>
 	</IconStyle>
 </Style>
 

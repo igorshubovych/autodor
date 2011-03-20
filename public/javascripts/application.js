@@ -16,7 +16,7 @@ var points = {
 }
 
 var markers = [], currMarker = null, routeType = null, currPos = null;
-var weatherMarkers = [], isWeatherDisplayed = false;
+var weatherLayer = null, isWeatherShown = false;
 
 var initMap = function() {
 	if (map == null || cloudmade == null) {
@@ -242,82 +242,38 @@ var mapToPoint = function(name, zoom) {
 }
 
 var toggleWeather = function() {
-	if (isWeatherDisplayed == false) {
-		updateWeather();
-		isWeatherDisplayed = true;
+	if (map.containsOverlay(weatherLayer) == true) {
+		isWeatherShown = false;
+		
+		map.removeOverlay(weatherLayer);
 	} else {
-		clearWeather();
-		isWeatherDisplayed = false;
+		isWeatherShown = true;
+		
+		updateWeather();
 	}
 	
-	console.log('shown? ' + isWeatherDisplayed);
-}
-
-var clearWeather = function() {
-	var i = 0;
-
-	for (i = 0; i < weatherMarkers.length; i++) {
-		if (map.containsOverlay(weatherMarkers[i]) == true) {
-		//if (true) {
-			map.removeOverlay(weatherMarkers[i]);
-		}
-	}
-
-	weatherMarkers = [];
-	console.log('clear.');
-}
-
-var drawWeather = function() {
-	var i = 0;
-
-	for (i = 0; i < weatherMarkers.length; i++) {
-		if (map.containsOverlay(weatherMarkers[i]) == false)
-			map.addOverlay(weatherMarkers[i]);
-	}
-	
-	console.log('drawn.');
+	console.log('shown? ' + map.containsOverlay(weatherLayer));
 }
 
 var updateWeather = function() {
 	initMap();
 	
-	clearWeather();
+	if (isWeatherShown == false)
+		return;
+	
+	if (isWeatherShown == true && map.containsOverlay(weatherLayer) == true)
+			map.removeOverlay(weatherLayer);
 	
 	var bounds = map.getBounds();
 
 	var _url = '/home/weather/?x1=' + bounds.getSouthWest().lat() + '&y1=' + bounds.getSouthWest().lng() + '&x2=' + bounds.getNorthEast().lat() + '&y2=' + bounds.getNorthEast().lng() + '&zoom=' + map.getZoom();
 	
-	console.log(_url);
-
-	$.ajax({
-		url: _url,
-		success: function(data, moo) {
-			var i = 0;
-
-			for (i = 0; i < data.length; i++) {
-				m = data[i];
-
-				var M = createMarker(m['x'], m['y'], {
-					'draggable': false,
-					'icon': "http://www.meteoprog.ua/pictures/markers/" + m['link'],
-					'iconAnchor': new CM.Point(0, 0),
-					'addOverlay': false
-				});
-
-				if (map.containsOverlay(M) == false && $.inArray(M, weatherMarkers) == -1)
-					weatherMarkers.push(M);
-			}
-		},
-		dataType: 'json',
-		error: function(a,b,c) {
-			console.log('error: ', [a, b, c].join('::'));
-		}
-	});
+	weatherLayer = new CM.GeoXml(_url, { 'local': true });
 	
-	if (isWeatherDisplayed == true)
-		drawWeather();
+	if (isWeatherShown == true)
+		map.addOverlay(weatherLayer);
 	
-	console.log('up-2-date.');
+	console.log(_url, 'weather layer is updated');
 }
 
 var loadPoints = function() {
