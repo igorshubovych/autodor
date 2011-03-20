@@ -2,33 +2,26 @@
 	.logo
 		%a{ :href => "#", :title => "Euro 2012 Ukraine-Poland" }
 			=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
-
 	.stadiums
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Kyiv stadium', 15)" }
 				=image_tag "kiev.jpg", :alt => ""
-
 			%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
 				=image_tag "uk-kiev.gif", :alt => ""
-
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
 				=image_tag "kharkiv.jpg", :alt => ""
 
 			%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
 				=image_tag "uk-kharkiv.gif", :alt => ""
-
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Donetsk stadium', 15)" }
 				=image_tag "donetsk.jpg", :alt => ""
-
 			%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
 				=image_tag "uk-donetsk.gif", :alt => ""
-
 		.city
 			%a{ :class => "logo", :onClick => "mapToPoint('Lviv stadium', 15)" }
 				=image_tag "lviv.jpg", :alt => ""
-
 			%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
 				=image_tag "uk-lviv.gif", :alt => ""
 
@@ -41,57 +34,81 @@
 			=image_tag "flags/ru.png"
 
 .main
+	:javascript
+		$(function() {
+			$("#tabs").tabs();
+
+			$("#addWaypoint").button();
+			$(".routeType").buttonset();
+		});
+
 	.panel
 		#tabs
-			%h3
-				%a{ :href => "#routingTab" }
-					=t "panel.routes"
+			%ul
+				%li
+					%a{ :href => "#tabsRouting" }= t('panel.routes')
 
-			#routingTab
-				.addMarker{ :onClick => "return false;" }
-				
+				%li
+					%a{ :href => "#tabsSearch" }= t('panel.search')
+
+				%li
+					%a{ :href => "#tabsObjects" }= t('panel.objects')
+
+			#tabsRouting
+				.markerList
+
 				%br/
-				%br/
 				
-				.routeType
-					%input#carFast{ :type => "radio", :name => "routeType", :checked => "checked", :onClick => "changeRouteType('car');" }
-						%label{ :for => "carFast" }
-							= t 'panel.car_fastest_route'
+				.routeControls
+					%input#addWaypoint{ :type => "checkbox", :onClick => "return false;" }
+						%label{ :for => "addWaypoint", :style => "width: 90%" }
+							= image_tag "controls/add_waypoint.png"
 
-					%input#carShort{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car/shortest');" }
-						%label{ :for => "carShort" }
-							= t 'panel.car_shortest_route'
+					%br/
+					%br/
 
-					%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
-						%label{ :for => "foot" }
-							= t 'panel.foot_route'
+					.routeType
+						%input#car{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car');" }
+							%label{ :for => "car" }
+								= image_tag "controls/car.png"
 
-					%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
-						%label{ :for => "bicycle" }
-							= t 'panel.bicycle_route'
-							
+						%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
+							%label{ :for => "foot" }
+								= image_tag "controls/walking.png"
+
+						%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
+							%label{ :for => "bicycle" }
+								= image_tag "controls/cycling.png"
+
 				%br/
 				
 				#routingPanel
 
-			%h3
-				%a{ :href => "#searchTab" }
-					=t "panel.search"
-
-			#searchTab
+			#tabsSearch
 				%form
 					%input{ :type => "edit", :name => "query" }
-					
-					%br/
-					
-					%input{ :type => "submit", :name => "search", :value => t("panel.search") }
+					%input{ :type => "submit", :name => "search", :value => "Search" }
 
-			%h3
-				%a{ :href => "#objectsTab" }
-					=t "panel.objects"
+			#tabsObjects
+				%form
+					%input{ :type => "checkbox", :name => "poi" }
+					%label{ :for => "poi" } POI
 
-			#objectsTab
-				%p some fucking content3
+		%br/
 
+		#panelQuickLinks{ :class => "ui-widget-content ui-corner-all" }
+			%h2{ :class => "ui-widget-header ui-corner-all" } Quick links
+			%p
+				%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)", :href => "" }
+					= t('place.kyiv')
+			%p
+				%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)", :href => "" }
+					= t('place.kharkiv')
+			%p
+				%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)", :href => "" }
+					= t('place.donetsk')
+			%p
+				%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)", :href => "" }
+					= t('place.lviv')
 	.content
 		#map.olMap

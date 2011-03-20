@@ -22,11 +22,10 @@
 }
 
 .panel {
+	height: 100%;
 	float: left;
-	height: 95%;
 	margin-left: 5px;
 	margin-right: 5px;
-	overflow: hidden;
 	width: 345px;
 }
 
@@ -34,9 +33,10 @@
 	border-top: 1px solid #DDDDDD;
 	height: 100%;
 	margin: 0 0 0 365px;
+	width: 80%;
 }
 
-#map{
+#map {
 	height: 100%;
 	min-height: 300px;
 	min-width: 315px;
@@ -44,11 +44,25 @@
 }
 
 img.head_img {
-	float:left;
-	padding:20px;
-	width:80%;
+	float: left;
+	padding: 20px;
+	width: 80%;
 }
 
 .language_menu {
-	float:right;
+	float: right;
+}
+
+.routeControls {
+	text-align: center;
+}
+
+.panel {
+	overflow: auto;
+}
+
+.markerItem {
+}
+
+.markerList {
 }
