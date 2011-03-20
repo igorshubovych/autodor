@@ -14,4 +14,7 @@ class HomeController < ApplicationController
   
   def test2
   end
+  
+  def objects
+  end
 end

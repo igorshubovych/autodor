@@ -253,6 +253,18 @@ var toggleWeather = function() {
 	});
 }
 
+var loadPoints = function() {
+	var url =
+		'http://localhost:3000/poi/car_service.kml';
+	var geoxml = new CM.GeoXml(url, {local: true});
+		
+
+	CM.Event.addListener(geoxml, 'load', function() {
+		map.zoomToBounds(geoxml.getDefaultBounds());
+		map.addOverlay(geoxml);
+	});
+}
+
 $(document).ready(function() {
 	initMap();
 
@@ -262,4 +274,6 @@ $(document).ready(function() {
 	// cleaning choices
 	$(".routeType input[type=radio][checked]").removeAttr("checked");
 	$(".routeType input[type=radio]:first").attr("checked", "checked");
+	
+	loadPoints();
 });
