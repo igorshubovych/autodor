@@ -15,7 +15,11 @@ uk:
         routes: "Маршрут"
         search: "Пошук"
         objects: "Об’єкти"
-    poi:
+    objects:
         carService: "Заправки"
         hotel: "Готелі"
         webCam: "Веб-камери"
+        weather: "Погода"
+    about:
+        about: "Про цей сайт"
+        description: "Цей сайт створений для підтримки туризму в Україні, особливо відвідувачів Євро-2012"

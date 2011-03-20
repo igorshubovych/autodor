@@ -15,7 +15,11 @@ en:
         routes: "Routes"
         search: "Search"
         objects: "Objects"
-    poi:
+    objects:
         carService: "Car service"
         hotel: "Hotels"
         webCam: "Webcam"
+        weather: "Weather"
+    about:
+        about: "About this site"
+        description: "This site was created to support tourism in Ukraine, especially visitors of Euro-2012"
