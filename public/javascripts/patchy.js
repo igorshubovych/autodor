@@ -6,30 +6,18 @@ var parseJSON = function(s) {
 	});
 }
 
-CM.Geocoder.prototype.retrieve = function(query, successHandler, errorHandler) {
-	var url = "http://geocoding.cloudmade.com/" + this.key + "/geocoding/v2/find.js?";
+CM.Map.prototype.containsOverlay = function(overlay) {
+	var i = 0;
 	
-	if (query instanceof Array) {
-		url += query.join('&');
-	} else
-	if (typeof query == 'string') {
-		url += query;
-	} else {
-		var arr = [];
+	if (this._overlays == null)
+		return false;
 		
-		for (k in query) {
-			arr.push(k + '=' + query[k]);
-		}
-		
-		url += arr.join('&');
+	for (i = 0; i < this._overlays.length; i++) {
+		if (this._overlays[i] == overlay)
+			return true;
 	}
 	
-	/*$.ajax({
-		url: url, 
-		//dataType: 'json',
-		success: successHandler,
-		error: errorHandler
-	});*/
+	return false;
 }
 
 CM.LatLngBounds.prototype.toString = function() {

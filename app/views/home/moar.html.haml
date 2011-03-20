@@ -38,7 +38,7 @@
 		$(function() {
 			$("#tabs").tabs();
 
-			$("#addWaypoint, #weather").button();
+			$("#addWaypoint, #weatherControl").button();
 			$(".routeType").buttonset();
 		});
 
@@ -83,8 +83,8 @@
 					%br/
 					%br/
 					
-					%input#weather{ :type => "checkbox", :name => "showWeather", :onClick => "toggleWeather();" }
-						%label{ :for => "weather" }
+					%input#weatherControl{ :type => "checkbox", :name => "showWeather", :onClick => "toggleWeather();" }
+						%label{ :for => "weatherControl" }
 							= image_tag "controls/weather.png"
 
 				%br/
