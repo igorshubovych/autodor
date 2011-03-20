@@ -15,4 +15,7 @@ uk:
         routes: "Маршрут"
         search: "Пошук"
         objects: "Об’єкти"
-
+    poi:
+        carService: "Заправки"
+        hotel: "Готелі"
+        webCam: "Веб-камери"

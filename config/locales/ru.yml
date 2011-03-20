@@ -15,3 +15,7 @@ ru:
         routes: "Маршрут"
         search: "Поиск"
         objects: "Объекты"
+    poi:
+        carService: "Заправки"
+        hotel: "Отели"
+        webCam: "Веб-камеры"

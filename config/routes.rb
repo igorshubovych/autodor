@@ -1,4 +1,8 @@
 Autodor::Application.routes.draw do
+  get "poi/car_service"
+
+  get "home/links"
+
   #get "home/index"
   match ':controller(/:action)'
   match 'moar' => 'home#moar'
