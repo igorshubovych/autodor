@@ -15,7 +15,11 @@ ru:
         routes: "Маршрут"
         search: "Поиск"
         objects: "Объекты"
-    poi:
+    objects:
         carService: "Заправки"
         hotel: "Отели"
         webCam: "Веб-камеры"
+        weather: "Погода"
+    about:
+        about: "Про этот сайт"
+        description: "Этот сайт создан для поддержки туризма в Украине, в особенности посетителей Евро-2012"

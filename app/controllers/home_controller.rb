@@ -1,4 +1,6 @@
 class HomeController < ApplicationController
+	layout 'map'
+	
 	def index
 		@languages = [ "ru", "ua", "en" ]
 		@current_lang = "ua"
@@ -10,19 +12,17 @@ class HomeController < ApplicationController
 	end
 	
 	def weather
-	#respond_to do |format|
-		#format.js do
-			url = "http://62.244.10.66/gmaps/connector.php?lang=en&type=large&"
-			url += "x1=#{params[:x1]}&x2=#{params[:x2]}&y1=#{params[:y1]}&y2=#{params[:y2]}&zoom=#{params[:zoom]}"
+		url = "http://62.244.10.66/gmaps/connector.php?lang=en&type=large&"
+		url += "x1=#{params[:x1]}&x2=#{params[:x2]}&y1=#{params[:y1]}&y2=#{params[:y2]}&zoom=#{params[:zoom]}"
 
-			body = CurbFu.get(url).body
-			response = JSON.parse(body)
-			
-			cnt = 0
-			points = ""
-			
-			response.each do |i|
-				points += %{
+		body = CurbFu.get(url).body
+		response = JSON.parse(body)
+		
+		cnt = 0
+		points = ""
+		
+		response.each do |i|
+			points += %{
 <Style id="moo#{ cnt }">
 	<IconStyle>
 		<Icon>
@@ -38,25 +38,18 @@ class HomeController < ApplicationController
 		<coordinates>#{ i['y'] },#{ i['x'] }</coordinates>
 	</Point>
 </Placemark>
-					}
-					
-				cnt += 1
-			end
+				}
+				
+			cnt += 1
+		end
 			
-			kml = %{<?xml version="1.0" encoding="UTF-8"?>
+		kml = %{<?xml version="1.0" encoding="UTF-8"?>
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
 	#{ points }
 </kml>
-				}
+			}
 			
-			render :xml => kml
-			#render :text => kml, :content_type => 'text/plain'
-			#render :json => res
-		#end
-	#end
+		render :xml => kml
 	end
-		
-	def objects
-	end	
 end

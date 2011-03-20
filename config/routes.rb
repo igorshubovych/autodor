@@ -1,4 +1,10 @@
 Autodor::Application.routes.draw do
+  get "page/contact"
+
+  get "page/support"
+
+  get "page/about"
+
   get "poi/car_service"
 
   get "home/links"
