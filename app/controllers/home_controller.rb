@@ -52,26 +52,4 @@ class HomeController < ApplicationController
 			
 		render :xml => kml
 	end
-	
-=begin
-	def cities
-		if (!params[:query].nil?)
-			res = JSON.parse(CurbFu.get("http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.js?object_type=city,town&bbox=52.375359,40.218079,44.390411,22.128811&results=10&return_parent&query=#{ params[:query] }").body)
-		else
-			res = JSON.parse(CurbFu.get('http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.js?object_type=city,town&bbox=52.375359,40.218079,44.390411,22.128811&results=10000').body)
-		end
-		
-		return if (res["features"].nil?)
-		
-		s = []
-		
-		res["features"].each do |i|
-			p = i["properties"]
-			
-			s << { "ru" => p["name:ru"], "uk" => p["name:uk"], "en" => p["name:en"], "self" => p["name"] }
-		end
-		
-		render :json => s.to_json
-	end
-=end
 end

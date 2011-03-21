@@ -1,5 +1,26 @@
-.main
+%table{ :style => "position: relative;" }
+	%tr
+		%td{ :style => "width: 20%;" }
+			%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
+				=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
+					
+		%td
+			.menu
+				%a{ :href => "/page/support" }= t('menu.support')
+				%a{ :href => "/page/links" }= t('menu.links')
+				%a{ :href => "/page/about" }= t('menu.about')
+			
+		%td{ :style => "width: 10%;" }
+			.language_icons
+				%a{ :href => "?locale=en", :title => "English" }
+					=image_tag "flags/en.png"
+				%a{ :href => "?locale=uk", :title => "Українська" }
+					=image_tag "flags/uk.png"
+				%a{ :href => "?locale=ru", :title => "Російська" }
+					=image_tag "flags/ru.png"
+		
+.dao
 	= render :partial => 'home/panel'
-
-	.content
-		#map.olMap
+	
+	.main{ :style => "width: 70%;" }
+		#map
