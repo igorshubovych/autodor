@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+%html
+	%head
+		%title Autodor
+		= stylesheet_link_tag 'main'
+		= stylesheet_link_tag 'sunny/sunny'
+		= stylesheet_link_tag 'contextmenu/jquery-contextmenu'
+		= javascript_include_tag 'jquery'
+		= javascript_include_tag 'jquery-ui'
+		= javascript_include_tag 'http://tile.cloudmade.com/wml/latest/web-maps-lite.js'
+		= javascript_include_tag 'http://api.webcams.travel/jsapi?devid=0be425afeaead9f0893c0bae527be9a0'
+		= javascript_include_tag 'jquery-contextmenu'
+		= javascript_include_tag 'application'
+		= javascript_include_tag 'patchy'
+		= csrf_meta_tag
+	%body
+		.header
+			.logo
+				%a{ :href => "#", :title => "Euro 2012 Ukraine-Poland" }
+					=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
+
+			.language_icons
+				%a{ :href => "?locale=en" }
+					=image_tag "flags/en.png"
+				%a{ :href => "?locale=uk" }
+					=image_tag "flags/uk.png"
+				%a{ :href => "?locale=ru" }
+					=image_tag "flags/ru.png"
+
+		.main
+			= yield
