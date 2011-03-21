@@ -25,7 +25,12 @@
 				%a{ :href => "?locale=uk" }
 					=image_tag "flags/uk.png"
 				%a{ :href => "?locale=ru" }
-					=image_tag "flags/ru.png"
+					=image_tag "flags/ru.png"					
+			
+			.menu
+				%a{ :href => "/page/support" }= t('menu.support')
+				%a{ :href => "/page/links" }= t('menu.links')
+				%a{ :href => "/page/about" }= t('menu.about')
 
 		.main
 			= yield

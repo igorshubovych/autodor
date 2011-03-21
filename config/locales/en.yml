@@ -21,6 +21,10 @@ en:
         hotel: "Hotels"
         webCam: "Webcam"
         weather: "Weather"
+    menu:
+        about: "About"
+        support: "Support"
+        links: "Links"
     about:
         about: "About this site"
         description: "This site was created to support tourism in Ukraine, especially visitors of Euro-2012"
