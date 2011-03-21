@@ -84,3 +84,15 @@ img.head_img {
 	display: block;
 	margin-left: 50px;
 }
+
+.searchResultItem {
+	border: none;
+	padding: 5px;
+}
+
+.searchResultItem:hover, .momoClass:hover {
+	border: medium none !important;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #DD944D;
+	cursor: pointer;
+}

@@ -3,23 +3,23 @@
 		%h3= t('panel.quickLinks')
 	%table{ :style => "width: 100%; text-align: center;" }
 		%tr
-			%td
+			%td.momoClass
 				%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
 					= image_tag '/images/kiev_small.png'
 					%br/
 					= t('place.kyiv')
-			%td
+			%td.momoClass
 				%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
 					= image_tag '/images/kharkiv_small.png'
 					%br/
 					= t('place.kharkiv')
 		%tr
-			%td
+			%td.momoClass
 				%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
 					= image_tag '/images/donetsk_small.png'
 					%br/
 					= t('place.donetsk')
-			%td
+			%td.momoClass
 				%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
 					= image_tag '/images/lviv_small.png'
 					%br/

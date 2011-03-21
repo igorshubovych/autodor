@@ -338,7 +338,6 @@ var switchLayer = function(layerName) {
 }
 
 var pointMapToBound = function(a, b, c, d) {
-	console.log(a, b, c, d);
 	map.zoomToBounds(new CM.LatLngBounds(new CM.LatLng(a, b), new CM.LatLng(c, d)));
 }
 
@@ -347,29 +346,36 @@ var geoSearch = function() {
 	
 	$(".searchResults").empty();
 	
-	geocoder.getLocations($("#searchQuery").val(), function(response) {
-		if (response == null || response.features == null) {
-			console.log('no valid response given');
-			
-			return;
-		}
-			
-		for (var i = 0; i < response.features.length; i++) {
-			var bbox = response.features[i].bounds;
-			var name = response.features[i].properties.name;
-			
-			var a = bbox[0][0];
-			var b = bbox[0][1];
-			var c = bbox[1][0]
-			var d = bbox[1][1];
-			
-			var elt = "<div class='searchResultItem' onclick='pointMapToBound(" + a + "," + b + "," + c + "," + d + ", 10);'>";
-			elt += "<a href='#' onclick='return false;'>" + name + "</a>";
-			elt += "</div>";
-			
-			$(".searchResults").append(elt);
-		}
-	});
+	geocoder.getLocations($("#searchQuery").val() + ",Ukraine", function(response) {
+			if (response == null || response.features == null) {
+				console.log('no valid response given');
+				
+				return;
+			}
+				
+			for (var i = 0; i < response.features.length; i++) {
+				var bbox = response.features[i].bounds;
+				var name = response.features[i].properties.name;
+				
+				if (name == null)
+					name = "назва невідома";
+				
+				var a = bbox[0][0];
+				var b = bbox[0][1];
+				var c = bbox[1][0]
+				var d = bbox[1][1];
+				
+				var elt = "<div class='searchResultItem' onclick='pointMapToBound(" + a + "," + b + "," + c + "," + d + ", 10);'>";
+				elt += "<a href='#' onclick='return false;'>" + name + "</a>";
+				elt += "</div>";
+				
+				$(".searchResults").append(elt);
+			}
+		}, {
+			boundsOnly: true, 
+			bounds: new CM.LatLngBounds(new CM.LatLng(52.375359, 40.218079), new CM.LatLng(44.390411, 22.128811)), 
+			resultsNumber: 10 
+		});
 }
 
 $(document).ready(function() {
