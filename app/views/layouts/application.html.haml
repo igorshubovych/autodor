@@ -20,17 +20,22 @@
 					=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
 
 			.language_icons
-				%a{ :href => "?locale=en", :title => "English" }
+				%a{ :href => "?locale=en" }
 					=image_tag "flags/en.png"
-				%a{ :href => "?locale=uk", :title => "Українська" }
+				%a{ :href => "?locale=uk" }
 					=image_tag "flags/uk.png"
-				%a{ :href => "?locale=ru", :title => "Російська" }
-					=image_tag "flags/ru.png"
-					
+				%a{ :href => "?locale=ru" }
+					=image_tag "flags/ru.png"					
+		
 			.menu
 				%a{ :href => "/page/support" }= t('menu.support')
 				%a{ :href => "/page/links" }= t('menu.links')
 				%a{ :href => "/page/about" }= t('menu.about')
+		
+			.banner	
+				%object{ :width => 467, :height => "122", :data => "http://diprodor.com/banners/doska.swf", :type => "application/x-shockwave-flash"}
+					%param{ :value => "http://diprodor.com/banners/doska.swf", :name => "movie" }
+					%param{ :valu => "high", :name => "quality" }
 
 		.main
 			= yield

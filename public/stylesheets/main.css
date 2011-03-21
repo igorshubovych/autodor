@@ -69,3 +69,18 @@ img.head_img {
 .link {
 	margin: 10px;
 }
+
+.menu {
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+.menu a {
+	display: block;
+}
+
+.banner {
+	display: block;
+	margin-left: 50px;
+}
