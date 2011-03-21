@@ -15,6 +15,7 @@ en:
         routes: "Routes"
         search: "Search"
         objects: "Display..."
+        quickLinks: "Quick links"
     objects:
         carService: "Car service"
         hotel: "Hotels"

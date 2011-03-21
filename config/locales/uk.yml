@@ -15,6 +15,7 @@ uk:
         routes: "Маршрут"
         search: "Пошук"
         objects: "Показати..."
+        quickLinks: "Швидкий перехід"
     objects:
         carService: "Заправки"
         hotel: "Готелі"

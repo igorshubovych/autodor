@@ -15,6 +15,7 @@ ru:
         routes: "Маршрут"
         search: "Поиск"
         objects: "Показать..."
+        quickLinks: "Быстрый переход"
     objects:
         carService: "Заправки"
         hotel: "Отели"
