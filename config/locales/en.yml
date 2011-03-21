@@ -14,7 +14,7 @@ en:
         cancel_add: "Cancel adding"
         routes: "Routes"
         search: "Search"
-        objects: "Display..."
+        objects: "Objects"
         quickLinks: "Quick links"
     objects:
         carService: "Car service"

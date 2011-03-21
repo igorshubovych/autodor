@@ -14,7 +14,7 @@ uk:
         cancel_add: "Відмінити додавання"
         routes: "Маршрут"
         search: "Пошук"
-        objects: "Показати..."
+        objects: "Об’єкти"
         quickLinks: "Швидкий перехід"
     objects:
         carService: "Заправки"
