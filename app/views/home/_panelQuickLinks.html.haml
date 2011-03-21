@@ -1,22 +1,26 @@
 #panelQuickLinks{ :class => "ui-widget-content ui-corner-all" }
 	#quickHeading{ :class => "ui-widget-header ui-corner-all" } 
 		%h2= t('panel.quickLinks')
-	%table
+	%table{ :style => "width: 100%; text-align: center;" }
 		%tr
 			%td
 				%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
-					= image_tag '/images/kiev_small.jpg'
+					= image_tag '/images/kiev_small.png'
+					%br/
 					= t('place.kyiv')
 			%td
 				%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
-					= image_tag '/images/kharkiv_small.jpg'
+					= image_tag '/images/kharkiv_small.png'
+					%br/
 					= t('place.kharkiv')
 		%tr
 			%td
 				%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
-					= image_tag '/images/donetsk_small.jpg'
+					= image_tag '/images/donetsk_small.png'
+					%br/
 					= t('place.donetsk')
 			%td
 				%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
-					= image_tag '/images/lviv_small.jpg'
+					= image_tag '/images/lviv_small.png'
+					%br/
 					= t('place.lviv')
