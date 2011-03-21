@@ -272,13 +272,13 @@ var toggleWeather = function() {
 var updateWeather = function() {
 	initMap();
 	
-	weather = layers['weather'];
+	var weather = layers['weather'];
 	
 	if (weather['shown'] == false)
 		return;
 	
 	if (weather['shown'] && map.containsOverlay(weather['data']) == true)
-			map.removeOverlay(weather['data']);
+		map.removeOverlay(weather['data']);
 	
 	var bounds = map.getBounds();
 
@@ -288,6 +288,8 @@ var updateWeather = function() {
 	
 	if (weather['shown'])
 		map.addOverlay(weather['data']);
+		
+	layers['weather'] = weather;
 	
 	console.log(_url, 'weather layer is updated');
 }
@@ -316,7 +318,7 @@ var switchLayer = function(layerName) {
 		if (map.containsOverlay(layer['data']) == true) {
 			layer['shown'] = false;
 
-			map.removeOverlay(layer[data]);
+			map.removeOverlay(layer['data']);
 		} else {
 			layer['shown'] = true;
 
