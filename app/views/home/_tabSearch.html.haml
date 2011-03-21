@@ -5,8 +5,12 @@
 		});
 		
 	.searchControls
-		%input{ :type => "edit", :name => "query" }
+		%input#searchQuery{ :type => "edit", :name => "query" }
 		
 		%br/
 		
-		%input#searchControl{ :type => "submit", :value => "Search" }
+		%input#searchControl{ :type => "submit", :value => "Search", :onClick => "geoSearch();" }
+	
+	%br/
+		
+	.searchResults
