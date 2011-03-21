@@ -9,6 +9,8 @@ class HomeController < ApplicationController
 	def moar
 		@languages = [ "ru", "ua", "en" ]
 		@current_lang = "ua"
+
+		render 'moar', :layout => 'moar'
 	end
 	
 	def weather
