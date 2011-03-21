@@ -17,6 +17,12 @@ var points = {
 
 var markers = [], currMarker = null, routeType = null, currPos = null;
 var weatherLayer = null, isWeatherShown = false;
+var layers = {
+	carService: { data: null, shown: false},
+	webCams: { data: null, shown: false},
+	hotels: { data: null, shown: false},
+	weather: { data: null, shown: false}
+};
 
 var initMap = function() {
 	if (map == null || cloudmade == null) {
@@ -276,16 +282,26 @@ var updateWeather = function() {
 	console.log(_url, 'weather layer is updated');
 }
 
-var loadPoints = function() {
-	var url =
-		'http://localhost:3000/poi/car_service.kml';
-	var geoxml = new CM.GeoXml(url, {local: true});
-
-
-	CM.Event.addListener(geoxml, 'load', function() {
-		map.zoomToBounds(geoxml.getDefaultBounds());
-		map.addOverlay(geoxml);
+var loadObjects = function() {
+	layers['carService']['data'] = new CM.GeoXml('/poi/car_service.kml', {local: true});
+	CM.Event.addListener(layers['carService']['data'], 'load', function() {
+		map.addOverlay(layers['carService']['data']);
 	});
+}
+
+var switchLayer = function(layerName) {
+	layer = layers[layerName];
+	if (layerName == 'carService') {
+		if (layer['data'] == null) {
+			loadObjects();
+		}
+		else if (layer['shown']) {
+			map.removeOverlay(layer['data']);
+		} else {
+			map.addOverlay(layer['data']);
+		}
+		layer['shown'] = !layer['shown'];
+	}
 }
 
 $(document).ready(function() {
@@ -298,6 +314,4 @@ $(document).ready(function() {
 	$(".routeType input[type=radio][checked]").removeAttr("checked");
 	$(".routeType input[type=radio]:first").attr("checked", "checked");
 	$("#weatherControl").removeAttr("checked");
-
-	//loadPoints();
 });
