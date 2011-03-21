@@ -16,17 +16,17 @@
 	%body
 		.header
 			.logo
-				%a{ :href => "#", :title => "Euro 2012 Ukraine-Poland" }
+				%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
 					=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
 
 			.language_icons
-				%a{ :href => "?locale=en" }
+				%a{ :href => "?locale=en", :title => "English" }
 					=image_tag "flags/en.png"
-				%a{ :href => "?locale=uk" }
+				%a{ :href => "?locale=uk", :title => "Українська" }
 					=image_tag "flags/uk.png"
-				%a{ :href => "?locale=ru" }
-					=image_tag "flags/ru.png"					
-			
+				%a{ :href => "?locale=ru", :title => "Російська" }
+					=image_tag "flags/ru.png"
+					
 			.menu
 				%a{ :href => "/page/support" }= t('menu.support')
 				%a{ :href => "/page/links" }= t('menu.links')

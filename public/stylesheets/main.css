@@ -61,3 +61,7 @@ img.head_img {
 .panel {
 	overflow: auto;
 }
+
+.link {
+	margin: 10px;
+}

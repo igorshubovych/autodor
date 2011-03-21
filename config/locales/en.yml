@@ -21,6 +21,14 @@ en:
         hotel: "Hotels"
         webCam: "Webcam"
         weather: "Weather"
+    menu:
+        about: "About"
+        support: "Support"
+        links: "Links"
     about:
         about: "About this site"
         description: "This site was created to support tourism in Ukraine, especially visitors of Euro-2012"
+    links:
+        head: "Useful links"
+        euro2012highway: "Ukrainian motorways and roads for Euro 2012 (in Russian)"
+        diprodor: 'The Ukrainian state institute of road facilities design "UKRDIPRODOR"'
