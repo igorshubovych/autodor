@@ -1,7 +1,9 @@
 %h1= t('links.head')
-%ul
-	%li
-		%a{ :href => "http://euro2012highway.blogspot.com/" }
-			=image_tag ""
-			= t('links.euro2012highway')
-	
+.link
+	=image_tag "/images/sites/euro2012highway_thumb.png"
+	%a{ :href => "http://euro2012highway.blogspot.com/", :target => '_blank' }
+		= t('links.euro2012highway')
+.link
+	=image_tag "/images/sites/diprodor_thumb.png"
+	%a{ :href => "http://diprodor.com", :target => '_blank' }
+		= t('links.diprodor')
