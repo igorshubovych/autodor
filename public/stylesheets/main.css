@@ -54,16 +54,10 @@ img.head_img {
 	float: right;
 }
 
-.routeControls {
+.routeControls, .searchControls {
 	text-align: center;
 }
 
 .panel {
 	overflow: auto;
-}
-
-.markerItem {
-}
-
-.markerList {
 }

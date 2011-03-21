@@ -17,10 +17,7 @@
 
 		= render :partial => 'home/tabRoute'
 
-		#tabsSearch
-			%form
-				%input{ :type => "edit", :name => "query" }
-				%input{ :type => "submit", :name => "search", :value => "Search" }
+		= render :partial => 'home/tabSearch'
 
 		= render :partial => 'home/tabObjects'
 

@@ -52,4 +52,18 @@ class HomeController < ApplicationController
 			
 		render :xml => kml
 	end
+	
+	def cities
+		res = JSON.parse(CurbFu.get('http://geocoding.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/geocoding/v2/find.js?object_type=city,town&bbox=52.375359,40.218079,44.390411,22.128811&return_parent=true&results=10000').body)
+		
+		s = []
+		
+		res["features"].each do |i|
+			p = i["properties"]
+			
+			s << { 'en' => p["name:en"], 'uk' => p["name:uk"], 'ru' => p["name:ru"] }
+		end
+		
+		render :json => s.to_json
+	end
 end
