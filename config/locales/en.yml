@@ -14,7 +14,7 @@ en:
         cancel_add: "Cancel adding"
         routes: "Routes"
         search: "Search"
-        objects: "Objects"
+        objects: "Display..."
     objects:
         carService: "Car service"
         hotel: "Hotels"

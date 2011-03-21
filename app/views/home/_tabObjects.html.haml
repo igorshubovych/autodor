@@ -1,19 +1,28 @@
 #tabsObjects
-	%form
-		%input{ :type => "checkbox", :name => "carService", :onClick => "switchLayer('carService');" }
-		%label{ :for => "carService" }= t('objects.carService')
+	:javascript
+		$(function() {
+			$(".objectControls").buttonset();
+		});
+		
+	.objectControls
+		%input#carService{ :type => "checkbox", :onClick => "switchLayer('carService');" }
+			%label{ :for => "carService" }
+				= t('objects.carService')
 		
 		%br/
 		
-		%input{ :type => "checkbox", :name => "webCam"}
-		%label{ :for => "webCam" }= t('objects.webCam')
+		%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
+			%label{ :for => "webCam" }
+				= t('objects.webCam')
 		
 		%br/
 		
-		%input{ :type => "checkbox", :name => "hotel"}
-		%label{ :for => "hotel" }= t('objects.hotel')
+		%input#hotel{ :type => "checkbox"}
+			%label{ :for => "hotel" }
+				= t('objects.hotel')
 		
 		%br/
 		
-		%input{ :type => "checkbox", :name => "weather", :onClick => "switchLayer('weather')"}
-		%label{ :for => "weather" }= t('objects.weather')
+		%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather')"}
+			%label{ :for => "weather" }
+				= t('objects.weather')

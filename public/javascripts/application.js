@@ -3,7 +3,9 @@ window.onerror = function(e) {
 	console.log(e);
 }
 
-var cloudmade = null, map = null, directions = null, geocoder = null;
+var cloudmade = null, map = null;
+var directions = null, geocoder = null;
+var webcams = null;
 var CM_APIKEY = 'BC9A493B41014CAABB98F0471D759707';
 
 var points = {
@@ -41,6 +43,12 @@ var initMap = function() {
 
 	if (geocoder == null) {
 		geocoder = new CM.Geocoder(CM_APIKEY);
+	}
+	
+	if (webcams == null) {
+		webcamstravel.easymap.load(map, function(instance, params) {
+			webcams = instance;
+		}, { showwebcams: false });
 	}
 }
 
@@ -286,6 +294,7 @@ var updateWeather = function() {
 
 var loadObjects = function() {
 	layers['carService']['data'] = new CM.GeoXml('/poi/car_service.kml', {local: true});
+
 	CM.Event.addListener(layers['carService']['data'], 'load', function() {
 		map.addOverlay(layers['carService']['data']);
 	});
@@ -293,11 +302,11 @@ var loadObjects = function() {
 
 var switchLayer = function(layerName) {
 	layer = layers[layerName];
+
 	if (layerName == 'carService') {
 		if (layer['data'] == null) {
 			loadObjects();
-		}
-		else if (layer['shown']) {
+		} else if (layer['shown']) {
 			map.removeOverlay(layer['data']);
 		} else {
 			map.addOverlay(layer['data']);
@@ -313,6 +322,16 @@ var switchLayer = function(layerName) {
 
 			updateWeather();
 		}
+	} else if (layerName == 'webCams') {
+		if (layer['shown'] == true) {
+			layer['shown'] = false;
+
+			webcams.hideWebcams();
+		} else {
+			layer['shown'] = true;
+
+			webcams.showWebcams();
+		}
 	}
 }
 
@@ -323,7 +342,6 @@ $(document).ready(function() {
 	createContextMenu();
 
 	// cleaning choices
-	$(".routeType input[type=radio][checked]").removeAttr("checked");
+	$(":radio[checked], :checkbox[checked]").removeAttr("checked");
 	$(".routeType input[type=radio]:first").attr("checked", "checked");
-	$("#weatherControl").removeAttr("checked");
 });

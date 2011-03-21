@@ -14,7 +14,7 @@ uk:
         cancel_add: "Відмінити додавання"
         routes: "Маршрут"
         search: "Пошук"
-        objects: "Об’єкти"
+        objects: "Показати..."
     objects:
         carService: "Заправки"
         hotel: "Готелі"
