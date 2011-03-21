@@ -14,7 +14,8 @@ ru:
         cancel_add: "Отменить добавление"
         routes: "Маршрут"
         search: "Поиск"
-        objects: "Показать..."
+        objects: "Объекты"
+        quickLinks: "Быстрый переход"
     objects:
         carService: "Заправки"
         hotel: "Отели"

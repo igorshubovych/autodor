@@ -18,28 +18,6 @@
 			.logo
 				%a{ :href => "#", :title => "Euro 2012 Ukraine-Poland" }
 					=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
-			.stadiums
-				.city
-					%a{ :class => 'logo', :onClick => "mapToPoint('Kyiv stadium', 15)" }
-						=image_tag "kiev.jpg", :alt => ""
-					%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
-						=image_tag "uk-kiev.gif", :alt => ""
-				.city
-					%a{ :class => "logo", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
-						=image_tag "kharkiv.jpg", :alt => ""
-
-					%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
-						=image_tag "uk-kharkiv.gif", :alt => ""
-				.city
-					%a{ :class => "logo", :onClick => "mapToPoint('Donetsk stadium', 15)" }
-						=image_tag "donetsk.jpg", :alt => ""
-					%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
-						=image_tag "uk-donetsk.gif", :alt => ""
-				.city
-					%a{ :class => "logo", :onClick => "mapToPoint('Lviv stadium', 15)" }
-						=image_tag "lviv.jpg", :alt => ""
-					%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
-						=image_tag "uk-lviv.gif", :alt => ""
 
 			.language_icons
 				%a{ :href => "?locale=en" }
