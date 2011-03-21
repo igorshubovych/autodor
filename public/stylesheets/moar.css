@@ -23,10 +23,10 @@ body {
 }
 
 #map {
-	height: 98%;
+	height: 700px;
 	min-height: 300px;
 	min-width: 315px;
-	width: 100%;
+	width: 70%;
 }
 
 .language_menu {
