@@ -1,0 +1,12 @@
+#tabsSearch
+	:javascript
+		$(function() {
+			$("#searchControl").button();
+		});
+		
+	.searchControls
+		%input{ :type => "edit", :name => "query" }
+		
+		%br/
+		
+		%input#searchControl{ :type => "submit", :value => "Search" }
