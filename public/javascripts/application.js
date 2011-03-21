@@ -16,7 +16,7 @@ var points = {
 }
 
 var markers = [], currMarker = null, routeType = null, currPos = null;
-var weatherLayer = null, isWeatherShown = false;
+
 var layers = {
 	carService: { data: null, shown: false},
 	webCams: { data: null, shown: false},
@@ -264,20 +264,22 @@ var toggleWeather = function() {
 var updateWeather = function() {
 	initMap();
 	
-	if (isWeatherShown == false)
+	weather = layers['weather'];
+	
+	if (weather['shown'] == false)
 		return;
 	
-	if (isWeatherShown == true && map.containsOverlay(weatherLayer) == true)
-			map.removeOverlay(weatherLayer);
+	if (weather['shown'] && map.containsOverlay(weather['data']) == true)
+			map.removeOverlay(weather['data']);
 	
 	var bounds = map.getBounds();
 
 	var _url = '/home/weather/?x1=' + bounds.getSouthWest().lat() + '&y1=' + bounds.getSouthWest().lng() + '&x2=' + bounds.getNorthEast().lat() + '&y2=' + bounds.getNorthEast().lng() + '&zoom=' + map.getZoom();
 	
-	weatherLayer = new CM.GeoXml(_url, { 'local': true });
+	weather['data'] = new CM.GeoXml(_url, { 'local': true });
 	
-	if (isWeatherShown == true)
-		map.addOverlay(weatherLayer);
+	if (weather['shown'])
+		map.addOverlay(weather['data']);
 	
 	console.log(_url, 'weather layer is updated');
 }
@@ -301,6 +303,16 @@ var switchLayer = function(layerName) {
 			map.addOverlay(layer['data']);
 		}
 		layer['shown'] = !layer['shown'];
+	} else if (layerName == 'weather') {
+		if (map.containsOverlay(layer['data']) == true) {
+			layer['shown'] = false;
+
+			map.removeOverlay(layer[data]);
+		} else {
+			layer['shown'] = true;
+
+			updateWeather();
+		}
 	}
 }
 
