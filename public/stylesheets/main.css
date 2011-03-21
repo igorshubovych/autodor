@@ -20,14 +20,14 @@ body {
 	top: 135px;
 	right: 10px;
 	width: 100%;
-	margin: 0 auto;
 	overflow: auto;
+	padding-left: 15px;
 }
 
 .panel {
 	height: 100%;
 	float: left;
-	margin-left: 5px;
+	margin-left: 15px;
 	margin-right: 5px;
 	width: 345px;
 }
