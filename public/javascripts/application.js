@@ -211,20 +211,25 @@ var removeWaypoint = function(index) {
 }
 
 var updateMarkersUI = function() {
-	var m = 0;
-
 	$(".markerList").empty();
 	$(".markerItem").remove();
 	$("#printRoute").hide();
 
 	for (m = 0; m < markers.length; m++) {
 		var pos = markers[m].getLatLng();
-		var s = pos.lat() + " ; " + pos.lng();
-
+		
 		var elt = '<div class="markerItem">';
 		elt += '<img src="http://tile.cloudmade.com/wml/latest/images/routing/route_icon_' + (m + 1) + '.png" />&nbsp';
-		elt += '<input type="text" size="18" value="' + s + '" />&nbsp;';
+		elt += '<input id="marker_' + m + '" type="text" size="18" />&nbsp;';
 		elt += '<a href="#"><img src="/images/controls/remove_waypoint_hover.png" onClick="removeWaypoint(' + (m) + ');" /></a></div>';
+		
+		var moo = new Function("data", "$('#marker_" + m + "').val(data.features[0].properties.name);");
+		
+		geocoder.getLocations(new CM.LatLng(pos.lat(), pos.lng()), moo, 
+		{ 
+				'distance': 'closest', 
+				'objectType': 'road' 
+		});
 
 		$(".markerList").append(elt);
 	}
@@ -423,7 +428,7 @@ var printRoute = function() {
 	var mapStr = "http://staticmaps.cloudmade.com/" + CM_APIKEY + "/staticmap?";
 	var a = map.getCenter().lat(), b = map.getCenter().lng(), c = map.getZoom();
 	
-	/*var tmpPoints = [], tmpMarkers = [];
+	var tmpPoints = [], tmpMarkers = [];
 	
 	for (i = 0; i < directions.getNumRoutes(); i++) {
 		var route = directions.getRoute(i);
@@ -435,11 +440,11 @@ var printRoute = function() {
 		}
 	}
 	
-	for (i = 0; i < markers.length; i++) {
-		tmpMarkers.push("marker=size:mid|label=" + String.fromCharCode('A'.charCodeAt(0) + i) + "|" + markers[i].getLatLng().lat() + "," + markers[i].getLatLng().lng());
-	}
+	//for (i = 0; i < markers.length; i++) {
+		//tmpMarkers.push("marker=size:mid|label=" + String.fromCharCode('A'.charCodeAt(0) + i) + "|" + markers[i].getLatLng().lat() + "," + markers[i].getLatLng().lng());
+	//}
 	
-	mapStr += "center=" + a + "," + b + "&path=color:blue|weight:95|" + tmpPoints.join('|') + "&" + tmpMarkers.join('&') + "&" + "&zoom=" + c + "&format=jpg&size=500x500";*/
+	//mapStr += "format=jpg&size=500x500&zoom=" + c + "&center=" + a + "," + b; // + "&path=" + tmpPoints.join('|');// + "&" + tmpMarkers.join('&') + "&" + "&zoom=" + c + "&format=jpg&size=500x500";*/
 	
 	mapStr += "center=" + [a, b].join(',') + "&zoom=" + c + "&format=jpg&size=500x500";
 	
