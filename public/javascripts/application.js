@@ -118,34 +118,45 @@ var createContextMenu = function() {
 function createMarker(lat, lon, options) {
 	var ic = new CM.Icon();
 
-	if (options['icon'] == null)
-		ic.image = "http://tile.cloudmade.com/wml/latest/images/routing/route_icon_" + (markers.length + 1) + ".png"; else
-			ic.image = options['icon'];
-
-	if (options['iconSize'] == null)
-		ic.iconSize = new CM.Point(23, 26); else
-			ic.iconSize = options['iconSize'];
-
-	if (options['iconAnchor'] == null)
-		ic.iconAnchor = new CM.Point(10, 26); else
-			ic.iconAnchor = options['iconAnchor'];
-
+	if (options['icon'] == null) {
+		ic.image = "http://tile.cloudmade.com/wml/latest/images/routing/route_icon_" + (markers.length + 1) + ".png";
+	} else {
+		ic.image = options['icon'];
+	}
+	
+	if (options['iconSize'] == null) {
+		ic.iconSize = new CM.Point(23, 26);
+	} else {
+		ic.iconSize = options['iconSize'];
+	}
+	
+	if (options['iconAnchor'] == null) {
+		ic.iconAnchor = new CM.Point(10, 26);
+	} else {
+		ic.iconAnchor = options['iconAnchor'];
+	}
+	
 	var draggable = true;
 
-	if (options['draggable'] != null)
-		draggable = options['draggable'];
-
+	if (options['draggable'] != null) {
+		if (options['draggable'] == 'false' || options['draggable'] == false) {
+			draggable = false;
+		}
+	}
+	
 	var M = new CM.Marker(new CM.LatLng(lat, lon), {
 		draggable: draggable,
 		icon: ic
 	});
-
-	if (options['draggedEvent'] != null)
+	
+	if (options['draggedEvent'] != null) {
 		CM.Event.addListener(M, 'dragend', options['draggedEvent']);
-
-	if (options['addOverlay'])
+	}
+	
+	if (options['addOverlay']) {
 		map.addOverlay(M);
-
+	}
+	
 	return M;
 }
 
@@ -198,6 +209,9 @@ var updateMarkersUI = function() {
 
 		$(".markerList").append(elt);
 	}
+	
+	if (markers.length > 1)
+		$("#printRoute").show();
 }
 
 function changeRouteType(type) {
@@ -376,6 +390,22 @@ var geoSearch = function() {
 			bounds: new CM.LatLngBounds(new CM.LatLng(52.375359, 40.218079), new CM.LatLng(44.390411, 22.128811)), 
 			resultsNumber: 10 
 		});
+}
+
+var printRoute = function() {
+	var hwnd = window.open();
+	var mapStr = "http://staticmaps.cloudmade.com/" + CM_APIKEY + "/staticmap?";
+	var a = map.getCenter().lat(), b = map.getCenter().lng(), c = map.getZoom();
+	
+	mapStr += "center=" + a + "," + b + "&zoom=" + c + "&format=jpg&size=500x500";
+	
+	self.focus();
+	hwnd.document.open();
+	hwnd.document.write($("#routingPanel").html());
+	hwnd.document.write("<br /><img src='" + mapStr + "' />");
+	hwnd.document.close();
+	hwnd.print();
+	hwnd.close();
 }
 
 $(document).ready(function() {

@@ -1,3 +1,8 @@
+:javascript
+	$(function() {
+		$("#printRoute").button().hide();
+	});
+
 #tabsRouting
 	.markerList
 
@@ -16,14 +21,15 @@
 				%label{ :for => "car" }
 					= image_tag "controls/car.png"
 
-			%input#foot{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
-				%label{ :for => "foot" }
-					= image_tag "controls/walking.png"
-
-			%input#bicycle{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('bicycle');" }
-				%label{ :for => "bicycle" }
-					= image_tag "controls/cycling.png"
-					
+			%input#truck{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
+				%label{ :for => "truck" }
+					= image_tag "controls/truck.png"
+			
+		%br/
+			
+		%a#printRoute{ :name => "printRoute", :onClick => "printRoute();" }
+			= image_tag "controls/print_icon.png"
+			
 		%br/
 	%br/
 		
