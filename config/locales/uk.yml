@@ -17,7 +17,8 @@ uk:
         objects: "Об’єкти"
         quickLinks: "Швидкий перехід"
     objects:
-        carService: "Заправки"
+        gas: "Заправки"
+        carService: "СТО"
         hotel: "Готелі"
         webCam: "Веб-камери"
         weather: "Погода"

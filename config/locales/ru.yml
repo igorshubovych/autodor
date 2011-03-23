@@ -17,7 +17,8 @@ ru:
         objects: "Объекты"
         quickLinks: "Быстрый переход"
     objects:
-        carService: "Заправки"
+        gas: "Заправки"
+        carService: "СТО"
         hotel: "Отели"
         webCam: "Веб-камеры"
         weather: "Погода"
