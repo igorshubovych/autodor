@@ -24,7 +24,8 @@ var layers = {
 	carService: { data: null, shown: false, icon: null },
 	webCams: { data: null, shown: false, icon: null },
 	hotels: { data: null, shown: false,  icon: null },
-	weather: { data: null, shown: false, icon: null}
+	weather: { data: null, shown: false, icon: null},
+	roadCondition: { data: null, shown: false, icon: null}
 };
 
 var initMap = function() {
@@ -63,6 +64,10 @@ var initIcons = function() {
 	icon = new CM.Icon(icon);
 	icon.image  = "/images/objects/car_service.gif";
 	layers['carService']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/damage_to_roads.gif";
+	layers['roadCondition']['icon'] = icon;
 }
 
 var subscribeForEvents = function() {
@@ -324,6 +329,10 @@ var updateWeather = function() {
 var loadObjects = function(layerName) {
 	var layer = layers[layerName];
 	layer['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
+	layer['data']._parseKmlCoordinates = function(str) {
+	        str = str.replace(/\s+/g, '\n');
+	        return CM.GeoXml.prototype._parseKmlCoordinates.call(this, str);
+	};
 	CM.Event.addListener(layer['data'], 'load', function() {
 		map.addOverlay(layers[layerName]['data']);
 	});
@@ -332,7 +341,7 @@ var loadObjects = function(layerName) {
 var switchLayer = function(layerName) {
 	layer = layers[layerName];
 
-	if (layerName == 'gas' || layerName == 'carService') {
+	if (layerName == 'gas' || layerName == 'carService' || layerName == 'roadCondition') {
 		if (layer['data'] == null) {
 			loadObjects(layerName);
 		} else if (layer['shown']) {

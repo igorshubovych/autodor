@@ -22,6 +22,7 @@ en:
         hotel: "Hotels"
         webCam: "Webcam"
         weather: "Weather"
+        roadCondition: "Road condition"
     menu:
         about: "About"
         support: "Support"

@@ -38,3 +38,10 @@
 		%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather')"}
 			%label{ :for => "weather" }
 				= t('objects.weather')
+		
+		%br/
+				
+		= image_tag '/images/objects/damage_to_roads.gif'
+		%input#roadCondition{ :type => "checkbox", :onClick => "switchLayer('roadCondition')"}
+			%label{ :for => "roadCondition" }
+				= t('objects.roadCondition')

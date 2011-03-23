@@ -12,6 +12,10 @@ class PoiController < ApplicationController
     send_kml "#{Rails.root}/db/data/vsesto/kiev/azs.kml"
   end
   
+  def roadCondition
+    send_kml "#{Rails.root}/db/P-52.kml"
+  end
+  
   private
   def send_kml(file_name)
     contents = File.open(file_name).read
