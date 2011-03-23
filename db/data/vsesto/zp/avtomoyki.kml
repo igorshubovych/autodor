@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Автомойки
+        Запорожья</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Автомойка Диагональная</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (097) 428-15-14</p>
+    
+      <p>Ручная и автоматическая мойка кузова, сухая чистка двигателя, нанесение защитных покрытий воск , тефлон, жидкое автостекло (Япония), все виды химчисток включая кузовную, полировка кузова, шиномонтаж.</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/179-diagonalnaja/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1296384633,47.8576712685</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Гольфстрим</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/210-golfstrim/">
+      <img src="http://vse-sto.com.ua/media/autoservices/H3_JPG_160x100_q85.jpg"
+        alt="Автомойка Гольфстрим, Запорожье, ул. Касногвардейская, 17" align="right" />
+    </a>
+    
+    <p>Тел: (061) 228-27-02</p>
+    
+      <p>Полный комплекс услуг по уходу за Вашим автомобилем.</p> <p>- Бесконтактная мойка + Бесконтактная сушка<br />- Глубокая химчистка салона<br />- Нанесение жидкого воска KARCHER</p> <p>А также:</p> <p>- Уютное кафе<br />- Предварительная запись<br />- Акции, подарки, специальные ...
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/210-golfstrim/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.170885,47.817212</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Автомоечный комплекс на &quot;Славянском&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/214-avtomoechnyj-kompleks-na-slavjanskom/">
+      <img src="http://vse-sto.com.ua/media/autoservices/G_jpg_160x100_q85.jpg"
+        alt="Автомойка Автомоечный комплекс на &quot;Славянском&quot;, Запорожье, ул. Брянская, 15" align="right" />
+    </a>
+    
+    <p>Тел: (066) 598-37-10</p>
+    
+      <p>Автомоечный комплекс на &quot;Славянском&quot; авторынке предлагает услуги:<br /> - мойка легкового, грузового, фур, T.I.R транспорта. (Индивидуальные условия для такси, маршрутных транспортных средств, копоративных клиентов)<br /> - обработка кузова автомобиля защитными покрытиями, полировка пластиковых изделий салона, ...
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/214-avtomoechnyj-kompleks-na-slavjanskom/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.136659,47.851344</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

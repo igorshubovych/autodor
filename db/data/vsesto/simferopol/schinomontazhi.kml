@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Шиномонтажи
+        Симферополя</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Шиномонтаж VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/120-vianor/">
+      <img src="http://vse-sto.com.ua/media/autoservices/Vianor_Simferopolsmall_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж VIANOR, Симферополь, ул. Бородина, 8" align="right" />
+    </a>
+    
+    <p>Тел: (0652) 63-08-88</p>
+    
+      <p>- Шиномонтаж и балансировка.<br />- Сезонное хранение шин.<br />- Замена масла.</p> <p>ПН-ВС 9.00-18.00<br />без перерыва и выходных</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/120-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.14641,44.962697</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж Пилот</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/218-pilot/">
+      <img src="http://vse-sto.com.ua/media/autoservices/shin001_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж Пилот, Симферополь, ул. Залесская, 93" align="right" />
+    </a>
+    
+    <p>Тел: (0652) 493-776</p>
+    
+      <p>Наше предприятие в сфере технического обслуживания работает с 1998 г., за это время мы накопили огромный опыт по предоставлению услуг. СТО &quot;Пилот&quot; может предложить Вам широкий спектр услуг:</p> <p>Регулировка развал-схождения на оборудовании John Bean<br />Шиномонтажные, ...
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/218-pilot/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.0890789963,44.9100882292</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

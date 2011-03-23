@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Шиномонтажи
+        Николаева</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Шиномонтаж VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0512) 58-65-20</p>
+    
+      <p>- Монтаж и балансировка.<br />- Заправка газом.<br />- Мойка колес.<br />- Сезонное хранение шин.<br />- Ремонт шин.<br />- Ремонт дисков .<br />- Мойка автомобиля.<br />- Замена масла.<br />- Обслуживание аккумуляторов.<br />- СТО.</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/111-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>32.0240082219,46.9534335161</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

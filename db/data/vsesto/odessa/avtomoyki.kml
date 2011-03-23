@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Автомойки
+        Одессы</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Автомойка WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/140-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.733091,46.406816</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Автофреш</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (067) 445-97-42</p>
+    
+      <p>Портальная автомойка.<br />Режим работы с 7.00-23.00.</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/251-avtofresh/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.693134,46.478982</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Инжпроект</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/309-inzhproekt/">
+      <img src="http://vse-sto.com.ua/media/autoservices/header_service_jpg_160x100_q85.jpg"
+        alt="Автомойка Инжпроект, Одесса, Люстдорфская дорога, 140в" align="right" />
+    </a>
+    
+    
+    
+      <p>Тойота-Центр на Вузовском</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/309-inzhproekt/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7261957414,46.4127022802</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка &quot;Нептун&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/244-neptun/">
+      <img src="http://vse-sto.com.ua/media/autoservices/Neptune_jpg_160x100_q85.jpg"
+        alt="Автомойка &quot;Нептун&quot;, Одесса, ул. Жолио Кюри 29а" align="right" />
+    </a>
+    
+    <p>Тел: (048) 798-90-00</p>
+    
+      <p>На нашей автомойке Вас ждут: высококвалифицированный и вежливый персонал, привлекательные цены на услуги, высокая пропускная способность, удобная комната отдыха - бар для клиентов с панорамным обзором на автомоечную зону и полный комплекс автомоечных работ для ...
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/244-neptun/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7737311907,46.5705894212</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Икс-Оил</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (48) 761-66-75</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/304-odessa-gastello-1/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.6825436279,46.4505885099</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/139-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.6979267672,46.4347370813</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/142-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.730153,46.531915</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/143-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7153606229,46.4947251851</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Экспресс центр Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (048) 798-74-09</p>
+    
+      <p>Полный спектр услуг по уходу за Вашим автомобилем, включающий в себя:<br />- Мойка кузова безконтактным способом с использованием активной пены ведущих европейских производителей;<br />- Обработка кузова жидким воском;<br />- Ручная обработка лакокрасочного покрытия защитными полиролями ...
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/147-ekspress-centr-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.795325918,46.5895912291</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Экспресс центр Shell 2</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (048) 770-82-28</p>
+    
+      <p>Полный спектр услуг по уходу за Вашим автомобилем, включающий в себя:<br />- Мойка кузова безконтактным способом с использованием активной пены ведущих европейских производителей;<br />- Обработка кузова жидким воском;<br />- Ручная обработка лакокрасочного покрытия защитными полиролями ...
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/148-ekspress-centr-shell-2/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.6950739323,46.4387967652</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Автофреш</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (067) 445-97-42</p>
+    
+      <p>Портальная автомойка.</p> <p>Режим работы с 7.00-23.00</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/249-avtofresh/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7062929124,46.4129385855</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Автофреш</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (067) 445-97-42</p>
+    
+      <p>Портальная автомойка.<br />Режим работы с 7.00-23.00.</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/250-avtofresh/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.6973733939,46.4358882146</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка 9.1.1.</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/292-9-1-1/">
+      <img src="http://vse-sto.com.ua/media/autoservices/H-14F_jpg_160x100_q85.jpg"
+        alt="Автомойка 9.1.1., Одесса, ул.25 Чапаевской дивизии, 15" align="right" />
+    </a>
+    
+    <p>Тел: (048) 794-14-64</p>
+    
+      <p>Благодаря положительной репутации, у нас сформирован список постоянных клиентов, для которых мы делаем все, то, что они пожелают. Даже когда рядом, открываются новые автомойки, наши клиенты, всегда остаются с нами!<br />&quot;Автомойка 9.1.1.&quot; входит в корпорацию ...
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/292-9-1-1/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7030828111,46.424732828</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Маршал</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/302-marshal/">
+      <img src="http://vse-sto.com.ua/media/autoservices/marshall____jpg_160x100_q85.jpg"
+        alt="Автомойка Маршал, Одесса, Академика Глушко, 31а" align="right" />
+    </a>
+    
+    <p>Тел: (048) 795-2000</p>
+    
+      <p>Универсальная сервисная станция по обслуживанию автомобилей Chevrolet, KIA, HYUNDAI, SsangYong, Daewoo, Sens, ЗАЗ.<br />Сервисная станция оснащена дилерским диагностическим оборудованием и мультибрендовым малярно-рихтовочным комплексом.</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/302-marshal/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7060679421,46.3960011907</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Икс-Оил</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (48) 731-71-07</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/303-odessa-staroportofrankovskaja-2/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7196347229,46.494568195</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Икс-Оил</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (48) 701-35-89</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/305-odessa-dobrovolskogo-prospekt-108/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7916164957,46.5865507056</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Икс-Оил</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/306-odessa-25-oj-chapaevskoj-divizii-1-1/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7098709792,46.420815611</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Икс-Оил</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (48) 787-16-12</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/307-odessa-prospekt-gagarina-10a/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.75156,46.458139</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Garage</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/308-garage/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.724494,46.422039</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 390-57-70</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/310-odessa-obezdnaja-doroga-20-j-km/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.614983,46.491105</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 390-57-70</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/311-odessa-obezdnaja-doroga-21-j-km/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.613342,46.492965</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 390-57-70</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/312-odessa-krasnova-3-b/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7329993322,46.4459029222</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Блеск</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (48) 746-92-03</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/313-odessa-akademika-viljamsa-46-1a/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.730737,46.390521</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Блеск</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (482) 68-49-09 </p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/314-odessa-artillerijskaja-1-3/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.736890547,46.450966009</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Блеск</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (482) 45-70-51</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/315-odessa-prospekt-marshala-zhukova-14m/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7117212005,46.410134858</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Блеск</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (48) 722-73-21</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/316-odessa-troickaja-13-osipova-13/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7451899722,46.4760649473</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Блеск</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (48) 722-70-93</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/317-odessa-uspenskaja-26-osipova-15/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7449435443,46.475317593</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ПИОНЕР</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (048) 798-41-36</p>
+    
+      <p>Автомойка, спецуслуги (химчистка, полировка, тефлон, полимер, чистка хромированных поверхностей), сезонные акции, скидки. Цены отличные. Работаем круглосуточно без перерывов и выходных.</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/353-pioner/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.6977183931,46.4266320952</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ПИОНЕР - Вильямса</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (048) 798-41-56</p>
+    
+      <p>Автомойка, спецуслуги (химчистка, полировка, тефлон, полимер, чистка хромированных поверхностей), сезонные акции, скидки. Цены отличные. Работаем круглосуточно без перерывов и выходных.</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/354-pioner-viljamsa/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.7323802449,46.3898234472</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ПИОНЕР - Старопортофранковская</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (048) 701-58-51</p>
+    
+      <p>Автомойка, спецуслуги (химчистка, полировка, тефлон, полимер, чистка хромированных поверхностей), сезонные акции, скидки. Цены отличные. Работаем круглосуточно без перерывов и выходных.</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/355-pioner-staroportofrankovskaja/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>30.719975,46.484765</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

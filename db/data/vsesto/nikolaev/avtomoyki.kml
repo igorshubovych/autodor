@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Автомойки
+        Николаева</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Автомойка Чистюля</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (063) 938 00 97</p>
+    
+      <p>Наши услуги:<br />— Контактная мойка<br />— Бесконтактная мойка<br />— Полировка кузова<br />— Воскование<br />— Мойка двигателя<br />— Химчистка салона<br />— Мойка ковров<br />— Наличный и безналичный расчет</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/298-chistjulja/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>31.9809185341,46.9658180233</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

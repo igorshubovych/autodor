@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Автомойки
+        Симферополя</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Автомойка VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/195-vianor/">
+      <img src="http://vse-sto.com.ua/media/autoservices/Vianor_Simferopolsmall_jpg_160x100_q85.jpg"
+        alt="Автомойка VIANOR, Симферополь, ул. Бородина, 8" align="right" />
+    </a>
+    
+    <p>Тел: (0652) 63-08-88</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/195-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.14641,44.962697</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка &quot;Западная&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (095) 454-31-37</p>
+    
+      <p>Весь спектр моечных услуг, химчистка салона, предпродажная подготовка, ручная полировка кузова. Круглосуточно. </p> <p>Шиномонтажный участок с 8-00 до 19-00. Принимаются в стирку и химчистку ковровые изделия любой площади от 10,00 грн за кв.м.</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/215-zapadnaja/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.0663471073,44.9107074387</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

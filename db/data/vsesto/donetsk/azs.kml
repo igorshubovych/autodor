@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>АЗС
+        Донецка</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0622) 94-02-05</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/239-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8693122976,48.0034670957</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС FORMULA</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/313-formula/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7770143398,48.0523771031</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/546-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.15,48.28</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Pit Stop</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 337-73-83</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/233-pit-stop/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8242397867,48.0012100182</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/405-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.788072601,47.9583641008</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Параллель</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 381-99-71</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/250-parallel/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7806974325,48.0382575253</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 338-02-35</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/247-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7958509512,47.9981523085</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/187-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.5898593335,47.9444238217</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/213-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.737,48.031</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/214-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.799036,47.990144</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/215-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.801144,48.05543</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Параллель</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 63-48-90</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/227-parallel/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.771562,47.967716</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 203-77-53</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/228-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7634238824,47.9996730291</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 334-74-29</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/229-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7556524024,48.061627411</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 338-69-36</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/230-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.857117,48.016914</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 300-88-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/231-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8115545625,47.9740921577</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 313-70-90</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/232-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.634712,47.94149</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Параллель</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 345-15-39</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/234-parallel/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8453312172,47.9968883778</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0622) 95-84-83</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/235-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8400101699,47.9998893872</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 341-02-09</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/236-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7485826611,47.9622618742</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 332-82-29</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/237-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7514662531,48.0418721225</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0622) 66-12-01</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/238-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7739421016,47.9821926097</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 343-52-92</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/240-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.755967,48.032389</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 381-14-12</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/241-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7803291232,48.0105009702</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 334-17-83</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/242-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8233494422,47.9794363075</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Параллель</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0622) 97-43-38</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/243-parallel/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8327009043,48.0085298398</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0622) 94-42-61</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/244-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8694060668,47.9954412998</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 338-20-44</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/245-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.861088,47.966901</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Параллель</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0622) 23-16-66</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/246-parallel/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8998904862,47.9884424186</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Параллель</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0622) 97-13-92</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/248-parallel/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8339334577,48.0020965703</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Параллель</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 381-61-75</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/249-parallel/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7555535877,48.0226094017</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Параллель</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/251-parallel/">
+      <img src="http://vse-sto.com.ua/media/autoservices/T189_jpg_160x100_q85.jpg"
+        alt="АЗС Параллель, Донецк, ул. 50-летия СССР, 23" align="right" />
+    </a>
+    
+    <p>Тел: (062)304-68-23</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/251-parallel/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.810899,47.990581</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Донбасснефтепродукт</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (062) 305-14-59</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/252-donbassnefteprodukt/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8176181907,48.0163837711</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Донбасснефтепродукт</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0622) 95-73-77</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/253-donbassnefteprodukt/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7743279003,47.9433830883</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/307-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.773088702,48.0374984275</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/308-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8452144362,47.9924023033</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/309-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8636209164,47.9670160333</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/310-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.768534,47.991293</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/311-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7915760306,48.0438901616</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/312-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.9098212714,47.9698514261</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС FORMULA</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/314-formula/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7919173904,48.0254718531</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/404-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.758644,48.019464</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/406-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.7454565239,47.9931198604</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/407-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>37.8075390932,47.9543091371</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/545-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>38.052285,48.335056</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

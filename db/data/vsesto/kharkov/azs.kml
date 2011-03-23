@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>АЗС
+        Харькова</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/191-lukojl/">
+      <img src="http://vse-sto.com.ua/media/autoservices/photo1_192_jpg_160x100_q85.jpg"
+        alt="АЗС ЛУКОЙЛ, Харьков, Нетиченская набережная, 12" align="right" />
+    </a>
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/191-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2260909681,49.9836534313</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 312-08-30</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/162-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3302865579,49.9864799988</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС &quot;ОВИС&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 700-60-23</p>
+    
+      <p>В начале улицы Чкалова расположен еще один автозаправочный комплекс &quot;ОВИС&quot;. Как и на других комплексах, здесь Вы можете не только заправить свой автомобиль первоклассным топливом, но и вымыть его на портальной экспресс-мойке &quot;Otto Christ&quot;, произвести ...
+    
+      <p><a href="http://vse-sto.com.ua/azs/628-ovis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.27839908,50.0429912189</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/209-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2617720512,49.9382838796</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/276-anp/">
+      <img src="http://vse-sto.com.ua/media/autoservices/IMG_0345_jpg_160x100_q85.jpg"
+        alt="АЗС ANP, Харьков, проспект Московский 138в" align="right" />
+    </a>
+    
+    <p>Тел: (057) 752-96-91</p>
+    
+      <p>ТОВ &quot;Авангард 10&quot;</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/276-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3061949797,49.9701328879</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/170-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2675_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, ул. Роганская, 63а" align="right" />
+    </a>
+    
+    <p>Тел: (057) 299-10-36</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/170-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.4062480983,49.9330771639</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/212-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3092300476,49.9701322512</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/168-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2626_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, ул. Академика Белецкого, 40" align="right" />
+    </a>
+    
+    <p>Тел: (057) 704-08-73</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/168-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.271635553,50.0016004565</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/222-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.189,49.972</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 390-57-70</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/157-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2619876469,49.9340686868</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/219-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.138459,49.964272</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС &quot;ОВИС&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 700-60-23</p>
+    
+      <p>АЗК &quot;ОВИС&quot; мы предлагает Вам не только бензины, дизтопливо и газ лучших украинских НПЗ, но и литовское топливо нового поколения VENTUS - совместной разработки все той же компании &quot;Мажейкю Нафта&quot; и немецкого концерна &quot;BASF&quot;. </p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/630-ovis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.241569,49.987957</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/224-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.147927,49.967274</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 758-91-51</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/271-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3487110044,49.9610406728</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/156-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2628_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, проспект 50-летия СССР, 62в" align="right" />
+    </a>
+    
+    <p>Тел: (057) 738-58-26</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/156-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3114488864,49.9803053544</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (067) 208-91-69</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/158-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.313955,49.951889</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/159-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2598_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, проспект Московский, 140а" align="right" />
+    </a>
+    
+    <p>Тел: (057) 713-42-30</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/159-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3086743467,49.9696962844</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/160-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2627_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, проспект Московский, 269а" align="right" />
+    </a>
+    
+    <p>Тел: (057) 392-45-83</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/160-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3574156795,49.9584907805</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/161-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2606_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, ул. Веринская, 1а" align="right" />
+    </a>
+    
+    <p>Тел: (057) 738-22-55</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/161-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2813283749,49.9918893981</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/163-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2632_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, ул. Грековская, 112" align="right" />
+    </a>
+    
+    <p>Тел: (057) 756-04-40</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/163-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2411736817,49.965861916</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 345-13-09</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/164-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.24333,50.033846</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/165-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2589_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, ул. Звездная, 2а" align="right" />
+    </a>
+    
+    <p>Тел: 	(057) 315-42-35</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/165-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2860257737,50.0406848451</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 701-49-10</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/166-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2121771835,50.0195945443</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/167-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2629_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, ул. Клочковская, 44" align="right" />
+    </a>
+    
+    <p>Тел: (057) 705-56-10</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/167-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2273159064,49.9972395905</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/169-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2683_jpg_160x100_q85.jpg"
+        alt="АЗС ОККО, Харьков, ул. Роганская, 160а" align="right" />
+    </a>
+    
+    <p>Тел: (057) 756-08-10</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/169-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.4207558902,49.91053333</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/188-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3191204989,49.9661342554</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/189-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2692909501,49.9880322231</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/190-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.1982970932,49.9963774609</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/192-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3287593983,49.9501652868</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/210-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2714918226,49.9862946553</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/211-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2978573762,49.9405275793</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/220-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.31822,50.008408</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/221-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.291098,49.975565</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/223-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.258115,49.973123</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/225-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.313,49.945</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/226-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.132762,49.953122</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0-800-50-3333</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/254-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.144299,49.977171</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Гефест</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 773-59-67</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/255-gefest/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3026004809,50.0288989803</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 717-00-84</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/266-harkov-ul-komandarma-korka-13/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3412909201,50.0317923116</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 757-26-47</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/267-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.1969496203,50.0376189486</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 712-51-53</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/268-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2074149933,49.9878237183</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 715-34-33</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/269-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2168652701,50.0379660943</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 757-26-45</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/270-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2579542112,50.0276432201</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 758-33-53</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/272-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2663804086,49.9274407495</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 758-21-41</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/273-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3581702643,50.0320527028</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 759-54-79</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/274-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.217152731,50.002144727</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 755-01-58</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/275-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3413538022,49.9830104797</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 759-47-92</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/277-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2694077311,49.9221632586</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 721-07-54</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/278-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2579542112,49.9635614555</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/323-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3132365338,49.9936499271</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/324-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.24571,49.994252</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/325-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.282433,49.956445</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/326-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.0778869125,49.8438025566</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/327-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.1994289705,50.0328859451</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Татнефть</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 308-38-80</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/518-tatneft/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2646197106,49.9182366605</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Татнефть</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 308-38-80</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/519-tatneft/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2921965308,49.9392389327</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Татнефть</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 308-38-80</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/520-tatneft/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.364027,49.953733</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Татнефть</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 308-38-80</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/521-tatneft/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.334230162,49.9445335104</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/555-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.217986,49.963417</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС &quot;ОВИС&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 715-63-61</p>
+    
+      <p>На перекрестке улицы Клочковской и спуска Пассионарии расположился автозаправочный комплекс, с которого начинается история компании &quot;ОВИС&quot;. Это первая АЗС в Харькове, которая, помимо заправки авто, предложила дополнительный спектр услуг и дала тем самым возможность рядовому ...
+    
+      <p><a href="http://vse-sto.com.ua/azs/626-ovis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.218777597,50.0050354095</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС &quot;ОВИС&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 700-60-23</p>
+    
+      <p>&quot;Город у дороги&quot; - такое название лучше всего подходит автозаправочному комплексу &quot;ОВИС&quot;, расположенному на проспекте Гагарина.</p> <p>Широчайший ассортимент видов топлива, реализуемых на территории АЗК, включает в себя как украинские бензин А-76/80, бензин Аи-92, бензин Аи-95, ...
+    
+      <p><a href="http://vse-sto.com.ua/azs/627-ovis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2654902786,49.9281511145</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС &quot;ОВИС&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 746-37-64</p>
+    
+      <p>Компания ”ОВИС” продолжает радовать автолюбителей европейским уровнем услуг и топливом высочайшего качества. На новом АЗК вы можете воспользоваться услугами легковой портальной мойки и посетить уютное кафе на территории комплекса. Теперь отправляясь в Крым (заправка находится ...
+    
+      <p><a href="http://vse-sto.com.ua/azs/629-ovis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.9522694536,49.9826029513</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

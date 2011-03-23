@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>АЗС
+        Николаева</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/578-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>32.029041,46.888633</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/579-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>32.032,46.954</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/580-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>31.370253,47.54454</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/581-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>32.020184,47.044748</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/582-lukojl/">
+      <img src="http://vse-sto.com.ua/media/autoservices/photo1_12_jpg_160x100_q85.jpg"
+        alt="АЗС ЛУКОЙЛ, Николаев, ул. Садовая, 40-Б" align="right" />
+    </a>
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/582-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>32.0004156791,46.958654154</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/583-lukojl/">
+      <img src="http://vse-sto.com.ua/media/autoservices/photo1_13_jpg_160x100_q85.jpg"
+        alt="АЗС ЛУКОЙЛ, Николаев, Херсонское шоссе, 100-а" align="right" />
+    </a>
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/583-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>32.070077341,46.9493908801</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/584-lukojl/">
+      <img src="http://vse-sto.com.ua/media/autoservices/photo1_14_jpg_160x100_q85.jpg"
+        alt="АЗС ЛУКОЙЛ, Николаев, ул. Космонавтов, 65-а" align="right" />
+    </a>
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/584-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>32.0637528598,46.9531311642</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/585-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>31.9554125704,46.9649008448</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЛУКОЙЛ</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/586-lukojl/">
+      <img src="http://vse-sto.com.ua/media/autoservices/photo1_15_jpg_160x100_q85.jpg"
+        alt="АЗС ЛУКОЙЛ, Николаев, пр. Героев Сталинграда, 5-а" align="right" />
+    </a>
+    
+    <p>Тел: (044) 593-93-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/586-lukojl/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>31.999239,46.982828</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Кворум</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0512) 55-40-69</p>
+    
+      <p>Сеть АЗС, доставка топлива по Украине, нефтебаза</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/625-kvorum/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>32.029198,46.971571</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

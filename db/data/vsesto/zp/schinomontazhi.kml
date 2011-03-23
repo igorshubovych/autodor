@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Шиномонтажи
+        Запорожья</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Шиномонтаж VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/99-vianor/">
+      <img src="http://vse-sto.com.ua/media/autoservices/VianorZaporizzha_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж VIANOR, Запорожье, ул. Кривая бухта, 2" align="right" />
+    </a>
+    
+    <p>Тел: (061) 213-78-69</p>
+    
+      <p>- Шиномонтаж и балансировка<br />- Заправка газом<br />- Сезонное хранение шин<br />- Ремонт шин<br />- Ремонт дисков </p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/99-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.162872,47.816183</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж Диагональная</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (097) 428-15-14</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/109-diagonalnaja/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1296384633,47.8576712685</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж Седан</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/187-sedan/">
+      <img src="http://vse-sto.com.ua/media/autoservices/site_comm_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж Седан, Запорожье, ул. Седова 18" align="right" />
+    </a>
+    
+    <p>Тел: СТО (061) 2281119, Запчасти (061) 7015766, (095) 6666799</p>
+    
+      <p>Продажа автозапчастей к иномаркам (заказ и наличие), шиномонтаж, ремонт х/ч, двигателя, трансмиссии, инжектора.<br />Понедельник - суббота, с 9.00 до 18.00</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/187-sedan/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1428917609,47.8533450337</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж Интервал-люкс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/223-interval-ljuks/">
+      <img src="http://vse-sto.com.ua/media/autoservices/30012011112_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж Интервал-люкс, г.Запорожье, ул.Новгородская &quot;СТО+шиномонтаж&quot;" align="right" />
+    </a>
+    
+    <p>Тел: (095) 442-45-74</p>
+    
+      <p>Ремонт и обслуживание автомобилей-ремонт двигателя, КПП, ходовой части, рихтовка, сварка, шиномонтаж, балансировка, востановление и покраска легкосплавных дисков любой сложности. Ремонт маршрутных такси в ночное время, не отрывая транспорт от маршрута.</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/223-interval-ljuks/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0295959227,47.8218117008</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

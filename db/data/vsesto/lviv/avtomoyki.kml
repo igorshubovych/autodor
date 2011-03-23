@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Автомойки
+        Львова</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Автомойка ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/120-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2583_jpg_160x100_q85.jpg"
+        alt="Автомойка ОККО, Львов, проспект Красной Калины, 35а" align="right" />
+    </a>
+    
+    <p>Тел: (032) 245-45-92</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/120-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>24.0475318466,49.8002775166</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/121-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2585_jpg_160x100_q85.jpg"
+        alt="Автомойка ОККО, Львов, ул. Городоцка, 284/1" align="right" />
+    </a>
+    
+    <p>Тел: (032) 245-13-57</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/121-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>23.9243818043,49.8227975889</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/122-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2535_jpg_160x100_q85.jpg"
+        alt="Автомойка ОККО, Львов, ул. Зеленая, 283" align="right" />
+    </a>
+    
+    <p>Тел: (032) 240-40-53</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/122-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>24.0682919128,49.8000798235</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/123-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2480_jpg_160x100_q85.jpg"
+        alt="Автомойка ОККО, Львов, ул. Научная, 2а" align="right" />
+    </a>
+    
+    <p>Тел: (0322) 65-40-22</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/123-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>24.009290565,49.803114905</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка ОККО</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/124-okko/">
+      <img src="http://vse-sto.com.ua/media/autoservices/StationPhoto_2705_jpg_160x100_q85.jpg"
+        alt="Автомойка ОККО, Львов, ул. Липы, 12" align="right" />
+    </a>
+    
+    <p>Тел: (032) 224-77-38</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/124-okko/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>24.0201464854,49.8607093303</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/144-wog/">
+      <img src="http://vse-sto.com.ua/media/autoservices/205__jpg_160x100_q85.jpg"
+        alt="Автомойка WOG, Львов, ул. Богдана Хмельницкого, 291" align="right" />
+    </a>
+    
+    <p>Тел: (0322) 97-56-99</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/144-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>24.0620665879,49.8758646394</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/145-wog/">
+      <img src="http://vse-sto.com.ua/media/autoservices/211__jpg_160x100_q85.jpg"
+        alt="Автомойка WOG, Львов, ул. Варшавская" align="right" />
+    </a>
+    
+    <p>Тел: (0322) 52-03-64</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/145-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>24.0157853845,49.8675738715</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/146-wog/">
+      <img src="http://vse-sto.com.ua/media/autoservices/236__jpg_160x100_q85.jpg"
+        alt="Автомойка WOG, Львов, перекресток Б.Хмельницкого и Липинского" align="right" />
+    </a>
+    
+    <p>Тел: (0322) 97-01-03</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/146-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>24.0526612269,49.865315144</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/171-vianor/">
+      <img src="http://vse-sto.com.ua/media/autoservices/Vianor_Lviv_2small_jpg_160x100_q85.jpg"
+        alt="Автомойка VIANOR, Львов, ул. Городоцкая, 357" align="right" />
+    </a>
+    
+    <p>Тел: (032) 297-07-29</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/171-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>23.9241931581,49.8199032395</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка РІКавто</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (032) 295-26-34</p>
+    
+      <p>- Мийка автомобіля, прибирання салону автомобіля<br />- Хімчистка салону автомобіля<br />- Передпродажна підготовка</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/227-rikavto/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>23.9742850699,49.8100625003</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Автомойка Тойота Центр Львів &quot;Діамант&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/avtomoyki/258-tojota-centr-lviv-diamant/">
+      <img src="http://vse-sto.com.ua/media/autoservices/fasad3_jpg_160x100_q85.jpg"
+        alt="Автомойка Тойота Центр Львів &quot;Діамант&quot;, Львів, вул. Кульпарківська, 226" align="right" />
+    </a>
+    
+    
+    
+      <p>Пн - Пт: 09:00 - 18:00<br />Сб: 09:00 - 15:00<br />Нд: вихідний</p>
+    
+      <p><a href="http://vse-sto.com.ua/avtomoyki/258-tojota-centr-lviv-diamant/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>23.9802618697,49.8047894353</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

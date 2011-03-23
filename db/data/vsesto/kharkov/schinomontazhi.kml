@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>Шиномонтажи
+        Харькова</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>Шиномонтаж BEAT</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/60-beat/">
+      <img src="http://vse-sto.com.ua/media/autoservices/map_big__jpg_160x100_q85.jpg"
+        alt="Шиномонтаж BEAT, Харьков, ул. Полтавский Шлях, 79" align="right" />
+    </a>
+    
+    <p>Тел: (093) 473-40-94</p>
+    
+      <p>Режим работы:<br />понедельник - суббота<br />с 8:00 до 20:00<br />по индивидуальному согласованию<br />возможно изменение графика работы</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/60-beat/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.202429,49.986254</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/61-vianor/">
+      <img src="http://vse-sto.com.ua/media/autoservices/Vianor_Kharkiv_5small_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж VIANOR, Харьков, ул. Шевченко, 216" align="right" />
+    </a>
+    
+    <p>Тел: (057) 773-76-07</p>
+    
+      <p>- Монтаж и балансировка<br />- Заправка газом<br />- Мойка колес<br />- Сезонное хранение шин<br />- Ремонт шин<br />- Ремонт дисков </p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/61-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.284212,50.00915</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/62-vianor/">
+      <img src="http://vse-sto.com.ua/media/autoservices/Vianor_Kharkiv_4small_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж VIANOR, Харьков, проспект Московский, 197/2" align="right" />
+    </a>
+    
+    <p>Тел: (057) 758-24-66</p>
+    
+      <p>- Монтаж и балансировка<br />- Заправка газом<br />- Сезонное хранение шин<br />- Ремонт шин<br />- Ремонт дисков </p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/62-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2919688784,49.9763278389</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/63-vianor/">
+      <img src="http://vse-sto.com.ua/media/autoservices/VianorKharkiv-2_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж VIANOR, Харьков, ул. Веринская, 1" align="right" />
+    </a>
+    
+    <p>Тел: (057) 751-70-09</p>
+    
+      <p>- Монтаж и балансировка колес<br />- Заправка газом<br />- Мойка колес<br />- Сезонное хранение шин<br />- Ремонт дисков <br />- Обслуживание аккумуляторов</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/63-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2809600657,49.9915650831</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж VIANOR</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/64-vianor/">
+      <img src="http://vse-sto.com.ua/media/autoservices/Vianor_Kharkiv_3small_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж VIANOR, Харьков, проспект 50-летия СССР, 62в" align="right" />
+    </a>
+    
+    <p>Тел: (057) 736-82-46</p>
+    
+      <p>- Монтаж и балансировка<br />- Заправка газом<br />- Мойка колес<br />- Сезонное хранение шин<br />- Ремонт шин<br />- Ремонт дисков </p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/64-vianor/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.3114497624,49.9792175111</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж Тип-Топ Сервис (Tyre Plus)</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/schinomontazhi/105-tip-top-servis-tyre-plus/">
+      <img src="http://vse-sto.com.ua/media/autoservices/IMG_2684_jpg_160x100_q85.jpg"
+        alt="Шиномонтаж Тип-Топ Сервис (Tyre Plus), Харьков, шоссе Мерефянское, 13а" align="right" />
+    </a>
+    
+    <p>Тел: (057) 764-48-45</p>
+    
+      <p>график работы: круглосуточно</p> <p>Перечень предоставляемых услуг для грузовых авто:<br /> <br /> • монтаж/демонтаж шин;<br /> • балансировка колес;<br /> • затягивание дисков динамометрическим ключом;<br /> • вулканизация боковых порезов;<br /> • ремонт шин;<br /> ...
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/105-tip-top-servis-tyre-plus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2682668707,49.9229172214</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж AvtoStop</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 066-217-72-16, 067-571-56-09, 093-181-98-81</p>
+    
+      <p>Весь спектр услуг!<br />Режим работы (с 8.00 до 22.00)<br />Дисконтная система скидок</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/142-avtostop/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.262464,49.957911</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (050) 966-49-36</p>
+    
+      <p>Нарезка, углубление протектора изношеных атомобильных шин отечественного и импортного производителя по старому и новому искизу. 50 грн/шт.</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/149-harkov-ul-kostycheva/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2767014094,49.9497264459</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж &quot;ОВИС&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (057) 700-60-23</p>
+    
+      <p>АЗК &quot;ОВИС&quot; помимо заправки авто, предлагает дополнительный спектр услуг и дает возможность украинскому водителю почувствовать все преимущества автозаправочного комплекса в сравнении с рядовой АЗС.</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/163-ovis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.218777597,50.0050354095</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж &quot;ОВИС&quot;</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/209-ovis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.27839908,50.0429912189</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>Шиномонтаж Стройпрестиж</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (050) 136-26-51</p>
+    
+      <p>МЫ РАБОТАЕМ ДЛЯ ВАС! ПРОФЕСИОНАЛЬНЫЙ <br />ШИНОМОНТАЖ, КАЧЕСТВЕННЫЙ ШИНОРЕМОНТ ( порезы, проколы, грыжи). ВЫСОКОЕ КАЧЕСТВО И НИЗКИЕ ЦЕНЫ. <br />Ждем Вас. Всегда Вам рады. Возможна б/н форма расчета.</p>
+    
+      <p><a href="http://vse-sto.com.ua/schinomontazhi/241-strojprestizh/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>36.2203309312,49.9111637192</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>

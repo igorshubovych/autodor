@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+	
+    <name>АЗС
+        Днепропетровска</name>
+    <atom:author>      
+      <atom:name>Все СТО</atom:name>    
+    </atom:author>    
+    <atom:link rel="related" href="http://vse-sto.com.ua" />    
+<Placemark>
+  <name>АЗС WOG</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 8 800 500 61 30</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/208-wog/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0317987642,48.3906956537</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/366-dnepropetrovsk-ul-kurchatova-3/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0119010806,48.4739100375</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/375-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.049702,48.440993</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/333-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0092869832,48.4222399925</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/216-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0047318451,48.4790784591</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Neftek</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/319-neftek/">
+      <img src="http://vse-sto.com.ua/media/autoservices/5_jpg_160x100_q85.jpg"
+        alt="АЗС Neftek, Днепропетровск, ул. Курсантская, 11б" align="right" />
+    </a>
+    
+    <p>Тел: (056) 729-51-14</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/319-neftek/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1149647932,48.4950564247</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/368-dnepropetrovsk-ul-kurchatova-5/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0113710746,48.473886145</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ANP</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (056) 760-30-30</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/279-anp/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0869463395,48.5019878338</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Neftek</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/315-neftek/">
+      <img src="http://vse-sto.com.ua/media/autoservices/1____jpg_160x100_q85.jpg"
+        alt="АЗС Neftek, Днепропетровск, Полтавское шоссе, 671" align="right" />
+    </a>
+    
+    <p>Тел: (050) 320-32-69</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/315-neftek/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9098165317,48.6241485928</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Neftek</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/316-neftek/">
+      <img src="http://vse-sto.com.ua/media/autoservices/2____jpg_160x100_q85.jpg"
+        alt="АЗС Neftek, Днепропетровск, Полтавское шоссе, 32б" align="right" />
+    </a>
+    
+    <p>Тел: (050) 340-38-42</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/316-neftek/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0025047028,48.5750886116</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Neftek</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/317-neftek/">
+      <img src="http://vse-sto.com.ua/media/autoservices/3____jpg_160x100_q85.jpg"
+        alt="АЗС Neftek, Днепропетровск, ул. Совхозная, 70а" align="right" />
+    </a>
+    
+    <p>Тел: (056) 729-09-94</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/317-neftek/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0660694923,48.5326274427</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Neftek</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/318-neftek/">
+      <img src="http://vse-sto.com.ua/media/autoservices/4____jpg_160x100_q85.jpg"
+        alt="АЗС Neftek, Днепропетровск, проспект Воронцова, 2а" align="right" />
+    </a>
+    
+    <p>Тел: (0562) 35-10-99</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/318-neftek/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0382846005,48.495098219</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Neftek</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/320-neftek/">
+      <img src="http://vse-sto.com.ua/media/autoservices/6__jpg_160x100_q85.jpg"
+        alt="АЗС Neftek, Днепропетровск, ул. Набережная Победы, 10д" align="right" />
+    </a>
+    
+    <p>Тел: (0562) 39-27-00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/320-neftek/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0762923202,48.4521392879</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Neftek</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/321-neftek/">
+      <img src="http://vse-sto.com.ua/media/autoservices/sto_jpg_160x100_q85.jpg"
+        alt="АЗС Neftek, Днепропетровск, ул. Кротова 17к" align="right" />
+    </a>
+    
+    <p>Тел: (056) 791-29-29</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/321-neftek/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9865596065,48.4077442422</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Neftek</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <a href="/azs/322-neftek/">
+      <img src="http://vse-sto.com.ua/media/autoservices/7_jpg_160x100_q85.jpg"
+        alt="АЗС Neftek, Днепропетровск, ул. Старокодакская, 17" align="right" />
+    </a>
+    
+    <p>Тел: (0562) 39-59-62</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/322-neftek/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.036838,48.386148</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/328-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0765258822,48.4498983511</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/329-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0240013875,48.4186343837</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/330-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.033083,48.477912</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/331-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9369695224,48.5475296871</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/332-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.025142,48.424291</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/334-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0417071818,48.5180380566</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/335-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.022079,48.520586</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УТН-Восток</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/336-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.205515,48.464573</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС FORMULA (УТН-Восток)</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: 0 800 300 028</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/337-formula-utn-vostok/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.079769,48.457559</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/344-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0305770554,48.5117415353</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/345-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1150636079,48.4266644346</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/346-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.019654,48.522842</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/347-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0439709363,48.5171965766</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/348-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9137421695,48.4773444652</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/349-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1028914358,48.501981864</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/350-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9652605511,48.5299366306</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/351-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.012656,48.51833</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/352-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.049505,48.470678</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН сервис</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/353-jukon-servis/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0161950277,48.4284101889</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС GLORIUS</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/354-glorius/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.966833,48.489975</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/355-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.047834,48.415722</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/356-dnepropetrovsk-prospekt-ilicha-18a/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0249086859,48.4487330247</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/357-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0783494622,48.5023639295</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/358-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1199684093,48.4237706542</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/359-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0637877714,48.4877777178</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/360-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0632757317,48.487998662</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/361-dnepropetrovsk-prospekt-ilicha-23a/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0198511709,48.4498804232</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/362-dnepropetrovsk-ul-uljanova-17/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.024971568,48.4608989021</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/363-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0710461589,48.4409097011</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/364-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.2108868992,48.4597338296</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/365-dnepropetrovsk-ul-borisa-krotova-40/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9736867484,48.3912759984</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/367-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.053376,48.466509</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/369-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.994609,48.37339</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/370-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1581468089,48.4787898413</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/371-dnepropetrovsk-prospekt-kirova-93b/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.020740503,48.4486135025</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/372-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9809271696,48.4719090023</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Балу</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/373-balu/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0146501511,48.430918281</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Балу</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/374-balu/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.997465154,48.4281770266</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/376-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.105577,48.467608</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Балу</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/377-balu/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.009323,48.462769</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/378-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.91244,48.475744</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/379-dnepropetrovsk-ul-leningradskaja-64/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0265526029,48.4776669907</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/380-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.080631183,48.4106987464</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/381-dnepropetrovsk-ul-geroev-stalingrada-135a/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.002011,48.405035</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/382-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9982377052,48.5132277046</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/383-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0457316342,48.5168743039</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС АВIАС плюс</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/384-avias-pljus/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9895330301,48.5091749548</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/385-dnepropetrovsk-ul-majakovskogo-39/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9655659783,48.4757915356</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС УКРНАФТА</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/386-ukrnafta/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0617396126,48.4200694827</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Авиас</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/387-dnepropetrovsk-zaporozhskoe-shosse-88/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0410603948,48.3894332315</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Rubix</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/388-rubix/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0843861409,48.5281824539</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Rubix</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/389-rubix/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0278731264,48.479972391</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Rubix</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/390-rubix/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0391469832,48.4289004241</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Rubix</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/391-rubix/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.061847,48.424177</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/392-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.075205,48.456137</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/393-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.1352487523,48.4497190719</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/394-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0336582768,48.464119142</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/395-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0319424946,48.4055551662</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/396-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0394074946,48.5201625819</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/397-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.966833,48.489975</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/398-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.0717149861,48.5013417511</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/399-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9878980962,48.5098673475</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/400-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.031017,48.524334</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС ЮКОН</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/401-jukon/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.9875567364,48.4709711763</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Sentosa Oil</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (0562) 33-43-31</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/403-sentosa-oil/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.034835,48.384724</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/543-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>34.607556,47.66577</coordinates>      
+      </Point>    
+</Placemark><Placemark>
+  <name>АЗС Shell</name>
+  <description>
+    <![CDATA[
+    <div style="width: 300px;overflow:hidden;">
+    
+    <p>Тел: (044) 495 08 00</p>
+    
+      <p><a href="http://vse-sto.com.ua/azs/544-shell/">Подробнее →</a></p>
+    </div>
+    ]]>
+  </description>
+      <Point>        
+      <coordinates>35.892,48.513</coordinates>      
+      </Point>    
+</Placemark>
+  </Document> 
+</kml>
