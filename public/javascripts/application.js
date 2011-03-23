@@ -20,10 +20,11 @@ var points = {
 var markers = [], currMarker = null, routeType = null, currPos = null;
 
 var layers = {
-	carService: { data: null, shown: false},
-	webCams: { data: null, shown: false},
-	hotels: { data: null, shown: false},
-	weather: { data: null, shown: false}
+	gas: { data: null, shown: false, icon: null },
+	carService: { data: null, shown: false, icon: null },
+	webCams: { data: null, shown: false, icon: null },
+	hotels: { data: null, shown: false,  icon: null },
+	weather: { data: null, shown: false, icon: null}
 };
 
 var initMap = function() {
@@ -308,20 +309,20 @@ var updateWeather = function() {
 	console.log(_url, 'weather layer is updated');
 }
 
-var loadObjects = function() {
-	layers['carService']['data'] = new CM.GeoXml('/poi/car_service.kml', {local: true});
+var loadObjects = function(layerName) {
+	layers[layerName]['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true});
 
-	CM.Event.addListener(layers['carService']['data'], 'load', function() {
-		map.addOverlay(layers['carService']['data']);
+	CM.Event.addListener(layers[layerName]['data'], 'load', function() {
+		map.addOverlay(layers[layerName]['data']);
 	});
 }
 
 var switchLayer = function(layerName) {
 	layer = layers[layerName];
 
-	if (layerName == 'carService') {
+	if (layerName == 'gas' || layerName == 'carService') {
 		if (layer['data'] == null) {
-			loadObjects();
+			loadObjects(layerName);
 		} else if (layer['shown']) {
 			map.removeOverlay(layer['data']);
 		} else {
