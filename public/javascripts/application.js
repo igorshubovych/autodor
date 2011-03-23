@@ -209,6 +209,9 @@ var updateMarkersUI = function() {
 
 		$(".markerList").append(elt);
 	}
+	
+	if (markers.length > 1)
+		$("#printRoute").show();
 }
 
 function changeRouteType(type) {
@@ -391,10 +394,15 @@ var geoSearch = function() {
 
 var printRoute = function() {
 	var hwnd = window.open();
+	var mapStr = "http://staticmaps.cloudmade.com/" + CM_APIKEY + "/staticmap?";
+	var a = map.getCenter().lat(), b = map.getCenter().lng(), c = map.getZoom();
+	
+	mapStr += "center=" + a + "," + b + "&zoom=" + c + "&format=jpg&size=500x500";
 	
 	self.focus();
 	hwnd.document.open();
 	hwnd.document.write($("#routingPanel").html());
+	hwnd.document.write("<br /><img src='" + mapStr + "' />");
 	hwnd.document.close();
 	hwnd.print();
 	hwnd.close();
