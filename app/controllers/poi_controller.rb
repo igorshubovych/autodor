@@ -13,7 +13,7 @@ class PoiController < ApplicationController
   end
   
   def roadCondition
-    send_kml "#{Rails.root}/db/roadCondition.kml"
+    send_kml "#{Rails.root}/db/data/roadCondition.kml"
   end
   
   private
