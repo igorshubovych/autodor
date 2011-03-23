@@ -335,10 +335,6 @@ var updateWeather = function() {
 var loadObjects = function(layerName) {
 	var layer = layers[layerName];
 	layer['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
-	layer['data']._parseKmlCoordinates = function(str) {
-	        str = str.replace(/\s+/g, '\n');
-	        return CM.GeoXml.prototype._parseKmlCoordinates.call(this, str);
-	};
 	CM.Event.addListener(layer['data'], 'load', function() {
 		map.addOverlay(layers[layerName]['data']);
 	});
