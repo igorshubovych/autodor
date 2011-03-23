@@ -20,10 +20,11 @@ var points = {
 var markers = [], currMarker = null, routeType = null, currPos = null;
 
 var layers = {
-	carService: { data: null, shown: false},
-	webCams: { data: null, shown: false},
-	hotels: { data: null, shown: false},
-	weather: { data: null, shown: false}
+	gas: { data: null, shown: false, icon: null },
+	carService: { data: null, shown: false, icon: null },
+	webCams: { data: null, shown: false, icon: null },
+	hotels: { data: null, shown: false,  icon: null },
+	weather: { data: null, shown: false, icon: null}
 };
 
 var initMap = function() {
@@ -50,6 +51,18 @@ var initMap = function() {
 			webcams = instance;
 		}, { showwebcams: false });
 	}
+}
+
+var initIcons = function() {
+	var icon = new CM.Icon();
+	icon.image  = "/images/objects/gas.gif";
+	icon.iconSize = new CM.Size(24, 24);
+	icon.iconAnchor = new CM.Point(16, 32);
+	layers['gas']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/car_service.gif";
+	layers['carService']['icon'] = icon;
 }
 
 var subscribeForEvents = function() {
@@ -309,20 +322,20 @@ var updateWeather = function() {
 	console.log(_url, 'weather layer is updated');
 }
 
-var loadObjects = function() {
-	layers['carService']['data'] = new CM.GeoXml('/poi/car_service.kml', {local: true});
-
-	CM.Event.addListener(layers['carService']['data'], 'load', function() {
-		map.addOverlay(layers['carService']['data']);
+var loadObjects = function(layerName) {
+	var layer = layers[layerName];
+	layer['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
+	CM.Event.addListener(layer['data'], 'load', function() {
+		map.addOverlay(layers[layerName]['data']);
 	});
 }
 
 var switchLayer = function(layerName) {
 	layer = layers[layerName];
 
-	if (layerName == 'carService') {
+	if (layerName == 'gas' || layerName == 'carService') {
 		if (layer['data'] == null) {
-			loadObjects();
+			loadObjects(layerName);
 		} else if (layer['shown']) {
 			map.removeOverlay(layer['data']);
 		} else {
@@ -433,7 +446,7 @@ var printRoute = function() {
 
 $(document).ready(function() {
 	initMap();
-
+	initIcons();
 	subscribeForEvents();
 	createContextMenu();
 

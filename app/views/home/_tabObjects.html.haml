@@ -1,28 +1,40 @@
 #tabsObjects
 	:javascript
 		$(function() {
-			$(".objectControls").buttonset();
+			//$(".objectControls").buttonset();
+			//$(".object")
 		});
 		
 	.objectControls
+		= image_tag '/images/objects/gas.gif'
+		%input#gas{ :type => "checkbox", :onClick => "switchLayer('gas');" }
+			%label{ :for => "gas" }
+				= t('objects.gas')
+				
+		%br/
+		
+		= image_tag '/images/objects/car_service.gif'
 		%input#carService{ :type => "checkbox", :onClick => "switchLayer('carService');" }
 			%label{ :for => "carService" }
 				= t('objects.carService')
 		
 		%br/
 		
+		= image_tag '/images/objects/cam.gif'
 		%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
 			%label{ :for => "webCam" }
 				= t('objects.webCam')
 		
 		%br/
 		
+		= image_tag '/images/objects/hotel.gif'
 		%input#hotel{ :type => "checkbox"}
 			%label{ :for => "hotel" }
 				= t('objects.hotel')
 		
 		%br/
 		
+		= image_tag '/images/controls/weather.png'
 		%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather')"}
 			%label{ :for => "weather" }
 				= t('objects.weather')

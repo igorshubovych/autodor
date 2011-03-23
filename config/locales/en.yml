@@ -17,6 +17,7 @@ en:
         objects: "Objects"
         quickLinks: "Quick links"
     objects:
+        gas: "Gas station"
         carService: "Car service"
         hotel: "Hotels"
         webCam: "Webcam"
