@@ -53,6 +53,18 @@ var initMap = function() {
 	}
 }
 
+var initIcons = function() {
+	var icon = new CM.Icon();
+	icon.image  = "/images/objects/gas.gif";
+	icon.iconSize = new CM.Size(24, 24);
+	icon.iconAnchor = new CM.Point(16, 32);
+	layers['gas']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/car_service.gif";
+	layers['carService']['icon'] = icon;
+}
+
 var subscribeForEvents = function() {
 	// subscribing 2 mouse events 4 marker handling
 	$("#addWaypoint").click(function() {
@@ -310,9 +322,9 @@ var updateWeather = function() {
 }
 
 var loadObjects = function(layerName) {
-	layers[layerName]['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true});
-
-	CM.Event.addListener(layers[layerName]['data'], 'load', function() {
+	var layer = layers[layerName];
+	layer['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
+	CM.Event.addListener(layer['data'], 'load', function() {
 		map.addOverlay(layers[layerName]['data']);
 	});
 }
@@ -411,7 +423,7 @@ var printRoute = function() {
 
 $(document).ready(function() {
 	initMap();
-
+	initIcons();
 	subscribeForEvents();
 	createContextMenu();
 
