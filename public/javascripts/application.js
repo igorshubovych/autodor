@@ -162,7 +162,7 @@ function createMarker(lat, lon, options) {
 
 var updateRoute = function () {
 	initMap();
-
+	
 	var keyPoints = [], m = 0;
 
 	if (routeType == null)
@@ -197,6 +197,7 @@ var updateMarkersUI = function() {
 
 	$(".markerList").empty();
 	$(".markerItem").remove();
+	$("#printRoute").hide();
 
 	for (m = 0; m < markers.length; m++) {
 		var pos = markers[m].getLatLng();
@@ -393,16 +394,38 @@ var geoSearch = function() {
 }
 
 var printRoute = function() {
+	if (markers.length < 2)
+		return;
+		
 	var hwnd = window.open();
 	var mapStr = "http://staticmaps.cloudmade.com/" + CM_APIKEY + "/staticmap?";
 	var a = map.getCenter().lat(), b = map.getCenter().lng(), c = map.getZoom();
 	
-	mapStr += "center=" + a + "," + b + "&zoom=" + c + "&format=jpg&size=500x500";
+	/*var tmpPoints = [], tmpMarkers = [];
+	
+	for (i = 0; i < directions.getNumRoutes(); i++) {
+		var route = directions.getRoute(i);
+		
+		for (t = 0; t < route.getNumSteps(); t++) {
+			var step = route.getStep(t);
+			
+			tmpPoints.push(step.getLatLng().lat() + "," + step.getLatLng().lng());
+		}
+	}
+	
+	for (i = 0; i < markers.length; i++) {
+		tmpMarkers.push("marker=size:mid|label=" + String.fromCharCode('A'.charCodeAt(0) + i) + "|" + markers[i].getLatLng().lat() + "," + markers[i].getLatLng().lng());
+	}
+	
+	mapStr += "center=" + a + "," + b + "&path=color:blue|weight:95|" + tmpPoints.join('|') + "&" + tmpMarkers.join('&') + "&" + "&zoom=" + c + "&format=jpg&size=500x500";*/
+	
+	mapStr += "center=" + [a, b].join(',') + "&zoom=" + c + "&format=jpg&size=500x500";
 	
 	self.focus();
 	hwnd.document.open();
 	hwnd.document.write($("#routingPanel").html());
 	hwnd.document.write("<br /><img src='" + mapStr + "' />");
+	alert("<br />" + mapStr);
 	hwnd.document.close();
 	hwnd.print();
 	hwnd.close();
