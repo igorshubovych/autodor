@@ -12,11 +12,7 @@
 		%input#carService{ :type => "checkbox", :onClick => "switchLayer('carService');" }
 			%label{ :for => "carService", :title => "#{t('objects.carService')}" }
 				= image_tag '/images/objects/car_service.gif'
-				
-		%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
-			%label{ :for => "webCam", :title => "#{t('objects.webCam')}" }
-				= image_tag '/images/objects/cam.gif'
-		
+						
 		%input#hotel{ :type => "checkbox", :onClick => "switchLayer('hotel')"}
 			%label{ :for => "hotel", :title => "#{t('objects.hotel')}" }
 				= image_tag '/images/objects/hotel.gif'
@@ -33,7 +29,12 @@
 	%br/
 
 	.objectControls{ :style => "text-align: center;" }
-		
+			
 		%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather')"}
 			%label{ :for => "weather", :title => "#{t('objects.weather')}" }
 				= image_tag '/images/controls/weather.png'
+				
+		%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
+			%label{ :for => "webCam", :title => "#{t('objects.webCam')}" }
+				= image_tag '/images/objects/cam.gif'
+
