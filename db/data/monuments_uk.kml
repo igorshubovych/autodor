@@ -1,0 +1,5944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+   <Style id="monumentIcon">
+      <IconStyle>
+         <scale>0.5</scale>
+         <Icon>
+            <href>http://google-maps-icons.googlecode.com/files/monument.png</href>
+         </Icon>
+      </IconStyle>
+   </Style>
+    <name>Пам'ятники архітектури України</name>
+    <open>1</open>
+    <Placemark>
+      <name>Лікарня Бабушкіних (мур.) 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524908,50.419846</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Боярський двір (мур.) 15 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.901329,49.804661,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Руїни та підвали садиби Гончарова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.302982,48.421017,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишній дохідний будинок Покровської церкви, 1902</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735731,46.480118,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1811</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.938753,49.445232,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1-й житловий будинок лікаря</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513636,50.455223,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Аграрний університет (мур.) 1925-1931 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.496767,50.383728,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Амбар та винний погріб (мур.) 1781</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.29443,48.625011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Анатомічний театр (мур.) 1853 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.505575,50.447147</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ансамбль Круглої площі 1805-1841 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.551453,49.589722,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ансамбль площі Ринок (мур.) 14-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.03138,49.842339,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишній готель Біржа, 1887, 1896 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742353,46.4815139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишній будинок банківських службовців 1906-07 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742403,46.48214,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Аудиторія Наукового товариства 1895</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.036926,48.470768,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Державні дачі</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.599125,50.286194,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бібліотека університету (мур.) 1940 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.511948,50.442978,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишнє Комерційне училище, 1876-1877 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733612,46.489857,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Банк, (мур.) 1913 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52162,50.447189,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Лікарня (мур.) 1904</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.54221,50.447964,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бібліотека (мур.) 1897 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.608429,46.633961</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Лікарня (мур.) 1804-1820 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.72365,46.493279,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Лікарня (мур.) 1840</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.610119,46.6472019</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок присутствених місць (суд) (мур.) 1857-1893 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572676,48.673523,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок консисторії (мур.) 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.571432,48.673473,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вірменський будинок</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.570953,48.6735419</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Верховної Ради України (мур.) 1936 - 1939 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.536722,50.4471439</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Братський монастир (мур.) 17 -19 ст</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.519039,50.464439,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Богодільня (мур.) 1820</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.54929,49.58297,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Вучіні (мур.) 1849 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742748,46.480133</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Галицького сейму 1881</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.021931,49.840137,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Пір року</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032518,49.84325,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок казенний</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.580767,48.676224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Гірничого інституту (мур.) 1903 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.061943,48.455601,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Державного банку</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.578989,48.677799,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок полковника Лизогуба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.309723,51.487499,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок старої фортеці (мур.) 15 ст. - 1560 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572439,48.674206,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишня вілла Денікіна</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.539101,44.62664,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Воронцовський палац (мур.) 1828</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738741,46.4901619</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок страхового товариства Дністер 1905</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.035015,49.841782,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бурса (мур.) 1778-1816 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524302,50.46759,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Турецький будинок</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572393,48.671154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишній готель Північний, 1870 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740944,46.4860689</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишній готель Паризький 1835</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74227,46.483631,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Губернське земство 1903</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.561398,49.5835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вірменський будинок</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.573593,48.671562</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Воронцовський палац</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733189,46.483147,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будівля правління Ужанського комітету (мур.) 1809 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.296638,48.624798,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Ксенія 1911</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.001152,44.403774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Волость (мур.) 1823</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.812988,49.776428,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Мрія 1911</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.002296,44.405407,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Віце-губернаторський будинок (мур.) 1811</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.551983,49.591019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Графська пристань (мур.) 1846</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.526966,44.616997,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водолікарня Ісаковича 1876</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731215,46.476738,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гімназія (мур.) 1883 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.151562,50.0829319</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гiмназiя (мур.) 1839</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.247927,50.615604,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гімназія вищих наук (мур.), 1820 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.881399,51.052799,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міська управа (мур.) 1820 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.681068,49.835281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Готель Слов'янський 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.063702,49.444843</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Госпіталь (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.092628,44.957008,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Головний корпус Київського Політехнічного Інституту, 19-20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.461002,50.450069,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міська бібліотека (мур.) 1906 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.725857,46.491066,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міський суд 1910</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.643433,48.206478,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гостиний двір (мур.) 1809-1829 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.518627,50.463924,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац графів Шенборнів 1895</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.874615,48.524948</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Готель (мур.) 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.039719,48.468369,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гостинний двір (мур.) 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.318542,50.738335,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Готель Петербурзький (мур.) 1830 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741205,46.487923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Готель Брістоль 1899</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742924,46.481075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла командувача Чорноморським Флотом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.434185,44.598961,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Віктора Януковича</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.475018,50.613705,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Микити Хрущова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.474096,50.468407</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Готель Пале-Рояль 1899</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.522627,50.44228,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Віктора Ющенка</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.590834,50.180553,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Губернаторський Дім (мур.) 1780</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.546476,50.442909,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Володимира Литвина</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741667,50.156944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла інженера-шляховика Миколи Анічкова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.38365,50.45496,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Горького</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.784447,44.38969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Макаревського, 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.76111,46.458332,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Михайла Горбачова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.757675,44.392052,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Леоніда Брежнєва</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.147442,44.463337,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Леоніда Брежнєва</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.36451,48.670906,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.), кінець 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.21911,49.361378,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Микити Хрущова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.396484,48.718571,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Леоніда Брежнєва</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.184849,47.812889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Маразлі</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.7558,46.4743879</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 1840</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.952412,49.924473,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Мілос (мур.) 1911</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.382607,45.038303,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Раєвських 1887</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.356709,44.590103,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла по вулиці Львівській, 18</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.375525,50.455318,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Стамболі</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.38253,45.0424769</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла по проспекті Перемоги, 130 / 1</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.36561,50.456711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 1810-1892 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.965755,46.964111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.953888,48.962502</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Раєвських</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.767498,44.390278,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.70805,48.577251,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 1778 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.75581,49.9799,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.349829,48.949936,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац графа Ксідо (мур.), 1534-1915 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.946293,49.554985,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Голіцина (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.958122,50.47261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.249014,49.635902,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.701527,48.772804,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.467899,49.414959,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.957489,49.806683,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.153749,49.410789,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.32136,49.123371</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.372492,48.9707789</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) к.18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.039951,51.227306,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.50359,49.664471,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Ганських (мур.), 1780 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.297256,49.758301,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.71851,49.394749,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.), 1805 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.523991,48.724205</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Вітославських-Львова (мур.) 17-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.947193,49.047798,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (Під лебедем) (мур.) 1763</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032499,49.83923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац 16 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.732443,50.144218,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац барона Перені (17 століття)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.0441,48.1384699</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац баронів Грьодлей (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.492416,49.02467,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац адмірала Абаза (мур.) 1858 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74317,46.482891,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Браніцькіх (руїни), кінець 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.711868,49.499668,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Вишневецьких 1640-1720 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.739094,49.899162,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац і парк 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.26021,48.399151,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок архітектора Нільсена</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.545357,47.091843,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Гагаріна (мур.) 1842-1850 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.744741,46.485001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Воронцова, 1826 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.140289,44.923962,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Воронцова (мур.) 1824-1878 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.055805,44.419823,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Воронцова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.130127,44.942127,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Зота (мур.) 1809 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.969877,48.5723269</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Гагаріна (мур.) 1907 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.369843,44.592667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Лопухіних (мур.), 1787 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.266144,49.415154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Голіцина (мур.) 1836 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.098618,44.435139,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Горчинських (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.166698,50.618298,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Галаганів (дер) 1831 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.768719,50.695187,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац графа Чорноміна (мур.), 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.011578,48.218731,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Грохольських (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.460917,49.2481,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Дюльбер (мур.) 1897 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.09613,44.429462,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Івана Куріса (мур.)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.720024,46.908787,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац родини Закревських, 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.248158,50.316593,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац князя Габора Бетлена (мур.) 1629-1857 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.647984,48.205399,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Кирила Розумовського 1803</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.891953,51.334129,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац графа Шидловського (мур.) 1830 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741489,46.487659,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Муравйових-Апостолів (мур.) к.18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.714916,50.047466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац княгині Львової (мур.) 1745-1783 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.410931,51.300129,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Кічкіне 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.130405,44.437702,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Потоцьких (мур.) 1757</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.858366,48.675316,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац львівських архієпископів (мур.) 1730</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.8685,49.785160</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Потоцьких</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.236513,50.3821409</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац працівника (мур.) 1932 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.203819,49.99831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Ланге (мур.) 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.1255,49.27108,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Потоцьких (мур.), 1760 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.606684,49.397518</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>палац Терещенків (руїни), 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.411915,50.205311,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Плотені</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.381021,48.559074,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Потоцького (мур.) 1880 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.026632,49.838184,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Потоцьких, 1672-82 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.713352,48.924618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Попова (мур.) 1894 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.276508,47.446579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Потоцьких (мур.) 1887 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.43713,49.001656,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Потоцького (мур.) 1810, 1828 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.728546,46.493336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Фальц-Фейна (руїни) 1780</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.905293,47.238914,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Румянцева-Задунайського (мур.) 1787</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.065228,51.643158,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>палац Терещенків 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.881598,49.959274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Терещенка 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.022959,50.01577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Тарновських (мур.), 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.657444,50.836864,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Собанська, кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.160521,48.441898,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Трубецького (руїни) 1885</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.350761,46.784622,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Уварової (мур.), 1900 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.264069,50.028858</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Четвертинських (мур.) 1830 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.615194,48.534313,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палацово-парковий ансамбль, кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.904358,51.0697749</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Щербатової (мур.), 1894 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.842543,48.967693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац, 1780 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.689474,49.111618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац, Парк 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.393232,49.766788,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац, 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.68014,48.470287,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Еміра 1903</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.158024,44.486832,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац, 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.7075,50.0280989</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палацово-парковий ансамбль 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.432865,50.043827</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Волкова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.610556,50.352779,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.983561,48.99453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палацовий корпус (мур.) 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.259018,48.514069</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворянське зібрання (мур.) 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.183315,47.813408,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворянське зібрання (мур.) 1810</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.55254,49.5882759</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок 1846</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741711,46.477577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1820</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742285,46.486668,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.482782,50.457458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Державний банк (мур.), початок 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.798779,50.906158,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок 1830-32</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.725491,46.474903,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок 1891</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.736197,46.471294,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок 1830</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735676,46.4782369</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок 1909</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.730597,46.481548,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок 1880</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.7314,46.490646</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок 1902</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.720329,46.479210</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731218,46.473045</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок А. Васала 1887</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.729628,46.485996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Олександра Беретті</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515394,50.450062</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок барона Гільденбранда, 1901</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.531187,50.443027,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок архієрея (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.582579,48.780899,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Абрамсон, 1852 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741592,46.480797,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок адмірала Лазарева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.509861,44.5051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Академії Наук України (мур.) 1914-1927 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513481,50.445702,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Англійського клубу (мур.) 1841</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742794,46.485107,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Англійського клубу (мур.) 1870 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.043495,48.468723,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Барабаша 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738661,46.472897,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок археологічного музею (мур.) 1882-1883 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743874,46.4848819</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Балабухи (мур.) 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521441,50.460732,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок архітектора Маасу 1875</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.728704,46.486458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Барського, 1819 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.744896,46.464352,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок барона Рудольфа Штейнгеля (мур.), кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.499874,50.451466</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок барона Штейнгеля Максима</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.511868,50.449398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок барона Підгірського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.512035,50.449257</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Барського (мур.) 1885-1905 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.269337,48.509811,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок біржі 1873</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529902,50.447735</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок доктора Гампер</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.559864,47.09063,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Боффо (мур.) 1844 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74159,46.48584,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Боніфацій, 1906 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.739353,46.4861789</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок у формі серця</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.659155,50.258266,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Віктора Медведчука</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.461111,50.545555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Гагаріна</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738552,46.487354,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Владислава Городецького (мур.) 1903 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.528788,50.445004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Бурназо 1870</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735271,46.49004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Вальтухат, 1878 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735298,46.48962,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Наврожіна. 1899-1900 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.730001,46.485699,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок віце-адмірала Сенявіна (мур.) к. 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.60577,46.631138,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Григорія Маразлі, 1835</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742729,46.48465,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Васалля, 1893 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735668,46.487408,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок генерал-губернатора (мур.) 1810</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.553432,49.590466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Кроля (мур.) 1901 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.805824,47.992443,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок генерал-губернатора</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.557673,50.432247,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Державного банку (мур.) 1905 1934</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.531685,50.446991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок міської управи (мур.) 1901 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.051208,48.461334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок губернського земства (мур.) 1905 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.552792,49.5867,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Григор'євої, 1912</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.739264,46.484928,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Держпрому (мур.) 1928</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.227409,50.006657,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок дворянського училища (мур.) 1820-і рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.514366,50.465267,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Григоровича, 1860 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73284,46.485020</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Дурьяна, кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732527,46.486198,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок губернатора (мур.) 1830 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.041237,48.466579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Джона Юза (мур.) 1901 р (хіба)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.814182,47.971996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок де Рібаса, 1796</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733309,46.484631,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок купецького зібрання (мур.) 1882</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.528065,50.453148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Катерини Соломос 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733713,46.490547</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок доктора Качковського (мур.) 1907 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.507763,50.451591,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Дьякова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.526871,50.44561,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Івана Сікорського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.509483,50.451153,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Євгена Гагаріна, 1903 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738926,46.487003,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Жюльєна, 1842</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.737951,46.484005,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Жданової 1910</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738333,46.487778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Жіранцова 1862</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.727221,46.4868849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Роглера 1912</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.72381,46.491642,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок земської лікарні (мур.) 1847р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.067322,48.455669,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Інбер, кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73258,46.486942,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Івана Мазепи (мур.) 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520515,50.467098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Петра I (мур.) 17-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.322874,50.745693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Клейна 1905</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.755293,46.471268</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Ковалевського (мур.) 1913 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.531956,50.443436,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок караїмського товариства, 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741095,46.4736819</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок командуючого військовим округом, 1914 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.541174,50.444401,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Костянтинівського 1901</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741028,46.473019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок купця Горелика (мур.) 1905 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.799568,47.992981,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Машівського, 1903 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733301,46.487553,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Хреннікова 1912</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.043884,48.465294,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Л. Ц. Оттона 1810</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735291,46.4892499</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Кочубея (мур.) 17-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.918221,51.136791,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок громадських зборів (мур.) 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.042831,48.468037,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Лілії Бродської, 1881 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73303,46.489872,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Наума, початок 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.737516,46.489292,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Ліфшиця 1910</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731848,46.477562,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Кочубея 17-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.878967,51.336937,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Миколи Раєвського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.535395,50.447453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Лідерса (мур.) 1830 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743696,46.484688,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Лібмана 1888</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732334,46.484879,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Навроцького, 1891 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740469,46.485100</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Толстого 1880</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735704,46.488274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Маврокордато, 1905</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73881,46.482422,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Назарія Сухоти</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.518482,50.462486,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок поміщика Крижановського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.749275,46.475456,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Новікова 1912</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740295,46.484192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Прядуна 1875</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732174,46.479824,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Рабиновича, кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733093,46.490204,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Плачучої вдови 1907</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527758,50.443645,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Нікіфорова 1875</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.749765,46.474655</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Потоцьких (мур.) 17-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.795069,48.444687,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Петра І (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.514542,50.465496,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Присутствених місць (мур.) 1830 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74077,46.488289,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок провіантського складу (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.028294,50.213078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Савіна 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.514835,44.610523,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Ріхтера (мур.) 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.524067,44.605385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Ріната Ахметова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.654444,50.257778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Раухвергера, 1893</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741615,46.473129,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок родини Ющенків</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.821507,50.9006809</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Сорокіної</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524281,50.461277,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Романенко, 1895-96 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.729877,46.485435</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок ректора університету (мур.), 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.510834,50.440098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Толстого, 1850 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732962,46.489365,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Руссова 1897</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731932,46.484798,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок з атлантами, 1899 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73568,46.4897,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок страхового товариства Життя 1900 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732651,46.487492,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Тальянський 1834</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743019,46.482121,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Русова, 1890 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731106,46.4910849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Сироткіна</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515139,50.449005,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок з химерами 1912</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.243011,50.008011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Ферсмана (руїни)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.179104,44.90168,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Санца, 1875 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738503,46.483803,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Сігала, 1880 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.728745,46.480907,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок спілки письменників (мур.) 1898 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52998,50.446693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Терещенко, 1855-66 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.909901,51.674698,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Стрельбицького (мур.) 1808</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.519466,50.46093,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Театрально-концертного залу (мур.) 1913 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.043392,48.468342,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Таранушенка (мур.) 1838</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.56218,49.584278,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Трубецьких (дер.) 1820</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.518148,50.457382,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Терещенко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513378,50.439751,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Торічеллі</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735497,46.4841649</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Фердинанда Ніццька</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.507504,50.467567,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Уряду України (мур.) 1936-1938 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.533947,50.447952</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Терещенка (мур.) 1841 - 1860 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515797,50.443272,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Фроммета</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.502531,50.445557,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Фальц-Фейнів 1899</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735708,46.489998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Федора Коробки</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520126,50.462505,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Фон-Деші 1909</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735722,46.487816,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Щербини, 1892 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.069725,49.441284,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Черепеннікова і 1878</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74221,46.480682,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Чіжевіча 1875</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.736839,46.488422,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Шемякіна, середина 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735743,46.489437,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1800</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.269928,48.507248,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Шполянського (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.263184,48.50589,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Еміля Протце, початок 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.531761,48.7235149</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок 1909</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532194,50.4430309</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинку 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.083557,48.736179,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинку побудований в 1957 р. потоковим методом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529444,50.428333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок, 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741823,46.47084,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Юфа, 1880 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741247,46.474644</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинки в стилі конструктивізму 1920-30 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.472363,50.457275,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинки в стилі конструктивізму 1920 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.42264,50.460281</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок інженера Демченко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527504,50.446697,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будиночок графині Уварової (Терещенко)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.154057,50.542526,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок-корабель (Шифа), 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.936687,48.2948609</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинки-близнюки (мур.), 17-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.726418,50.091858</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок 1909</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52903,50.442539,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок архітектора Георгія Шлейфера 1909</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.533409,50.44656,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Асвадурова 1912-14 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742069,46.4762339</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доменна піч (мур.) 1810</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.129444,48.703056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Зайченко 1901</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741714,46.4736519</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок 1892</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73068,46.484989,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок 1990</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52924,50.442684,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок васали</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.749657,46.478352,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Клейман</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743393,46.484619</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Тангура, 1888 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731291,46.477348,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок купців Захар'їних (мур.)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.181881,47.811253,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Лемме, 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741982,46.479023,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Островського, 1899</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.745659,46.473499,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Блюмберга</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731819,46.47707,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Левіта 1891</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73258,46.486641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жіноча Ольгинська гімназія (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515303,50.444508,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Розенблата 1887</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732273,46.480453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок 1880</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735312,46.488052,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Перозіо</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741941,46.474922,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.525572,50.461487,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жіноча гімназія (мур.), 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.272102,51.999378,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Іссерліса 1910</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529869,50.449856,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Хаджі-Хічінова, 1910</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741676,46.473331</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Шполянського, кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741611,46.476879,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (аптека) (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.514313,50.4640579</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Духовна семінарія</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.580746,48.68578,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прибутковий будинок Штеренберга, кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731915,46.4780199</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок, 1826, 1893</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740149,46.4886509</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Єпископський дім (мур.) 1865</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.655218,50.254868,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жіноче єпархіальне училище (мур.) 1809 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.999214,50.0148579</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74955,46.47401,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1850</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.720366,46.478600</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1893</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.754105,46.472481,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.514057,50.4642639</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (дер.) 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.523273,50.442368,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 15-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.57152,48.672485</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 16 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.573202,48.673286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 15 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.575048,48.671028,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 16-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.318415,50.7390099</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.31999,50.736992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 16-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572374,48.673161,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1774, 1850 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.029608,49.841358</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 17 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031549,49.843281</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1830 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515734,50.46476,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1783</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031206,49.843231,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 16-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031542,49.843185</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.318163,50.741299,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1884 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.571239,48.670708,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572741,48.67688,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 17-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031767,49.8432999</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572803,48.6771739</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.317432,50.740181,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.609303,46.632778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 16-17 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.319452,50.738789,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1804-1878 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.518732,50.461502,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1828-32 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743023,46.48597,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.318497,50.741905,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1830 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520594,50.461971,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1820</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.619831,46.629948,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.561501,49.578972,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1830-і рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52562,50.444859,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517969,50.461674</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1826-27 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740322,46.488487</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 1902</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.516115,50.4599339</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52552,50.443745,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513132,50.46516,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1900</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.526604,50.447487,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.754471,46.472801,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1820</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.544872,50.433895,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1827-28 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742517,46.486465,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1901</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524179,50.445721</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.610168,46.631641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1874</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740505,46.4696849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1834</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.730764,46.480011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1860</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740765,46.471733,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1880</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74132,46.471287,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1901</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.744629,46.477005,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.730377,46.485172,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Корчма (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.449064,48.872089</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1886</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527145,50.4469869</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1904</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742779,46.486237,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1905</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731323,46.488476,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Народний Дім (1898 р.) (мур.)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.994963,49.4219859</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1907</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74312,46.483086</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок Мюльгаузена (мур.) 1787</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.09642,44.97419,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1906</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.744152,46.474236,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1935</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.542372,50.444206,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1910</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.519161,50.439911,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1911</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740616,46.47028,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1912</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.720421,46.488285,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок, початок 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.546980,50.438034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок Ліскевичів (мур.) 17-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032196,49.843361</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1914</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.523926,50.443874,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Караван-сарай (мур.) 1654</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.603996,45.054676,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок Пузіні (мур.)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.321508,50.738590</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок НКВС 1935</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532471,50.441139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Земська школа (мур.), 1911 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.139097,50.993191,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Заміська садиба (мур.) 1772</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.185387,48.58429,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Замок графа Холоневского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.330276,49.483334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок 1935</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532612,50.446411,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Заміська садиба (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.3064,50.234951,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житловий будинок Пузини (мур.) 16-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.322102,50.7391169</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будівля Матроського Клубу</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.524166,44.600323,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кам'яниця Шольц-Вольфовичів</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.030672,49.841274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кадетський корпус (мур.) 1840</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.550072,49.590698,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Земська лікарня (мур.) 1864-1872 РГ.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.580311,48.683887,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Інститут благородних дівиць (мур.) 1832</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.566372,49.575832,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Зимовий палац (дер.) 1796</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.109016,49.792767,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Зимовий театр (мур.) 1907 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.033566,48.470894,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Контрактовий будинок (мур.) 1817</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517981,50.4650879</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кінотеатр (мур.) 1939</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.320854,50.7436139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Контрактовий будинок (мур.) 1800 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.519808,50.46109,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кловський Палац (мур.) 1756</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532728,50.442154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Манеж (мур.) 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.261421,48.5179859</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Земська управа (мур.) 1886 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.798531,50.906281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Інститут шляхетних дівиць (мур.) 1839-1843 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527603,50.449738</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Комерційне училище (мур.) 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.029392,48.466923</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>комерцiйний банк (мур.), кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.575064,48.6773909</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Корпус ігумена, 1781 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521421,50.465569,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кокорівськая альтанка, 1863 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.526173,50.456306,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Комплекс забудови Вічевого майдану (мур.) 17-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.970369,50.055756,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Комплекс Центральної площі (мур.) 19-20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.935156,48.292458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Лівадійський палац, 19-20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.143272,44.468002,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Концертний зал Уніон, 1902 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735958,46.47683,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Табір Артек</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.293865,44.552883,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кузнецовська палац 1889</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.780273,44.389519,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Критий ринок (мур.) 1910 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521132,50.442444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Лавка, 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.220312,49.756451,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мавританська арка</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.754387,46.464123,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Ластівчине гніздо, 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.128212,44.430676,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мітрідатські сходи (мур.) 1866 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.473156,45.351261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ліфт на одного</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517992,50.448013,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Морське відомство (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.004421,46.972359,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міський театр (мур.) 1905 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.931049,48.291756,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Круглий двір (мур.), 1749 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.958004,50.4729499</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Маєток графів Остен-Сакен (мур.) руїни 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.108536,50.576218,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Магістрат (мур.), 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.652647,50.253414</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Магазин Хліб 1830</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.223013,50.6190259</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Чоловіча гімназія (мур.) 1861 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.063347,48.458012,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Плоский будинок, 19 у.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738646,46.48904,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Маріїнський Палац (мур.) 1752-1870 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.538275,50.447922,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мавзолей Інзова (мур.) 1825</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.616348,45.676682,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Масандрівський палац Олександра III (мур.) 1902</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.202248,44.517067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк 1901</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.531433,50.443272,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Старий млин</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.631886,50.582714,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Народний дім 1908</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.033161,48.803520</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Національна бібліотека (мур.) 1914 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.51116,50.440933</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Митрополитові палати (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.697166,49.084885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Чоловіча гімназія (мур.) 1814-1848 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.24374,49.989235,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Чоловіча гімназія, 1896 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.21917,48.745476,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Шпенцера, 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.758884,46.472385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Чоловіча гімназія (мур.) 1850</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513769,50.443642,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк барона Енгельгардта, 1828 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.027588,49.200706,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Нова біржа (мур.) 1899</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742821,46.480579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.409,49.065605,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>особняк Абомеліка 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735268,46.487125,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Демченка В.Я. 1911</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532381,50.4431379</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Музей старовини (мур.) 1903 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.063744,48.455761,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Гольдберга (мур.) 1915 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.228828,49.974842,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Лібермана 1880</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529629,50.4475779</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Немировська гімназія (мур.), 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.839735,48.965767,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Бродський 1879</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.53113,50.446888,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Гальперіна (мур.) 1899</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.536259,50.44706,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Маркуса Зайцева 1900</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.536615,50.446873,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Камо (мур.) 1834 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.670151,46.463711</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк 1892</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524588,50.443962,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк графині Уварової 1912</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.535542,50.4448169</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Терещенко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.503395,50.4454539</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Офіцерські збори (мур.) 1824</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.981298,46.9790989</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк, 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.759558,46.4772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Закса 1896</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.536819,50.445641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Поммера, 1893 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.736673,46.4878079</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Полякова 1910</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.537039,50.446667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк графині Уварової (мур.) 1916</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.53373,50.443394</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Фабріцкого</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.756516,46.474442,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Шестакова (мур.) 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532356,50.4442179</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Бєльських 1923</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.020763,49.835171,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Бадені (мур.) 19-20ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.180258,48.930286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.3064,50.234951,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк, 1905</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.736319,46.478745,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк, 1906 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.753895,46.471485</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мисливський будиночок Л. Кучми</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.069462,52.12376,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Бесядецкіх VIII-XIX</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.033369,49.838894,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк генерал-лейтенанта Солонина, 1908 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.884075,50.948299,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мисливський замок (мур.) 1903 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.693987,48.895489,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мисливський палац 1760</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.90941,49.430618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац архієпископів</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032669,49.841927,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац графів Шенборнів (мур.) 1667 - 1748</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.720085,48.4408299</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац барона Бруніцкого</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.738195,49.718475,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Туркулом-Комелло</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.045343,49.836582,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Баворовського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.018511,49.83556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перші будинки з готових об'ємних елементів (блок-кімнат)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.438889,50.461945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Справедливості</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032787,49.838287</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Бандінеллі</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032267,49.842579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Дідушицького</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.029552,49.842167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Бруніцкіх (мур.) 1831</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.734545,48.636753</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац графів Голуховських 1865</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.01881,49.840176,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац римо-католицьких архієпископів</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.03602,49.844872</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Браницьких (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.044374,51.226231,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Сапегів</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.021845,49.836002,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (мур.) 1847</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.935268,48.292873</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Корнякта 1580</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032518,49.842194,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац графів Шенборнів (мур.) 1895 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.830563,48.48497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Любомирських</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032862,49.8417779</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Дідушицького 1857</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.040226,49.843544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Яблоновського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.919128,49.25441,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац панів Сабанських (руїни)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.458611,48.474998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Семенскіх-Левицьких</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.040436,49.838367,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац греко-католицьких архієпископів</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.013603,49.838638,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пасаж Андреоллі 1768</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.030592,49.841660</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (мур.) 1851</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031219,49.841869,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Україна (мур.) 1970 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521011,50.422146,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перший київський хмарочос Демченко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52437,50.446098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пансіон графині Левашової (мур.) 1851</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.512669,50.444839,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пасаж</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732746,46.4843409</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Парламентська бібліотека</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529133,50.451385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Присутственні місця (мур.) 1810</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.550915,49.588085,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пасаж, 1913, 1950 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.523247,50.4481049</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перший панельний житловий будинок 1951</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517708,50.4399599</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пансіонат імені Терлецького, Керуючого справами Президента Росії</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.798595,44.395065,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перший будинок з ліфтом в Запоріжжі 1954</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.112598,47.853687,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Полкова канцелярія (мур.), 1740-60 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.111198,50.9104,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Потьомкінський палац (мур.) 1786</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.070995,48.460705,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перший безкаркасний великопанельний будинок 1958</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.543324,50.418613,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перший хмарочос, 12 поверхів 1970</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.161049,47.830078,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вітроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.085869,44.808575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.859442,49.064835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перша російська гімназія</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572727,48.677753,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Потьомкінські сходи (мур.) 1842</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741211,46.488201,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденція єпископа (мур.) 1646</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.302618,48.622601,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (мур.) 1638-1670, 1844 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.197048,49.518139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.011106,50.381763,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1811</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.93685,49.442753</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (мур.), 1751</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.395182,49.062317,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поміщицька садиба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.192238,44.944324,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.506226,49.35136,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прочанький Дім Таранова-Белозерова (мур.) 1826 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.096039,44.953098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.785357,49.571365</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.968969,50.0556529</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (мур.) 1861 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.560062,48.448849,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 18-20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.689289,49.299496,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденція Ріната Ахметова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.886002,48.015945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1695-1932 рр., 49,5 м</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.7106,48.922733,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Реальне училище (мур.) 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.053356,48.461098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.797939,49.019817,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1906</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.71817,48.441891,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1877</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.037342,48.525024,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша, 14-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.573006,48.6754949</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденція президента України</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.215555,48.623611,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Російська магістрат, 16-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.573095,48.676903,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша, 1847 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.934801,48.291725,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденції буковинських митрополитів (мур.) 1863-1882 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.925213,48.296494</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Покорщіна с.18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.119076,50.904293,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденція губернатора (мур.) 1905 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.622147,46.637081,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденція Президента України</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.60111,50.290833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденція президента України (вілла 8)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.870174,44.406376,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Російський сільський банк (мур.) 1909</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.547218,49.591339</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.810349,50.910862,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.582949,48.67128,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр опери та балету (мур.) 1900 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.027023,49.843941,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ресторан Гуцульщина (дер) 1965</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.541101,48.439201,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.028555,49.522751,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Асмолова (мур.) д.п.19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.816818,50.918118,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Руїни мавзолею Понінських</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.596733,48.8086399</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба першого київського архітектора Меленського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513784,50.465382</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Штерічевої</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.818764,50.8760639</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) 1805 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.312397,49.760838,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склеп Качковського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.463161,50.480274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Лінтваревих</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.82943,50.934422,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок у Радванці (мур.) к.16 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.318424,48.612003,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр Соловцова 1898</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527733,50.44577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.299698,48.5787469</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Університет Святого Володимира (мур.) 1843</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.511444,50.4419629</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок Огієвських, 19 у.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.372257,51.542419,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок Рудзінських, 1820</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.401871,51.533508,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Синопські сходи</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.522263,44.613056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр опери та балету (мур.) 1887 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74111,46.485512,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Університет (мур.) 1767-1831 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.230114,49.988731</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Старопечерський будинок</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.454082,50.3850669</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) к.18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.215748,49.988857,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торговий дім фірми Кімаера 1895</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527021,50.447117,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба князів Сангушок (руїни) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.818991,50.11718,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.13237,48.96307,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склеп Деметри (Керч)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.472195,45.364914,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр опери та балету (мур.) 1941 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.803524,48.005974</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр опери та балету (мур.) 1901 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.512724,50.446598,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок графа Ігнатьєва (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.33952,49.505199,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба графів Стецьків (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.864820,50.656738,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.), кінець 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.215759,49.989391,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.), 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.2342,50.029701,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) 1814 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.237103,49.998226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) 1807</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.24498,50.416672,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок Хоєцьких (мур.) 1910 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.834518,50.19503,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) з парком 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.905775,49.717014,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.252602,48.714931</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Університет будівництва та архітектури 1882</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.721798,46.479134,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Давидових 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.099998,49.033333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садибний будинок (мур.) 1823</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.72509,50.218380</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба (мур.), 18 - початок 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.014353,51.085457,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба (мур.) В.18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.866713,49.808102,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба (мур.) 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.01083,50.0825609</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба генерала Драгомирова, середина 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.206268,51.236073,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба графа Гейдена (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.438889,49.037777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба в П'ятничанах (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.467199,49.23711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.099304,50.146713,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Валевських 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.673462,50.5989909</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Галагана (мур.) 1832</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.767605,50.573914,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба львівських архієпископів (мур.) 1730</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.656912,49.893322,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Даховського (мур.), 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.875313,48.994579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Ганських, 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.323198,49.802662</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Лизогуба (мур.) 17-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.568884,51.642689,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба графа Камбурлея, кінець 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.775841,51.07806,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба княгині Голіциної 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.14489,49.099831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба де-Шодуара (мур.), 18 - 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.032616,50.153023,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Кукіль-Яснопольського (мур.), кінець 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.205379,50.06958,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Царська альтанка</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.240276,44.5075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Миколи Гоголя (мур.) 19-20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.820454,49.9178429</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба князя Кугущева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.658516,44.953148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Комара 1805</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.606823,48.724289,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усипальниця Закревських (мур.) 1898 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.238831,50.317818</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Л. Кеніга 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.94632,50.474205,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Палласа (мур.) 18-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.130764,44.944077,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Монжене (руїни)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.194717,44.877899,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Мсціховского 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>38.787773,48.399017,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Наталівка (мур.) 1884 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.28841,50.074219,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба М. Клейнміхелів (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.806877,50.318367,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Олізара 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.067415,50.315525,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Флігель садиби Корецьких (мур.) 1780</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.611664,50.507740</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Яхт-клуб (мур.) 1887 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.958626,46.973621,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Садиба Потоцьких (мур.) 17-19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.402512,50.464497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Учительський інститут (мур.) 1874</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.915085,51.678402</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Училище садівництва (мур.), 1859 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.235025,48.768196,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ханський палац (мур.) 16-18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.882137,44.749054,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Флігель будинку Ф. Барзіловского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.507896,50.468662,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Юсуповський палац 1820-1909 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.089725,44.432549,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Школа, 1902 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.501814,50.453529</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Чорна кам'яниця 1588</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032406,49.8423769</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Херсонський земський банк 1888</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.727669,46.487011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Центральна геофізична обсерваторія</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.53171,50.392235,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Харакс маєток Романових</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.115265,44.429958,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Шахський палац 1852</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735155,46.490749,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Школа кармелітів (мур.) 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572998,48.678669,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац (руїни)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.71884,50.532143</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок, 1887</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.729023,46.489830</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Південний князівський палац</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517124,50.4572559</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Родовий склеп Фальц-Фейнів</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.25222,46.192501,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Скшінскіх, початок 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.284325,49.262772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Головпоштамт 1914</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.52232,44.606064,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Аркада карантину з вежею (мур.) 1807</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.749838,46.478779</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вілла Соколової, початок 20 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.596748,44.494827,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вітряк</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.006882,48.788433,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк 1892</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.76111,46.449165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Архітектора</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.314291,50.737461</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапірна вежа (мур.)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.964802,44.836235,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Александровська гідроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.254166,47.702778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишній торгові ряди, 1836 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.734526,46.473282,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Арсенал (мур.) 1784-1801 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.554077,50.4350399</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Астрономічна обсерваторія і метеостанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.953611,49.918056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вітряк 1903</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.37146,47.532658,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вежа Мікрюковского водопроводу (мур.) 1855р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.580112,44.591427,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Астрофізичний центр України</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.186378,45.190617</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишні склади Скальковського, 1840-і</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741493,46.479691</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Брацлавська гідроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.953009,48.828911,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишні магазини фірм Фіат і Брати Тернополя, 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738514,46.480679,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапірна вежа (мур.) 1927</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.910534,51.674458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишні магазини фірми Вікандер і Ларсон, 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.739773,46.478794,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вежа вітрів (мур.) 1844 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.524223,44.610996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вежа Королеви бензоколонки 1951</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.515007,50.222092,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Колишній пивзавод Канського</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.481358,50.300747</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Паперова фабрика (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.01103,49.022091,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок для спостереження за рухом по Дніпру (мур.) 1809 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.397404,49.063866,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Верстова миля (мур.) 1789</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.066666,48.4575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вітроелектростанція 1993</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.103245,45.326279,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Конторська будівля канатного заводу 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732538,46.461937,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапірна вежа (мур.) 1912 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.468712,49.234966,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Золотий павич, 1841 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.646557,48.206234</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Катеринівська миля (мур.) 1787</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.092583,48.278366,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Віадук (мур.) 1894 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.569313,48.297958</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапірна вежа</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.757338,50.497871,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяно млин</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.700523,48.616226</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапірна вежа 33 м (мур.) 1909</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.547264,47.097721,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяний млин</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.415833,50.144165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Деркульський кінний завод (мур.) 1767</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.622936,49.121647,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапірна вежа Шухова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.058983,49.427067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гамма-телескоп ГТ-48</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.008884,44.724209,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяний млин, 1905</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.236954,49.762772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяний млин (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.010906,49.022049</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяний млин (мур.) 17 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.782288,49.6661869</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Залізничний вокзал (мур.) 1927 - 1932 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.489799,50.440506,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вознесенська гідроелектростанція 1927</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.256006,47.700825,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вознесенська гідроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.256117,47.7007559</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гідрографічне депо, 19 у.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.985085,46.977634,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дністровська гідроелектростанція, 1973 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.453819,48.593506,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дніпрогес, 1927-1939 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.087574,47.8690149</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Електростанція та млин (мур.), кінець 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.840351,48.961506,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дніпродзержинська гідроелектростанція, 1963 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.541367,48.5485309</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Катерининська миля (мур.) 1787</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.541683,44.638699,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Катерининська миля, 1787 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.875404,47.450321,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Електростанція 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.972231,50.051304,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Залізничний віадук</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.563486,48.281044</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Залізничний вокзал 1904</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.994486,49.83976,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Залізничний вокзал (мур.) 1888 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.831926,49.7079239</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кінний завод 1822</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.599468,49.276569,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Катерининська миля 1786</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.428001,45.064816,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Залізничний вокзал (мур.) 1904</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.112686,49.0330009</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Запорізька атомна електростанція, 1981 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.589138,47.509533,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Завод Ельворті 1874</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.263981,48.51968,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Залізничний вокзал, 1909 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.929893,48.30088,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кримська атомна електростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.791973,45.387806,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Зерносховище (мур.) 1770</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524317,50.4617,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Іподром 1916</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.546803,50.437286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кесон Оболонь (Сталінське метро)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52401,50.4988939</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Іоносферний комплекс</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.293945,49.676987,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Катерининська миля</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.946636,44.815845,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Київська гідроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.511169,50.58873,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Канівська гідроелектростанція, 1972 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.469364,49.7644959</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житниці (мур.) 1778 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.51502,49.352798,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Канатна дорога</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.249462,50.018959,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Каретна (мур.) 1846</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.06666,50.433811,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Маріїнська жіноча гімназія</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.58065,48.67889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Київська телевежа, 385 м, 1973 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.453333,50.470833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Космічна антена</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.189445,45.243332,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Каховська гідроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.374138,46.774014,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кокорівська альтанка</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.51836,50.459457</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Костянтинівська сходи</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.470829,45.353603,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кременчуцька гідроелектростанція 1959</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.250797,49.07719,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перша на Україні гідроелектростанція на Півдні України</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.297764,47.323650</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Конюшні Воронцовського палацу, 1826-29 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738232,46.489597</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кримська астрофізична обсерваторія</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.012489,44.727051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міст-акведук 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.545513,44.615253,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Космічний центр</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.163784,45.224003</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Млин водяна і гідроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.944166,48.029999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мануфактура Трикутник 1810</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741686,46.477322,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Млин (мур.) руїни 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.728907,48.858719,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Млинівська гідроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.594723,50.510277,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Млин</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.965368,50.057945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Метеостанція (мур.) 1855 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.508577,50.440849,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міст, довжина 92 м</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.539560,48.44788,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міст Катерининського тракту, 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.208569,46.853741,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерваторія (мур.) 1827</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.972565,46.9728849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міст 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.349163,46.824638,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міст Катерининського тракту, 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.050404,46.773396,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міст-акведук 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.541935,44.615269,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерваторія (руїни)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.625555,48.044724,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Михайлівська гідроелектростанція 1957</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.434444,50.663887,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Новоазовська вітряна електростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.935581,47.127876,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Міст-акведук 19 в (мур.)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.66386,44.541969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Паровий млин 1911</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.129337,48.655098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Нижня станція канатної дороги</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.070564,44.425549,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерваторія</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.230713,50.002544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерваторія університету (мур.) 1845 рр.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.497879,50.452015</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пожежне депо (мур.) 1811</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.560871,49.579521</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерваторія університету імені Мечникова, 1871 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.755304,46.477402</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склади (мур.) 1810</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.746389,46.484718</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гребля і водяний млин</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.993242,48.246452,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склади (мур.), кінець 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.612061,46.528011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштова станція (мур.), 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.8885,51.0457,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштова станція (мур.), середина 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.648472,50.269356,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Паровозне депо станції Юзово, 1924 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.744656,48.044369,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пивзавод Шпірта, 1910 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.691099,46.466263,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Паровий млин 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.69908,50.021923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пивоварні завод (мур.) 1872</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572231,48.680328,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштова станція (мур.) 1850</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.525827,50.459255,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торгові ряди (мур.) 1814 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.115276,49.796944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перша в Запоріжжі електростанція 1911р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.175175,47.8162649</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштова станція (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.22364,50.8802259</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштамт (мур.) 1869</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.550442,49.588188,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Перша харківська електростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.24424,49.992023,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштова станція на 15 км (мур.) 1846</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.319262,50.453236,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Виробничі майстерні (мур.) 1854 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.544571,50.443043</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштова станція на 32 км (мур.) 1846</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.06666,50.433773,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Проскурня (мур.) 1826</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520872,50.4660029</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Радіотелескоп діаметром 70 м</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.186943,45.189167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пошта (мур.) 1825-1831 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.109112,49.7995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Привоз 1827 р</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73716,46.467697,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Провіантський склад (мур.) 1787</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.23653,49.995846,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Найвища труба в Україні, 330 м.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.10611,49.97139,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Рівненська атомна електростанція, 1980 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.893415,51.325485,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Старий млин</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.128891,49.007610</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склади Рабиновича 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742294,46.477634,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Станція космічного зв'язку</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.506947,46.634148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Проскурня, 1826 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520813,50.465794,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Сімеїзька обсерваторія</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.997971,44.417454,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склади, 1810 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.745689,46.485466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Солеварня, 19 у.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.978052,48.978096,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Сонячний годинник 1826</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521107,50.465424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Тунель під Дніпром (метро Сталіна)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.571102,50.334595,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Солеварня</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.844114,49.0784909</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торгові ряди (мур.) 1838</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.229179,48.7458989</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Суконна фабрика (мур.) 1794 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.019463,48.475075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Теребле-Ріцька гідроелектростанція, 1956 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.57749,48.372021,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Товарна контора 1905</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.508205,50.428101</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Станція космічного зв'язку</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.032806,44.481251,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торгові ряди (мур.), кінець 18 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.876167,50.298885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Суконна фабрика (мур.) 1794 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.068241,48.458279,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Фруктовий пасаж 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73177,46.469341,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торгові ряди (мур.) 1835 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.681068,49.835281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Турецький міст (мур.)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.421673,48.647751,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торгові ряди (мур.) 19 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.262604,52.009579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Центр космічного зв'язку Азимут</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.925425,49.8561099</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Стеблівська гідроелектростанція 1951</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.108274,49.407551,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вузькоколійка 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.238029,48.327229,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Турецькі лазні (мур.) 16 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.376965,45.197754</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ділянка телеграфу Лондон-Калькутта</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.750668,45.1079249</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вузькоколійка 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.910173,48.933735,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Турецький міст (мур.) 11-17 ст.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.566332,48.673313,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Фабрика Маршака</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.526484,50.452255,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Краснохуторська гідроелектростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.833994,48.193100</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Хмельницька атомна електростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.652168,50.30286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапірна вежа Шухова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.975903,46.9689369</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Палац Тишкевичів, 1909 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.157848,50.075676,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок Юлії Тимошенко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.655277,50.259445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Контора заводу (мур.) 1905 р.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.770557,48.058334</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Старий млин</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.637249,50.331711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Південно-Українська атомна електростанція</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.219509,47.8103639</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,5944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+   <Style id="monumentIcon">
+      <IconStyle>
+         <scale>0.5</scale>
+         <Icon>
+            <href>http://google-maps-icons.googlecode.com/files/monument.png</href>
+         </Icon>
+      </IconStyle>
+   </Style>
+    <name>Памятники архитектуры Украины</name>
+    <open>1</open>
+    <Placemark>
+      <name>Больница Бабушкиных (каменная) 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524908,50.419846</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Боярский двор (каменный) 15 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.901329,49.804661,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Руины и подвалы усадьбы Гончарова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.302982,48.421017,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывший доходный дом Покровской церкви, 1902</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735731,46.480118,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1811 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.938753,49.445232,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1-й жилой дом врача</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513636,50.455223,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Аграрный университет (каменный) 1925-1931 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.496767,50.383728,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Амбар и винный погреб (каменный) 1781 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.29443,48.625011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Анатомический театр (каменный) 1853 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.505575,50.447147</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ансамбль Круглой площади 1805-1841 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.551453,49.589722,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ансамбль площади Рынок (каменный) 14-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.03138,49.842339,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывший готель Биржа, 1887, 1896 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742353,46.4815139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывший дом банковских служащих 1906-07 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742403,46.48214,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Аудитория Научного общества 1895 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.036926,48.470768,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Государственные дачи</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.599125,50.286194,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Библиотека университета (каменная) 1940 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.511948,50.442978,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывшее Комерческое училище, 1876-1877 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733612,46.489857,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Банк, (каменный) 1913 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52162,50.447189,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Больница (каменная) 1904 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.54221,50.447964,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Библиотека (каменная) 1897 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.608429,46.633961</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Больница (каменная) 1804-1820 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.72365,46.493279,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Больница (каменная) 1840 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.610119,46.6472019</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом присутственных мест (суд)(каменный) 1857-1893 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572676,48.673523,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом консистории (каменный) 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.571432,48.673473,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Армянский дом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.570953,48.6735419</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Верховной Рады Украины (каменный) 1936 - 1939 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.536722,50.4471439</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Братский монастирь (каменный) 17 -19 ст</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.519039,50.464439,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Богодельня (каменная) 1820 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.54929,49.58297,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Вучини (каменный) 1849 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742748,46.480133</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Галицкого сейма 1881 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.021931,49.840137,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Времен года</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032518,49.84325,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом казенный</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.580767,48.676224,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Горного института (каменный) 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.061943,48.455601,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Государственного банка</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.578989,48.677799,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом полковника Лизогуба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.309723,51.487499,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Будинок старой крепости (каменный) 15 в. - 1560 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572439,48.674206,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывшая вилла Деникина</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.539101,44.62664,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Воронцовский дворец (каменный) 1828 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738741,46.4901619</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом страхового общества Днестр 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.035015,49.841782,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бурса (каменная) 1778-1816 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524302,50.46759,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Турецкий дом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572393,48.671154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывшая гостиница Северная, 1870 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740944,46.4860689</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывший отель Парижский 1835 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74227,46.483631,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Губернское земство 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.561398,49.5835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Армянский дом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.573593,48.671562</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Воронцовский дворец</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733189,46.483147,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Здание правления Ужанского комитета (каменный) 1809 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.296638,48.624798,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Ксения 1911 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.001152,44.403774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Волостное правление (каменное) 1823 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.812988,49.776428,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Мечта 1911 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.002296,44.405407,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вице-губернаторский дом (каменный) 1811 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.551983,49.591019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Графская пристань (каменная) 1846 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.526966,44.616997,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водолечебница Исаковича 1876 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731215,46.476738,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гимназия (каменная) 1883 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.151562,50.0829319</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гiмназiя (каменный) 1839 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.247927,50.615604,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гимназия высших наук (каменная), 1820 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.881399,51.052799,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Городская управа (каменный) 1820-е гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.681068,49.835281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гостиница Славянская 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.063702,49.444843</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Госпиталь (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.092628,44.957008,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Главный корпус Киевского Политехнического Института, 19-20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.461002,50.450069,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Городская библиотека (каменная) 1906 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.725857,46.491066,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Городской суд 1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.643433,48.206478,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гостиний двор (каменный) 1809-1829 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.518627,50.463924,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец графов Шенборнов 1895</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.874615,48.524948</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Отель (каменный) 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.039719,48.468369,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гостиный двор (каменный) 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.318542,50.738335,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Отель Петербурзький (каменный) 1830 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741205,46.487923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гостиница Бристоль 1899 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742924,46.481075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла командующего Черноморским Флотом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.434185,44.598961,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Виктора Януковича</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.475018,50.613705,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Никиты Хрущева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.474096,50.468407</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Отель Пале-Рояль 1899 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.522627,50.44228,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Виктора Ющенко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.590834,50.180553,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Губернаторский Дом (каменный) 1780 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.546476,50.442909,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Владимира Литвина</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741667,50.156944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла инженера-путейца Николая Аничкова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.38365,50.45496,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Горького</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.784447,44.38969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Макаревского, 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.76111,46.458332,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Михаила Горбачева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.757675,44.392052,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Леонида Брежнева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.147442,44.463337,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Леонида Брежнева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.36451,48.670906,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный), конец 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.21911,49.361378,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Никиты Хрущева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.396484,48.718571,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Леонида Брежнева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.184849,47.812889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Маразли</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.7558,46.4743879</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 1840 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.952412,49.924473,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Милос (каменная) 1911 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.382607,45.038303,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Раевских 1887 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.356709,44.590103,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла по улице Львовской, 18</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.375525,50.455318,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Стамболи</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.38253,45.0424769</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла по проспекте Победы, 130/1</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.36561,50.456711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 1810-1892 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.965755,46.964111,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.953888,48.962502</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Раевских</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.767498,44.390278,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.70805,48.577251,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 1778 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.75581,49.9799,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.349829,48.949936,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец графа Ксидо (каменный),  1534-1915  г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.946293,49.554985,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Голицына (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.958122,50.47261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.249014,49.635902,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.701527,48.772804,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.467899,49.414959,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.957489,49.806683,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный)  19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.153749,49.410789,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.32136,49.123371</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.372492,48.9707789</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) к.18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.039951,51.227306,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.50359,49.664471,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Ганских (каменный), 1780 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.297256,49.758301,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.71851,49.394749,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный), 1805 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.523991,48.724205</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Витославского-Львова (каменный) 17-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.947193,49.047798,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (Под лебедем) (каменный) 1763 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032499,49.83923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец 16 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.732443,50.144218,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец барона Перени (17 век)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.0441,48.1384699</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец баронов Грьодлей (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.492416,49.02467,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец адмирала Абази (каменный) 1858 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74317,46.482891,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Браницьких (развалины), конец 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.711868,49.499668,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Вишневецких 1640-1720 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.739094,49.899162,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец и парк 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.26021,48.399151,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом архитектора Нильсена</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.545357,47.091843,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Гагарина (каменный) 1842-1850 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.744741,46.485001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Воронцова, 1826 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.140289,44.923962,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Воронцова (каменный) 1824-1878 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.055805,44.419823,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Воронцова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.130127,44.942127,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Зота (каменный) 1809 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.969877,48.5723269</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Гагарина (каменный) 1907 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.369843,44.592667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Лопухиных (каменный), 1787 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.266144,49.415154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Голицина (каменный) 1836 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.098618,44.435139,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Горчинских (каменный) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.166698,50.618298,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Галаганов (дер) 1831 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.768719,50.695187,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец графа Чорномина (каменный), 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.011578,48.218731,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Грохольских (каменный) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.460917,49.2481,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Дюльбер (каменный) 1897 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.09613,44.429462,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Ивана Куриса (каменный)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.720024,46.908787,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец семьи Закревских, 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.248158,50.316593,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец князя Габора Бетлена (каменный) 1629-1857 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.647984,48.205399,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Кирилла Розумовского 1803 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.891953,51.334129,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец графа Шидловского (каменный) 1830 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741489,46.487659,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Муравьевых-Апостолов (каменный) к.18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.714916,50.047466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец княгини Львовой (каменный) 1745-1783 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.410931,51.300129,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Кичкинэ 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.130405,44.437702,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Потоцких (каменный) 1757 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.858366,48.675316,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец львовских архиепископов (каменный) 1730 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.8685,49.785160</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Потоцких</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.236513,50.3821409</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец работника (каменный) 1932 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.203819,49.99831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Ланге (каменный) 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.1255,49.27108,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Потоцких (каменный), 1760 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.606684,49.397518</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Терещенко (руины), 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.411915,50.205311,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Плотени</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.381021,48.559074,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Потоцкого (каменный) 1880 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.026632,49.838184,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Потоцких, 1672-82 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.713352,48.924618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Попова (каменный) 1894 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.276508,47.446579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Потоцких (каменный) 1887 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.43713,49.001656,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Потоцкого (каменный) 1810, 1828 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.728546,46.493336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Фальц-Фейна (развалины) 1780 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.905293,47.238914,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Румянцева-Задунайского (каменный) 1787 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.065228,51.643158,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Терещенко 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.881598,49.959274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Терещенка 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.022959,50.01577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Тарновских (каменный), 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.657444,50.836864,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Собанских, конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.160521,48.441898,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Трубецкого (руины) 1885 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.350761,46.784622,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Уваровой (каменный), 1900 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.264069,50.028858</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Четвертинских (каменный) 1830  г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.615194,48.534313,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворцово-парковий ансамбль, конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.904358,51.0697749</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Щербатовой (каменный), 1894 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.842543,48.967693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец, 1780 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.689474,49.111618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец, Парк 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.393232,49.766788,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец, 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.68014,48.470287,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Эмира 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.158024,44.486832,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец, 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.7075,50.0280989</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворцово-парковий ансамбль 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.432865,50.043827</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Волкова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.610556,50.352779,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.983561,48.99453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворцовый корпус (каменный) 1848 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.259018,48.514069</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворянское собрание (каменный) 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.183315,47.813408,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворянское собрание (каменный) 1810 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.55254,49.5882759</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом 1846 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741711,46.477577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1820 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742285,46.486668,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.482782,50.457458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Государственный банк (каменный), начало 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.798779,50.906158,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом 1830-32</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.725491,46.474903,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом 1891 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.736197,46.471294,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом 1830-е</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735676,46.4782369</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.730597,46.481548,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом 1880 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.7314,46.490646</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом 1902</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.720329,46.479210</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом 1913 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731218,46.473045</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом А. Вассала 1887 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.729628,46.485996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Александра Беретти</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515394,50.450062</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом барона Гильденбранда, 1901 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.531187,50.443027,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом архиерея (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.582579,48.780899,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Абрамсона, 1852 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741592,46.480797,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом адмирала Лазарева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.509861,44.5051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Академии Наук Украины (каменный) 1914-1927 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513481,50.445702,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Английского клуба (каменный) 1841 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742794,46.485107,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Английского клуба (каменный) 1870 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.043495,48.468723,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Барабаша 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738661,46.472897,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом археологического музея (каменный) 1882-1883 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743874,46.4848819</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Балабухи (каменный) 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521441,50.460732,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом архитектора Мааса 1875 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.728704,46.486458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Барского, 1819 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.744896,46.464352,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом барона Рудольфа Штейнгеля (каменный), конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.499874,50.451466</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом барона Максима Штейнгеля</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.511868,50.449398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом барона Подгорского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.512035,50.449257</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Барского (каменный) 1885-1905 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.269337,48.509811,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом биржы 1873 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529902,50.447735</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом доктора Гампера</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.559864,47.09063,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Боффо (каменный) 1844 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74159,46.48584,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Бонифаци, 1906 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.739353,46.4861789</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом в форме сердца</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.659155,50.258266,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Виктора Медведчука</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.461111,50.545555,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Гагарина</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738552,46.487354,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Владислава Городецкого (каменный) 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.528788,50.445004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Бурназо 1870 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735271,46.49004,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Вальтухат, 1878 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735298,46.48962,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Наврожина. 1899-1900 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.730001,46.485699,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом вице-адмирала Сенявина (каменный) к. 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.60577,46.631138,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Григория Маразли, 1835</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742729,46.48465,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Васалля, 1893 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735668,46.487408,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом генерал-губернатора (каменный) 1810 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.553432,49.590466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Кроля (каменный) 1901 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.805824,47.992443,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом генерал-губернатора</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.557673,50.432247,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Государственного банка (каменный) 1905 г. 1934 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.531685,50.446991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом городской управы (каменный) 1901 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.051208,48.461334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом губернского земства (каменный) 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.552792,49.5867,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Григорьевой, 1912</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.739264,46.484928,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Госпрома (каменный) 1928 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.227409,50.006657,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом дворянского училища (каменный) 1820-і гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.514366,50.465267,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Григоровича, 1860 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73284,46.485020</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Дурьяна, конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732527,46.486198,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом губернатора (каменный) 1830 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.041237,48.466579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Джона Юза (каменный) 1901 г (разв)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.814182,47.971996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом де Рибаса, 1796</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733309,46.484631,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом купеческого собрания (каменный) 1882 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.528065,50.453148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Екатерины Соломос 1913 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733713,46.490547</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом доктора Качковского (каменный) 1907 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.507763,50.451591,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Дьякова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.526871,50.44561,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Ивана Сикорского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.509483,50.451153,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Евгения Гагарина, 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738926,46.487003,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Жюльена, 1842</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.737951,46.484005,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Ждановой 1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738333,46.487778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Жиранцова 1862 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.727221,46.4868849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Роглера 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.72381,46.491642,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом земской больницы (каменный) 1847г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.067322,48.455669,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Инбера, конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73258,46.486942,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Ивана Мазепы (каменный) 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520515,50.467098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Петра I (каменный) 17-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.322874,50.745693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Клейна 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.755293,46.471268</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Ковалевского (каменный) 1913 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.531956,50.443436,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Караимского общества, 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741095,46.4736819</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом командующего военным округом, 1914 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.541174,50.444401,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Константиновского 1901</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741028,46.473019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом купца Горелика (каменный) 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.799568,47.992981,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Машевского, 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733301,46.487553,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Хренникова 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.043884,48.465294,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Л. Ц. Оттона 1810 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735291,46.4892499</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Кочубея (каменный) 17-18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.918221,51.136791,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом общественного собрания (каменный) 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.042831,48.468037,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Лилии Бродской, 1881 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73303,46.489872,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Наума, начало 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.737516,46.489292,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Лифшица 1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731848,46.477562,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Кочубея 17-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.878967,51.336937,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Николая Раевского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.535395,50.447453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Лидерса (каменный) 1830 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743696,46.484688,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Либмана 1888 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732334,46.484879,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Навроцкого, 1891 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740469,46.485100</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Толстого 1880 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735704,46.488274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Маврокордато, 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73881,46.482422,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Назария Сухоты</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.518482,50.462486,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом помещика Крыжановского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.749275,46.475456,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Новикова 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740295,46.484192,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Прядуна 1875 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732174,46.479824,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Рабиновича, конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.733093,46.490204,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Плачущей вдовы 1907 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527758,50.443645,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Никифорова 1875 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.749765,46.474655</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Потоцких (каменный) 17-18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.795069,48.444687,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Петра І (каменный) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.514542,50.465496,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Присутствених мест (каменный) 1830 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74077,46.488289,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом провиантского состава (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.028294,50.213078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Савина 1848 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.514835,44.610523,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Рихтера (каменный) 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.524067,44.605385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Рината Ахметова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.654444,50.257778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Раухвергера, 1893</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741615,46.473129,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом семьи Ющенко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.821507,50.9006809</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Сорокиной</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524281,50.461277,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Романенко, 1895-96 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.729877,46.485435</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом ректора университета (каменный),  19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.510834,50.440098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Толстого, 1850 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732962,46.489365,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Руссова 1897 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731932,46.484798,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом с атлантами, 1899 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73568,46.4897,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом страхового общества Жизнь 1900 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732651,46.487492,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Тальянского 1834 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743019,46.482121,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Русова, 1890 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731106,46.4910849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Сироткина</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515139,50.449005,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом с химерами 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.243011,50.008011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Ферсмана (развалины)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.179104,44.90168,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Санца, 1875 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738503,46.483803,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Сигала, 1880 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.728745,46.480907,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом союза писателей (каменный) 1898 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52998,50.446693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Терещенко, 1855-66 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.909901,51.674698,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Стрельбицкого  (каменный) 1808 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.519466,50.46093,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Театрально-концертного зала (каменный) 1913 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.043392,48.468342,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Таранушенка (каменный) 1838 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.56218,49.584278,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Трубецких (деревянный) 1820 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.518148,50.457382,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Терещенко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513378,50.439751,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Торичелли</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735497,46.4841649</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Фердинанда Ницке</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.507504,50.467567,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Правительства Украины (каменный) 1936-1938 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.533947,50.447952</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Терещенко (каменный) 1841 - 1860 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515797,50.443272,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Фроммета</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.502531,50.445557,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Фальц-Фейнов 1899 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735708,46.489998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Федора Коробки</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520126,50.462505,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Фон-Деши 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735722,46.487816,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Щербины, 1892 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.069725,49.441284,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Черепенникова и 1878 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74221,46.480682,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Чижевича 1875 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.736839,46.488422,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Шемякина, средина 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735743,46.489437,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1800 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.269928,48.507248,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Шполянского (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.263184,48.50589,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Эмиля Протце, начало 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.531761,48.7235149</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532194,50.4430309</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дома 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.083557,48.736179,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дома построен в 1957 г. поточным методом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529444,50.428333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом, 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741823,46.47084,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Юфа, 1880 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741247,46.474644</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дома в стиле конструктивизма 1920-30 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.472363,50.457275,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дома в стиле конструктивизма 1920 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.42264,50.460281</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом инженера Демченко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527504,50.446697,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Домик графини Уваровой (Терещенко)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.154057,50.542526,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом-корабль (Шифа), 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.936687,48.2948609</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дома-близнецы (каменные), 17-18 вв.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.726418,50.091858</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52903,50.442539,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом архитектора Георгия Шлейфера 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.533409,50.44656,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Асвадурова 1912-14 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742069,46.4762339</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доменная печь (каменный) 1810 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.129444,48.703056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Зайченко 1901</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741714,46.4736519</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом 1892 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73068,46.484989,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом 1990 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52924,50.442684,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Вассаля</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.749657,46.478352,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Клеймана</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743393,46.484619</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Тангура, 1888 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731291,46.477348,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом купцов Захарьиных (каменный)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.181881,47.811253,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Лемме, 1848</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741982,46.479023,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Островского, 1899</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.745659,46.473499,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Блюмберга</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731819,46.47707,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Левита 1891 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73258,46.486641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Женская Ольгинская гимназия (каменная) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515303,50.444508,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Розенблата 1887 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732273,46.480453,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом 1880 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735312,46.488052,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Перозио</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741941,46.474922,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом  19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.525572,50.461487,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Женская гимназия (каменная), 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.272102,51.999378,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Иссерлиса 1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529869,50.449856,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Хаджи-Хичинова, 1910</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741676,46.473331</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Шполянского, конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741611,46.476879,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (аптека) (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.514313,50.4640579</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Духовная семинария</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.580746,48.68578,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Доходный дом Штеренберга, конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731915,46.4780199</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом, 1826, 1893 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740149,46.4886509</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Епископский дом (каменный) 1865 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.655218,50.254868,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Женское епархиальное училище (каменное) 1809 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.999214,50.0148579</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74955,46.47401,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1850</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.720366,46.478600</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1893 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.754105,46.472481,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный)  19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.514057,50.4642639</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (деревянный) 1848 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.523273,50.442368,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный)  15-18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.57152,48.672485</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 16 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.573202,48.673286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 15 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.575048,48.671028,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 16-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.318415,50.7390099</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.31999,50.736992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 16-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572374,48.673161,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1774, 1850 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.029608,49.841358</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 17 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031549,49.843281</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1830 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.515734,50.46476,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1783 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031206,49.843231,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 16-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031542,49.843185</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.318163,50.741299,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1884 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.571239,48.670708,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572741,48.67688,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 17-18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031767,49.8432999</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572803,48.6771739</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.317432,50.740181,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный)  19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.609303,46.632778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 16-17 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.319452,50.738789,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1804-1878 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.518732,50.461502,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1828-32 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.743023,46.48597,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.318497,50.741905,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1830 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520594,50.461971,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1820 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.619831,46.629948,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.561501,49.578972,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1830-е гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52562,50.444859,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517969,50.461674</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1826-27 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740322,46.488487</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 1902 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.516115,50.4599339</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52552,50.443745,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513132,50.46516,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1900 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.526604,50.447487,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1890 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.754471,46.472801,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1820 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.544872,50.433895,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1827-28 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742517,46.486465,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1901 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524179,50.445721</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.610168,46.631641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1874 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740505,46.4696849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1834 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.730764,46.480011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1860 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740765,46.471733,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1880 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74132,46.471287,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1901 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.744629,46.477005,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.730377,46.485172,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Корчма (каменный) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.449064,48.872089</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1886 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527145,50.4469869</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1904 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742779,46.486237,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.731323,46.488476,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Народный Дом (1898 г.) (каменный)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.994963,49.4219859</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1907 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74312,46.483086</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом Мюльгаузена (каменный) 1787 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.09642,44.97419,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1906 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.744152,46.474236,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1935 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.542372,50.444206,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.519161,50.439911,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1911 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.740616,46.47028,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.720421,46.488285,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом, начало 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.546980,50.438034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом Лискевичей (каменный) 17-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032196,49.843361</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1914 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.523926,50.443874,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Караван-сарай (каменный) 1654 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.603996,45.054676,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом Пузини (каменный)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.321508,50.738590</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом НКВД 1935 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532471,50.441139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Земская школа (каменная), 1911 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.139097,50.993191,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Загородная усадьба (каменная) 1772 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.185387,48.58429,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Замок графа Холоневского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.330276,49.483334,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом 1935 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532612,50.446411,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Загородная усадьба (каменная) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.3064,50.234951,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Жилой дом Пузини (каменный) 16-18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.322102,50.7391169</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Здание Матросского Клуба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.524166,44.600323,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Каменица Шольц-Вольфовичей</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.030672,49.841274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кадетский корпус (каменный) 1840 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.550072,49.590698,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Земская больница (каменный) 1864-1872 рг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.580311,48.683887,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Институт благородных девиц (каменный) 1832 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.566372,49.575832,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Зимний дворец (деревянный) 1796 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.109016,49.792767,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Зимний театр (каменный) 1907 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.033566,48.470894,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Контрактовий Дом (каменный) 1817 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517981,50.4650879</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кинотеатр (каменный) 1939 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.320854,50.7436139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Контрактовий Дом (каменный) 1800 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.519808,50.46109,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кловский Дворец (каменный) 1756 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532728,50.442154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Манеж (каменный) 1848 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.261421,48.5179859</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Земская управа (каменный) 1886 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.798531,50.906281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Институт благородных девиц (каменный) 1839-1843 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527603,50.449738</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Коммерческое училище (каменный) 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.029392,48.466923</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Комерцiйний банк (каменный), конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.575064,48.6773909</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Корпус игумена, 1781 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521421,50.465569,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кокоревская беседка, 1863 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.526173,50.456306,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Комплекс застройки Вечевой площади (каменный) 17-18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.970369,50.055756,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Комплекс Центральной площади (каменный) 19-20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.935156,48.292458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ливадийский дворец, 19-20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.143272,44.468002,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Концертний зал Унион, 1902 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735958,46.47683,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Лагерь Артек</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.293865,44.552883,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кузнецовский дворец 1889 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.780273,44.389519,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Критый рынок (каменный) 1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521132,50.442444</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Лавка, 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.220312,49.756451,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мавританская арка</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.754387,46.464123,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Ласточкино гнездо, 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.128212,44.430676,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Митридатская лесница (каменная) 1866 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.473156,45.351261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Лифт на одного</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517992,50.448013,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Морское ведомство (каменное)   19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.004421,46.972359,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Городской театр (каменный) 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.931049,48.291756,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Круглый двор (каменный), 1749 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.958004,50.4729499</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Имение графов Остен-Сакенов (каменный) развалины 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.108536,50.576218,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Магистрат (каменный), 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.652647,50.253414</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Магазин Хлеб 1830 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.223013,50.6190259</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мужская гимназия (каменная) 1861 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.063347,48.458012,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Плоский дом, 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738646,46.48904,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мариинский Дворец (каменный) 1752-1870 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.538275,50.447922,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мавзолей Инзова (каменный) 1825 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.616348,45.676682,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Массандровский дворец Александра III (каменный) 1902 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.202248,44.517067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк 1901 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.531433,50.443272,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Старая мельница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.631886,50.582714,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Народный дом 1908 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.033161,48.803520</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Национальная библиотека (каменный) 1914 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.51116,50.440933</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Митрополитчьи палаты (каменные) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.697166,49.084885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мужская гимназия (каменная) 1814-1848 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.24374,49.989235,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мужская гимназия, 1896 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.21917,48.745476,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Шпенцера, 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.758884,46.472385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мужская гимназия (каменная) 1850 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513769,50.443642,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк барона Энгельгардта, 1828 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.027588,49.200706,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Новая биржа (каменная) 1899 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742821,46.480579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.409,49.065605,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>особняк Абомелика 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735268,46.487125,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Демченка В.Я. 1911 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532381,50.4431379</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Музей древности (каменный) 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.063744,48.455761,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Гольдберга (каменный) 1915 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.228828,49.974842,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Либермана 1880 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529629,50.4475779</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Немировская гимназия (каменный), 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.839735,48.965767,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Бродской 1879 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.53113,50.446888,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Гальперина (каменный)  1899 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.536259,50.44706,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Маркуса Зайцева 1900 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.536615,50.446873,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Камо (каменный) 1834 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.670151,46.463711</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк 1892 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524588,50.443962,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк графини Уваровой 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.535542,50.4448169</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Терещенко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.503395,50.4454539</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Офицерское собрание (каменное) 1824 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.981298,46.9790989</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк, 1890</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.759558,46.4772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Закса 1896 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.536819,50.445641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Поммера, 1893 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.736673,46.4878079</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Полякова 1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.537039,50.446667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк графини Уваровой (каменный) 1916 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.53373,50.443394</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Фабрицкого</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.756516,46.474442,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк Шестакова  (каменный) 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.532356,50.4442179</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Бельских 1923 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.020763,49.835171,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Бадени (каменный) 19-20в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.180258,48.930286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.3064,50.234951,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк, 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.736319,46.478745,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>особняк, 1906 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.753895,46.471485</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Охотничий домик Л.Кучмы</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.069462,52.12376,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Бесядецких VIII-XIX</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.033369,49.838894,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк генерал-лейтенанта Солонина, 1908 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.884075,50.948299,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Охотничий замок (каменный) 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.693987,48.895489,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Охотничий дворец 1760 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.90941,49.430618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец архиепископов</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032669,49.841927,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец графов Шенборнов (каменный) 1667 - 1748 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.720085,48.4408299</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец барона Бруницкого</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.738195,49.718475,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Туркулов-Комелло</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.045343,49.836582,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Баворовских</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.018511,49.83556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первые дома из готовых объемных элементов (блок-комнат)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.438889,50.461945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Справедливости</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032787,49.838287</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Бандинелли</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032267,49.842579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Дидушицких</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.029552,49.842167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Бруницких (каменный) 1831</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.734545,48.636753</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец графов Голуховских 1865</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.01881,49.840176,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец римо-католицких архиепископов</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.03602,49.844872</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Браницких (каменный) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.044374,51.226231,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Сапегов</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.021845,49.836002,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (каменная) 1847 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.935268,48.292873</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Корнякта 1580 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032518,49.842194,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец графов Шенборнов (каменный) 1895 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.830563,48.48497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Любомирских</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032862,49.8417779</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Дидушицких 1857 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.040226,49.843544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Яблоновского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.919128,49.25441,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец господ Сабанских (руины)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.458611,48.474998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Семенских-Левицких</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.040436,49.838367,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец греко-католических архиепископов</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.013603,49.838638,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пассаж Андреолли 1768 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.030592,49.841660</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (каменная) 1851 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.031219,49.841869,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Украина (каменный) 1970 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521011,50.422146,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первый киевский небоскреб Демченко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52437,50.446098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пансион графини Левашовой (каменный) 1851 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.512669,50.444839,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пассаж</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732746,46.4843409</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Парламентская библиотека</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.529133,50.451385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Присутственные места (каменный) 1810 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.550915,49.588085,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пасаж,  1913, 1950 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.523247,50.4481049</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первый панельный жилой дом 1951 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517708,50.4399599</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пансионат имени Терлецкого, Управляющего делами Президента России</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.798595,44.395065,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первый дом с лифтом в Запорожье 1954 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.112598,47.853687,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Полковая канцелярия (каменный), 1740-60 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.111198,50.9104,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Потемкинский дворец (каменный) 1786 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.070995,48.460705,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первый бескаркасный крупнопанельный дом 1958 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.543324,50.418613,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первый небоскрёб, 12 этажей 1970 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.161049,47.830078,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ветроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.085869,44.808575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (каменная) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.859442,49.064835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первая русская гимназия</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572727,48.677753,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Потемкинская лесница (каменная) 1842 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741211,46.488201,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденция епископа (каменная) 1646 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.302618,48.622601,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (каменная) 1638-1670, 1844 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.197048,49.518139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.011106,50.381763,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1811 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.93685,49.442753</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (каменная), 1751 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.395182,49.062317,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Помещичья усадьба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.192238,44.944324,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.506226,49.35136,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Прочанький Дом Таранова-Белозерова (каменный) 1826 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.096039,44.953098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (каменная) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.785357,49.571365</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (каменная) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.968969,50.0556529</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша (каменная) 1861 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.560062,48.448849,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 18-20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.689289,49.299496,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденция Рината Ахметова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.886002,48.015945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1695-1932 гг., 49,5 м</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.7106,48.922733,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Реальное училище (каменное) 1890 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.053356,48.461098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.797939,49.019817,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1906 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.71817,48.441891,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша 1877 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.037342,48.525024,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша, 14-18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.573006,48.6754949</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденция президента Украини</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.215555,48.623611,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Русский магистрат, 16-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.573095,48.676903,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ратуша, 1847 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.934801,48.291725,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденций буковинских митрополитов (каменная) 1863-1882 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.925213,48.296494</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба  Покорщина с.18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.119076,50.904293,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденция губернатора (каменная) 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.622147,46.637081,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденция Президента Украины</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.60111,50.290833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Резиденция президента Украины (Вилла 8)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.870174,44.406376,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Русский сельский банк (каменный) 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.547218,49.591339</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.810349,50.910862,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.582949,48.67128,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр оперы и балета (каменный) 1900 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.027023,49.843941,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ресторан Гуцульщина (дер) 1965 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.541101,48.439201,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.028555,49.522751,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Асмолова (каменная) д.п.19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.816818,50.918118,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Руины мавзолея Понинских</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.596733,48.8086399</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба первого киевского архитектора Меленского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.513784,50.465382</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Штеричевой</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.818764,50.8760639</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) 1805 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.312397,49.760838,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склеп Качковских</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.463161,50.480274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Линтваревых</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.82943,50.934422,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом в Радванце (каменный) к.16 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.318424,48.612003,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр Соловцова 1898 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527733,50.44577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный)  19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.299698,48.5787469</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Университет Святого Владимира (каменный) 1843 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.511444,50.4419629</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом Огиевских, 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.372257,51.542419,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом Рудзинских, 1820 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.401871,51.533508,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Синопская лестница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.522263,44.613056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр опери и балета (каменный) 1887 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.74111,46.485512,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Университет (каменный) 1767-1831 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.230114,49.988731</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Старопечерский дом</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.454082,50.3850669</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) к.18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.215748,49.988857,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торговый дом фирмы Кимаэра 1895 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.527021,50.447117,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба князей Сангушок (развалины) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.818991,50.11718,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.13237,48.96307,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склеп Деметры (Керчь)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.472195,45.364914,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр оперы и  балета (каменный) 1941 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.803524,48.005974</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Театр опери и балета (каменный) 1901 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.512724,50.446598,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом графа Игнатьева (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.33952,49.505199,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба графов Стецких (каменная) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.864820,50.656738,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный), конец 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.215759,49.989391,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный), 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.2342,50.029701,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) 1814 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.237103,49.998226,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) 1807 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.24498,50.416672,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом Хоецких (каменный)  1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.834518,50.19503,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) с парком 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.905775,49.717014,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.252602,48.714931</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Университет строительства и архитектуры 1882 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.721798,46.479134,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Давидовых 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.099998,49.033333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадебный дом (каменный) 1823 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.72509,50.218380</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба (каменная), 18 - начало 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.014353,51.085457,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба (каменная) в.18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.866713,49.808102,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба (каменная) 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.01083,50.0825609</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба генерала Драгомирова, средина 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.206268,51.236073,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба графа Гейдена (каменная) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.438889,49.037777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба в Пятничанах (каменная) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.467199,49.23711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба (каменная) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.099304,50.146713,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Валевских 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.673462,50.5989909</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Галагана (каменная) 1832 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.767605,50.573914,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба львовских архиепископов (каменная) 1730 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.656912,49.893322,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Даховских (каменная), 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.875313,48.994579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Ганских, 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.323198,49.802662</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Лизогуба (каменный) 17-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.568884,51.642689,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба графа Камбурлея,  конец 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.775841,51.07806,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба княгини Голициной 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.14489,49.099831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба де-Шодуара (каменная), 18 - 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.032616,50.153023,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Куколь-Яснопольских (каменная), конец 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.205379,50.06958,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Царская беседка</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.240276,44.5075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Николая Гоголя (каменная) 19-20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.820454,49.9178429</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба князя Кугущева</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.658516,44.953148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Комара 1805 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.606823,48.724289,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усыпальница Закревских (каменный) 1898 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.238831,50.317818</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Л. Кенига 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.94632,50.474205,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Палласа (каменный) 18-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.130764,44.944077,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Монжене (развалины)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.194717,44.877899,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Мсциховского 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>38.787773,48.399017,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Натальевка (каменный) 1884 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.28841,50.074219,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Н. Клейнмихелей (каменный) 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.806877,50.318367,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Олизара 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>29.067415,50.315525,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Флигель усадьбы Корецких (каменный) 1780 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.611664,50.507740</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Яхт-клуб (каменный) 1887 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.958626,46.973621,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Усадьба Потоцких (каменный) 17-19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.402512,50.464497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Учительский институт (каменный) 1874 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.915085,51.678402</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Училище садоводства (каменный), 1859 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.235025,48.768196,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ханский дворец (каменный)   16-18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.882137,44.749054,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Флигель дома Ф. Барзиловского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.507896,50.468662,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Юсуповский дворец 1820-1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.089725,44.432549,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Школа, 1902 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.501814,50.453529</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Чорная каменица 1588 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.032406,49.8423769</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Херсонский земской банк 1888 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.727669,46.487011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Центральная геофизическая обсерватория</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.53171,50.392235,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Харакс имение Романовых</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.115265,44.429958,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Шахский дворец 1852 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.735155,46.490749,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Школа кармелитов (каменная)  18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572998,48.678669,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец (руины)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.71884,50.532143</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом, 1887</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.729023,46.489830</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Южный княжеский дворец</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.517124,50.4572559</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Родовой склеп Фальц-Фейнов</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.25222,46.192501,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Скшинских, начало 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.284325,49.262772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Главпочтамт 1914 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.52232,44.606064,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Аркада карантина с башней (каменный)  1807 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.749838,46.478779</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вилла Соколовой, начало 20 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.596748,44.494827,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ветряная мельница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.006882,48.788433,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Особняк 1892 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.76111,46.449165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Архитектора</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.314291,50.737461</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапорная башня (каменная)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.964802,44.836235,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Александровская гидроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.254166,47.702778,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывший торговые ряды, 1836 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.734526,46.473282,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Арсенал (каменный) 1784-1801 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.554077,50.4350399</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Астрономическая обсерватория и метеостанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.953611,49.918056,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ветряная мельница 1903 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.37146,47.532658,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Башня Микрюковского водопровода (каменный) 1855г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.580112,44.591427,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Астрофизический центр Украины</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.186378,45.190617</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывший склады Скальковского, 1840-е</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741493,46.479691</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Брацлавская гидроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.953009,48.828911,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывшие магазины фирм Фиат и Братья Тарнополи, 1913</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738514,46.480679,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапорная башня (каменная) 1927 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.910534,51.674458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывшие магазины фирмы Викандер и Ларсон, 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.739773,46.478794,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Башня ветров (каменный) 1844 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.524223,44.610996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Башня Королевы бензоколонки 1951 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.515007,50.222092,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бывший пивзавод Канского</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.481358,50.300747</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Бумажная фабрика (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.01103,49.022091,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом для наблюдения за движением по Днепру (каменный) 1809 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.397404,49.063866,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Верстовая миля (каменный) 1789 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.066666,48.4575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ветроэлектростанция 1993 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.103245,45.326279,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Конторское здание Канатного завода 1913 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.732538,46.461937,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапорная башня (каменный) 1912 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.468712,49.234966,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Золотой павлин, 1841 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.646557,48.206234</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Екатериновская миля (каменный) 1787 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.092583,48.278366,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Виадук (каменный) 1894 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.569313,48.297958</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапорная башня</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.757338,50.497871,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водянная мельница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.700523,48.616226</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапорная башня 33 м (каменная) 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.547264,47.097721,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяная мельница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.415833,50.144165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Деркульский конный завод (каменный) 1767 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.622936,49.121647,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапорная башня Шухова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.058983,49.427067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гамма-телескоп ГТ-48</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.008884,44.724209,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяная мельница, 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.236954,49.762772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяная мельница (каменный) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.010906,49.022049</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водяная мельница (каменный) 17 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.782288,49.6661869</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Железнодорожный вокзал (каменный) 1927 - 1932 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.489799,50.440506,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вознесенская гидроэлектростанция 1927 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.256006,47.700825,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Вознесенская гидроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.256117,47.7007559</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Гидрографическое депо, 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.985085,46.977634,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Днестровская гидроэлектростанция, 1973 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.453819,48.593506,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Днепрогэс, 1927-1939 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.087574,47.8690149</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Электростанция и мельница (каменная), конец 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.840351,48.961506,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Днепродзержинская гидроэлектростанция, 1963 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.541367,48.5485309</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Екатериновская миля (каменный) 1787 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.541683,44.638699,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Екатерининская миля, 1787 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.875404,47.450321,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Электростанция 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.972231,50.051304,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Железнодорожный виадук</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.563486,48.281044</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Железнодорожный вокзал 1904 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.994486,49.83976,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Железнодорожный вокзал (каменный) 1888 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.831926,49.7079239</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Конный завод 1822 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>39.599468,49.276569,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Екатерининская миля 1786 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.428001,45.064816,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Железнодорожный вокзал (каменный) 1904 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.112686,49.0330009</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Запорожская атомная электростанция, 1981 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.589138,47.509533,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Завод Эльворти 1874 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.263981,48.51968,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Железнодорожный вокзал, 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.929893,48.30088,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Крымская атомная электростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.791973,45.387806,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Зернохранилище (каменный) 1770 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.524317,50.4617,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ипподром 1916 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.546803,50.437286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кессон Оболонь (Сталинское метро)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.52401,50.4988939</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ионосферный комплекс</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.293945,49.676987,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Екатерининская миля</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.946636,44.815845,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Киевская гидроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.511169,50.58873,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Каневская гидроэлектростанция, 1972 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.469364,49.7644959</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Житницы (каменный) 1778 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.51502,49.352798,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Канатная дорога</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.249462,50.018959,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Каретная (каменный) 1846 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.06666,50.433811,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мариинская женская гимназия</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.58065,48.67889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Киевская телевышка, 385 м, 1973 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.453333,50.470833,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Космическая антенна</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.189445,45.243332,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Каховська гидроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.374138,46.774014,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кокоревская беседка</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.51836,50.459457</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Константиновская лестница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.470829,45.353603,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Кременчугская гидроэлектростанция 1959 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.250797,49.07719,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первая на Украине гидроэлектростанция на Юге Украины</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.297764,47.323650</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Конюшни Воронцовского дворца, 1826-29 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.738232,46.489597</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Крымская астрофизическая обсерватория</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.012489,44.727051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мост-акведук 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.545513,44.615253,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Космический центр</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.163784,45.224003</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мельница водяная и гидроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.944166,48.029999,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мануфактура Треугольник 1810 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.741686,46.477322,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мельница (каменная) разв. 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.728907,48.858719,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Млыновская гидроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.594723,50.510277,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мельница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.965368,50.057945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Метеостанция (каменный) 1855 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.508577,50.440849,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мост, длина 92 м</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.539560,48.44788,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мост Екатерининского тракта, 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.208569,46.853741,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерватория (каменный) 1827 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.972565,46.9728849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мост 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.349163,46.824638,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мост Екатерининского тракта, 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.050404,46.773396,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мост-акведук 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.541935,44.615269,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерватория (развалины)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.625555,48.044724,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Михайловская гидроэлектростанция 1957 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.434444,50.663887,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Новоазовская ветряная электростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.935581,47.127876,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Мост-акведук 19 в (каменный)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.66386,44.541969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Паровая мельница 1911 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.129337,48.655098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Нижняя станция канатной дороги</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.070564,44.425549,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерватория</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.230713,50.002544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерватория университета (каменная) 1845 гг.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.497879,50.452015</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пожарное депо (каменное) 1811 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.560871,49.579521</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Обсерватория университета имени Мечникова, 1871 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.755304,46.477402</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склады (каменные) 1810 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.746389,46.484718</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Плотина и водяная мельница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>22.993242,48.246452,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склады (каменные), конец 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.612061,46.528011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Почтовая станция (каменная), 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.8885,51.0457,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Почтовая станция (каменная), средина 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>28.648472,50.269356,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Паровозное депо станции Юзово, 1924 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.744656,48.044369,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пивзавод Шпирта, 1910 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.691099,46.466263,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Паровая мельница 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>27.69908,50.021923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Пивоварний завод (каменный) 1872 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.572231,48.680328,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Почтовая станция (каменный) 1850 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.525827,50.459255,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торговые ряды (каменный) 1814 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.115276,49.796944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первая в Запорожье электростанция 1911г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.175175,47.8162649</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштовая станция (каменная) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.22364,50.8802259</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Поштамт (каменный) 1869 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.550442,49.588188,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Первая харьковская электростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.24424,49.992023,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Почтовая станция на 15 км (каменная) 1846 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.319262,50.453236,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Производственные мастерские (каменная) 1854 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.544571,50.443043</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Почтовая станция на 32 км (каменный) 1846 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.06666,50.433773,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Проскурня (каменный) 1826 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520872,50.4660029</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Радиотелескоп диаметром 70 м</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.186943,45.189167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Почта (каменный) 1825-1831 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.109112,49.7995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Привоз 1827 г</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73716,46.467697,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Провиантский склад (каменный) 1787 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.23653,49.995846,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Самая высокая труба в Украине, 330 м.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.10611,49.97139,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ровенская атомная электростанция, 1980 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.893415,51.325485,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Старая мельница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>32.128891,49.007610</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склады Рабиновича 1848 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.742294,46.477634,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Станция космической связи</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.506947,46.634148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Проскурня, 1826 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.520813,50.465794,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Симеизская обсерватория</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.997971,44.417454,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Склады, 1810 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.745689,46.485466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Солеварня, 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.978052,48.978096,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Солнечные часы 1826 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.521107,50.465424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Туннель под Днепром (метро Сталина)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.571102,50.334595,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Солеварня</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.844114,49.0784909</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торговые ряды (каменные) 1838 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.229179,48.7458989</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Суконная фабрика (каменная) 1794 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.019463,48.475075,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Теребля-Рицкая гидроэлектростанция, 1956 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.57749,48.372021,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Товарная контора 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.508205,50.428101</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Станция космической связи</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.032806,44.481251,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торговые ряди (каменные), конец 18 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.876167,50.298885,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Суконная фабрика (каменная) 1794 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>35.068241,48.458279,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Фруктовый пассаж 1913 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.73177,46.469341,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торговые ряды (каменные) 1835 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>36.681068,49.835281,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Турецкий мост (каменный)</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.421673,48.647751,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Торговые ряды (каменные) 19 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.262604,52.009579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Центр космической связи Азимут</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>24.925425,49.8561099</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Стебливская гидроэлектростанция 1951 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.108274,49.407551,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Узкоколейка 1913 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.238029,48.327229,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Турецкие бани (каменные) 16 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>33.376965,45.197754</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Участок телеграфа Лондон-Калькутта</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>34.750668,45.1079249</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Узкоколейка 1890 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>23.910173,48.933735,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Турецкий мост (каменный) 11-17 в.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.566332,48.673313,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Фабрика Маршака</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.526484,50.452255,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Краснохуторская гидроэлектростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.833994,48.193100</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Хмельницкая атомная электростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.652168,50.30286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Водонапорная башня Шухова</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.975903,46.9689369</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дворец Тышкевичей, 1909 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>25.157848,50.075676,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Дом Юлии Тимошенко</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>30.655277,50.259445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Контора завода (каменная) 1905 г.</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>37.770557,48.058334</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Старая мельница</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>26.637249,50.331711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Южно-Украинская атомная электростанция</name>
+      <styleUrl>#monumentIcon</styleUrl>
+      <Point>
+        <coordinates>31.219509,47.8103639</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
