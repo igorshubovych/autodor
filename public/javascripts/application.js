@@ -468,6 +468,4 @@ $(document).ready(function() {
 	createContextMenu();
 
 	// cleaning choices
-	$(":radio[checked], :checkbox[checked]").removeAttr("checked");
-	$(".routeType input[type=radio]:first").attr("checked", "checked");
 });

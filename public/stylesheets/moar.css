@@ -2,57 +2,89 @@ body {
 	font-family: Segoe UI,Arial,sans-serif;
 }
 
-.main {
-	background: none repeat scroll 0 0 #EEEEEE;
-	border: 1px solid #DDDDDD;
-	bottom: 2em;
-	height: 100%;
-	top: 135px;
-	right: 10px;
-	width: 100%;
-	margin: 0 auto;
-	overflow: auto;
-}
-
-.panel {
-	height: 100%;
+.logo {
 	float: left;
-	margin-left: 5px;
-	margin-right: 5px;
-	width: 345px;
 }
 
-#map {
-	height: 700px;
-	min-height: 300px;
-	min-width: 315px;
-	width: 70%;
+.menu {
+	width: 100%;
+	background-color: #BE692C;
+	clear: both;
 }
 
-.language_menu {
-	float: right;
+.menu ul {
+	display: inline;
+	list-style-type: none;
 }
 
-.routeControls, .searchControls {
+.menu ul li {
+	display: inline;
+}
+
+.menu .objects {
+	float: left;
+}
+
+.menu .objects ul {
+	list-style-type: none;
+	display: inline;
+}
+
+.menu .objects ul li {
+	display: inline;
+}
+
+.menu .search {
+}
+
+.menu .links {
 	text-align: center;
 }
 
-.panel {
+.menu .links ul {
+	visibility: hidden;
+	float: right;
+	list-style-type: none;
+	display: block;
+	background-color: #BE692C;
+}
+
+.menu .links ul li {
+	display: block;
+	background-color: #BE692C;
+}
+
+.menu .links ul li.first {
+	visibility: visible;
+}
+
+.menu .links ul:hover {
+	visibility: visible;
+}
+
+.content {
+	width: 100%;
 	overflow: auto;
 }
 
-.link {
-	margin: 10px;
+.content .routingPanel {
+	float: left;
+	width: 20%;
+	overflow: auto;
 }
 
-.searchResultItem {
+.content .map, .map #map {
+	float: right;
+	width: 700px;
+	height: 700px;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+	border: 2px #F00;
+}
+
+input[type=checkbox][checked] {
 	border: none;
-	padding: 5px;
-}
-
-.searchResultItem:hover, .momoClass:hover {
-	border: medium none !important;
-	border-radius: 8px 8px 8px 8px;
-	background-color: #DD944D;
-	cursor: pointer;
+	visibility: visible;
 }

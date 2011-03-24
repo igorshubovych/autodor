@@ -1,6 +1,11 @@
 :javascript
 	$(function() {
 		$("#printRoute").button().hide();
+		$(".routeType").buttonset();
+		$("#addWaypoint").button();
+		
+		$(":radio[checked], :checkbox[checked]").removeAttr("checked");
+		$(".routeType input[type=radio]:first").attr("checked", "checked");
 	});
 
 #tabsRouting

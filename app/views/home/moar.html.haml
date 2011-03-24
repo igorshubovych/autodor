@@ -1,25 +1,76 @@
-%table{ :style => "position: relative;" }
-	%tr
-		%td{ :style => "width: 20%;" }
-			%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
-				=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
+:javascript
+	$(function() {
+		//$(".objects").buttonset();
+	});
+
+.logo
+	%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
+		=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
+
+.menu
+	%ul
+		%li.objects
+			%ul
+				%li
+					%input#gas{ :type => "checkbox", :onClick => "switchLayer('gas');" }
+						%label{ :for => "gas", :title => "#{t('objects.gas')}" }
+							= image_tag '/images/objects/gas.gif'
+						
+				%li
+					%input#carService{ :type => "checkbox", :onClick => "switchLayer('carService');" }
+						%label{ :for => "carService", :title => "#{t('objects.carService')}" }
+							= image_tag '/images/objects/car_service.gif'
+
+				%li
+					%input#hotel{ :type => "checkbox", :onClick => "switchLayer('hotel')"}
+						%label{ :for => "hotel", :title => "#{t('objects.hotel')}" }
+							= image_tag '/images/objects/hotel.gif'
+
+				%li
+					%input#monument{ :type => "checkbox", :onClick => "switchLayer('monument')"}
+						%label{ :for => "monument", :title => "#{t('objects.monument')}" }
+							= image_tag '/images/objects/monument.gif'
 					
-		%td
-			.menu
-				%a{ :href => "/page/support" }= t('menu.support')
-				%a{ :href => "/page/links" }= t('menu.links')
-				%a{ :href => "/page/about" }= t('menu.about')
+				%li
+					%input#roadCondition{ :type => "checkbox", :onClick => "switchLayer('roadCondition')"}
+						%label{ :for => "roadCondition", :title => "#{t('objects.roadCondition')}" }
+							= image_tag '/images/objects/damage_to_roads.gif'
+
+				%li
+					%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather')"}
+						%label{ :for => "weather", :title => "#{t('objects.weather')}" }
+							= image_tag '/images/controls/weather.png'
+					
+				%li		
+					%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
+						%label{ :for => "webCam", :title => "#{t('objects.webCam')}" }
+							= image_tag '/images/objects/cam.gif'
+
+		%li.search
+			%input#searchQuery{ :type => "edit", :name => "query" }
+			%input#searchControl{ :type => "button", :value => "Search", :onClick => "geoSearch();" }
 			
-		%td{ :style => "width: 10%;" }
-			.language_icons
-				%a{ :href => "?locale=en", :title => "English" }
-					=image_tag "flags/en.png"
-				%a{ :href => "?locale=uk", :title => "Українська" }
-					=image_tag "flags/uk.png"
-				%a{ :href => "?locale=ru", :title => "Російська" }
-					=image_tag "flags/ru.png"
+		%li.links
+			%ul
+				%li.first
+					%a{ :href => "/" }
+						moo
+				
+				%li
+					%a{ :href => "/" }
+						moo2
+						
+				%li
+					%a{ :href => "/" }
+						moo3
+						
+				%li
+					%a{ :href => "/" }
+						moo4
+
+.content
+	.routingPanel
+		= render :partial => 'home/tabRoute'
 		
-.dao
-	= render :partial => 'home/panel'
-	
-	#map
+	.map
+		#map
