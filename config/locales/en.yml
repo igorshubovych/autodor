@@ -17,11 +17,12 @@ en:
         objects: "Objects"
         quickLinks: "Quick links"
     objects:
-        gas: "Gas station"
+        gas: "Gas stations"
         carService: "Car service"
         hotel: "Hotels"
-        webCam: "Webcam"
+        webCam: "Web-cams"
         weather: "Weather"
+        monument: "Monuments"
         roadCondition: "Road condition"
     menu:
         about: "About"

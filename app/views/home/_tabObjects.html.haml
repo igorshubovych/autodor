@@ -1,47 +1,41 @@
 #tabsObjects
 	:javascript
 		$(function() {
-			//$(".objectControls").buttonset();
+			$(".objectControls").buttonset();
 			//$(".object")
 		});
 		
 	.objectControls
-		= image_tag '/images/objects/gas.gif'
+		
 		%input#gas{ :type => "checkbox", :onClick => "switchLayer('gas');" }
-			%label{ :for => "gas" }
-				= t('objects.gas')
+			%label{ :for => "gas", :title => "#{t('objects.gas')}" }
+				= image_tag '/images/objects/gas.gif'
 				
-		%br/
-		
-		= image_tag '/images/objects/car_service.gif'
 		%input#carService{ :type => "checkbox", :onClick => "switchLayer('carService');" }
-			%label{ :for => "carService" }
-				= t('objects.carService')
-		
-		%br/
-		
-		= image_tag '/images/objects/cam.gif'
-		%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
-			%label{ :for => "webCam" }
-				= t('objects.webCam')
-		
-		%br/
-		
-		= image_tag '/images/objects/hotel.gif'
-		%input#hotel{ :type => "checkbox"}
-			%label{ :for => "hotel" }
-				= t('objects.hotel')
-		
-		%br/
-		
-		= image_tag '/images/controls/weather.png'
-		%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather')"}
-			%label{ :for => "weather" }
-				= t('objects.weather')
-		
-		%br/
+			%label{ :for => "carService", :title => "#{t('objects.carService')}" }
+				= image_tag '/images/objects/car_service.gif'
 				
-		= image_tag '/images/objects/damage_to_roads.gif'
+		%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
+			%label{ :for => "webCam", :title => "#{t('objects.webCam')}" }
+				= image_tag '/images/objects/cam.gif'
+		
+		%input#hotel{ :type => "checkbox", :onClick => "switchLayer('hotel')"}
+			%label{ :for => "hotel", :title => "#{t('objects.hotel')}" }
+				= image_tag '/images/objects/hotel.gif'
+
+		%input#monument{ :type => "checkbox", :onClick => "switchLayer('monument')"}
+			%label{ :for => "monument", :title => "#{t('objects.monument')}" }
+				= image_tag '/images/objects/monument.gif'
+		
 		%input#roadCondition{ :type => "checkbox", :onClick => "switchLayer('roadCondition')"}
-			%label{ :for => "roadCondition" }
-				= t('objects.roadCondition')
+			%label{ :for => "roadCondition", :title => "#{t('objects.roadCondition')}" }
+				= image_tag '/images/objects/damage_to_roads.gif'
+
+		
+	%br/
+
+	.objectControls{ :style => "text-align: center;" }
+		
+		%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather')"}
+			%label{ :for => "weather", :title => "#{t('objects.weather')}" }
+				= image_tag '/images/controls/weather.png'

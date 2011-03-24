@@ -23,7 +23,8 @@ var layers = {
 	gas: { data: null, shown: false, icon: null },
 	carService: { data: null, shown: false, icon: null },
 	webCams: { data: null, shown: false, icon: null },
-	hotels: { data: null, shown: false,  icon: null },
+	hotel: { data: null, shown: false,  icon: null },
+	monument: { data: null, shown: false,  icon: null },
 	weather: { data: null, shown: false, icon: null},
 	roadCondition: { data: null, shown: false, icon: null}
 };
@@ -68,6 +69,14 @@ var initIcons = function() {
 	icon = new CM.Icon(icon);
 	icon.image  = "/images/objects/damage_to_roads.gif";
 	layers['roadCondition']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/monument.gif";
+	layers['monument']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/hotel.gif";
+	layers['hotel']['icon'] = icon;
 }
 
 var subscribeForEvents = function() {
@@ -337,17 +346,7 @@ var loadObjects = function(layerName) {
 
 var switchLayer = function(layerName) {
 	layer = layers[layerName];
-
-	if (layerName == 'gas' || layerName == 'carService' || layerName == 'roadCondition') {
-		if (layer['data'] == null) {
-			loadObjects(layerName);
-		} else if (layer['shown']) {
-			map.removeOverlay(layer['data']);
-		} else {
-			map.addOverlay(layer['data']);
-		}
-		layer['shown'] = !layer['shown'];
-	} else if (layerName == 'weather') {
+ 	if (layerName == 'weather') {
 		if (map.containsOverlay(layer['data']) == true) {
 			layer['shown'] = false;
 
@@ -367,6 +366,15 @@ var switchLayer = function(layerName) {
 
 			webcams.showWebcams();
 		}
+	} else 	{
+		if (layer['data'] == null) {
+			loadObjects(layerName);
+		} else if (layer['shown']) {
+			map.removeOverlay(layer['data']);
+		} else {
+			map.addOverlay(layer['data']);
+		}
+		layer['shown'] = !layer['shown'];
 	}
 }
 
