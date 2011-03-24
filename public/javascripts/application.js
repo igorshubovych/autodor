@@ -456,7 +456,6 @@ var printRoute = function() {
 	hwnd.document.open();
 	hwnd.document.write($("#routingPanel").html());
 	hwnd.document.write("<br /><img src='" + mapStr + "' />");
-	alert("<br />" + mapStr);
 	hwnd.document.close();
 	hwnd.print();
 	hwnd.close();
