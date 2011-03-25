@@ -35,6 +35,7 @@ body {
 }
 
 .menu .search {
+	text-align: center;
 }
 
 .menu .links {
@@ -82,9 +83,4 @@ body {
 input[type=checkbox] {
 	visibility: hidden;
 	border: 2px #F00;
-}
-
-input[type=checkbox][checked] {
-	border: none;
-	visibility: visible;
 }
