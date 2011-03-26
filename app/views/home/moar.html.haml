@@ -12,64 +12,42 @@
 		%li.objects
 			%ul
 				%li
-					%input#gas{ :type => "checkbox", :onClick => "switchLayer('gas');" }
-						%label{ :for => "gas", :title => "#{t('objects.gas')}" }
-							= image_tag '/images/objects/gas.gif'
+					= image_tag '/images/objects/gas.gif', { :title => "#{t('objects.gas')}", :onClick => "switchLayer('gas');" }
 						
 				%li
-					%input#carService{ :type => "checkbox", :onClick => "switchLayer('carService');" }
-						%label{ :for => "carService", :title => "#{t('objects.carService')}" }
-							= image_tag '/images/objects/car_service.gif'
+					= image_tag '/images/objects/car_service.gif', { :onClick => "switchLayer('carService');", :title => "#{t('objects.carService')}" }
 
 				%li
-					%input#hotel{ :type => "checkbox", :onClick => "switchLayer('hotel')"}
-						%label{ :for => "hotel", :title => "#{t('objects.hotel')}" }
-							= image_tag '/images/objects/hotel.gif'
+					= image_tag '/images/objects/hotel.gif', { :onClick => "switchLayer('hotel')", :title => "#{t('objects.hotel')}" }
 
 				%li
-					%input#monument{ :type => "checkbox", :onClick => "switchLayer('monument')"}
-						%label{ :for => "monument", :title => "#{t('objects.monument')}" }
-							= image_tag '/images/objects/monument.gif'
+					= image_tag '/images/objects/monument.gif', { :onClick => "switchLayer('monument')", :title => "#{t('objects.monument')}" }
 					
 				%li
-					%input#roadCondition{ :type => "checkbox", :onClick => "switchLayer('roadCondition')"}
-						%label{ :for => "roadCondition", :title => "#{t('objects.roadCondition')}" }
-							= image_tag '/images/objects/damage_to_roads.gif'
+					= image_tag '/images/objects/damage_to_roads.gif', { :onClick => "switchLayer('roadCondition')", :title => "#{t('objects.roadCondition')}" }
 
 				%li
-					%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather')"}
-						%label{ :for => "weather", :title => "#{t('objects.weather')}" }
-							= image_tag '/images/controls/weather.png'
+					= image_tag '/images/controls/weather.png', { :onClick => "switchLayer('weather')", :title => "#{t('objects.weather')}" }
 					
-				%li		
-					%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
-						%label{ :for => "webCam", :title => "#{t('objects.webCam')}" }
-							= image_tag '/images/objects/cam.gif'
+				%li
+					= image_tag '/images/objects/camera.png', { :onclick => "switchLayer('webCams');", :title => "#{t('objects.webCam')}" }
 
 		%li.search
 			%input#searchQuery{ :type => "edit", :name => "query" }
-			%input#searchControl{ :type => "button", :value => "Search", :onClick => "geoSearch();" }
+			%input#searchControl{ :type => "button", :value => "#{t('panel.search')}", :onClick => "geoSearch();" }
 			
-		%li.links
+		%li.lang
+			= image_tag "flags/#{ I18n.locale }.png", :style => "margin-right: 5px;"
+		
 			%ul
-				%li.first
-					%a{ :href => "/" }
-						moo
-				
-				%li
-					%a{ :href => "/" }
-						moo2
-						
-				%li
-					%a{ :href => "/" }
-						moo3
-						
-				%li
-					%a{ :href => "/" }
-						moo4
+				-I18n::available_locales.each do |l|
+					-if I18n.locale != l
+						%li
+							%a{ :href => "?locale=#{ l }" }
+								=image_tag "flags/#{ l }.png"
 
 .content
-	.routingPanel
+	.panel
 		= render :partial => 'home/tabRoute'
 		
 	.map

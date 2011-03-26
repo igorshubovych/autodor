@@ -1,15 +1,17 @@
 body {
 	font-family: Segoe UI,Arial,sans-serif;
+	margin: 0px;
 }
 
 .logo {
 	float: left;
+	margin-left: 20px;
 }
 
 .menu {
-	width: 100%;
-	background-color: #BE692C;
+	background-color: #FF984E;
 	clear: both;
+	width: 100%;
 }
 
 .menu ul {
@@ -26,12 +28,119 @@ body {
 }
 
 .menu .objects ul {
+	display: inline;
+	list-style-type: none;
+}
+
+.menu .objects ul li {
+	display: inline;
+}
+
+.menu .search {
+	text-align: center;
+}
+
+.menu .lang {
+	text-align: center;
+	float: right;
+}
+
+.menu .lang ul {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+}
+
+.menu .lang ul li {
+	border-width: 1px solid #fff;
+	display: inline;
+	list-style: none;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.menu .lang:hover ul {
+	display: inline;
+	background-color: #FF984E;
+}
+
+.menu .lang ul li:hover {
+	border: 1px solid #BE8358;
+}
+
+.content {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.content .panel {
+	float: left;
+	overflow: auto;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+
+.content .map, .map #map {
+	float: right;
+	height: 700px;
+	width: 700px;
+}
+
+/*body {
+	font-family: Segoe UI,Arial,sans-serif;
+	margin: 0px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	margin-left: 20px;
+	border: 0px;
+}
+
+.menu {
+	width: 100%;
+	background-color: #EB873F;
+	clear: both;
+	height: 30px;
+}
+
+.menu * {
+	vertical-align: middle;
+}
+
+.menu ul {
+	display: inline;
+	list-style-type: none;
+}
+
+.menu ul li {
+	display: inline;
+	position: relative;
+	float: left;
+	list-style: none;
+}
+
+.menu .objects {
+	float: left;
+}
+
+.menu .objects ul {
 	list-style-type: none;
 	display: inline;
 }
 
 .menu .objects ul li {
 	display: inline;
+	margin-left: 5px;
+}
+
+.menu .objects ul li:hover {
+	background-color: #DDAD53;
 }
 
 .menu .search {
@@ -43,24 +152,21 @@ body {
 }
 
 .menu .links ul {
-	visibility: hidden;
 	float: right;
+	display: none;
 	list-style-type: none;
+	background-color: #BE692C;
+}
+
+.menu .links:hover ul {
 	display: block;
 	background-color: #BE692C;
 }
 
 .menu .links ul li {
-	display: block;
+	display: list-item;
+	list-style-type: none;
 	background-color: #BE692C;
-}
-
-.menu .links ul li.first {
-	visibility: visible;
-}
-
-.menu .links ul:hover {
-	visibility: visible;
 }
 
 .content {
@@ -84,3 +190,4 @@ input[type=checkbox] {
 	visibility: hidden;
 	border: 2px #F00;
 }
+*/
