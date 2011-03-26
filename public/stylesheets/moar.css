@@ -31,6 +31,7 @@ body {
 
 .menu .objects {
 	float: left;
+	width: 50%;
 }
 
 .menu .objects ul {
@@ -52,11 +53,13 @@ body {
 
 .menu .search {
 	text-align: center;
+	width: 30%;
 }
 
 .menu .lang {
-	text-align: center;
+	text-align: right;
 	float: right;
+	width: 10%;
 }
 
 .menu .lang ul {
@@ -91,7 +94,7 @@ body {
 .content .panel {
 	float: left;
 	overflow: auto;
-	width: 30%;
+	width: 25%;
 	height: 100%;
 	text-align: center;
 	margin-top: 10px;
@@ -100,5 +103,5 @@ body {
 .content .map, .map #map {
 	float: right;
 	height: 700px;
-	width: 700px;
+	width: 930px;
 }

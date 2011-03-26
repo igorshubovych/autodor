@@ -35,7 +35,7 @@
 					= image_tag '/images/objects/camera.png', { :onclick => "switchLayer('webCams'); $(this).toggleClass('checked');", :title => "#{t('objects.webCam')}" }
 
 		%li.search
-			%input#searchQuery{ :type => "edit", :name => "query" }
+			%input#searchQuery{ :type => "edit", :name => "query", :size => "30" }
 			%input#searchControl{ :type => "button", :value => "#{t('panel.search')}", :onClick => "geoSearch();" }
 			
 		%li.lang
