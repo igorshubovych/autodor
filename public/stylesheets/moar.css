@@ -100,8 +100,12 @@ body {
 	margin-top: 10px;
 }
 
-.content .map, .map #map {
+.content .map {
 	float: right;
+	height: 100%;
+	width: 75%;
+}
+
+#map {
 	height: 700px;
-	width: 930px;
 }
