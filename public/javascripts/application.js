@@ -207,7 +207,10 @@ var updateRoute = function () {
 
 	for (m = 0; m < markers.length; m++) {
 		markers[m] = directions.getMarker(m);
+		CM.Event.addListener(markers[m], 'dragend', updateRoute);
 	}
+	
+	updateMarkersUI();
 }
 
 var removeWaypoint = function(index) {
@@ -223,7 +226,7 @@ var updateMarkersUI = function() {
 	$(".markerList").empty();
 	$(".markerItem").remove();
 	$("#printRoute").hide();
-
+	
 	for (m = 0; m < markers.length; m++) {
 		var pos = markers[m].getLatLng();
 		
