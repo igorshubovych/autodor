@@ -1,6 +1,8 @@
 :javascript
 	$(function() {
-		//$(".objects").buttonset();
+		$("input:checkbox").click(function() {
+			$(this).toggleClass('checked');
+		});
 	});
 
 .logo
@@ -12,25 +14,25 @@
 		%li.objects
 			%ul
 				%li
-					= image_tag '/images/objects/gas.gif', { :title => "#{t('objects.gas')}", :onClick => "switchLayer('gas');" }
+					= image_tag '/images/objects/gas.gif', { :title => "#{t('objects.gas')}", :onClick => "switchLayer('gas'); $(this).toggleClass('checked');" }
 						
 				%li
-					= image_tag '/images/objects/car_service.gif', { :onClick => "switchLayer('carService');", :title => "#{t('objects.carService')}" }
+					= image_tag '/images/objects/car_service.gif', { :onClick => "switchLayer('carService'); $(this).toggleClass('checked');", :title => "#{t('objects.carService')}" }
 
 				%li
-					= image_tag '/images/objects/hotel.gif', { :onClick => "switchLayer('hotel')", :title => "#{t('objects.hotel')}" }
+					= image_tag '/images/objects/hotel.gif', { :onClick => "switchLayer('hotel'); $(this).toggleClass('checked');", :title => "#{t('objects.hotel')}" }
 
 				%li
-					= image_tag '/images/objects/monument.gif', { :onClick => "switchLayer('monument')", :title => "#{t('objects.monument')}" }
+					= image_tag '/images/objects/monument.gif', { :onClick => "switchLayer('monument'); $(this).toggleClass('checked');", :title => "#{t('objects.monument')}" }
 					
 				%li
-					= image_tag '/images/objects/damage_to_roads.gif', { :onClick => "switchLayer('roadCondition')", :title => "#{t('objects.roadCondition')}" }
+					= image_tag '/images/objects/damage_to_roads.gif', { :onClick => "switchLayer('roadCondition'); $(this).toggleClass('checked');", :title => "#{t('objects.roadCondition')}" }
 
 				%li
-					= image_tag '/images/controls/weather.png', { :onClick => "switchLayer('weather')", :title => "#{t('objects.weather')}" }
+					= image_tag '/images/controls/weather.png', { :onClick => "switchLayer('weather'); $(this).toggleClass('checked');", :title => "#{t('objects.weather')}" }
 					
 				%li
-					= image_tag '/images/objects/camera.png', { :onclick => "switchLayer('webCams');", :title => "#{t('objects.webCam')}" }
+					= image_tag '/images/objects/camera.png', { :onclick => "switchLayer('webCams'); $(this).toggleClass('checked');", :title => "#{t('objects.webCam')}" }
 
 		%li.search
 			%input#searchQuery{ :type => "edit", :name => "query" }

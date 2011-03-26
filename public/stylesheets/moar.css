@@ -8,10 +8,15 @@ body {
 	margin-left: 20px;
 }
 
+.checked {
+	background-color: #BC5E1A;
+}
+
 .menu {
 	background-color: #FF984E;
 	clear: both;
 	width: 100%;
+	height: 30px;
 }
 
 .menu ul {
@@ -21,6 +26,7 @@ body {
 
 .menu ul li {
 	display: inline;
+	vertical-align: middle;
 }
 
 .menu .objects {
@@ -32,8 +38,16 @@ body {
 	list-style-type: none;
 }
 
+.menu .objects img {
+	vertical-align: middle;
+}
+
 .menu .objects ul li {
 	display: inline;
+}
+
+.menu .objects img:hover {
+	border: 1px solid #BE8358;
 }
 
 .menu .search {
@@ -77,9 +91,10 @@ body {
 .content .panel {
 	float: left;
 	overflow: auto;
-	width: 20%;
+	width: 30%;
 	height: 100%;
 	text-align: center;
+	margin-top: 10px;
 }
 
 .content .map, .map #map {
@@ -87,107 +102,3 @@ body {
 	height: 700px;
 	width: 700px;
 }
-
-/*body {
-	font-family: Segoe UI,Arial,sans-serif;
-	margin: 0px;
-}
-
-.logo {
-	float: left;
-}
-
-.logo img {
-	margin-left: 20px;
-	border: 0px;
-}
-
-.menu {
-	width: 100%;
-	background-color: #EB873F;
-	clear: both;
-	height: 30px;
-}
-
-.menu * {
-	vertical-align: middle;
-}
-
-.menu ul {
-	display: inline;
-	list-style-type: none;
-}
-
-.menu ul li {
-	display: inline;
-	position: relative;
-	float: left;
-	list-style: none;
-}
-
-.menu .objects {
-	float: left;
-}
-
-.menu .objects ul {
-	list-style-type: none;
-	display: inline;
-}
-
-.menu .objects ul li {
-	display: inline;
-	margin-left: 5px;
-}
-
-.menu .objects ul li:hover {
-	background-color: #DDAD53;
-}
-
-.menu .search {
-	text-align: center;
-}
-
-.menu .links {
-	text-align: center;
-}
-
-.menu .links ul {
-	float: right;
-	display: none;
-	list-style-type: none;
-	background-color: #BE692C;
-}
-
-.menu .links:hover ul {
-	display: block;
-	background-color: #BE692C;
-}
-
-.menu .links ul li {
-	display: list-item;
-	list-style-type: none;
-	background-color: #BE692C;
-}
-
-.content {
-	width: 100%;
-	overflow: auto;
-}
-
-.content .routingPanel {
-	float: left;
-	width: 20%;
-	overflow: auto;
-}
-
-.content .map, .map #map {
-	float: right;
-	width: 700px;
-	height: 700px;
-}
-
-input[type=checkbox] {
-	visibility: hidden;
-	border: 2px #F00;
-}
-*/
