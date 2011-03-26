@@ -13,6 +13,7 @@
 		= javascript_include_tag 'jquery-contextmenu'
 		= javascript_include_tag 'application'
 		= javascript_include_tag 'patchy'
+		= javascript_include_tag 'http://gostats.com/js/counter.js'
 		
 		:javascript
 			var _gaq = _gaq || [];
@@ -24,6 +25,10 @@
 			  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
+		
+		:javascript
+			_gos='gostats.com';_goa=745684;
+			_got=5;_goi=1;_gol='visitor statistics';_GoStatsRun();
 		
 		= csrf_meta_tag
 	
@@ -53,3 +58,6 @@
 					%param{ :valu => "high", :name => "quality" }
 
 		= yield
+		
+		%a{ :target => "_blank", :title => "visitor statistics", :href => "http://gostats.com"
+			= image_tag "http://gostats.com/bin/count/a_745684/t_5/i_1/counter.png", :alt => "visitor statistics", :style => "border-width:0"
