@@ -31,11 +31,6 @@
 				%a{ :href => "/page/support" }= t('menu.support')
 				%a{ :href => "/page/links" }= t('menu.links')
 				%a{ :href => "/page/about" }= t('menu.about')
-			
-			.banner	
-				%object{ :width => 467, :height => "122", :data => "http://diprodor.com/banners/doska.swf", :type => "application/x-shockwave-flash"}
-					%param{ :value => "http://diprodor.com/banners/doska.swf", :name => "movie" }
-					%param{ :valu => "high", :name => "quality" }
 
 		.main
 			= yield
