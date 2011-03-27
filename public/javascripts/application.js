@@ -9,6 +9,7 @@ var webcams = null;
 var CM_APIKEY = 'BC9A493B41014CAABB98F0471D759707';
 
 var points = {
+	'Ukraine': new CM.LatLng(48.136767,31.003418),
 	'Kyiv': new CM.LatLng(50.433, 30.521),
 	'Lviv': new CM.LatLng(49.775, 24.026, 15),
 	'Kharkiv stadium': new CM.LatLng(49.980, 36.261),
@@ -34,7 +35,7 @@ var initMap = function() {
 		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
 		map = new CM.Map('map', cloudmade);
 
-		map.setCenter(points['Kyiv'], 15);
+		map.setCenter(points['Ukraine'], 6);
 		map.addControl(new CM.LargeMapControl());
 		map.addControl(new CM.ScaleControl());
 		map.addControl(new CM.OverviewMapControl());
