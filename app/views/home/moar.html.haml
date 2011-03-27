@@ -39,7 +39,7 @@
 			%input#searchControl{ :type => "button", :value => "#{t('panel.search')}", :onClick => "geoSearch();" }
 			
 		%li.lang
-			= image_tag "flags/#{ I18n.locale }.png", :style => "margin-right: 5px;"
+			= image_tag "flags/#{ I18n.locale }.png", { :style => "margin-right: 5px;", :curr_lang => I18n.locale }
 		
 			%ul
 				-I18n::available_locales.each do |l|

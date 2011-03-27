@@ -199,9 +199,11 @@ var updateRoute = function () {
 	for (m = 0; m < markers.length; m++) {
 		keyPoints.push(markers[m].getLatLng());
 	}
+	
+	var curr_lang = $('[curr_lang]').attr('curr_lang');
 
 	try {
-		directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true });
+		directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true, lang: curr_lang });
 	} catch (e) {
 		alert(e);
 	}
