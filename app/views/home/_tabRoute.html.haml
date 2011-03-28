@@ -1,3 +1,4 @@
+- @locale = I18n::locale
 :javascript
 	$(function() {
 		$("#printRoute").button().hide();
@@ -6,13 +7,19 @@
 		
 		$(":radio[checked], :checkbox[checked]").removeAttr("checked");
 		$("#car").attr("checked", "checked");
+		
+		$.datepicker.setDefaults( $.datepicker.regional[ "" ] );
+		$( "#leaveDate" ).datepicker( $.datepicker.regional[ "#{@locale}" ] );
 	});
 
 #tabsRouting
+	%label{ :for => "leaveDate" }= t('panel.leaveDate')
+	%input#leaveDate{ :type => "text" }
+	
 	.markerList
 
 	%br/
-		
+	
 	.routeControls
 		%input#addWaypoint{ :type => "checkbox", :onClick => "return false;" }
 			%label{ :for => "addWaypoint", :style => "width: 90%" }

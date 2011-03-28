@@ -10,7 +10,7 @@ en:
         car_fastest_route: "Car, fastest"
         car_shortest_route: "Car, shortest"
         foot_route: "Foot"
-        bicycle_route: "Bicyle"
+        leaveDate: "Leave date: "
         add_point: "Add point"
         add_start_point: "Add start point"
         add_end_point: "Add end point"
