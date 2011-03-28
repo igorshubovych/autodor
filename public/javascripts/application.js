@@ -151,7 +151,7 @@ function updateSearchInputs() {
 
 	$(".searchQuery").keydown(function(evt) {
 		if (evt.keyCode == 13) {
-			findAndPasteMarker(evt.srcElement);
+			findAndPasteMarker(evt.srcElement || evt.target);
 		}
 	});
 }
@@ -263,6 +263,11 @@ var initMarkerList = function() {
 }
 
 var findAndPasteMarker = function(elt) {
+	if (elt == null) {
+		console.log('can not add location basing on empty elt');
+		return;
+	}
+		
 	var moo = new Function("data", "if (data == null || data.features == null || data.features[0] == null || data.features[0].centroid == null) { console.log('data not found'); return; } else { var m = createMarker(data.features[0].centroid.coordinates[0], data.features[0].centroid.coordinates[1], {'draggedEvent': updateRoute}); if (markers.length < 2) markers.push(m); else markers.splice(markers.length - 1, 0, m); updateRoute(); }");
 		
 	geocoder.getLocations(elt.value, moo,
