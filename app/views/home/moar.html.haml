@@ -1,10 +1,18 @@
 :javascript
 	$(function() {
+		initMarkerList();
+		
 		$("input:checkbox").click(function() {
 			$(this).toggleClass('checked');
 		});
-		
-		$("#tabsRouting, .searchResults").hide();
+
+		updateSearchInputs();
+
+		$("#searchQuery").keydown(function(evt) {
+			if (evt.keyCode == 13) {
+				$("#searchControl").click();
+			}
+		});
 	});
 
 .logo
@@ -17,7 +25,7 @@
 			%ul
 				%li
 					= image_tag '/images/objects/gas.gif', { :id => "gas", :title => "#{t('objects.gas')}", :onClick => "switchLayer('gas'); $(this).toggleClass('checked');" }
-						
+
 				%li
 					= image_tag '/images/objects/car_service.gif', { :id => "carService", :onClick => "switchLayer('carService'); $(this).toggleClass('checked');", :title => "#{t('objects.carService')}" }
 
@@ -26,23 +34,23 @@
 
 				%li
 					= image_tag '/images/objects/monument.gif', { :id => "monument", :onClick => "switchLayer('monument'); $(this).toggleClass('checked');", :title => "#{t('objects.monument')}" }
-					
+
 				%li
 					= image_tag '/images/objects/incidents.gif', { :id => "roadCondition", :onClick => "switchLayer('roadCondition'); $(this).toggleClass('checked');", :title => "#{t('objects.roadCondition')}" }
 
 				%li
 					= image_tag '/images/controls/weather.png', { :id => "weather", :onClick => "switchLayer('weather'); $(this).toggleClass('checked');", :title => "#{t('objects.weather')}" }
-					
+
 				%li
 					= image_tag '/images/objects/camera.png', { :id => "webCams", :onclick => "switchLayer('webCams'); $(this).toggleClass('checked');", :title => "#{t('objects.webCam')}" }
 
 		%li.search
 			%input#searchQuery{ :type => "edit", :name => "query", :size => "30" }
 			%input#searchControl{ :type => "button", :value => "#{t('panel.search')}", :onClick => "geoSearch();" }
-			
+
 		%li.lang
 			= image_tag "flags/#{ I18n.locale }.png", { :style => "margin-right: 5px;", :curr_lang => I18n.locale }
-		
+
 			%ul
 				-I18n::available_locales.each do |l|
 					-if I18n.locale != l
@@ -52,30 +60,27 @@
 
 .content
 	.panel
-		.searchPanel
-			%a{ :href => "#", :onClick => "$('.searchResults').toggle('slow'); return false;" }
-				=t 'panel.search'
+		%a#printRoute{ :name => "printRoute", :style => "cursor: pointer; float: right;", :onClick => "printRoute();" }
+			= image_tag "controls/print_icon.png"
+			
+		.markerList
+		
+		%br/
+			
+		.searchResults#routingPanel
 
-		.routePanel
-			%a{ :href => "#", :onClick => "$('#tabsRouting').toggle('slow'); return false;" }
-				=t 'panel.routes'
-				
-			= render :partial => 'home/tabRoute'
-		
-		.searchResults
-		
 	.map
 		#map
 
 	.translations{ :style => "display: none;" }
 		#add_point
 			= t "panel.add_point"
-			
+
 		#add_start_point
 			= t "panel.add_start_point"
-			
+
 		#add_end_point
 			= t "panel.add_end_point"
-			
+
 		#title_unknown
 			= t "place.unknown"
