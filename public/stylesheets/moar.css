@@ -1,10 +1,6 @@
 body {
 	font-family: Segoe UI,Arial,sans-serif;
 	margin: 0px;
-	background-image: url('logo_0.png');
-	background-position: left bottom;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 }
 
 .logo {
