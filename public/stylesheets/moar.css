@@ -1,6 +1,10 @@
 body {
 	font-family: Segoe UI,Arial,sans-serif;
 	margin: 0px;
+	background-image: url('logo_0.png');
+	background-position: left bottom;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .logo {
@@ -17,7 +21,7 @@ body {
 	clear: both;
 	width: 100%;
 	height: 30px;
-	padding-top: 4px;
+	vertical-align: middle;
 }
 
 .menu ul {
@@ -97,7 +101,7 @@ body {
 	overflow: auto;
 	width: 25%;
 	height: 100%;
-	text-align: center;
+	text-align: left;
 	margin-top: 10px;
 }
 
@@ -109,4 +113,19 @@ body {
 
 #map {
 	height: 700px;
+	z-index: 0;
+}
+
+.ui-autocomplete {
+	max-height: 100px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.searchResults {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	border-top: 2px solid black;
+	background-color: #FFAA6F;
 }

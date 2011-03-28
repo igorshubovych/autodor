@@ -110,7 +110,7 @@ var subscribeForEvents = function() {
 var createContextMenu = function() {
 	// creating context-menu
 	var menu1 = [
-		{'Додати чортзнаяку точку': {
+		{ 'moofoo': {
 			onclick: function(menuItem, menu) {
 				if (currPos != null) {
 					var m = createMarker(currPos.lat(), currPos.lng(), {'draggedEvent': updateRoute, 'addOverlay': true});
@@ -135,12 +135,32 @@ var createContextMenu = function() {
 			currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
 			
 			if (markers.length < 1)
-				$("#contextMenuItem0").html("Додати точку відправки"); else
+				$("#contextMenuItem0").html($("#add_start_point").html()); else
 			if (markers.length == 1)
-				$("#contextMenuItem0").html("Додати кінцеву точку"); else
-					$("#contextMenuItem0").html("Додати проміжну точку");
+				$("#contextMenuItem0").html($("#add_end_point").html()); else
+					$("#contextMenuItem0").html($("#add_point").html());
 		}
 	} );
+}
+
+function createUI() {
+	//console.log(cities);
+	$("#searchQuery").autocomplete({
+		minLength: 1,
+		source: cities
+		/*function(request, response) {
+			var term = request.term;
+			
+			if (term in cache) {
+				response( cache[term] );
+				return;
+			}
+			
+			xhr = $.getJSON('cities.js', function(data) {
+				if (term in data)
+			});
+		},*/
+	});
 }
 
 function createMarker(lat, lon, options) {
@@ -238,7 +258,7 @@ var updateMarkersUI = function() {
 		elt += '<input id="marker_' + m + '" type="text" size="18" />&nbsp;';
 		elt += '<a href="#"><img src="/images/controls/remove_waypoint_hover.png" onClick="removeWaypoint(' + (m) + ');" /></a></div>';
 		
-		var moo = new Function("data", "$('#marker_" + m + "').val(data.features[0].properties.name);");
+		var moo = new Function("data", "if (data == null || data.features == null) $('#marker_" + m + "').val(jQuery.trim($('#title_unknown').html())); else $('#marker_" + m + "').val(jQuery.trim(data.features[0].properties.name));");
 		
 		geocoder.getLocations(new CM.LatLng(pos.lat(), pos.lng()), moo, 
 		{ 
@@ -410,7 +430,7 @@ var geoSearch = function() {
 				var name = response.features[i].properties.name;
 				
 				if (name == null)
-					name = "назва невідома";
+					name = $("#title_unknown").html();
 				
 				var a = bbox[0][0];
 				var b = bbox[0][1];
@@ -428,6 +448,8 @@ var geoSearch = function() {
 			bounds: new CM.LatLngBounds(new CM.LatLng(52.375359, 40.218079), new CM.LatLng(44.390411, 22.128811)), 
 			resultsNumber: 10 
 		});
+		
+	$(".searchResults").show();
 }
 
 var printRoute = function() {
@@ -472,6 +494,7 @@ $(document).ready(function() {
 	initIcons();
 	subscribeForEvents();
 	createContextMenu();
+	createUI();
 
 	// cleaning choices
 });

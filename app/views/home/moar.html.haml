@@ -3,11 +3,13 @@
 		$("input:checkbox").click(function() {
 			$(this).toggleClass('checked');
 		});
+		
+		$("#tabsRouting, .searchResults").hide();
 	});
 
 .logo
-	%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
-		=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
+	-# %a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
+		=# image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
 
 .menu
 	%ul
@@ -50,7 +52,30 @@
 
 .content
 	.panel
-		= render :partial => 'home/tabRoute'
+		.searchPanel
+			%a{ :href => "#", :onClick => "$('.searchResults').toggle('slow'); return false;" }
+				=t 'panel.search'
+
+		.routePanel
+			%a{ :href => "#", :onClick => "$('#tabsRouting').toggle('slow'); return false;" }
+				=t 'panel.routes'
+				
+			= render :partial => 'home/tabRoute'
+		
+		.searchResults
 		
 	.map
 		#map
+
+	.translations{ :style => "display: none;" }
+		#add_point
+			= t "panel.add_point"
+			
+		#add_start_point
+			= t "panel.add_start_point"
+			
+		#add_end_point
+			= t "panel.add_end_point"
+			
+		#title_unknown
+			= t "place.unknown"
