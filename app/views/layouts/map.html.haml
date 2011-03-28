@@ -42,13 +42,12 @@
 				%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
 					=image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
 
-			.language_icons
-				%a{ :href => "?locale=en" }
-					=image_tag "flags/en.png"
-				%a{ :href => "?locale=uk" }
-					=image_tag "flags/uk.png"
-				%a{ :href => "?locale=ru" }
-					=image_tag "flags/ru.png"
+			= image_tag "flags/#{ I18n.locale }.png", { :style => "display: none; margin-right: 5px;", :curr_lang => I18n.locale }
+			
+			-I18n::available_locales.each do |l|
+				-if I18n.locale != l
+					%a{ :href => "?locale=#{ l }" }
+						=image_tag "flags/#{ l }.png"
 			
 			.menu
 				%a{ :href => "/" }= t('menu.map')
