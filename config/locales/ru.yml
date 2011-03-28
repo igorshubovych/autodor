@@ -8,8 +8,7 @@ ru:
     panel:
         car_fastest_route: "Авто, быстрейший"
         car_shortest_route: "Авто, кратчайший"
-        foot_route: "Пеший"
-        bicycle_route: "Вело"
+        leaveDate: "Дата выезда: "
         add_point: "Добавить точку"
         cancel_add: "Отменить добавление"
         routes: "Маршрут"
