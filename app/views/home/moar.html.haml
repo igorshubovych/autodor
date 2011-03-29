@@ -60,6 +60,9 @@
 
 .content
 	.panel
+		%a#clearRoute{ :name => "clearRoute", :style => "cursor: pointer; float: right;", :onClick => "clearRoute();" }
+			= image_tag "controls/clear.png"
+			
 		%a#printRoute{ :name => "printRoute", :style => "cursor: pointer; float: right;", :onClick => "printRoute();" }
 			= image_tag "controls/print_icon.png"
 			

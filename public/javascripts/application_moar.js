@@ -149,7 +149,7 @@ function updateSearchInputs() {
 		source: cities
 	});
 
-	$(".searchQuery").keydown(function(evt) {
+	$(".searchQuery").keyup(function(evt) {
 		if (evt.keyCode == 13) {
 			findAndPasteMarker(evt.srcElement || evt.target);
 		}
@@ -213,7 +213,7 @@ var updateRoute = function () {
 
 	for (m = 0; m < markers.length; m++) {
 		for (z = 0; z < markers.length; z++)
-			if (m != z && markers[z].getLatLng() == markers[m].getLatLng())
+			if (m != z && markers[z].getLatLng().lat() == markers[m].getLatLng().lat() && markers[z].getLatLng().lng() == markers[m].getLatLng().lng())
 				markers.splice(z, 1);
 				
 		keyPoints.push(markers[m].getLatLng());
@@ -250,7 +250,7 @@ var removeWaypoint = function(index) {
 var initMarkerList = function() {
 	$(".markerList").empty();
 	$(".markerItem").remove();
-	$("#printRoute").hide();
+	$("#printRoute, #clearRoute").hide();
 	
 	for (m = 0; m < 2; m++) {
 		var elt = '<div class="markerItem">';
@@ -260,6 +260,8 @@ var initMarkerList = function() {
 		
 		$(".markerList").append(elt);
 	}
+	
+	updateSearchInputs();
 }
 
 var findAndPasteMarker = function(elt) {
@@ -272,9 +274,18 @@ var findAndPasteMarker = function(elt) {
 		
 	geocoder.getLocations(elt.value, moo,
 	{ 
-		'distance': 'closest', 
+		'distance': 'closest',
+		//'around': '', 
+		'objectType': 'city,town',
 		'results': '1'
 	});
+}
+
+var clearRoute = function() {
+	for (m = 0; m < markers.length; m++)
+		removeWaypoint(m);
+		
+	initMarkerList();
 }
 
 var updateMarkersUI = function() {
@@ -283,11 +294,12 @@ var updateMarkersUI = function() {
 		
 	$(".markerList").empty();
 	$(".markerItem").remove();
-	$("#printRoute").hide();
+	$("#printRoute, #clearRoute").hide();
 	
 	for (m = 0; m < markers.length; m++) {
 		var pos = markers[m].getLatLng();
-		var k = (m == markers.length - 1) ?  m + 1 : m;
+		//var k = (m == markers.length - 1) ?  m + 1 : m;
+		var k = m;
 		
 		var elt = '<div class="markerItem">';
 		elt += '<img src="http://tile.cloudmade.com/wml/latest/images/routing/route_icon_' + (k + 1) + '.png" />&nbsp';
@@ -301,6 +313,7 @@ var updateMarkersUI = function() {
 		{ 
 				'distance': 'closest', 
 				//'objectType': 'road',
+				'objectType': 'city,town',
 				'results': '1'
 		});
 
@@ -308,17 +321,17 @@ var updateMarkersUI = function() {
 	}
 	
 	var elt = '<div class="markerItem">';
-	elt += '<img src="http://tile.cloudmade.com/wml/latest/images/routing/route_icon_' + (markers.length - 1 + 1) + '.png" />&nbsp';
-	elt += '<input class="searchQuery" id="marker_' + (markers.length - 1) + '" type="text" size="18" />&nbsp;';
+	elt += '<img src="http://tile.cloudmade.com/wml/latest/images/routing/route_icon_' + (markers.length + 1) + '.png" />&nbsp';
+	elt += '<input class="searchQuery" id="marker_' + (markers.length) + '" type="text" size="18" />&nbsp;';
 	//elt += '<a href="#"><img src="/images/controls/remove_waypoint_hover.png" onClick="if (markers[' + (markers.length - 2) + '] != null) { map.removeOverlay(markers[' + (markers.length - 2) + ']); markers[' + (markers.length - 2) + '] = null; } $(\'#marker_' + (markers.length - 1) + '\').val(null);" /></a></div>';
-	elt += '<a href="#"><img src="/images/controls/remove_waypoint_hover.png" onClick="removeWaypoint(' + (markers.length - 1) + ');" /></a></div>';
+	elt += '<a href="#"><img src="/images/controls/remove_waypoint_hover.png" onClick="removeWaypoint(' + (markers.length) + ');" /></a></div>';
 	
 	$(".markerItem").last().before(elt);
 	
 	updateSearchInputs();
 
 	if (markers.length > 1)
-		$("#printRoute").show();
+		$("#printRoute, #clearRoute").show();
 }
 
 function changeRouteType(type) {

@@ -248,7 +248,7 @@ var removeWaypoint = function(index) {
 var updateMarkersUI = function() {
 	$(".markerList").empty();
 	$(".markerItem").remove();
-	$("#printRoute").hide();
+	$("#printRoute, #clearRoute").hide();
 	
 	for (m = 0; m < markers.length; m++) {
 		var pos = markers[m].getLatLng();
@@ -263,14 +263,14 @@ var updateMarkersUI = function() {
 		geocoder.getLocations(new CM.LatLng(pos.lat(), pos.lng()), moo, 
 		{ 
 				'distance': 'closest', 
-				'objectType': 'road' 
+				'objectType': 'city,town' 
 		});
 
 		$(".markerList").append(elt);
 	}
 	
 	if (markers.length > 1)
-		$("#printRoute").show();
+		$("#printRoute, #clearRoute").show();
 }
 
 function changeRouteType(type) {

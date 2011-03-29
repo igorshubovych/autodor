@@ -45,9 +45,8 @@
 			= image_tag "flags/#{ I18n.locale }.png", { :style => "display: none; margin-right: 5px;", :curr_lang => I18n.locale }
 			
 			-I18n::available_locales.each do |l|
-				-if I18n.locale != l
-					%a{ :href => "?locale=#{ l }" }
-						=image_tag "flags/#{ l }.png"
+				%a{ :href => "?locale=#{ l }", :style => "#{ "border: 1px solid black;" if I18n.locale == l }" }
+					= image_tag "flags/#{ l }.png"
 			
 			.menu
 				%a{ :href => "/" }= t('menu.map')
