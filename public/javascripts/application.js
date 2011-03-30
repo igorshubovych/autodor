@@ -497,12 +497,9 @@ $(document).ready(function() {
 	createUI();
 
 	// cleaning choices
+	// Loading Ukraine borders
 	var ukraineBorders1 = new CM.GeoXml('/poi/borders1.kml', {local: true});
 	CM.Event.addListener(ukraineBorders1, 'load', function() {
 		map.addOverlay(ukraineBorders1);
-	});
-	var ukraineBorders2 = new CM.GeoXml('/poi/borders2.kml', {local: true});
-	CM.Event.addListener(ukraineBorders2, 'load', function() {
-		map.addOverlay(ukraineBorders2);
 	});
 });
