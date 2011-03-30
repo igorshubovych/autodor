@@ -45,7 +45,7 @@ class PoiController < ApplicationController
   def send_kml(file_name)
     full_file_name = "#{Rails.root}/db/data/#{file_name}"
     contents = File.open(full_file_name).read
-    send_data contents, :type => 'application/vnd.google-earth.kml+xml'
+    send_data contents, :type => :kml
   end
 
 end
