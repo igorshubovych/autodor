@@ -557,6 +557,4 @@ $(document).ready(function() {
 	createContextMenu();
 
 	// cleaning choices
-	switchLayer('roadCondition');
-	$("#roadCondition").toggleClass('checked');
 });
