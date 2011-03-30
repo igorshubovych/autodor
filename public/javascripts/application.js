@@ -497,9 +497,6 @@ $(document).ready(function() {
 	createUI();
 
 	// cleaning choices
-	switchLayer('roadCondition');
-	$("#roadCondition").toggleClass("checked");
-	$("#roadCondition").toggleClass("ui-state-active");
 	var ukraineBorders1 = new CM.GeoXml('/poi/borders1.kml', {local: true});
 	CM.Event.addListener(ukraineBorders1, 'load', function() {
 		map.addOverlay(ukraineBorders1);
