@@ -41,24 +41,31 @@
 				%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
 					=image_tag "logo/logo_0.png", :alt => "Euro 2012 Ukraine-Poland"
 
-			= image_tag "flags/#{ I18n.locale }.png", { :style => "display: none; margin-right: 5px;", :curr_lang => I18n.locale }
+			%ul.lang
+				%li
+					= image_tag "flags/#{ I18n.locale }.png", { :style => "display: none; margin-right: 5px;", :curr_lang => I18n.locale }
 			
-			-I18n::available_locales.each do |l|
-				%a{ :href => "?locale=#{ l }", :style => "#{ "border: 1px solid black;" if I18n.locale == l }", :title => "#{ (t "menu.change_lang") % l }" }
-					=image_tag "flags/#{ l }.png"
+				-I18n::available_locales.each do |l|
+					%li
+						%a{ :href => "?locale=#{ l }", :style => "#{ "border: 1px solid black;" if I18n.locale == l }", :title => "#{ (t "menu.change_lang") % l }" }
+							=image_tag "flags/#{ l }.png"
 			
-			.menu
-				%a{ :href => "/" }
-					= t('menu.map')
+			%ul.menu
+				%li
+					%a{ :href => "/" }
+						= t('menu.map')
 					
-				%a{ :href => "/page/support" }
-					= t('menu.support')
+				%li
+					%a{ :href => "/page/support" }
+						= t('menu.support')
 					
-				%a{ :href => "/page/links" }
-					= t('menu.links')
+				%li
+					%a{ :href => "/page/links" }
+						= t('menu.links')
 					
-				%a{ :href => "/page/about" }
-					= t('menu.about')
+				%li
+					%a{ :href => "/page/about" }
+						= t('menu.about')
 			
 		= yield
 		

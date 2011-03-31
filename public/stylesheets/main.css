@@ -47,11 +47,13 @@ body {
 	width: 100%;
 }
 
-#map {
+#map, .map {
 	height: 100%;
 	min-height: 300px;
 	min-width: 315px;
 	width: 100%;
+	max-height: 765x;
+	vertical-align: top;
 }
 
 img.head_img {
@@ -82,6 +84,28 @@ img.head_img {
 	display: block;
 }
 
+ul.menu {
+	display: inline;
+}
+
+ul.menu li {
+	float: right;
+	display: inline;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+ul.menu li a {
+	text-decoration: none;
+}
+
+ul.lang {
+	list-style: none;
+	float: right;
+	margin-right: 0;
+	padding-right: 0;
+}
+
 .banner {
 	display: block;
 	margin-left: 50px;
@@ -92,7 +116,7 @@ img.head_img {
 	padding: 5px;
 }
 
-.searchResultItem:hover, .momoClass:hover {
+.searchResultItem:hover, .momoClass:hover, ul.menu li:hover, ul.lang li:hover {
 	border: medium none !important;
 	border-radius: 8px 8px 8px 8px;
 	background-color: #DD944D;
