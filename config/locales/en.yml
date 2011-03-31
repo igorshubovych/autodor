@@ -19,6 +19,9 @@ en:
         search: "Search"
         objects: "Objects"
         quickLinks: "Quick links"
+        print_route: "Print route"
+        clear_route: "Clear route"
+        search_query: "Search query"
     objects:
         gas: "Gas stations"
         carService: "Car service"
@@ -33,6 +36,7 @@ en:
         links: "Links"
         map: "Map"
         main: "Main"
+        change_lang: "Change locale to %s"
     about:
         about: "About this site"
         description: "This site was created to support tourism in Ukraine, especially visitors of Euro-2012"
@@ -40,3 +44,4 @@ en:
         head: "Useful links"
         euro2012highway: "Ukrainian motorways and roads for Euro 2012 (in Russian)"
         diprodor: 'The Ukrainian state institute of road facilities design "UKRDIPRODOR"'
+        goto: "Show %s"

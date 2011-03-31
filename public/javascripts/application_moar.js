@@ -282,8 +282,9 @@ var findAndPasteMarker = function(elt) {
 }
 
 var clearRoute = function() {
-	for (m = 0; m < markers.length; m++)
-		removeWaypoint(m);
+	while (markers.length > 0) {
+		removeWaypoint(0);
+	}
 		
 	initMarkerList();
 }

@@ -1,7 +1,7 @@
 - @locale = I18n::locale
 :javascript
 	$(function() {
-		$("#printRoute").button().hide();
+		$("#clearRoute, #printRoute").button().hide();
 		$(".routeType").buttonset();
 		$("#addWaypoint").button();
 		
@@ -13,7 +13,9 @@
 	});
 
 #tabsRouting
-	%label{ :for => "leaveDate" }= t('panel.leaveDate')
+	%label{ :for => "leaveDate" }
+		= t('panel.leaveDate')
+		
 	%input#leaveDate{ :type => "text" }
 	
 	.markerList
@@ -22,7 +24,7 @@
 	
 	.routeControls
 		%input#addWaypoint{ :type => "checkbox", :onClick => "return false;" }
-			%label{ :for => "addWaypoint", :style => "width: 90%" }
+			%label{ :for => "addWaypoint", :style => "width: 90%", :title => "#{ t "panel.add_point" }" }
 				= image_tag "controls/add_waypoint.png"
 
 		%br/
@@ -30,17 +32,20 @@
 
 		.routeType
 			%input#car{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car');" }
-				%label{ :for => "car" }
+				%label{ :for => "car", :title => "#{ t "panel.car_fastest_route" }" }
 					= image_tag "controls/car.png"
 
-			%input#truck{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('foot');" }
-				%label{ :for => "truck" }
+			%input#truck{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car/shortest');" }
+				%label{ :for => "truck", :title => "#{ t "panel.car_shortest_route" }" }
 					= image_tag "controls/truck.png"
 			
 		%br/
 			
-		%a#printRoute{ :name => "printRoute", :onClick => "printRoute();" }
+		%a#printRoute{ :name => "printRoute", :onClick => "printRoute();", :title => "#{ t "anel.print_route" }" }
 			= image_tag "controls/print_icon.png"
+			
+		%a#clearRoute{ :name => "clearRoute", :style => "cursor: pointer;", :onClick => "clearRoute();", :title => "#{ t "anel.clear_route" }" }
+			= image_tag "controls/clear.png"
 			
 		%br/
 	%br/

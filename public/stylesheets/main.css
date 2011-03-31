@@ -2,6 +2,13 @@ body {
 	font-family: Segoe UI,Arial,sans-serif;
 }
 
+.copyright {
+	background-image: url('/images/logo/copyright.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left bottom;
+}
+
 .header{ height: 167px; }
 
 .logo{ float:left;
@@ -15,7 +22,7 @@ body {
 	background: none repeat scroll 0 0 #EEEEEE;
 	border: 1px solid #DDDDDD;
 	bottom: 2em;
-	height: 85%;
+	height: 84%;
 	position: absolute;
 	top: 135px;
 	right: 10px;
@@ -29,14 +36,15 @@ body {
 	float: left;
 	margin-left: 15px;
 	margin-right: 5px;
-	width: 345px;
+	width: 355px;
+	overflow: auto;
 }
 
 .content {
 	border-top: 1px solid #DDDDDD;
 	height: 98%;
 	margin: 0 0 0 365px;
-	width: 70%;
+	width: 100%;
 }
 
 #map {
@@ -58,10 +66,6 @@ img.head_img {
 
 .routeControls, .searchControls {
 	text-align: center;
-}
-
-.panel {
-	overflow: auto;
 }
 
 .link {

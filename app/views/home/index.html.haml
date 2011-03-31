@@ -1,5 +1,7 @@
-.main
-	= render :partial => 'home/panel'
+%table.main
+	%tr
+		%td.copyright{ :width => "360" }
+			= render :partial => 'home/panel'
 
-	.content
-		#map.olMap
+		%td
+			#map.olMap

@@ -280,6 +280,14 @@ function changeRouteType(type) {
 	updateRoute();
 }
 
+var clearRoute = function() {
+	while (markers.length > 0) {
+		removeWaypoint(0);
+	}
+		
+	updateMarkersUI();
+}
+
 function doMarkerMode() {
 	if (currMarker == null) {
 		currMarker = createMarker(0, 0, {'draggedEvent': updateRoute, 'addOverlay': true});

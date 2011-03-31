@@ -9,11 +9,16 @@
 	#tabs
 		%ul
 			%li
-				%a{ :href => "#tabsRouting" }= t('panel.routes')
+				%a{ :href => "#tabsRouting" }
+					= t('panel.routes')
+					
 			%li
-				%a{ :href => "#tabsSearch" }= t('panel.search')
+				%a{ :href => "#tabsSearch" }
+					= t('panel.search')
+					
 			%li
-				%a{ :href => "#tabsObjects" }= t('panel.objects')
+				%a{ :href => "#tabsObjects" }
+					= t('panel.objects')
 
 		= render :partial => 'home/tabRoute'
 

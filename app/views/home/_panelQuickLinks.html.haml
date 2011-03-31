@@ -1,26 +1,39 @@
 #panelQuickLinks{ :class => "ui-widget-content ui-corner-all" }
 	#quickHeading{ :class => "ui-widget-header ui-corner-all" } 
-		%h3= t('panel.quickLinks')
+		%h3
+			= t('panel.quickLinks')
+		
 	%table{ :style => "width: 100%; text-align: center;" }
 		%tr
 			%td.momoClass
-				%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)" }
+				%a{ :class => "link", :onClick => "mapToPoint('Kyiv stadium', 15)", :title => "#{ (t "links.goto") % (t "place.kyiv") }" }
 					= image_tag '/images/kiev_small.png'
+					
 					%br/
+					
 					= t('place.kyiv')
+					
 			%td.momoClass
-				%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)" }
+				%a{ :class => "link", :onClick => "mapToPoint('Kharkiv stadium', 15)", :title => "#{ (t "links.goto") % (t "place.kharkiv") }" }
 					= image_tag '/images/kharkiv_small.png'
+					
 					%br/
+					
 					= t('place.kharkiv')
+					
 		%tr
 			%td.momoClass
-				%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)" }
+				%a{ :class => "link", :onClick => "mapToPoint('Donetsk stadium', 15)", :title => "#{ (t "links.goto") % (t "place.donetsk") }" }
 					= image_tag '/images/donetsk_small.png'
+					
 					%br/
+					
 					= t('place.donetsk')
+					
 			%td.momoClass
-				%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)" }
+				%a{ :class => "link", :onClick => "mapToPoint('Lviv stadium', 15)", :title => "#{ (t "links.goto") % (t "place.lviv") }" }
 					= image_tag '/images/lviv_small.png'
+					
 					%br/
+					
 					= t('place.lviv')
