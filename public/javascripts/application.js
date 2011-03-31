@@ -216,6 +216,8 @@ var updateRoute = function () {
 	if (routeType == null)
 		routeType = 'car';
 
+	console.log('Route Type: ', routeType);
+
 	for (m = 0; m < markers.length; m++) {
 		keyPoints.push(markers[m].getLatLng());
 	}
