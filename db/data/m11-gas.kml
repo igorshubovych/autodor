@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M-11 gas stations</name>
+	<Placemark>
+		<name>WOG УКРНАФТА</name>
+		<description><![CDATA[
+	    <div style="width: 300px;overflow:hidden;">
+	      <p>Тел: (044) 495 08 00</p>
+	      <p><a href="http://vse-sto.com.ua/azs/65-shell/">Подробнее →</a></p>
+	    </div>
+	    ]]></description>
+		<Point>
+			<coordinates>23.9122706681912,49.820551832</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ЕКСОІЛ УКРНАФТА</name>
+		<description><![CDATA[
+		<div style="width: 300px;overflow:hidden;">
+		    <a href="/sto/777-avtoremont/">
+		      <img src="http://vse-sto.com.ua/media/autoservices/avtoremont_logo_png_160x100_q85.jpg"
+		        alt="СТО Авторемонт, Киев, Славгородский переулок 12" align="right" />
+		    </a>
+
+		    <p>Тел: 044 567 64 42</p>
+
+		    <p>СТО «АВТОРЕМОНТ» предоставляет широкий спектр услуг, связанных с ремонтом и обслуживанием любых моделей автомобилей иностранного производства.<br />
+		      Работа нашего автосервиса ориентирована на максимально качественное обслуживание клиентов. На нашей СТО вы найдете профессионалов высокого уровня с многолетним ...
+			</p>
+		    <p><a href="http://vse-sto.com.ua/sto/777-avtoremont/">Подробнее →</a></p>
+		</div>
+		]]></description>
+		<Point>
+			<coordinates>23.902278248,49.818622607</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>WOG</name>
+		<description></description>
+		<Point>
+			<coordinates>23.784085193,49.799730569</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ЗЕВС ПЕТРОЛЬ</name>
+		<description></description>
+		<Point>
+			<coordinates>23.885359491,49.815468936</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ОККО</name>
+		<description></description>
+		<Point>
+			<coordinates>23.696874141,49.787119192</coordinates>
+		</Point>
+	</Placemark>
+		
+	<Placemark>
+		<name>УКРНАФТА</name>
+		<description></description>
+		<Point>
+			<coordinates>23.631147816,49.781530909</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ANP</name>
+		<description></description>
+		<Point>
+			<coordinates>23.603877452,49.782964722</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ANP</name>
+		<description></description>
+		<Point>
+			<coordinates>23.593731811,49.783819801</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>УКРНАФТА</name>
+		<description></description>
+		<Point>
+			<coordinates>23.479607394,49.791280401</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>УКРНАФТА</name>
+		<description></description>
+		<Point>
+			<coordinates>23.360743077,49.803221090</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>БОГДАН-РОСЬ</name>
+		<description></description>
+		<Point>
+			<coordinates>23.349266243,49.803050514</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>МОСТНАФТА</name>
+		<description></description>
+		<Point>
+			<coordinates>23.168504296,49.791373274</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>WOG</name>
+		<description></description>
+		<Point>
+			<coordinates>23.140066196,49.793271440</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ГАЛИЧИНА</name>
+		<description></description>
+		<Point>
+			<coordinates>23.118610940,49.798044730</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>УКРНАФТА</name>
+		<description></description>
+		<Point>
+			<coordinates>23.043942335,49.801685175</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>OKKO</name>
+		<description></description>
+		<Point>
+			<coordinates>23.035849811,49.800623513</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>WOG</name>
+		<description></description>
+		<Point>
+			<coordinates>23.002914158,49.799072016</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ANP</name>
+		<description></description>
+		<Point>
+			<coordinates>23.001186298,49.799131280</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ЛУКОЙЛ</name>
+		<description></description>
+		<Point>
+			<coordinates>22.994816783,49.799400377</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>РУНО</name>
+		<description></description>
+		<Point>
+			<coordinates>22.968825627,49.799439944</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
