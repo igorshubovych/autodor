@@ -6,8 +6,9 @@
 		<name>Готель "Міраж"</name>
 		<description><![CDATA[
 			<div class="poi">
-				Затишний готель у мальовничому місці<br/>
+				Дорога М-11 Львів – Шегені (на Краків)<br/>
 				<img src="/images/photos/hotel/hotel1.jpg" alt="Міраж" title="Готель МІРАЖ" class="align-right frame" />
+				км 50+143<br />
 				<a href="http://www.hotelmirage.com.ua" target="_blank">Забронювати номер</a><br />
 				<br />
 				Тел: +38-03234-37-96-7<br/>
@@ -54,8 +55,48 @@
 	<Placemark>
 		<name>Готель "ЗЕВС"</name>
 		<description><![CDATA[
-		    <p>Інформація не надана власником.</p>
-		]]></description>
+			<div class="poi">
+				Дорога М-11 Львів – Шегені (на Краків)<br/>
+				<img src="/images/photos/hotel/hotel2.jpg" alt="ЗЕВС" title="Готель ЗЕВС" class="align-right frame" />
+				км 10+336<br />
+				<a href="http://www.hotelzeus.com.ua" target="_blank">Забронювати номер</a><br />
+				<br />
+				Тел: +38-03234-37-96-7<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Номери</th>
+						<th>Ціна (за ніч)</th>
+					</tr>
+					<tr class="odd">
+						<td>Одномістний</td>
+						<td class="price">$20.00</td>
+					</tr>
+					<tr>
+						<td>Двомісний</td>
+						<td class="price">$25.00</td>
+					</tr>
+					<tr class="odd">
+						<td>Тримісний</td>
+						<td class="price">$30.00</td>
+					</tr>
+					<tr>
+						<td>Чотиримісний</td>
+						<td class="price">$35.00</td>
+					</tr>
+					<tr>
+						<td>Люкс</td>
+						<td class="price">$60.00</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
 		<Point>
 			<coordinates>23.885359492,49.81546894</coordinates>
 		</Point>
@@ -64,6 +105,8 @@
 	<Placemark>
 		<name>Готель "МАУЕН"</name>
 		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 12+606
 		    <p>Інформація не надана власником.</p>
 		]]></description>
 		<Point>
@@ -74,6 +117,8 @@
 	<Placemark>
 		<name>Готель "ЗАТИШОК"</name>
 		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 19+108
 		    <p>Інформація не надана власником.</p>
 		]]></description>
 		<Point>
@@ -84,6 +129,8 @@
 	<Placemark>
 		<name>Готель "БАРОН"</name>
 		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 49+706
 		    <p>Інформація не надана власником.</p>
 		]]></description>
 		<Point>
@@ -94,6 +141,8 @@
 	<Placemark>
 		<name>Готель "ГОСТИННИЙ ДВІР"</name>
 		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 50+543
 		    <p>Інформація не надана власником.</p>
 		]]></description>
 		<Point>
