@@ -501,6 +501,7 @@ var printRoute = function() {
 
 $(document).ready(function() {
 	initMap();
+	map.setCenter(new CM.LatLng(49.8107, 23.8867), 12);
 	initIcons();
 	subscribeForEvents();
 	createContextMenu();

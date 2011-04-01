@@ -76,8 +76,9 @@ img.head_img {
 
 .menu {
 	float: right;
-	margin-right: 50px;
-	margin-top: 10px;
+	padding: 0px 5px 0px 5px;
+	margin: 10px 0px 0px 50px;
+	background-color: #FCECA8;
 }
 
 .menu a {
@@ -91,8 +92,8 @@ ul.menu {
 ul.menu li {
 	float: right;
 	display: inline;
-	margin-right: 5px;
-	margin-left: 5px;
+	padding: 5px;
+	margin: 0px 5px 0px 5px;
 }
 
 ul.menu li a {
@@ -119,6 +120,6 @@ ul.lang {
 .searchResultItem:hover, .momoClass:hover, ul.menu li:hover, ul.lang li:hover {
 	border: medium none !important;
 	border-radius: 8px 8px 8px 8px;
-	background-color: #DD944D;
+	background-color: #FBD840;
 	cursor: pointer;
 }

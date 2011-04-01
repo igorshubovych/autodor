@@ -1,4 +1,6 @@
 class PageController < ApplicationController
+  layout 'map'
+  
   def contact
   end
 

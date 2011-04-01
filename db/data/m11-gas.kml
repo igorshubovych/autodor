@@ -3,12 +3,44 @@
 <Document>
 	<name>M-11 gas stations</name>
 	<Placemark>
-		<name>WOG УКРНАФТА</name>
+		<name>AЗС "WOG"</name>
 		<description><![CDATA[
-	    <div style="width: 300px;overflow:hidden;">
-	      <p>Тел: (044) 495 08 00</p>
-	      <p><a href="http://vse-sto.com.ua/azs/65-shell/">Подробнее →</a></p>
-	    </div>
+			<div class="poi">
+				Дорога М-11 Львів – Шегені (на Краків)<br/>
+				<img src="/images/photos/gas/wog1.jpg" alt="WOG" title="АЗС WOG" class="align-right frame" />
+				км 8+585<br />
+				<br />
+				Тел: (040) 123 45 51<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Пальне</th>
+						<th>Ціна (грн/л)</th>
+					</tr>
+					<tr class="odd">
+						<td>A-80</td>
+						<td class="price">9.30</td>
+					</tr>
+					<tr>
+						<td>A-92</td>
+						<td class="price">9.70</td>
+					</tr>
+					<tr class="odd">
+						<td>A-95</td>
+						<td class="price">10.05</td>
+					</tr>
+					<tr>
+						<td>ДП</td>
+						<td class="price">9.50</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
 	    ]]></description>
 		<Point>
 			<coordinates>23.9122706681912,49.820551832</coordinates>
@@ -18,19 +50,9 @@
 	<Placemark>
 		<name>ЕКСОІЛ УКРНАФТА</name>
 		<description><![CDATA[
-		<div style="width: 300px;overflow:hidden;">
-		    <a href="/sto/777-avtoremont/">
-		      <img src="http://vse-sto.com.ua/media/autoservices/avtoremont_logo_png_160x100_q85.jpg"
-		        alt="СТО Авторемонт, Киев, Славгородский переулок 12" align="right" />
-		    </a>
-
-		    <p>Тел: 044 567 64 42</p>
-
-		    <p>СТО «АВТОРЕМОНТ» предоставляет широкий спектр услуг, связанных с ремонтом и обслуживанием любых моделей автомобилей иностранного производства.<br />
-		      Работа нашего автосервиса ориентирована на максимально качественное обслуживание клиентов. На нашей СТО вы найдете профессионалов высокого уровня с многолетним ...
-			</p>
-		    <p><a href="http://vse-sto.com.ua/sto/777-avtoremont/">Подробнее →</a></p>
-		</div>
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 9+336
+		    <p>Інформація не надана постачальником.</p>
 		]]></description>
 		<Point>
 			<coordinates>23.902278248,49.818622607</coordinates>
@@ -39,7 +61,43 @@
 	
 	<Placemark>
 		<name>WOG</name>
-		<description></description>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегені (на Краків)<br/>
+				<img src="/images/photos/gas/wog2.jpg" alt="WOG" title="АЗС WOG" class="align-right frame" />
+				км 18+108<br />
+				<br />
+				Тел: (040) 312 45 51<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Пальне</th>
+						<th>Ціна (грн/л)</th>
+					</tr>
+					<tr class="odd">
+						<td>A-80</td>
+						<td class="price">9.20</td>
+					</tr>
+					<tr>
+						<td>A-92</td>
+						<td class="price">9.70</td>
+					</tr>
+					<tr class="odd">
+						<td>A-95</td>
+						<td class="price">10.00</td>
+					</tr>
+					<tr>
+						<td>ДП</td>
+						<td class="price">9.50</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+				</div>
+	    	</div>
+	    ]]></description>
 		<Point>
 			<coordinates>23.784085193,49.799730569</coordinates>
 		</Point>
@@ -47,7 +105,11 @@
 	
 	<Placemark>
 		<name>ЗЕВС ПЕТРОЛЬ</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 10+606
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.885359491,49.815468936</coordinates>
 		</Point>
@@ -55,7 +117,11 @@
 	
 	<Placemark>
 		<name>ОККО</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 24+547
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.696874141,49.787119192</coordinates>
 		</Point>
@@ -63,7 +129,11 @@
 		
 	<Placemark>
 		<name>УКРНАФТА</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 29+442
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.631147816,49.781530909</coordinates>
 		</Point>
@@ -71,7 +141,11 @@
 	
 	<Placemark>
 		<name>ANP</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 31+417
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.603877452,49.782964722</coordinates>
 		</Point>
@@ -79,7 +153,11 @@
 	
 	<Placemark>
 		<name>ANP</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 32+154
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.593731811,49.783819801</coordinates>
 		</Point>
@@ -87,7 +165,11 @@
 	
 	<Placemark>
 		<name>УКРНАФТА</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 40+571
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.479607394,49.791280401</coordinates>
 		</Point>
@@ -95,7 +177,11 @@
 	
 	<Placemark>
 		<name>УКРНАФТА</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 49+506
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.360743077,49.803221090</coordinates>
 		</Point>
@@ -103,7 +189,11 @@
 	
 	<Placemark>
 		<name>БОГДАН-РОСЬ</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 50+343
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.349266243,49.803050514</coordinates>
 		</Point>
@@ -111,15 +201,56 @@
 	
 	<Placemark>
 		<name>МОСТНАФТА</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 64+203
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.168504296,49.791373274</coordinates>
 		</Point>
 	</Placemark>
 	
 	<Placemark>
-		<name>WOG</name>
-		<description></description>
+		<name>АЗС "WOG"</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегені (на Краків)<br/>
+				<img src="/images/photos/gas/wog3.jpg" alt="WOG" title="АЗС WOG" class="align-right frame" />
+				км 66+289<br />
+				<br />
+				Тел: (040) 123 45 51<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Пальне</th>
+						<th>Ціна (грн/л)</th>
+					</tr>
+					<tr class="odd">
+						<td>A-80</td>
+						<td class="price">9.30</td>
+					</tr>
+					<tr>
+						<td>A-92</td>
+						<td class="price">9.70</td>
+					</tr>
+					<tr class="odd">
+						<td>A-95</td>
+						<td class="price">10.05</td>
+					</tr>
+					<tr>
+						<td>ДП</td>
+						<td class="price">9.50</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
 		<Point>
 			<coordinates>23.140066196,49.793271440</coordinates>
 		</Point>
@@ -127,7 +258,11 @@
 	
 	<Placemark>
 		<name>ГАЛИЧИНА</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 67+923
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.118610940,49.798044730</coordinates>
 		</Point>
@@ -135,7 +270,11 @@
 	
 	<Placemark>
 		<name>УКРНАФТА</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 73+477
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.043942335,49.801685175</coordinates>
 		</Point>
@@ -143,15 +282,56 @@
 	
 	<Placemark>
 		<name>OKKO</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 74+072
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.035849811,49.800623513</coordinates>
 		</Point>
 	</Placemark>
 	
 	<Placemark>
-		<name>WOG</name>
-		<description></description>
+		<name>АЗС "WOG"</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегені (на Краків)<br/>
+				<img src="/images/photos/gas/wog4.jpg" alt="WOG" title="АЗС WOG" class="align-right frame" />
+				км 76+487<br />
+				<br />
+				Тел: (040) 123 45 51<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Пальне</th>
+						<th>Ціна (грн/л)</th>
+					</tr>
+					<tr class="odd">
+						<td>A-80</td>
+						<td class="price">9.30</td>
+					</tr>
+					<tr>
+						<td>A-92</td>
+						<td class="price">9.70</td>
+					</tr>
+					<tr class="odd">
+						<td>A-95</td>
+						<td class="price">10.05</td>
+					</tr>
+					<tr>
+						<td>ДП</td>
+						<td class="price">9.50</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
 		<Point>
 			<coordinates>23.002914158,49.799072016</coordinates>
 		</Point>
@@ -159,7 +339,11 @@
 	
 	<Placemark>
 		<name>ANP</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 76+611
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>23.001186298,49.799131280</coordinates>
 		</Point>
@@ -167,7 +351,11 @@
 	
 	<Placemark>
 		<name>ЛУКОЙЛ</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 77+071
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>22.994816783,49.799400377</coordinates>
 		</Point>
@@ -175,7 +363,11 @@
 	
 	<Placemark>
 		<name>РУНО</name>
-		<description></description>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 77+071
+		    <p>Інформація не надана постачальником.</p>
+		]]></description>
 		<Point>
 			<coordinates>22.968825627,49.799439944</coordinates>
 		</Point>

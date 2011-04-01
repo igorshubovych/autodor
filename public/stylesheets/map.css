@@ -1,0 +1,86 @@
+ul.tabnav {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ overflow: hidden;
+}
+
+ul.tabnav a {
+ display: block;
+ width: 100%;
+}
+
+ul.tabnav a:hover {
+ background: #ccc;
+}
+
+ul.tabnav li {
+ float: left;
+ width: 125px;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+}
+
+div.tabcontents {
+ height: 290px;
+ background: #ccc;
+ overflow: hidden;
+ border-top: 1px solid #011;
+ padding: 3px;
+ 
+}
+
+div.tabcontents div.content {
+ float: left;
+ width: 100%;
+ height: 102%;
+ overflow-y: auto;
+}
+
+div.tabcontents div.content h2 {
+ margin-top: 3px;
+}
+
+.poi {
+	width: 300px;
+}
+
+.align-right {
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+.frame {
+	padding: 5px;
+	border: 1px solid #aaa;
+}
+
+.features {
+	float: right;
+}
+
+.gasPrices {
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.gasPrices th {
+	font-weight: bold;
+	text-align: center;
+	color: #039;
+	padding: 0px 4px 10px 4px;
+}
+
+.gasPrices .odd {
+	background: #E8EDFF;
+}
+
+.gasPrices td {
+	color: #669;
+}
+
+.gasPrices td.price {
+	text-align: right;
+}
