@@ -22,6 +22,8 @@ en:
         print_route: "Print route"
         clear_route: "Clear route"
         search_query: "Search query"
+        doSearch: "Search for place"
+        doSearchTip: "Search for place on the map"
     objects:
         gas: "Gas stations"
         carService: "Car service"

@@ -21,6 +21,8 @@ ru:
         print_route: "Печать маршрута"
         clear_route: "Очистить маршрут"
         search_query: "Текст для поиска"
+        doSearch: "Искать"
+        doSearchTip: "Искать на карте"
     objects:
         gas: "Заправки"
         carService: "СТО"
