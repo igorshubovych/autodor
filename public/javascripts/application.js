@@ -1,6 +1,16 @@
+var IEmode = (navigator.appName.indexOf("Microsoft") > -1);
+
+function moolog(msg) {
+	if (IEmode) {
+		return;
+	} else {
+		console.log(msg);
+	}
+}
+
 window.onerror = function(e) {
 	//alert(e);
-	console.log(e);
+	moolog(e);
 }
 
 var cloudmade = null, map = null;
@@ -149,7 +159,7 @@ var createContextMenu = function() {
 }
 
 function createUI() {
-	//console.log(cities);
+	//moolog(cities);
 	$("#searchQuery").autocomplete({
 		minLength: 1,
 		source: cities
@@ -227,7 +237,7 @@ var updateRoute = function () {
 	if (routeType == null)
 		routeType = 'car';
 
-	console.log('Route Type: ', routeType);
+	moolog('Route Type: ', routeType);
 
 	for (m = 0; m < markers.length; m++) {
 		keyPoints.push(markers[m].getLatLng());
@@ -360,7 +370,7 @@ var toggleWeather = function() {
 		updateWeather();
 	}
 	
-	console.log('shown? ' + map.containsOverlay(weatherLayer));
+	moolog('shown? ' + map.containsOverlay(weatherLayer));
 }
 
 var updateWeather = function() {
@@ -385,7 +395,7 @@ var updateWeather = function() {
 		
 	layers['weather'] = weather;
 	
-	console.log(_url, 'weather layer is updated');
+	moolog(_url, 'weather layer is updated');
 }
 
 var loadObjects = function(layerName) {
@@ -454,7 +464,7 @@ var geoSearch = function() {
 	
 	geocoder.getLocations($("#searchQuery").val() + ",Ukraine", function(response) {
 			if (response == null || response.features == null) {
-				console.log('no valid response given');
+				moolog('no valid response given');
 				
 				return;
 			}
