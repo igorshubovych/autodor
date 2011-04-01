@@ -21,6 +21,8 @@ uk:
         print_route: "Друкувати маршрут"
         clear_route: "Очистити маршрут"
         search_query: "Текст для пошуку"
+        doSearch: "Шукати"
+        doSearchTip: "Шукати на карті"
     objects:
         gas: "Заправки"
         carService: "СТО"
@@ -29,6 +31,7 @@ uk:
         weather: "Погода"
         monument: "Пам’ятники"
         roadCondition: "Дорожні умови"
+        police: "ДПС"
     menu:
         about: "Про сайт"
         support: "Підтримка"
