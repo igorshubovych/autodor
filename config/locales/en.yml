@@ -32,6 +32,7 @@ en:
         weather: "Weather"
         monument: "Monuments"
         roadCondition: "Road condition"
+        police: "Police"
     menu:
         about: "About"
         support: "Support"

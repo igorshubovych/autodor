@@ -34,7 +34,11 @@
 			%label{ :for => "weather", :title => "#{t('objects.weather')}" }
 				= image_tag '/images/controls/weather.png'
 				
-		%input#webCam{ :type => "checkbox", :onclick => "switchLayer('webCams');"}
+		%input#webCam{ :type => "checkbox", :onСlick => "switchLayer('webCams');"}
 			%label{ :for => "webCam", :title => "#{t('objects.webCam')}" }
 				= image_tag '/images/objects/camera.png'
+				
+		%input#police{ :type => "checkbox", :onClick => ""}
+			%label{ :for => "police", :title => "#{t('objects.police')}" }
+				= image_tag '/images/objects/police.gif'
 

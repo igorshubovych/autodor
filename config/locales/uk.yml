@@ -31,6 +31,7 @@ uk:
         weather: "Погода"
         monument: "Пам’ятники"
         roadCondition: "Дорожні умови"
+        police: "ДПС"
     menu:
         about: "Про сайт"
         support: "Підтримка"
