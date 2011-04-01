@@ -190,6 +190,12 @@ function createMarker(lat, lon, options) {
 	}
 	
 	var draggable = true;
+	
+	// кастиль для IE =)
+	if (ic.iconSize.x && ic.iconSize.y) {
+		ic.iconSize.width = ic.iconSize.x;
+		ic.iconSize.height = ic.iconSize.y;
+	}
 
 	if (options['draggable'] != null) {
 		if (options['draggable'] == 'false' || options['draggable'] == false) {

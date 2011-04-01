@@ -178,6 +178,9 @@ function createMarker(lat, lon, options) {
 	}
 	
 	var draggable = true;
+	
+	ic.width = ic.x;
+	ic.height = ic.y;
 
 	if (options['draggable'] != null) {
 		if (options['draggable'] == 'false' || options['draggable'] == false) {
