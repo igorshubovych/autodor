@@ -30,7 +30,7 @@ class PoiController < ApplicationController
   end  
   
   def hotel
-    send_kml 'hotel.kml'
+    send_kml 'm11-hotel.kml'
   end
 
   def borders1

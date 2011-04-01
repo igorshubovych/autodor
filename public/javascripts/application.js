@@ -18,6 +18,11 @@ var points = {
 	'Lviv stadium': new CM.LatLng(49.775, 24.026)
 }
 
+var m11bbox = new CM.LatLngBounds([
+	new CM.LatLng(49.8205518325, 23.9122706682),
+	new CM.LatLng(49.7815309092, 22.9688256268)
+]);
+
 var markers = [], currMarker = null, routeType = null, currPos = null;
 
 var layers = {
@@ -379,6 +384,17 @@ var updateWeather = function() {
 
 var loadObjects = function(layerName) {
 	var layer = layers[layerName];
+	// Check if routing direction overlaps M-11 
+	if (layerName == "hotel" || layerName == "gas") {
+		if (directions.getDistance() > 0) {
+			routeBounds = directions.getBounds();
+			if (!(routeBounds.contains(m11bbox) || m11bbox.contains(routeBounds) || routeBounds.contains(m11bbox.getSouthWest()) || routeBounds.contains(m11bbox.getNorthEast()) || m11bbox.contains(routeBounds.getSouthWest()) || m11bbox.contains(routeBounds.getNorthEast()) )) {
+				return;
+			}
+		} else {
+			return;
+		}
+	}
 	layer['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
 	CM.Event.addListener(layer['data'], 'load', function() {
 		map.addOverlay(layers[layerName]['data']);
@@ -412,6 +428,8 @@ var switchLayer = function(layerName) {
 			loadObjects(layerName);
 		} else if (layer['shown']) {
 			map.removeOverlay(layer['data']);
+			// TO UNLOAD DATA
+			layer['data'] = null;
 		} else {
 			map.addOverlay(layer['data']);
 		}

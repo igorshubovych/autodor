@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M-11 hotels</name>
+	<Placemark>
+		<name>Готель "Міраж"</name>
+		<description><![CDATA[
+			<div class="poi">
+				Затишний готель у мальовничому місці<br/>
+				<img src="/images/photos/hotel/hotel1.jpg" alt="Міраж" title="Готель МІРАЖ" class="align-right frame" />
+				<a href="http://www.hotelmirage.com.ua" target="_blank">Забронювати номер</a><br />
+				<br />
+				Тел: +38-03234-37-96-7<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Номери</th>
+						<th>Ціна (за ніч)</th>
+					</tr>
+					<tr class="odd">
+						<td>Одномістний</td>
+						<td class="price">$25.00</td>
+					</tr>
+					<tr>
+						<td>Двомісний</td>
+						<td class="price">$30.00</td>
+					</tr>
+					<tr class="odd">
+						<td>Тримісний</td>
+						<td class="price">$40.00</td>
+					</tr>
+					<tr>
+						<td>Чотиримісний</td>
+						<td class="price">$40.00</td>
+					</tr>
+					<tr>
+						<td>Люкс</td>
+						<td class="price">$55.00</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
+		<Point>
+			<coordinates>23.351882827,49.803333804</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Готель "ЗЕВС"</name>
+		<description><![CDATA[
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.885359492,49.81546894</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Готель "МАУЕН"</name>
+		<description><![CDATA[
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.856116392,49.810993001</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Готель "ЗАТИШОК"</name>
+		<description><![CDATA[
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.775200164,49.798335898</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Готель "БАРОН"</name>
+		<description><![CDATA[
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.359620582,49.803425241</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Готель "ГОСТИННИЙ ДВІР"</name>
+		<description><![CDATA[
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.184238279,49.794088731</coordinates>
+		</Point>
+	</Placemark>
+	
+</Document>
+</kml>
