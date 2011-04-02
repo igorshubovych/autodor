@@ -30,7 +30,7 @@ ru:
         webCam: "Веб-камеры"
         weather: "Погода"
         monument: "Памятники"
-        roadCondition: "Дорожные условия"
+        roadCondition: "Критические ситуации"
         police: "ДПС"
     menu:
         about: "Про сайт"

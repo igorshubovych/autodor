@@ -30,7 +30,7 @@ uk:
         webCam: "Веб-камери"
         weather: "Погода"
         monument: "Пам’ятники"
-        roadCondition: "Дорожні умови"
+        roadCondition: "Критичні ситуації"
         police: "ДПС"
     menu:
         about: "Про сайт"
