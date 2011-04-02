@@ -55,7 +55,7 @@ var initMap = function() {
 			cloudmade = new CM.Tiles.Base({
 				tileUrlTemplate: 'http://tile.osmosnimki.ru/kosmo-en/#{zoom}/#{x}/#{y}.png',
 				title: 'moofoo map',
-				copyright: 'Аццький Еррорист &copy; 2010'
+				copyright: '&copy; 2010 Космоснимки.Ру'
 			});
 		}
 		
