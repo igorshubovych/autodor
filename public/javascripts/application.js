@@ -46,8 +46,19 @@ var layers = {
 };
 
 var initMap = function() {
+	var curr_lang = $('[curr_lang]').attr('curr_lang');
+	
 	if (map == null || cloudmade == null) {
-		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
+		if (curr_lang != 'en') {
+			cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
+		} else {
+			cloudmade = new CM.Tiles.Base({
+				tileUrlTemplate: 'http://tile.osmosnimki.ru/kosmo-en/#{zoom}/#{x}/#{y}.png',
+				title: 'moofoo map',
+				copyright: 'Аццький Еррорист &copy; 2010'
+			});
+		}
+		
 		map = new CM.Map('map', cloudmade);
 
 		map.setCenter(points['Ukraine'], 6);

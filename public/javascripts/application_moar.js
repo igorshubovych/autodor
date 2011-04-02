@@ -1,6 +1,16 @@
+var IEmode = (navigator.appName.indexOf("Microsoft") > -1);
+
+function moolog(msg) {
+	if (IEmode) {
+		return;
+	} else {
+		console.log(msg);
+	}
+}
+
 window.onerror = function(e) {
 	//alert(e);
-	console.log(e);
+	moolog(e);
 }
 
 var cloudmade = null, map = null;
@@ -32,7 +42,16 @@ var layers = {
 
 var initMap = function() {
 	if (map == null || cloudmade == null) {
-		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
+		if (curr_lang != 'en') {
+			cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
+		} else {
+			cloudmade = new CM.Tiles.Base({
+				tileUrlTemplate: 'http://tile.osmosnimki.ru/kosmo-en/#{zoom}/#{x}/#{y}.png',
+				title: 'moofoo map',
+				copyright: 'Аццький Еррорист &copy; 2010'
+			});
+		}
+		
 		map = new CM.Map('map', cloudmade);
 
 		map.setCenter(points['Ukraine'], 6);
@@ -179,8 +198,11 @@ function createMarker(lat, lon, options) {
 	
 	var draggable = true;
 	
-	ic.width = ic.x;
-	ic.height = ic.y;
+	// кастиль для IE =)
+	if (ic.iconSize.x && ic.iconSize.y) {
+		ic.iconSize.width = ic.iconSize.x;
+		ic.iconSize.height = ic.iconSize.y;
+	}
 
 	if (options['draggable'] != null) {
 		if (options['draggable'] == 'false' || options['draggable'] == false) {
@@ -269,11 +291,11 @@ var initMarkerList = function() {
 
 var findAndPasteMarker = function(elt) {
 	if (elt == null) {
-		console.log('can not add location basing on empty elt');
+		moolog('can not add location basing on empty elt');
 		return;
 	}
 		
-	var moo = new Function("data", "if (data == null || data.features == null || data.features[0] == null || data.features[0].centroid == null) { console.log('data not found'); return; } else { var m = createMarker(data.features[0].centroid.coordinates[0], data.features[0].centroid.coordinates[1], {'draggedEvent': updateRoute}); if (markers.length < 2) markers.push(m); else markers.splice(markers.length - 1, 0, m); updateRoute(); }");
+	var moo = new Function("data", "if (data == null || data.features == null || data.features[0] == null || data.features[0].centroid == null) { moolog('data not found'); return; } else { var m = createMarker(data.features[0].centroid.coordinates[0], data.features[0].centroid.coordinates[1], {'draggedEvent': updateRoute}); if (markers.length < 2) markers.push(m); else markers.splice(markers.length - 1, 0, m); updateRoute(); }");
 		
 	geocoder.getLocations(elt.value, moo,
 	{ 
@@ -404,7 +426,7 @@ var toggleWeather = function() {
 		updateWeather();
 	}
 	
-	console.log('shown? ' + map.containsOverlay(weatherLayer));
+	moolog('shown? ' + map.containsOverlay(weatherLayer));
 }
 
 var updateWeather = function() {
@@ -429,7 +451,7 @@ var updateWeather = function() {
 		
 	layers['weather'] = weather;
 	
-	console.log(_url, 'weather layer is updated');
+	moolog(_url, 'weather layer is updated');
 }
 
 var loadObjects = function(layerName) {
@@ -485,7 +507,7 @@ var geoSearch = function() {
 	
 	geocoder.getLocations($("#searchQuery").val() + ",Ukraine", function(response) {
 			if (response == null || response.features == null) {
-				console.log('no valid response given');
+				moolog('no valid response given');
 				
 				return;
 			}
