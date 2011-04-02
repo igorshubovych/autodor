@@ -41,6 +41,8 @@ var layers = {
 };
 
 var initMap = function() {
+	var curr_lang = $('[curr_lang]').attr('curr_lang');
+	
 	if (map == null || cloudmade == null) {
 		if (curr_lang != 'en') {
 			cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
