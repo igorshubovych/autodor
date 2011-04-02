@@ -7,8 +7,8 @@ en:
         kharkiv: "Kharkiv"
         unknown: "Unknown place"
     panel:
-        car_fastest_route: "Car, fastest"
-        car_shortest_route: "Car, shortest"
+        car_fastest_route: "Fastest"
+        car_shortest_route: "Shortest"
         foot_route: "Foot"
         leaveDate: "Leave date: "
         add_point: "Add point"

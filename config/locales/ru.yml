@@ -7,8 +7,8 @@ ru:
         kharkiv: "Харьков"
         unknown: "Неизвесная месность"
     panel:
-        car_fastest_route: "Авто, быстрейший"
-        car_shortest_route: "Авто, кратчайший"
+        car_fastest_route: "Быстрейший"
+        car_shortest_route: "Кратчайший"
         leaveDate: "Дата выезда: "
         add_point: "Добавить точку"
         add_start_point: "Точка отправки"
