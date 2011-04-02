@@ -54,8 +54,8 @@ var initMap = function() {
 		} else {
 			cloudmade = new CM.Tiles.Base({
 				tileUrlTemplate: 'http://tile.osmosnimki.ru/kosmo-en/#{zoom}/#{x}/#{y}.png',
-				title: 'moofoo map',
-				copyright: '&copy; 2010 Космоснимки.Ру'
+				title: 'English map',
+				copyright: '&copy; 2010 Kosmosnimki.ru'
 			});
 		}
 		
