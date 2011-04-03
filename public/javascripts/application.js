@@ -95,7 +95,7 @@ var initIcons = function() {
 	layers['carService']['icon'] = icon;
 	
 	icon = new CM.Icon(icon);
-	icon.image  = "/images/objects/incidents.gif";
+	icon.image  = "/images/objects/incidents.png";
 	layers['roadCondition']['icon'] = icon;
 	
 	icon = new CM.Icon(icon);
