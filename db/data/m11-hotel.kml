@@ -107,6 +107,12 @@
 		<description><![CDATA[
 			Дорога М-11 Львів – Шегені (на Краків)<br/>
 			км 12+606
+			<div class="object">
+				<object width="240" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+				<param value="/img/banners/21.swf" name="movie">
+				<param value="high" name="quality">
+				<embed width="240" height="350" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" quality="high" src="http://www.vseoteli.kiev.ua/img/banners/21.swf">
+			</object>
 		    <p>Інформація не надана власником.</p>
 		]]></description>
 		<Point>
