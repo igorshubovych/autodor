@@ -46,7 +46,8 @@ var layers = {
 	police: { data: null, shown: false, icon: null},
 	recreationArea: { data: null, shown: false, icon: null},
 	food: { data: null, shown: false, icon: null},
-	medicine: { data: null, shown: false, icon: null}
+	medicine: { data: null, shown: false, icon: null},
+	custom: { data: null, shown: false, icon: null}
 };
 
 var initMap = function() {
@@ -124,6 +125,10 @@ var initIcons = function() {
 	icon = new CM.Icon(icon);
 	icon.image  = "/images/objects/medicine.gif";
 	layers['medicine']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/custom.png";
+	layers['custom']['icon'] = icon;
 }
 
 var subscribeForEvents = function() {

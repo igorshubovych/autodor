@@ -35,6 +35,7 @@ ru:
         food: "Пункты питания"
         medicine: "Медпункты"
         recreationArea: "Площадки отдыха"
+        custom: "Таможня"
     menu:
         about: "Про сайт"
         support: "Поддержка"

@@ -4,7 +4,28 @@
 			$(".objectControls").buttonset();
 		});
 		
-	.objectControls		
+	.objectControls{ :style => "text-align: center;" }
+
+		%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather');" }
+			%label{ :for => "weather", :title => "#{t('objects.weather')}" }
+				= image_tag '/images/controls/weather.png'
+
+		%input#webCam{ :type => "checkbox", :onClick => "switchLayer('webCams');" }
+			%label{ :for => "webCam", :title => "#{t('objects.webCam')}" }
+				= image_tag '/images/objects/camera.png'
+
+		%input#monument{ :type => "checkbox", :onClick => "switchLayer('monument');" }
+			%label{ :for => "monument", :title => "#{t('objects.monument')}" }
+				= image_tag '/images/objects/monument.gif'
+
+		%input#roadCondition{ :type => "checkbox", :onClick => "switchLayer('roadCondition');" }
+			%label{ :for => "roadCondition", :title => "#{t('objects.roadCondition')}" }
+				= image_tag '/images/objects/incidents.png'
+				
+	
+	%br/
+		
+	.objectControls{ :style => "text-align: center;" }
 		%input#gas{ :type => "checkbox", :onClick => "switchLayer('gas');" }
 			%label{ :for => "gas", :title => "#{t('objects.gas')}" }
 				= image_tag '/images/objects/gas.gif'
@@ -16,15 +37,11 @@
 		%input#hotel{ :type => "checkbox", :onClick => "switchLayer('hotel');" }
 			%label{ :for => "hotel", :title => "#{t('objects.hotel')}" }
 				= image_tag '/images/objects/hotel.gif'
-
-		%input#monument{ :type => "checkbox", :onClick => "switchLayer('monument');" }
-			%label{ :for => "monument", :title => "#{t('objects.monument')}" }
-				= image_tag '/images/objects/monument.gif'
-		
-		%input#roadCondition{ :type => "checkbox", :onClick => "switchLayer('roadCondition');" }
-			%label{ :for => "roadCondition", :title => "#{t('objects.roadCondition')}" }
-				= image_tag '/images/objects/incidents.png'
 				
+		%input#food{ :type => "checkbox", :onClick => "switchLayer('food');" }
+			%label{ :for => "food", :title => "#{t('objects.food')}" }
+				= image_tag '/images/objects/food.png'
+	
 	%br/
 
 	.objectControls{ :style => "text-align: center;" }
@@ -33,26 +50,16 @@
 			%label{ :for => "recreationArea", :title => "#{t('objects.recreationArea')}" }
 				= image_tag '/images/objects/recreationArea.png'
 			
-		%input#food{ :type => "checkbox", :onClick => "switchLayer('food');" }
-			%label{ :for => "food", :title => "#{t('objects.food')}" }
-				= image_tag '/images/objects/food.png'
 		
 		%input#medicine{ :type => "checkbox", :onClick => "switchLayer('medicine');" }
 			%label{ :for => "medicine", :title => "#{t('objects.medicine')}" }
 				= image_tag '/images/objects/medicine.gif'
-
-	%br/
-
-	.objectControls{ :style => "text-align: center;" }
-			
-		%input#weather{ :type => "checkbox", :onClick => "switchLayer('weather');" }
-			%label{ :for => "weather", :title => "#{t('objects.weather')}" }
-				= image_tag '/images/controls/weather.png'
-				
-		%input#webCam{ :type => "checkbox", :onClick => "switchLayer('webCams');" }
-			%label{ :for => "webCam", :title => "#{t('objects.webCam')}" }
-				= image_tag '/images/objects/camera.png'
 		
 		%input#police{ :type => "checkbox", :onClick => "switchLayer('police');"}
 			%label{ :for => "police", :title => "#{t('objects.police')}" }
 				= image_tag '/images/objects/police.gif'
+
+
+		%input#custom{ :type => "checkbox", :onClick => "switchLayer('custom');"}
+			%label{ :for => "custom", :title => "#{t('objects.custom')}" }
+				= image_tag '/images/objects/custom.png'

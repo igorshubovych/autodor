@@ -25,6 +25,10 @@ class PoiController < ApplicationController
     send_kml 'm11-police.kml'
   end
   
+  def custom
+    send_kml 'm11-custom.kml'
+  end
+  
   def recreationArea
     send_kml 'm11-recreationArea.kml'
   end

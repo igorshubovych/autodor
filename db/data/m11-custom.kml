@@ -2,14 +2,16 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>M-11 police</name>
+	
 	<Placemark>
-		<name>КП ДАІ</name>
+		<name>Митний пост „Шегині”</name>
 		<description><![CDATA[
 			Дорога М-11 Львів – Шегині (на Краків)<br/>
-			км 9+995
+			км 66+493
 		]]></description>
+		<styleUrl>#custom</styleUrl>
 		<Point>
-			<coordinates>23.893626971,49.816702906</coordinates>
+			<coordinates>22.955382452,49.799460924</coordinates>
 		</Point>
 	</Placemark>
 </Document>

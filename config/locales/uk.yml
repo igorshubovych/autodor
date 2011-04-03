@@ -35,6 +35,7 @@ uk:
         food: "Пункти харчування"
         medicine: "Медпункти"
         recreationArea: "Майданчики відпочинку"
+        custom: "Митниця"
     menu:
         about: "Про сайт"
         support: "Підтримка"

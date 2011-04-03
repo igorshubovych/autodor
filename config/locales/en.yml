@@ -36,6 +36,7 @@ en:
         food: "Restaurants"
         medicine: "First-aid posts"
         recreationArea: "Recreation areas"
+        custom: "Custom"
     menu:
         about: "About"
         support: "Support"
