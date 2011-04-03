@@ -447,9 +447,7 @@ var loadObjects = function(layerName) {
 			return;
 		}
 	}
-	console.log(layerName);
 	layer['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
-	console.log(layer);
 	CM.Event.addListener(layer['data'], 'load', function() {
 		map.addOverlay(layers[layerName]['data']);
 	});
