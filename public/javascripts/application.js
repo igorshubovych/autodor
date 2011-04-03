@@ -437,7 +437,7 @@ var updateWeather = function() {
 var loadObjects = function(layerName) {
 	var layer = layers[layerName];
 	// Check if routing direction overlaps M-11 
-	if (layerName == "hotel" || layerName == "gas") {
+	if (!(layerName == "webCam" || layerName == "weather" || layerName == "monument" || layerName == "roadCondition")) {
 		if (directions.getDistance() > 0) {
 			routeBounds = directions.getBounds();
 			if (!(routeBounds.contains(m11bbox) || m11bbox.contains(routeBounds) || routeBounds.contains(m11bbox.getSouthWest()) || routeBounds.contains(m11bbox.getNorthEast()) || m11bbox.contains(routeBounds.getSouthWest()) || m11bbox.contains(routeBounds.getNorthEast()) )) {
