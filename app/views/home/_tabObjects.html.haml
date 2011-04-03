@@ -24,6 +24,18 @@
 		%input#roadCondition{ :type => "checkbox", :onClick => "switchLayer('roadCondition');" }
 			%label{ :for => "roadCondition", :title => "#{t('objects.roadCondition')}" }
 				= image_tag '/images/objects/incidents.png'
+				
+	%br/
+
+	.objectControls{ :style => "text-align: center;" }
+
+		%input#recreationArea{ :type => "checkbox", :onClick => "switchLayer('recreationArea');" }
+			%label{ :for => "recreationArea", :title => "#{t('objects.recreationArea')}" }
+				= image_tag '/images/objects/recreationArea.png'
+			
+		%input#food{ :type => "checkbox", :onClick => "switchLayer('food');" }
+			%label{ :for => "food", :title => "#{t('objects.food')}" }
+				= image_tag '/images/objects/food.png'
 
 	%br/
 
@@ -40,4 +52,3 @@
 		%input#police{ :type => "checkbox", :onClick => "switchLayer('police');"}
 			%label{ :for => "police", :title => "#{t('objects.police')}" }
 				= image_tag '/images/objects/police.gif'
-

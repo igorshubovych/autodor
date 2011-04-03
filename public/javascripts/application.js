@@ -43,7 +43,9 @@ var layers = {
 	monument: { data: null, shown: false,  icon: null },
 	weather: { data: null, shown: false, icon: null},
 	roadCondition: { data: null, shown: false, icon: null},
-	police: { data: null, shown: false, icon: null}
+	police: { data: null, shown: false, icon: null},
+	recreationArea: { data: null, shown: false, icon: null},
+	food: { data: null, shown: false, icon: null}
 };
 
 var initMap = function() {
@@ -109,6 +111,14 @@ var initIcons = function() {
 	icon = new CM.Icon(icon);
 	icon.image  = "/images/objects/police.gif";
 	layers['police']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/recreationArea.png";
+	layers['recreationArea']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/food.png";
+	layers['food']['icon'] = icon;
 }
 
 var subscribeForEvents = function() {
@@ -427,7 +437,9 @@ var loadObjects = function(layerName) {
 			return;
 		}
 	}
+	console.log(layerName);
 	layer['data'] = new CM.GeoXml('/poi/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
+	console.log(layer);
 	CM.Event.addListener(layer['data'], 'load', function() {
 		map.addOverlay(layers[layerName]['data']);
 	});

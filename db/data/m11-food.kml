@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M-11 food</name>
+	
+	<Placemark>
+		<name>Авто-гриль "Мисливець"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 66+493
+		]]></description>
+		<Point>
+			<coordinates>23.137390994,49.793861059</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Кафе-бар "ЛІЛІЯ"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 9+572
+		]]></description>
+		<Point>
+			<coordinates>23.899234588,49.817843379</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

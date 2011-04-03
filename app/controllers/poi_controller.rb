@@ -21,20 +21,20 @@ class PoiController < ApplicationController
     send_kml 'monuments_uk.kml'
   end
   
-  def monument_uk
-    send_kml 'monuments_uk.kml'
-  end
-  
-  def monument_ru
-    send_kml 'monuments_ru.kml'
-  end  
-  
   def hotel
     send_kml 'm11-hotel.kml'
   end
   
   def police
     send_kml 'm11-police.kml'
+  end
+  
+  def recreationArea
+    send_kml 'm11-recreationArea.kml'
+  end
+  
+  def food
+    send_kml 'm11-food.kml'
   end
 
   def borders1

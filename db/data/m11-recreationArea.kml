@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M-11 recreation areas</name>
+	<Placemark>
+		<name>11</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 9+995
+			<div class="features">
+				<img src="/images/objects/camping.png" title="Кемпінг" alt="Кемпінг" />
+				<img src="/images/objects/wc.png" title="Туалет" alt="Туалет" />
+				<img src="/images/objects/recycleBin.png" title="Смітник" alt="Смітник" />
+				<img src="/images/objects/fireExtinguisher.png" title="Вогнегасник" alt="Вогнегасник" />
+			</div>
+		]]></description>
+		<Point>
+			<coordinates>23.893626971,49.816702906</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Митний пост „Шегині”</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 18+614
+			<div class="features">
+				<img src="/images/objects/camping.png" title="Кемпінг" alt="Кемпінг" />
+				<img src="/images/objects/wc.png" title="Туалет" alt="Туалет" />
+				<img src="/images/objects/recycleBin.png" title="Смітник" alt="Смітник" />
+				<img src="/images/objects/fireExtinguisher.png" title="Вогнегасник" alt="Вогнегасник" />
+			</div>
+		]]></description>
+		<Point>
+			<coordinates>23.777261007,49.798659498</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Митний пост „Шегині”</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 40+189
+			<div class="features">
+				<img src="/images/objects/camping.png" title="Кемпінг" alt="Кемпінг" />
+				<img src="/images/objects/wc.png" title="Туалет" alt="Туалет" />
+				<img src="/images/objects/recycleBin.png" title="Смітник" alt="Смітник" />
+				<img src="/images/objects/smokingArea.png" title="Зона для курців" alt="Зона для курців" />
+			</div>
+		]]></description>
+		<Point>
+			<coordinates>23.484889878,49.791544311</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
