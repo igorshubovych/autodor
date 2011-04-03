@@ -32,6 +32,9 @@ ru:
         monument: "Туристические объекты"
         roadCondition: "Критические ситуации"
         police: "ДПС"
+        food: "Пункты питания"
+        medicine: "Медпункты"
+        recreationArea: "Площадки отдыха"
     menu:
         about: "Про сайт"
         support: "Поддержка"

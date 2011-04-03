@@ -33,6 +33,9 @@ en:
         monument: "Touristic sights"
         roadCondition: "Critical road situations"
         police: "Police"
+        food: "Restaurants"
+        medicine: "First-aid posts"
+        recreationArea: "Recreation areas"
     menu:
         about: "About"
         support: "Support"

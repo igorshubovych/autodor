@@ -32,6 +32,9 @@ uk:
         monument: "Туристичні об’єкти"
         roadCondition: "Критичні ситуації"
         police: "ДПС"
+        food: "Пункти харчування"
+        medicine: "Медпункти"
+        recreationArea: "Майданчики відпочинку"
     menu:
         about: "Про сайт"
         support: "Підтримка"
