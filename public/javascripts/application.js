@@ -111,7 +111,7 @@ var initIcons = function() {
 	layers['hotel']['icon'] = icon;
 	
 	icon = new CM.Icon(icon);
-	icon.image  = "/images/objects/police.gif";
+	icon.image  = "/images/objects/police.png";
 	layers['police']['icon'] = icon;
 	
 	icon = new CM.Icon(icon);
