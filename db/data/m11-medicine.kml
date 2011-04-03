@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M-11 medicine</name>
+	
+	<Placemark>
+		<name>Авто-гриль "Мисливець"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 78+999<br/>
+			вул. Панаса Мирного,12<br/>
+			тел. (050) 352-88-77
+		]]></description>
+		<Point>
+			<coordinates>22.968825627,49.799439944</coordinates>
+		</Point>
+	</Placemark>
+	
+</Document>
+</kml>

@@ -36,6 +36,10 @@ class PoiController < ApplicationController
   def food
     send_kml 'm11-food.kml'
   end
+  
+  def medicine
+    send_kml 'm11-medicine.kml'
+  end
 
   def borders1
     send_kml 'Ukraine1.kml'

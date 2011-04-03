@@ -36,6 +36,10 @@
 		%input#food{ :type => "checkbox", :onClick => "switchLayer('food');" }
 			%label{ :for => "food", :title => "#{t('objects.food')}" }
 				= image_tag '/images/objects/food.png'
+		
+		%input#medicine{ :type => "checkbox", :onClick => "switchLayer('medicine');" }
+			%label{ :for => "medicine", :title => "#{t('objects.medicine')}" }
+				= image_tag '/images/objects/medicine.gif'
 
 	%br/
 
