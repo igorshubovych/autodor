@@ -32,6 +32,10 @@ class PoiController < ApplicationController
   def hotel
     send_kml 'm11-hotel.kml'
   end
+  
+  def police
+    send_kml 'm11-police.kml'
+  end
 
   def borders1
     send_kml 'Ukraine1.kml'

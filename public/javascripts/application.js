@@ -42,7 +42,8 @@ var layers = {
 	hotel: { data: null, shown: false,  icon: null },
 	monument: { data: null, shown: false,  icon: null },
 	weather: { data: null, shown: false, icon: null},
-	roadCondition: { data: null, shown: false, icon: null}
+	roadCondition: { data: null, shown: false, icon: null},
+	police: { data: null, shown: false, icon: null}
 };
 
 var initMap = function() {
@@ -104,6 +105,10 @@ var initIcons = function() {
 	icon = new CM.Icon(icon);
 	icon.image  = "/images/objects/hotel.gif";
 	layers['hotel']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/police.gif";
+	layers['police']['icon'] = icon;
 }
 
 var subscribeForEvents = function() {

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M-11 police</name>
+	<Style id="custom">
+		<IconStyle>
+			<Icon>
+				<href>/images/objects/custom.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5555</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>КП ГАІ</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 9+995
+		]]></description>
+		<Point>
+			<coordinates>23.893626971,49.816702906</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Митний пост „Шегині”</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 66+493
+		]]></description>
+		<styleUrl>#custom</styleUrl>
+		<Point>
+			<coordinates>22.955382452,49.799460924</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
