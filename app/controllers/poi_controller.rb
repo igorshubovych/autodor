@@ -1,11 +1,7 @@
 class PoiController < ApplicationController
   
   def carService
-    car_service
-  end
-  
-  def car_service
-    send_kml "vsesto/kiev/sto.kml"    
+    send_kml "m11-carService.kml"
   end
   
   def gas

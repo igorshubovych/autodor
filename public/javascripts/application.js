@@ -45,7 +45,7 @@ var layers = {
 	roadCondition: { data: null, shown: false, icon: null},
 	police: { data: null, shown: false, icon: null},
 	recreationArea: { data: null, shown: false, icon: null},
-	food: { data: null, shown: false, icon: null}
+	food: { data: null, shown: false, icon: null},
 	medicine: { data: null, shown: false, icon: null}
 };
 
@@ -123,7 +123,7 @@ var initIcons = function() {
 	
 	icon = new CM.Icon(icon);
 	icon.image  = "/images/objects/medicine.gif";
-	layers['food']['icon'] = icon;
+	layers['medicine']['icon'] = icon;
 }
 
 var subscribeForEvents = function() {

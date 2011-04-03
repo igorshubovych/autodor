@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M-11 car service</name>
+	
+	<Placemark>
+		<name>СТО РВ Профі</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегині (на Краків)<br/>
+				<img src="/images/photos/carService/carService1.jpg" title="СТО РВ Профі" alt="СТО РВ Профі" class="align-right frame" />
+				км 29+442<br/>
+				тел. (097) 180-40-18<br/>
+				Послуги СТО:
+				<ul class="" style="padding: 0px 5px 0px 20px; margin: 0px;">
+					<li>діагностика ходової</li>
+					<li>ремонт ходової</li>
+					<li>ремонт двигуна</li>
+					<li>ТО</li>
+					<li>автоелектрик</li>
+				</ul>
+			</div>
+		]]></description>
+		<Point>
+			<coordinates>23.631147816,49.781530909</coordinates>
+		</Point>
+	</Placemark>
+	
+</Document>
+</kml>
