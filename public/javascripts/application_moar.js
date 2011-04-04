@@ -56,10 +56,30 @@ var initMap = function() {
 		
 		map = new CM.Map('map', cloudmade);
 
+		var CompassCtl = function() {};
+		
+		CompassCtl.prototype = {
+			initialize: function(map, pos) {
+				var elt = document.createElement('img');
+				
+				elt.src = '/images/controls/compass.png';
+				
+				map.getContainer().appendChild(elt);
+				
+				return elt;
+			},
+			
+			getDefaultPosition: function() {
+				return new CM.ControlPosition(CM.BOTTOM_RIGHT, new CM.Size(0, 20));
+			}
+		}
+
 		map.setCenter(points['Ukraine'], 6);
+		
 		map.addControl(new CM.LargeMapControl());
 		map.addControl(new CM.ScaleControl());
 		map.addControl(new CM.OverviewMapControl());
+		map.addControl(new CompassCtl());
 	}
 
 	if (directions == null) {
