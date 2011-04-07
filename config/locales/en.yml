@@ -52,3 +52,5 @@ en:
         euro2012highway: "Ukrainian motorways and roads for Euro 2012 (in Russian)"
         diprodor: 'The Ukrainian state institute of road facilities design "UKRDIPRODOR"'
         goto: "Show %s"
+    support:
+        support: "Support"

@@ -30,11 +30,11 @@
 		%br/
 
 		.routeType
-			%input#car{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car');" }
+			%input#car{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car/shortest');" }
 				%label{ :for => "car", :title => "#{ t "panel.car_fastest_route" }" }
 					= image_tag "controls/car.png"
 
-			%input#truck{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car/shortest');" }
+			%input#truck{ :type => "radio", :name => "routeType", :onClick => "changeRouteType('car');" }
 				%label{ :for => "truck", :title => "#{ t "panel.car_shortest_route" }" }
 					= image_tag "controls/truck.png"
 			
