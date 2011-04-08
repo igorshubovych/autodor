@@ -1,9 +1,7 @@
 Autodor::Application.routes.draw do
-  get "page/contact"
-
-  get "page/support"
-
-  get "page/about"
+  #get "page/contact"
+  #get "page/support"
+  #get "page/about"
 
   get "poi/car_service"
 
@@ -12,6 +10,7 @@ Autodor::Application.routes.draw do
   #get "home/index"
   match ':controller(/:action)'
   match 'moar' => 'home#moar'
+  match 'news' => 'page#news'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
