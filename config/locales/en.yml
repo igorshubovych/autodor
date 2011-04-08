@@ -52,5 +52,11 @@ en:
         euro2012highway: "Ukrainian motorways and roads for Euro 2012 (in Russian)"
         diprodor: 'The Ukrainian state institute of road facilities design "UKRDIPRODOR"'
         goto: "Show %s"
+        ukrautodor: "UKRAUTODOR"
+        uefa_com: "UEFA site"
+        euro-2012: "Euro-2012: Ukraine vs. Poland"
+        2012ua: "2012.net - European football championship"
     support:
         support: "Support"
+    pages:
+        news: "News"

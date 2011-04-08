@@ -1,8 +1,10 @@
 %h1= t('links.head')
 
 - @links.each do |l|
-	.link
-		%a{ :href => "#{ l.url }", :target => '_blank', :title => t( l.title ) }
-			=image_tag "/images/sites/#{ l.img }"
+	.commentari
+		.commentari_img
+			%a{ :href => "#{ l.url }", :target => '_blank', :title => t( l.title ) }
+				=image_tag "/images/sites/#{ l.img }"
 
-		= t( 'links.description' )
+		.commentari_text
+			= t( l.title )
