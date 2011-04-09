@@ -16,7 +16,7 @@ body {
 	background-color: #FF984E;
 	background: -webkit-gradient(linear, left top, left bottom, from(#E0BF8F), to(#F8B44D));
 	background: -moz-linear-gradient(top, #E0BF8F, #F8B44D);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0BF8F', endColorstr='#F8B44D');
+	filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#E0BF8F', EndColorStr='#F8B44D', GradientType=0);
 
 	clear: both;
 	width: 100%;
@@ -77,7 +77,7 @@ body {
 }
 
 .menu .lang ul li {
-	border-width: 1px solid #fff;
+	border: 1px solid #fff;
 	display: inline;
 	list-style: none;
 	margin-left: 5px;
