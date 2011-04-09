@@ -2,6 +2,10 @@ body {
 	font-family: Segoe UI,Arial,sans-serif;
 }
 
+a img {
+	border: none;
+}
+
 .copyright {
 	background-image: url('/images/logo/copyright.png');
 	background-repeat: no-repeat;

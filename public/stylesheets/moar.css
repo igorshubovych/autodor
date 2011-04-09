@@ -3,6 +3,10 @@ body {
 	margin: 0px;
 }
 
+a img {
+	border: none;
+}
+
 .logo {
 	float: left;
 	margin-left: 20px;
