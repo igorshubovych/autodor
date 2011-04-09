@@ -128,7 +128,7 @@ a img {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	width: 100%;
-	border-top: 2px solid black;
+	border-top: 2px solid #B27316;
 	background-color: #FFAA6F;
 }
 
@@ -143,4 +143,8 @@ a img {
 	background: -webkit-gradient(linear, left top, left bottom, from(#E0BF8F), to(#F8B44D));
 	background: -moz-linear-gradient(top, #E0BF8F, #F8B44D);
 	filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#E0BF8F', EndColorStr='#F8B44D', GradientType=0);
+}
+
+.markerList, .wml-routes-output, .wml-route-length, .wml-route-duration {
+	margin-left: 10px;
 }

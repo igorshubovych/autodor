@@ -13,6 +13,25 @@
 				$("#searchControl").click();
 			}
 		});
+		
+		$(".markerItem input.searchQuery").attr("title", $(".translations #markerItem").html());
+		$(".markerItem a").attr("title", $(".translations #markerRemove").html());
+		$("#searchQuery").attr("title", $(".translations #searchQuery").html());
+		$("#clearRoute").attr("title", $(".translations #clearRoute").html());
+		$(".lang").attr("title", $(".translations #langChanger").html());
+		
+		$("[title]").mbTooltip({ // also $([domElement]).mbTooltip  >>  in this case only children element are involved
+			opacity: .97,       //opacity
+			wait: 200,           //before show
+			cssClass: "default",  // default = default
+			timePerWord: 70,      //time to show in milliseconds per word
+			hasArrow: false,			// if you whant a little arrow on the corner
+			hasShadow: true,
+			imgPath: "public/images/tooltip/",
+			ancor: "mouse", //"parent"  you can ancor the tooltip to the mouse position or at the bottom of the element
+			shadowColor: "black", //the color of the shadow
+			mb_fade: 200 //the time to fade-in
+		});
 	});
 
 .logo
@@ -87,3 +106,18 @@
 
 		#title_unknown
 			= t "place.unknown"
+			
+		#markerItem
+			= (t "controls.markerItem").html_safe
+			
+		#markerRemove
+			= (t "controls.markerRemove").html_safe
+		
+		#searchQuery
+			= (t "controls.searchQuery").html_safe
+		
+		#clearRoute
+			= (t "controls.clearRoute").html_safe
+		
+		#langChanger
+			= (t "controls.langChanger").html_safe

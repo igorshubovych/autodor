@@ -60,3 +60,10 @@ en:
         support: "Support"
     pages:
         news: "News"
+    controls:
+        markerItem: "Enter here the text to quickly find a specific city and press Enter, to add a point on the map <strong>OR</strong> right-click on the map and select the appropriate option from the drop down menu"
+        markerRemove: "Click on this image to remove the corresponding marker on the map. To delete all the points from the map <strong>(if there are two or more)</strong> - click the 'clear route' icon <img src='/images/controls/clear.png' /> above"
+        searchQuery: "Enter here the text and press Enter or click 'Search' right-hand to find and display the city on the map"
+        clearRoute: "Clicking on this button, all points on the map will be removed"
+        langChanger: "To change the language just select the appropriate country flag"
+
