@@ -17,16 +17,10 @@ a img {
 }
 
 .menu {
-	background-color: #FF984E;
-	background: -webkit-gradient(linear, left top, left bottom, from(#E0BF8F), to(#F8B44D));
-	background: -moz-linear-gradient(top, #E0BF8F, #F8B44D);
-	filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#E0BF8F', EndColorStr='#F8B44D', GradientType=0);
-
 	clear: both;
 	width: 100%;
 	height: 30px;
 	vertical-align: middle;
-	
 	border-top: 2px solid #B27316;
 	border-bottom: 2px solid #B27316;
 }
@@ -121,18 +115,7 @@ a img {
 #map {
 	height: 700px;
 	z-index: 0;
-	
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	
 	padding: 10px;
-}
-
-.wml-container {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
 }
 
 .ui-autocomplete {
@@ -147,4 +130,17 @@ a img {
 	width: 100%;
 	border-top: 2px solid black;
 	background-color: #FFAA6F;
+}
+
+.rounded {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.gradiented {
+	background-color: #FF984E;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E0BF8F), to(#F8B44D));
+	background: -moz-linear-gradient(top, #E0BF8F, #F8B44D);
+	filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#E0BF8F', EndColorStr='#F8B44D', GradientType=0);
 }

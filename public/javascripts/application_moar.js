@@ -603,6 +603,9 @@ $(document).ready(function() {
 	initIcons();
 	subscribeForEvents();
 	createContextMenu();
+	
+	$("#map, .wml-container").addClass("rounded");
+	$(".menu, #routingPanel, .lang, .lang ul, .lang ul li").addClass("gradiented");
 
 	// cleaning choices
 	// Loading Ukraine borders
