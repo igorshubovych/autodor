@@ -13,7 +13,9 @@ a img {
 }
 
 .checked {
-	background-color: #BC5E1A;
+	/*background-color: #BC5E1A;
+	border: 2px solid #E93737;*/
+	zoom: 1.2;
 }
 
 .menu {

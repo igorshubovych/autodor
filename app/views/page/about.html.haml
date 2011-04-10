@@ -1,3 +1,12 @@
-%h1= t('about.about')
-= image_tag "/images/datacenter.jpg"
-%p= t('about.description')
+.moo{ :style => "text-align: center;" }
+	%h1{ :style => "float: left;" }
+		= (t 'about.about').html_safe
+
+	%br/
+
+	= image_tag "/images/datacenter.jpg"
+
+	%br/
+
+	%p
+		= (t 'about.description').html_safe

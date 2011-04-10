@@ -9,7 +9,9 @@ gem 'haml'
 
 gem 'hpricot'
 
-gem 'sqlite3'
+# gem 'sqlite3'
+
+gem 'pg'
 
 # Use unicorn as the web server
 # gem 'unicorn'

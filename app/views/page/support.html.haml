@@ -1,1 +1,6 @@
-%h1= t('support.support')
+%h1
+	= t('support.support').html_safe
+	
+%br/
+
+= (t 'support.description').html_safe
