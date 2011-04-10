@@ -1,4 +1,4 @@
-class PoiController < ApplicationController
+class ObjectController < ApplicationController
   
   def carService
     send_kml "m11-carService.kml"
