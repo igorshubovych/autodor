@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @poi.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @poi.description %>
+</p>
+
+<p>
+  <b>Lat:</b>
+  <%= @poi.lat %>
+</p>
+
+<p>
+  <b>Lon:</b>
+  <%= @poi.lon %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%= @poi.image %>
+</p>
+
+
+<%= link_to 'Edit', edit_poi_path(@poi) %> |
+<%= link_to 'Back', pois_path %>

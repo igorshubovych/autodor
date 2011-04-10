@@ -1,9 +1,9 @@
 Autodor::Application.routes.draw do
+  resources :pois
+
   #get "page/contact"
   #get "page/support"
   #get "page/about"
-
-  get "poi/car_service"
 
   get "home/links"
 
