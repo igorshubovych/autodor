@@ -12,7 +12,7 @@ Autodor::Application.routes.draw do
   match ':controller(/:action)'
   match 'moar' => 'home#moar'
   match 'news' => 'page#news'
-  match 'admin' => 'admin#index'
+  match 'points' => 'points'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
