@@ -85,7 +85,7 @@
 
 .content
 	.panel
-		= form_tag( :action => 'savePoint', :method => 'post' )
+		%form{ :action => 'savePoint', :method => 'post' }
 			%select{ :size => '1', :name => 'type', :value => 'POI type' }
 				%option
 					moo
@@ -97,11 +97,15 @@
 					zaooza~!
 			
 			= text_field_tag :name
-			= text_area_tag{ :description, "", :size => 30x6 }
+			= text_area_tag( :description, "", :size => "20x6" )
 			
-			= form_tag{ :action => 'uploadImg', :multipart => true}
-				= file_field{ :upload, :datafile }
+			%form{ :action => 'uploadImg', :multipart => 'true' }
+				= file_field( :upload, :datafile )
 				= submit_tag 'Add'
+		
+			%br/
+			
+			= submit_tag 'Save'
 		%br/
 			
 		.searchResults#routingPanel

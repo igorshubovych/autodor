@@ -6,6 +6,7 @@ class AdminController < ApplicationController
 	end
 	
 	def index
+		render :layout => 'admin'
 	end
 	
 	def savePoint
