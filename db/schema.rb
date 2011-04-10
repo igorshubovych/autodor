@@ -12,6 +12,17 @@
 
 ActiveRecord::Schema.define(:version => 20110410134723) do
 
+  create_table "points", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.string   "image"
+    t.float    "lat"
+    t.float    "lon"
+    t.string   "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "pois", :force => true do |t|
     t.string   "object_type"
     t.string   "name"
