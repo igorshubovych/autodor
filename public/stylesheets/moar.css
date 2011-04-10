@@ -19,7 +19,7 @@ a img {
 .menu {
 	clear: both;
 	width: 100%;
-	height: 30px;
+	height: 34px;
 	vertical-align: middle;
 	border-top: 2px solid #B27316;
 	border-bottom: 2px solid #B27316;
@@ -32,7 +32,6 @@ a img {
 
 .menu ul li {
 	display: inline;
-	vertical-align: middle;
 }
 
 .menu .objects {
@@ -46,7 +45,7 @@ a img {
 }
 
 .menu .objects img {
-	vertical-align: middle;
+	padding-top: 2px;
 }
 
 .menu .objects ul li {
@@ -55,6 +54,7 @@ a img {
 
 .menu .objects img:hover {
 	border: 1px solid #BE8358;
+	padding-top: 1px;
 }
 
 .menu .search {
