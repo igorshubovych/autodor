@@ -39,7 +39,7 @@
 	%strong
 		Image:
 	
-	- if @point.image and not @point.image.empty?
+	- if not @point.image.blank?
 		= image_tag @point.image
 
 = link_to 'Edit', edit_point_path(@point)

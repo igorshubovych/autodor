@@ -7,14 +7,14 @@
 		<name><%= point.name.html_safe %></name>
 		<description><![CDATA[
 			<div class="poi">
-				<% if not point.image.empty? %>
+				<% if not point.image.blank? %>
 				<img src="<%= point.image %>" title="<%= point.name %>" alt="<%= point.name %>" class="align-right frame" />
 				<% end %>
 				<%= point.description.html_safe %>
 			</div>
 		]]></description>
 		<Point>
-			<coordinates><%= point.lat%>,<%= point.lon%></coordinates>
+			<coordinates><%= point.lon%>,<%= point.lat%></coordinates>
 		</Point>
 	</Placemark>
 	<% end %>
