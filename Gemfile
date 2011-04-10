@@ -34,6 +34,7 @@ gem 'sqlite3'
 #   gem 'webrat'
 # end
 
+gem 'pg'
 gem 'curb'
 gem 'curb-fu'
 gem 'json'
