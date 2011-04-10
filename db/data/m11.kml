@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>M-11</name>
+	
+	<Placemark>
+		<name></name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 9+995
+			<div class="features">
+				<img src="/images/objects/camping.png" title="Кемпінг" alt="Кемпінг" />
+				<img src="/images/objects/wc.png" title="Туалет" alt="Туалет" />
+				<img src="/images/objects/recycleBin.png" title="Смітник" alt="Смітник" />
+				<img src="/images/objects/fireExtinguisher.png" title="Вогнегасник" alt="Вогнегасник" />
+			</div>
+		]]></description>
+		<Point>
+			<coordinates>23.893626971,49.816702906</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name></name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 18+614
+			<div class="features">
+				<img src="/images/objects/camping.png" title="Кемпінг" alt="Кемпінг" />
+				<img src="/images/objects/wc.png" title="Туалет" alt="Туалет" />
+				<img src="/images/objects/recycleBin.png" title="Смітник" alt="Смітник" />
+				<img src="/images/objects/fireExtinguisher.png" title="Вогнегасник" alt="Вогнегасник" />
+			</div>
+		]]></description>
+		<Point>
+			<coordinates>23.777261007,49.798659498</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name></name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 40+189
+			<div class="features">
+				<img src="/images/objects/camping.png" title="Кемпінг" alt="Кемпінг" />
+				<img src="/images/objects/wc.png" title="Туалет" alt="Туалет" />
+				<img src="/images/objects/recycleBin.png" title="Смітник" alt="Смітник" />
+				<img src="/images/objects/smokingArea.png" title="Зона для курців" alt="Зона для курців" />
+			</div>
+		]]></description>
+		<Point>
+			<coordinates>23.484889878,49.791544311</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Готель "Міраж"</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегені (на Краків)<br/>
+				<img src="/images/photos/hotel/hotel1.jpg" alt="Міраж" title="Готель МІРАЖ" class="align-right frame" />
+				км 50+143<br />
+				<a href="http://www.hotelmirage.com.ua" target="_blank">Забронювати номер</a><br />
+				<br />
+				Тел: +38-03234-37-96-7<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Номери</th>
+						<th>Ціна (за ніч)</th>
+					</tr>
+					<tr class="odd">
+						<td>Одномістний</td>
+						<td class="price">$25.00</td>
+					</tr>
+					<tr>
+						<td>Двомісний</td>
+						<td class="price">$30.00</td>
+					</tr>
+					<tr class="odd">
+						<td>Тримісний</td>
+						<td class="price">$40.00</td>
+					</tr>
+					<tr>
+						<td>Чотиримісний</td>
+						<td class="price">$40.00</td>
+					</tr>
+					<tr>
+						<td>Люкс</td>
+						<td class="price">$55.00</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
+		<Point>
+			<coordinates>23.351882827,49.803333804</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Готель "ЗЕВС"</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегені (на Краків)<br/>
+				<img src="/images/photos/hotel/hotel2.jpg" alt="ЗЕВС" title="Готель ЗЕВС" class="align-right frame" />
+				км 10+336<br />
+				<a href="http://www.hotelzeus.com.ua" target="_blank">Забронювати номер</a><br />
+				<br />
+				Тел: +38-03234-37-96-7<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Номери</th>
+						<th>Ціна (за ніч)</th>
+					</tr>
+					<tr class="odd">
+						<td>Одномістний</td>
+						<td class="price">$20.00</td>
+					</tr>
+					<tr>
+						<td>Двомісний</td>
+						<td class="price">$25.00</td>
+					</tr>
+					<tr class="odd">
+						<td>Тримісний</td>
+						<td class="price">$30.00</td>
+					</tr>
+					<tr>
+						<td>Чотиримісний</td>
+						<td class="price">$35.00</td>
+					</tr>
+					<tr>
+						<td>Люкс</td>
+						<td class="price">$60.00</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
+		<Point>
+			<coordinates>23.885359492,49.81546894</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Готель "МАУЕН"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 12+606
+			<div class="object">
+				<object width="240" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+				<param value="/img/banners/21.swf" name="movie">
+				<param value="high" name="quality">
+				<embed width="240" height="350" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" quality="high" src="http://www.vseoteli.kiev.ua/img/banners/21.swf">
+			</object>
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.856116392,49.810993001</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Готель "ЗАТИШОК"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 19+108
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.775200164,49.798335898</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Готель "БАРОН"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 49+706
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.359620582,49.803425241</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Готель "ГОСТИННИЙ ДВІР"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегені (на Краків)<br/>
+			км 50+543
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.184238279,49.794088731</coordinates>
+		</Point>
+	</Placemark>
+		
+	<Placemark>
+		<name>Медпункт</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 78+999<br/>
+			вул. Панаса Мирного, 12<br/>
+			тел. (050) 352-88-77
+		]]></description>
+		<Point>
+			<coordinates>22.968825627,49.799439944</coordinates>
+		</Point>
+	</Placemark>
+	
+
+	<Placemark>
+		<name>КП ДАІ</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 9+995
+		]]></description>
+		<Point>
+			<coordinates>23.893626971,49.816702906</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>СТО РВ Профі</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегині (на Краків)<br/>
+				<img src="/images/photos/carService/carService1.jpg" title="СТО РВ Профі" alt="СТО РВ Профі" class="align-right frame" />
+				км 29+442<br/>
+				тел. (097) 180-40-18<br/>
+				Послуги СТО:
+				<ul class="" style="padding: 0px 5px 0px 20px; margin: 0px;">
+					<li>діагностика ходової</li>
+					<li>ремонт ходової</li>
+					<li>ремонт двигуна</li>
+					<li>ТО</li>
+					<li>автоелектрик</li>
+				</ul>
+			</div>
+		]]></description>
+		<Point>
+			<coordinates>23.631147816,49.781530909</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Митний пост „Шегині”</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 66+493
+		]]></description>
+		<styleUrl>#custom</styleUrl>
+		<Point>
+			<coordinates>22.955382452,49.799460924</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Авто-гриль "Мисливець"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 66+493
+		]]></description>
+		<Point>
+			<coordinates>23.137390994,49.793861059</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Кафе-бар "ЛІЛІЯ"</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 9+572
+		]]></description>
+		<Point>
+			<coordinates>23.899234588,49.817843379</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>AЗС "WOG"</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегині (на Краків)<br/>
+				<img src="/images/photos/gas/wog1.jpg" alt="WOG" title="АЗС WOG" class="align-right frame" />
+				км 8+585<br />
+				<br />
+				Тел: (040) 123 45 51<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Пальне</th>
+						<th>Ціна (грн/л)</th>
+					</tr>
+					<tr class="odd">
+						<td>A-80</td>
+						<td class="price">9.30</td>
+					</tr>
+					<tr>
+						<td>A-92</td>
+						<td class="price">9.70</td>
+					</tr>
+					<tr class="odd">
+						<td>A-95</td>
+						<td class="price">10.05</td>
+					</tr>
+					<tr>
+						<td>ДП</td>
+						<td class="price">9.50</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
+		<Point>
+			<coordinates>23.9122706681912,49.820551832</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ЕКСОІЛ УКРНАФТА</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 9+336
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.902278248,49.818622607</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>WOG</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегині (на Краків)<br/>
+				<img src="/images/photos/gas/wog2.jpg" alt="WOG" title="АЗС WOG" class="align-right frame" />
+				км 18+108<br />
+				<br />
+				Тел: (040) 312 45 51<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Пальне</th>
+						<th>Ціна (грн/л)</th>
+					</tr>
+					<tr class="odd">
+						<td>A-80</td>
+						<td class="price">9.20</td>
+					</tr>
+					<tr>
+						<td>A-92</td>
+						<td class="price">9.70</td>
+					</tr>
+					<tr class="odd">
+						<td>A-95</td>
+						<td class="price">10.00</td>
+					</tr>
+					<tr>
+						<td>ДП</td>
+						<td class="price">9.50</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+				</div>
+	    	</div>
+	    ]]></description>
+		<Point>
+			<coordinates>23.784085193,49.799730569</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ПЕТРОЛЬ</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 10+606
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.885359491,49.815468936</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ОККО</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 24+547
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.696874141,49.787119192</coordinates>
+		</Point>
+	</Placemark>
+		
+	<Placemark>
+		<name>УКРНАФТА</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 29+442
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.631147816,49.781530909</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ANP</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 31+417
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.603877452,49.782964722</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ANP</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 32+154
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.593731811,49.783819801</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>УКРНАФТА</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 40+571
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.479607394,49.791280401</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>РУНО</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 49+506
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.360743077,49.803221090</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>БОГДАН-РОСЬ</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 50+343
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.349266243,49.803050514</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>МОСТНАФТА</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 64+203
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.168504296,49.791373274</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>АЗС "WOG"</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегині (на Краків)<br/>
+				<img src="/images/photos/gas/wog3.jpg" alt="WOG" title="АЗС WOG" class="align-right frame" />
+				км 66+289<br />
+				<br />
+				Тел: (040) 123 45 51<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Пальне</th>
+						<th>Ціна (грн/л)</th>
+					</tr>
+					<tr class="odd">
+						<td>A-80</td>
+						<td class="price">9.30</td>
+					</tr>
+					<tr>
+						<td>A-92</td>
+						<td class="price">9.70</td>
+					</tr>
+					<tr class="odd">
+						<td>A-95</td>
+						<td class="price">10.05</td>
+					</tr>
+					<tr>
+						<td>ДП</td>
+						<td class="price">9.50</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
+		<Point>
+			<coordinates>23.140066196,49.793271440</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ГАЛИЧИНА</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 67+923
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.118610940,49.798044730</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>УКРНАФТА</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 73+477
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.043942335,49.801685175</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>OKKO</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 74+072
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.035849811,49.800623513</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>АЗС "WOG"</name>
+		<description><![CDATA[
+			<div class="poi">
+				Дорога М-11 Львів – Шегині (на Краків)<br/>
+				<img src="/images/photos/gas/wog4.jpg" alt="WOG" title="АЗС WOG" class="align-right frame" />
+				км 76+487<br />
+				<br />
+				Тел: (040) 123 45 51<br/>
+				<br/>
+				<table class="gasPrices">
+					<tr>
+						<th>Пальне</th>
+						<th>Ціна (грн/л)</th>
+					</tr>
+					<tr class="odd">
+						<td>A-80</td>
+						<td class="price">9.30</td>
+					</tr>
+					<tr>
+						<td>A-92</td>
+						<td class="price">9.70</td>
+					</tr>
+					<tr class="odd">
+						<td>A-95</td>
+						<td class="price">10.05</td>
+					</tr>
+					<tr>
+						<td>ДП</td>
+						<td class="price">9.50</td>
+					</tr>
+				</table>
+				<div class="features">
+					<img src="/images/icon/coffee.jpg" title="Кава" alt="Кава" />
+					<img src="/images/icon/shopcart.jpg" title="Магазин" alt="Магазин" />
+					<img src="/images/icon/wc.jpg" title="Туалет" alt="Туалет" />
+					<img src="/images/icon/visa.png" title="Приймаються картки" alt="Картки" />
+				</div>
+	    	</div>
+	    ]]></description>
+		<Point>
+			<coordinates>23.002914158,49.799072016</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ANP</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 76+611
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>23.001186298,49.799131280</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>ЛУКОЙЛ</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 77+071
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>22.994816783,49.799400377</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>РУНО</name>
+		<description><![CDATA[
+			Дорога М-11 Львів – Шегині (на Краків)<br/>
+			км 77+071
+		    <p>Інформація не надана власником.</p>
+		]]></description>
+		<Point>
+			<coordinates>22.968825627,49.799439944</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
