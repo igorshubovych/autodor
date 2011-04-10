@@ -1,6 +1,6 @@
-class CreatePois < ActiveRecord::Migration
+class CreatePoints < ActiveRecord::Migration
   def self.up
-    create_table :pois do |t|
+    create_table :points do |t|
       t.string :object_type
       t.string :name
       t.text :description
@@ -10,11 +10,10 @@ class CreatePois < ActiveRecord::Migration
 
       t.timestamps
     end
-    
-    add_index :pois, :object_type
+    add_index :points, :object_type
   end
 
   def self.down
-    drop_table :pois
+    drop_table :points
   end
 end

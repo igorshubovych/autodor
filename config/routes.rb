@@ -1,5 +1,5 @@
 Autodor::Application.routes.draw do
-  resources :pois
+  resources :points
 
   #get "page/contact"
   #get "page/support"

@@ -1,4 +1,4 @@
-module PoisHelper
+module PointsHelper
   def object_types
     [ 'custom', 'police', 'carService', 'gas', 'hotel', 
       'monument', 'roadCondition', 'recreationArea', 'food', 'medicine' ]

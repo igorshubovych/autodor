@@ -10,7 +10,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110410134723) do
+ActiveRecord::Schema.define(:version => 20110410165236) do
+
+  create_table "points", :force => true do |t|
+    t.string   "object_type"
+    t.string   "name"
+    t.text     "description"
+    t.decimal  "lat"
+    t.decimal  "lon"
+    t.text     "image"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "points", ["object_type"], :name => "index_points_on_object_type"
 
   create_table "points", :force => true do |t|
     t.string   "name"
