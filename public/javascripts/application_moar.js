@@ -478,7 +478,7 @@ var updateWeather = function() {
 
 var loadObjects = function(layerName) {
 	var layer = layers[layerName];
-	layer['data'] = new CM.GeoXml('/points/query.kml?object_type=' + layerName, {local: true, defaultIcon: layer['icon']});
+	layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
 	CM.Event.addListener(layer['data'], 'load', function() {
 		map.addOverlay(layers[layerName]['data']);
 	});

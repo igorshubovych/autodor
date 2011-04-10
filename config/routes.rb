@@ -1,5 +1,6 @@
 Autodor::Application.routes.draw do
-  get 'points/query'
+  get 'point/monument' => 'object#monument'
+  get 'point/:object_type' => 'points#query'
   resources :points
 
   #get "page/contact"
