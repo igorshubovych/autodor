@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+%html
+	%head
+		%title Autodor
+	
+		= stylesheet_link_tag 'moar'
+		= stylesheet_link_tag 'map'
+		= stylesheet_link_tag 'sunny/sunny'
+		= stylesheet_link_tag 'contextmenu/jquery-contextmenu'
+		= stylesheet_link_tag 'mbTooltip'
+		
+		= javascript_include_tag 'jquery'
+		= javascript_include_tag 'jquery-ui'
+		= javascript_include_tag 'http://tile.cloudmade.com/wml/latest/web-maps-lite.js'
+		= javascript_include_tag 'http://api.webcams.travel/jsapi?devid=0be425afeaead9f0893c0bae527be9a0'
+		= javascript_include_tag 'jquery-contextmenu'
+		= javascript_include_tag 'jquery.timers'
+		= javascript_include_tag 'jquery.dropshadow'
+		= javascript_include_tag 'mbTooltip'
+		= javascript_include_tag 'cities'
+		= javascript_include_tag 'application_moar'
+		= javascript_include_tag 'patchy'
+		= javascript_include_tag 'http://gostats.com/js/counter.js'
+		
+		:javascript
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-22303667-2']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		
+		:javascript
+			_gos='gostats.com';_goa=745684;
+			_got=5;_goi=1;_gol='visitor statistics';_GoStatsRun();
+		
+		= csrf_meta_tag
+	
+	%body
+	
+		:javascript
+			$(function() {
+				$("input:checkbox").click(function() {
+					$(this).children().toggleClass('checked');
+					$(this).toggleClass('checked');
+				});
+
+				updateSearchInputs();
+
+				$("#searchQuery").keydown(function(evt) {
+					if (evt.keyCode == 13) {
+						$("#searchControl").click();
+					}
+				});
+				
+				$("#searchQuery").attr("title", $(".translations #searchQuery").html());
+				$(".lang").attr("title", $(".translations #langChanger").html());
+				$(".help img").attr("title", $(".translations #helpIcon").html());
+				
+				$("[title]").mbTooltip({ // also $([domElement]).mbTooltip  >>  in this case only children element are involved
+					opacity: .97,       //opacity
+					wait: 200,           //before show
+					cssClass: "default",  // default = default
+					timePerWord: 70,      //time to show in milliseconds per word
+					hasArrow: false,			// if you whant a little arrow on the corner
+					hasShadow: true,
+					imgPath: "public/images/tooltip/",
+					ancor: "mouse", //"parent"  you can ancor the tooltip to the mouse position or at the bottom of the element
+					shadowColor: "black", //the color of the shadow
+					mb_fade: 200 //the time to fade-in
+				});
+			});
+
+		.logo
+			%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
+				= image_tag "euro2012-logo.png", { :alt => "Euro 2012 Ukraine-Poland" }
+
+		.help{ :style => "display: none;" }
+			= image_tag "question_small.png"
+
+		.menu
+			%ul
+				%li.objects
+					%ul
+						%li
+							= image_tag '/images/objects/moar/gas.png', { :id => "gas", :title => "#{t('objects.gas')}", :onClick => "switchLayer('gas'); $(this).toggleClass('checked');" }
+
+						%li
+							= image_tag '/images/objects/moar/service.png', { :id => "carService", :onClick => "switchLayer('carService'); $(this).toggleClass('checked');", :title => "#{t('objects.carService')}" }
+
+						%li
+							= image_tag '/images/objects/moar/hotel.png', { :id => "hotel", :onClick => "switchLayer('hotel'); $(this).toggleClass('checked');", :title => "#{t('objects.hotel')}" }
+
+						%li
+							= image_tag '/images/objects/moar/historical.png', { :id => "monument", :onClick => "switchLayer('monument'); $(this).toggleClass('checked');", :title => "#{t('objects.monument')}" }
+
+						%li
+							= image_tag '/images/objects/moar/incidents.png', { :id => "roadCondition", :onClick => "switchLayer('roadCondition'); $(this).toggleClass('checked');", :title => "#{t('objects.roadCondition')}" }
+
+						%li
+							= image_tag '/images/objects/moar/weather.png', { :id => "weather", :onClick => "switchLayer('weather'); $(this).toggleClass('checked');", :title => "#{t('objects.weather')}" }
+
+						%li
+							= image_tag '/images/objects/moar/webcam.png', { :id => "webCams", :onclick => "switchLayer('webCams'); $(this).toggleClass('checked');", :title => "#{t('objects.webCam')}" }
+
+				%li.search
+					%input#searchQuery{ :type => "edit", :name => "query", :size => "30" }
+					%input#searchControl{ :type => "button", :value => "#{t('panel.search')}", :onClick => "geoSearch();" }
+
+				%li.lang
+					= image_tag "flags/#{ I18n.locale }.png", { :style => "margin-right: 5px;", :curr_lang => I18n.locale }
+
+					%ul
+						-I18n::available_locales.each do |l|
+							-if I18n.locale != l
+								%li
+									%a{ :href => "?locale=#{ l }" }
+										=image_tag "flags/#{ l }.png"
+
+		.content
+			.panel
+				= yield
+				
+				%br/
+					
+				.searchResults#routingPanel
+
+			.map
+				#map
+
+			.translations{ :style => "display: none;" }
+				#add_point
+					= t "panel.add_point"
+
+				#add_start_point
+					= t "panel.add_start_point"
+
+				#add_end_point
+					= t "panel.add_end_point"
+
+				#title_unknown
+					= t "place.unknown"
+					
+				#markerItem
+					= (t "controls.markerItem").html_safe
+					
+				#markerRemove
+					= (t "controls.markerRemove").html_safe
+				
+				#searchQuery
+					= (t "controls.searchQuery").html_safe
+				
+				#clearRoute
+					= (t "controls.clearRoute").html_safe
+				
+				#langChanger
+					= (t "controls.langChanger").html_safe
+					
+				#helpIcon
+					= (t "controls.help").html_safe
+					
+				#printIcon
+					= (t "controls.print").html_safe
+
+		%a{ :target => "_blank", :title => "visitor statistics", :href => "http://gostats.com" }
+			= image_tag "http://gostats.com/bin/count/a_745684/t_5/i_1/counter.png", :alt => "visitor statistics", :style => "border-width:0"

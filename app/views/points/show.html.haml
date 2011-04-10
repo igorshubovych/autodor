@@ -1,0 +1,38 @@
+%p{ :id => "notice" }
+	= notice
+
+%p
+	%strong
+		Object type:
+	= @point.type
+
+%p
+	%strong
+		Name:
+	= @point.name 
+
+
+%p
+	%strong
+		Description:
+	= @point.description 
+
+%p
+	%strong
+		Lat:
+	= @point.lat 
+
+%p
+	%strong
+		Lon:
+	= @point.lon 
+
+%p
+	%strong
+		Image:
+		
+	= image_tag @point.image
+
+= link_to 'Edit', edit_point_path(@point)
+|
+= link_to 'Back', points_path 
