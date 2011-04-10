@@ -1,4 +1,19 @@
 class PointsController < ApplicationController
+  def query
+    object_type = params[:object_type]
+    lat1 = params[:lat1]
+    lat2 = params[:lat2]
+    lon1 = params[:lon1]
+    lon2 = params[:lon2]
+    if not object_type then
+      @points = []
+    elsif lat1 && lon1 && lat2 && lon2 then
+      @points = Point.by_object_type_in_bbox object_type, lat1.to_f, lon1.to_f, lat2.to_f, lon2.to_f
+    else
+      @points = Point.by_object_type object_type
+    end
+  end
+
   # GET /points
   # GET /points.xml
   def index

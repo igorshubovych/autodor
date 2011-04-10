@@ -1,4 +1,5 @@
 Autodor::Application.routes.draw do
+  get 'points/query'
   resources :points
 
   #get "page/contact"
