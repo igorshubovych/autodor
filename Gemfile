@@ -36,6 +36,7 @@ gem 'pg'
 #   gem 'webrat'
 # end
 
+gem 'pg'
 gem 'curb'
 gem 'curb-fu'
 gem 'json'
