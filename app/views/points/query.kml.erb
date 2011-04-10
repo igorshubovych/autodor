@@ -4,13 +4,13 @@
 	<name>Points</name>
 	<% @points.each do |point| %>
 	<Placemark>
-		<name><%= point.name %></name>
+		<name><%= point.name.html_safe %></name>
 		<description><![CDATA[
 			<div class="poi">
 				<% if not point.image.empty? %>
 				<img src="<%= point.image %>" title="<%= point.name %>" alt="<%= point.name %>" class="align-right frame" />
 				<% end %>
-				<%= point.description %>
+				<%= point.description.html_safe %>
 			</div>
 		]]></description>
 		<Point>
