@@ -9,8 +9,8 @@
 Point.create(
   :object_type => 'recreationArea',
   :name => '',
-  :lat => 23.893626971,
-  :lon => 49.816702906,
+  :lat => 49.816702906,
+  :lon => 23.893626971,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -27,8 +27,8 @@ eos
 Point.create(
   :object_type => 'recreationArea',
   :name => '',
-  :lat => 23.777261007,
-  :lon => 49.798659498,
+  :lat => 49.798659498,
+  :lon => 23.777261007,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -45,8 +45,8 @@ eos
 Point.create(
   :object_type => 'recreationArea',
   :name => '',
-  :lat => 23.484889878,
-  :lon => 49.791544311,
+  :lat => 49.791544311,
+  :lon => 23.484889878,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -63,8 +63,8 @@ eos
 Point.create(
   :object_type => 'hotel',
   :name => 'Готель "Міраж"',
-  :lat => 23.351882827,
-  :lon => 49.803333804,
+  :lat => 49.803333804,
+  :lon => 23.351882827,
   :image => '/images/photos/hotel/hotel1.jpg',
   :description => <<-eos
 <div class="poi">
@@ -114,8 +114,8 @@ eos
 Point.create(
   :object_type => 'hotel',
   :name => 'Готель "ЗЕВС"',
-  :lat => 23.885359492,
-  :lon => 49.81546894,
+  :lat => 49.81546894,
+  :lon => 23.885359492,
   :image => '/images/photos/hotel/hotel2.jpg',
   :description => <<-eos
 <div class="poi">
@@ -165,8 +165,8 @@ eos
 Point.create(
   :object_type => 'hotel',
   :name => 'Готель "МАУЕН"',
-  :lat => 23.856116392,
-  :lon => 49.810993001,
+  :lat => 49.810993001,
+  :lon => 23.856116392,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегені (на Краків)<br/>
@@ -184,8 +184,8 @@ eos
 Point.create(
   :object_type => 'hotel',
   :name => 'Готель "ЗАТИШОК"',
-  :lat => 23.775200164,
-  :lon => 49.798335898,
+  :lat => 49.798335898,
+  :lon => 23.775200164,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегені (на Краків)<br/>
@@ -197,8 +197,8 @@ eos
 Point.create(
   :object_type => 'hotel',
   :name => 'Готель "БАРОН"',
-  :lat => 23.359620582,
-  :lon => 49.803425241,
+  :lat => 49.803425241,
+  :lon => 23.359620582,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегені (на Краків)<br/>
@@ -210,8 +210,8 @@ eos
 Point.create(
   :object_type => 'hotel',
   :name => 'Готель "ГОСТИННИЙ ДВІР"',
-  :lat => 23.184238279,
-  :lon => 49.794088731,
+  :lat => 49.794088731,
+  :lon => 23.184238279,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегені (на Краків)<br/>
@@ -223,8 +223,8 @@ eos
 Point.create(
   :object_type => 'medicine',
   :name => 'Медпункт',
-  :lat => 22.968825627,
-  :lon => 49.799439944,
+  :lat => 49.799439944,
+  :lon => 22.968825627,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -237,8 +237,8 @@ eos
 Point.create(
   :object_type => 'police',
   :name => 'КП ДАІ',
-  :lat => 23.893626971,
-  :lon => 49.816702906,
+  :lat => 49.816702906,
+  :lon => 23.893626971,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -249,8 +249,8 @@ eos
 Point.create(
   :object_type => 'carService',
   :name => 'СТО РВ Профі',
-  :lat => 23.631147816,
-  :lon => 49.781530909,
+  :lat => 49.781530909,
+  :lon => 23.631147816,
   :image => '/images/photos/carService/carService1.jpg',
   :description => <<-eos
 <div class="poi">
@@ -273,8 +273,8 @@ eos
 Point.create(
   :object_type => 'custom',
   :name => 'Митний пост „Шегині”',
-  :lat => 22.955382452,
-  :lon => 49.799460924,
+  :lat => 49.799460924,
+  :lon => 22.955382452,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -285,8 +285,8 @@ eos
 Point.create(
   :object_type => 'food',
   :name => 'Авто-гриль "Мисливець"',
-  :lat => 23.137390994,
-  :lon => 49.793861059,
+  :lat => 49.793861059,
+  :lon => 23.137390994,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -297,8 +297,8 @@ eos
 Point.create(
   :object_type => 'food',
   :name => 'Кафе-бар "ЛІЛІЯ"',
-  :lat => 23.899234588,
-  :lon => 49.817843379,
+  :lat => 49.817843379,
+  :lon => 23.899234588,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -309,8 +309,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'AЗС "WOG"',
-  :lat => 23.9122706681912,
-  :lon => 49.820551832,
+  :lat => 49.820551832,
+  :lon => 23.9122706681912,
   :image => '/images/photos/gas/wog1.jpg',
   :description => <<-eos
 <div class="poi">
@@ -355,8 +355,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'ЕКСОІЛ УКРНАФТА',
-  :lat => 23.902278248,
-  :lon => 49.818622607,
+  :lat => 49.818622607,
+  :lon => 23.902278248,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -368,8 +368,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'WOG',
-  :lat => 23.784085193,
-  :lon => 49.799730569,
+  :lat => 49.799730569,
+  :lon => 23.784085193,
   :image => '/images/photos/gas/wog2.jpg',
   :description => <<-eos
 <div class="poi">
@@ -413,8 +413,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'ПЕТРОЛЬ',
-  :lat => 23.885359491,
-  :lon => 49.815468936,
+  :lat => 49.815468936,
+  :lon => 23.885359491,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -426,8 +426,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'ОККО',
-  :lat => 23.696874141,
-  :lon => 49.787119192,
+  :lat => 49.787119192,
+  :lon => 23.696874141,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -439,8 +439,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'УКРНАФТА',
-  :lat => 23.631147816,
-  :lon => 49.781530909,
+  :lat => 49.781530909,
+  :lon => 23.631147816,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -452,8 +452,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'ANP',
-  :lat => 23.603877452,
-  :lon => 49.782964722,
+  :lat => 49.782964722,
+  :lon => 23.603877452,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -465,8 +465,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'ANP',
-  :lat => 23.593731811,
-  :lon => 49.783819801,
+  :lat => 49.783819801,
+  :lon => 23.593731811,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -478,8 +478,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'УКРНАФТА',
-  :lat => 23.479607394,
-  :lon => 49.791280401,
+  :lat => 49.791280401,
+  :lon => 23.479607394,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -491,8 +491,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'РУНО',
-  :lat => 23.360743077,
-  :lon => 49.803221090,
+  :lat => 49.803221090,
+  :lon => 23.360743077,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -504,8 +504,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'БОГДАН-РОСЬ',
-  :lat => 23.349266243,
-  :lon => 49.803050514,
+  :lat => 49.803050514,
+  :lon => 23.349266243,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -517,8 +517,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'МОСТНАФТА',
-  :lat => 23.168504296,
-  :lon => 49.791373274,
+  :lat => 49.791373274,
+  :lon => 23.168504296,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -530,8 +530,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'АЗС "WOG"',
-  :lat => 23.140066196,
-  :lon => 49.793271440,
+  :lat => 49.793271440,
+  :lon => 23.140066196,
   :image => '/images/photos/gas/wog3.jpg',
   :description => <<-eos
 <div class="poi">
@@ -576,8 +576,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'ГАЛИЧИНА',
-  :lat => 23.118610940,
-  :lon => 49.798044730,
+  :lat => 49.798044730,
+  :lon => 23.118610940,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -589,8 +589,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'УКРНАФТА',
-  :lat => 23.043942335,
-  :lon => 49.801685175,
+  :lat => 49.801685175,
+  :lon => 23.043942335,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -602,8 +602,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'OKKO',
-  :lat => 23.035849811,
-  :lon => 49.800623513,
+  :lat => 49.800623513,
+  :lon => 23.035849811,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -615,8 +615,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'АЗС "WOG"',
-  :lat => 23.002914158,
-  :lon => 49.799072016,
+  :lat => 49.799072016,
+  :lon => 23.002914158,
   :image => '/images/photos/gas/wog4.jpg',
   :description => <<-eos
 <div class="poi">
@@ -661,8 +661,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'ANP',
-  :lat => 23.001186298,
-  :lon => 49.799131280,
+  :lat => 49.799131280,
+  :lon => 23.001186298,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -674,8 +674,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'ЛУКОЙЛ',
-  :lat => 22.994816783,
-  :lon => 49.799400377,
+  :lat => 49.799400377,
+  :lon => 22.994816783,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>
@@ -687,8 +687,8 @@ eos
 Point.create(
   :object_type => 'gas',
   :name => 'РУНО',
-  :lat => 22.968825627,
-  :lon => 49.799439944,
+  :lat => 49.799439944,
+  :lon => 22.968825627,
   :image => '',
   :description => <<-eos
 Дорога М-11 Львів – Шегині (на Краків)<br/>

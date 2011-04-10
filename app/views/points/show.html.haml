@@ -1,26 +1,34 @@
+:javascript
+	$(function() {
+		var point = new CM.LatLng(#{@point.lat}, #{@point.lon});
+		var marker = new CM.Marker(point, { title: '#{@point.name}' });
+		marker.bindInfoWindow('<h3>#{@point.name}</h3>');
+		map.addOverlay(marker);
+	});
+
 %p{ :id => "notice" }
 	= notice
 
 %p
 	%strong
 		Object type:
-	= @point.type
+	= @point.object_type
 
 %p
 	%strong
 		Name:
-	= @point.name 
+	= @point.name.html_safe
 
 
 %p
 	%strong
 		Description:
-	= @point.description 
+	= @point.description.html_safe
 
 %p
 	%strong
 		Lat:
-	= @point.lat 
+	= @point.lat
 
 %p
 	%strong
@@ -30,8 +38,9 @@
 %p
 	%strong
 		Image:
-		
-	= image_tag @point.image
+	
+	- if @point.image and not @point.image.empty?
+		= image_tag @point.image
 
 = link_to 'Edit', edit_point_path(@point)
 |

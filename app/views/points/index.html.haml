@@ -1,16 +1,10 @@
-Points
+= link_to 'New Point', new_point_path 
 
-- @points.each do |point|
-    = point.type 
-    = point.name 
-    = point.description 
-    = point.lat 
-    = point.lon 
-    = point.image 
-    = link_to 'Show', point 
-    = link_to 'Edit', edit_point_path(point) 
-    = link_to 'Destroy', point, :confirm => 'Are you sure?', :method => :delete 
-  
 %br/
 
-= link_to 'New Point', new_point_path 
+- @points.each do |point|
+	= link_to 'Show', point 
+	= link_to 'Edit', edit_point_path(point) 
+	= link_to 'Destroy', point, :confirm => 'Are you sure?', :method => :delete 
+	= point.name 
+	%br/

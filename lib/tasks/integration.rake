@@ -62,7 +62,7 @@ namespace :integration do
         placemarks.each do |placemark|
           name = placemark.at("name").inner_html
           coordinates = placemark.at("Point/Coordinates").inner_html
-          lat, lon = coordinates.split(",")
+          lon, lat = coordinates.split(",")
           description_html = placemark.at("description").inner_html
           lines = description_html.split("\n").map{|line| line.strip }
           description_html = lines[1..-2].join("\r\n")
