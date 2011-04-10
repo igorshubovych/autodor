@@ -19,6 +19,7 @@
 		$("#searchQuery").attr("title", $(".translations #searchQuery").html());
 		$("#clearRoute").attr("title", $(".translations #clearRoute").html());
 		$(".lang").attr("title", $(".translations #langChanger").html());
+		$(".help img").attr("title", $(".translations #helpIcon").html());
 		
 		$("[title]").mbTooltip({ // also $([domElement]).mbTooltip  >>  in this case only children element are involved
 			opacity: .97,       //opacity
@@ -36,7 +37,10 @@
 
 .logo
 	%a{ :href => "/", :title => "Euro 2012 Ukraine-Poland" }
-		= image_tag "euro2012-logo.jpg", :alt => "Euro 2012 Ukraine-Poland"
+		= image_tag "euro2012-logo.png", { :alt => "Euro 2012 Ukraine-Poland" }
+
+.help
+	= image_tag "question_small.png"
 
 .menu
 	%ul
@@ -121,3 +125,6 @@
 		
 		#langChanger
 			= (t "controls.langChanger").html_safe
+			
+		#helpIcon
+			= (t "controls.help").html_safe

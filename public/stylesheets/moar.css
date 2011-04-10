@@ -148,3 +148,14 @@ a img {
 .markerList, .wml-routes-output, .wml-route-length, .wml-route-duration {
 	margin-left: 10px;
 }
+
+.help {
+	float: right;
+	vertical-align: text-bottom;
+}
+
+.help img {
+	padding-top: 40px;
+	padding-right: 20px;
+	cursor: pointer;
+}

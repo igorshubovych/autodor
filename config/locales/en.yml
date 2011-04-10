@@ -66,4 +66,4 @@ en:
         searchQuery: "Enter here the text and press Enter or click 'Search' right-hand to find and display the city on the map"
         clearRoute: "Clicking on this button, all points on the map will be removed"
         langChanger: "To change the language just select the appropriate country flag"
-
+        help: "Hover your mouse over any control to view a short help on it"
