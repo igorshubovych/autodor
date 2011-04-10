@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  object_type: MyString
+  name: MyString
+  description: MyText
+  lat: 
+  lon: 
+  image: MyText
+
+two:
+  object_type: MyString
+  name: MyString
+  description: MyText
+  lat: 
+  lon: 
+  image: MyText
