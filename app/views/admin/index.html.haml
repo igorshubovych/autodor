@@ -85,14 +85,23 @@
 
 .content
 	.panel
-		%a#clearRoute{ :name => "clearRoute", :style => "cursor: pointer; float: right;", :onClick => "clearRoute();" }
-			= image_tag "controls/clear.png"
+		= form_tag( :action => 'savePoint', :method => 'post' )
+			%select{ :size => '1', :name => 'type', :value => 'POI type' }
+				%option
+					moo
+				%option
+					foo
+				%option
+					ololo
+				%option
+					zaooza~!
 			
-		%a#printRoute{ :name => "printRoute", :style => "cursor: pointer; float: right;", :onClick => "printRoute();" }
-			= image_tag "controls/print_icon.png"
+			= text_field_tag :name
+			= text_area_tag{ :description, "", :size => 30x6 }
 			
-		.markerList
-		
+			= form_tag{ :action => 'uploadImg', :multipart => true}
+				= file_field{ :upload, :datafile }
+				= submit_tag 'Add'
 		%br/
 			
 		.searchResults#routingPanel

@@ -46,7 +46,7 @@ en:
         change_lang: "Change locale to %s"
     about:
         about: "About this site"
-        description: "This site was created to support tourism in Ukraine, especially visitors of Euro-2012"
+        description: "This site was created as part of the social program of Ukrainian Government, the National Agency for Euro-2012 and the Public Service of highways of Ukraine on information support of drivers of road transport and reviews UEFA EURO 2012. <br /> The site allows you to obtain prompt and accurate information about the route road transport. Choosing the optimal route and weather conditions on the roads, road service and tourist facilities, traffic conditions and operational ties with 'DorInfoCenter'- the main problem."
     links:
         head: "Useful links"
         euro2012highway: "Ukrainian motorways and roads for Euro 2012 (in Russian)"
@@ -58,6 +58,7 @@ en:
         2012ua: "2012.net - European football championship"
     support:
         support: "Support"
+        description: "This page is being hardly-developed"
     pages:
         news: "News"
     controls:
@@ -67,3 +68,4 @@ en:
         clearRoute: "Clicking on this button, all points on the map will be removed"
         langChanger: "To change the language just select the appropriate country flag"
         help: "Hover your mouse over any control to view a short help on it"
+        print: "Clicking this button, your route (if any) will be printed"
