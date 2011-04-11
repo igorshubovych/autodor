@@ -1,4 +1,4 @@
-class PointsMigration < ActiveRecord::Migration
+class CreatePoints < ActiveRecord::Migration
   def self.up
     create_table :points do |t|
       t.string :object_type
