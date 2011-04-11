@@ -1,10 +1,10 @@
-= link_to 'New Point', new_point_path 
+= link_to t('admin.newPoint'), new_point_path 
 
 %br/
 
 - @points.each do |point|
-	= link_to 'Show', point 
-	= link_to 'Edit', edit_point_path(point) 
-	= link_to 'Destroy', point, :confirm => 'Are you sure?', :method => :delete 
+	= link_to t('admin.show'), point 
+	= link_to t('admin.edit'), edit_point_path(point) 
+	= link_to t('admin.delete'), point, :confirm => t('admin.areYouSure'), :method => :delete 
 	= point.name 
 	%br/

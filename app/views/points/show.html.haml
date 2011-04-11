@@ -10,38 +10,31 @@
 	= notice
 
 %p
-	%strong
-		Object type:
+	%strong= t('admin.objectType')
 	= @point.object_type
 
 %p
-	%strong
-		Name:
+	%strong= t('admin.name')
 	= @point.name.html_safe
 
 
 %p
-	%strong
-		Description:
+	%strong= t('admin.description')
 	= @point.description.html_safe
 
 %p
-	%strong
-		Lat:
+	%strong= t('admin.lat')
 	= @point.lat
 
 %p
-	%strong
-		Lon:
+	%strong= t('admin.lon')
 	= @point.lon 
 
 %p
-	%strong
-		Image:
-	
+	%strong= t('admin.image')
 	- if not @point.image.blank?
 		= image_tag @point.image
 
-= link_to 'Edit', edit_point_path(@point)
+= link_to t('admin.edit'), edit_point_path(@point)
 |
-= link_to 'Back', points_path 
+= link_to t('admin.back'), points_path 

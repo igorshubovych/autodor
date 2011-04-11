@@ -1,7 +1,6 @@
-%strong
-	Editing point
+%strong= t('admin.editingPoint')
 
 = render 'form'
-= link_to 'Show', @point
+= link_to t('admin.show'), @point
 |
-= link_to 'Back', points_path
+= link_to t('admin.back'), points_path

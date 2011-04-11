@@ -11,34 +11,34 @@
 						= msg 
 			
 	.field
-		= f.label :object_type
+		= f.label :object_type, t('admin.objectType')
 		%br/
 		= f.select :object_type, object_type_names.invert
 	
 	.field
-		= f.label :name 
+		= f.label :name, t('admin.name')
 		%br/
 		= f.text_field :name 
 	
 	.field
-		= f.label :description 
+		= f.label :description, t('admin.description')
 		%br/
 		= f.text_area :description, :size => '26x6'
 	
 	.field
-		= f.label :lat 
+		= f.label :lat, t('admin.lat')
 		%br/
 		= f.text_field :lat 
 	
 	.field
-		= f.label :lon 
+		= f.label :lon, t('admin.lon')
 		%br/
 		= f.text_field :lon 
 	
 	.field
-		= f.label :image 
+		= f.label :image, t('admin.image')
 		%br/
 		= file_field_tag :image
 	
 	.actions
-		= f.submit
+		= submit_tag ((@point.id.nil?) ? t('admin.createPoint') : t('admin.updatePoint'))
