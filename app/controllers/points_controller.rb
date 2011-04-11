@@ -38,11 +38,13 @@ class PointsController < ApplicationController
     @point = Point.new(params[:point])
     
     if (!params[:image].nil?)
-		filename = upload['file'].originaal_filename
-		dir = 'public/images/upload'
+		io = params[:image]
+		path = File.join('public/images/upload', io.original_filename)
+		File.open(path, 'wb') do |f|
+			f.write(io.read)
+		end
 		
-		path = File.join(dir, filename)
-		File.open(path, "wb") { |f| f.write(upload['file'].read) }
+		@point.image = File.join('upload', io.original_filename)
     end
 
 	if @point.save
