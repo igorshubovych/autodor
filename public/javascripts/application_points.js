@@ -120,9 +120,12 @@ var createContextMenu = function() {
 			onclick: function(menuItem, menu) {
 				if (currPos != null && currMarker == null) {
 					currMarker = createMarker(currPos.lat(), currPos.lng(), {'draggedEvent': updateMarkersUI, 'addOverlay': true});
-
-					updateMarkersUI();
+				} else 
+				if (currPos != null && currMarker != null) {
+					currMarker.setLatLng(currPos);
 				}
+				
+				updateMarkersUI();
 			},
 			id: 'contextMenuItem0' 
 		} }
