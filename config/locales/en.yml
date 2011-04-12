@@ -54,8 +54,8 @@ en:
         goto: "Show %s"
         ukrautodor: "UKRAUTODOR"
         uefa_com: "UEFA site"
-        euro-2012: "Euro-2012: Ukraine vs. Poland"
-        2012ua: "2012.net - European football championship"
+        euro_2012: "Euro-2012: Ukraine vs. Poland"
+        _2012ua: "2012.net - European football championship"
     support:
         support: "Support"
         description: "This page is being hardly-developed"
