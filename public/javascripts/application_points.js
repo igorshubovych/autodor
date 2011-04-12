@@ -211,7 +211,9 @@ function createMarker(lat, lon, options) {
 
 var updateMarkersUI = function() {
 	// Update lat and lon fields here
-	if (currPos != null) {
+	if (currMarker != null) {
+		currPos = currMarker.getLatLng();
+
 		$("#new_point #point_lat").val(currPos.lat());
 		$("#new_point #point_lon").val(currPos.lng());
 	}
