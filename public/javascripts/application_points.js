@@ -108,23 +108,6 @@ var initIcons = function() {
 }
 
 var subscribeForEvents = function() {
-	// subscribing 2 mouse events 4 marker handling
-	$("#addWaypoint").click(function() {
-		doMarkerMode();
-
-		return false;
-	});
-
-	$("#map").click(function() {
-		doLeaveMarkerAlone();
-
-		return false;
-	});
-
-	$("#map").mousemove(function(e) {
-		var pos = map.fromContainerPixelToLatLng(new CM.Point(e.clientX - $(this).offset().left, e.clientY - $(this).offset().top));
-	});
-
 	CM.Event.addListener(map, 'moveend', function() {
 		updateWeather();
 	});
