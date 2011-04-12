@@ -132,38 +132,20 @@
 				#map
 
 			.translations{ :style => "display: none;" }
-				#add_point
-					= t "panel.add_point"
-
-				#add_start_point
-					= t "panel.add_start_point"
-
-				#add_end_point
-					= t "panel.add_end_point"
-
-				#title_unknown
-					= t "place.unknown"
-					
-				#markerItem
-					= (t "controls.markerItem").html_safe
-					
-				#markerRemove
-					= (t "controls.markerRemove").html_safe
-				
 				#searchQuery
 					= (t "controls.searchQuery").html_safe
-				
-				#clearRoute
-					= (t "controls.clearRoute").html_safe
 				
 				#langChanger
 					= (t "controls.langChanger").html_safe
 					
 				#helpIcon
 					= (t "controls.help").html_safe
-					
-				#printIcon
-					= (t "controls.print").html_safe
 
+				#create_point_here
+					= t "controls.create_point_here"
+
+				#move_point_here
+					= t "controls.move_point_here"
+					
 		%a{ :target => "_blank", :title => "visitor statistics", :href => "http://gostats.com" }
 			= image_tag "http://gostats.com/bin/count/a_745684/t_5/i_1/counter.png", :alt => "visitor statistics", :style => "border-width:0"

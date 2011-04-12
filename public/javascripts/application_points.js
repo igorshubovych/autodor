@@ -139,6 +139,8 @@ var createContextMenu = function() {
 			if (currMarker == null)
 				$("#contextMenuItem0").html($("#create_point_here").html()); else
 					$("#contextMenuItem0").html($("#move_point_here").html());
+
+			updatemarkersUI();
 		}
 	} );
 }
@@ -209,6 +211,10 @@ function createMarker(lat, lon, options) {
 
 var updateMarkersUI = function() {
 	// Update lat and lon fields here
+	if (currPos != null) {
+		$("#new_point #point_lat").val(currPos.lat());
+		$("#new_point #point_lon").val(currPos.lng());
+	}
 }
 
 function doMarkerMode() {

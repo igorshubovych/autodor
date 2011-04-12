@@ -69,6 +69,8 @@ en:
         langChanger: "To change the language just select the appropriate country flag"
         help: "Hover your mouse over any control to view a short help on it"
         print: "Clicking this button, your route (if any) will be printed"
+        create_point_here: "Create point here"
+        move_point_here: "Move point here"
     admin:
         editingPoint: "Editing point"
         lat: "Latitude"
