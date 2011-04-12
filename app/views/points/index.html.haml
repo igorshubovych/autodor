@@ -5,6 +5,6 @@
 - @points.each do |point|
 	= link_to t('admin.show'), point 
 	= link_to t('admin.edit'), edit_point_path(point) 
-	= link_to t('admin.delete'), post_path(point), :confirm => t('admin.areYouSure'), :method => :delete 
+	= link_to t('admin.delete'), point_path(point), :confirm => t('admin.areYouSure'), :method => :delete 
 	= point.name 
 	%br/
