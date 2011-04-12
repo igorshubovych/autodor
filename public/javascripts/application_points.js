@@ -119,7 +119,7 @@ var createContextMenu = function() {
 		{ 'moofoo': {
 			onclick: function(menuItem, menu) {
 				if (currPos != null && currMarker == null) {
-					currMarker = createMarker(currPos.lat(), currPos.lng(), {'draggedEvent': updateMarkersUI, 'addOverlay': true});
+					currMarker = createMarker(currPos.lat(), currPos.lng(), {'draggedEvent': updateMarkersUI, 'moveEvent': updateMarkersUI, 'addOverlay': true});
 				} else 
 				if (currPos != null && currMarker != null) {
 					currMarker.setLatLng(currPos);
@@ -192,7 +192,7 @@ function createMarker(lat, lon, options) {
 			draggable = false;
 		}
 	}
-	
+
 	var M = new CM.Marker(new CM.LatLng(lat, lon), {
 		draggable: draggable,
 		icon: ic
@@ -200,6 +200,10 @@ function createMarker(lat, lon, options) {
 	
 	if (options['draggedEvent'] != null) {
 		CM.Event.addListener(M, 'dragend', options['draggedEvent']);
+	}
+
+	if (options['moveEvent'] != null) {
+		CM.Event.addListener(M, 'move', options['moveEvent']);
 	}
 	
 	if (options['addOverlay']) {
@@ -216,12 +220,15 @@ var updateMarkersUI = function() {
 
 		$("#new_point #point_lat").val(currPos.lat());
 		$("#new_point #point_lon").val(currPos.lng());
+	} else {
+		$("#new_point #point_lat, #new_point #point_lon").val("");
+
 	}
 }
 
 function doMarkerMode() {
 	if (currMarker == null) {
-		currMarker = createMarker(0, 0, {'draggedEvent': updateMarkersUI, 'addOverlay': true});
+		currMarker = createMarker(0, 0, {'draggedEvent': updateMarkersUI, 'moveEvent': updateMarkersUI, 'addOverlay': true});
 
 		map.disableDragging();
 		map.disableScrollWheelZoom();
