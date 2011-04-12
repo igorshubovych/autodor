@@ -123,10 +123,6 @@ var subscribeForEvents = function() {
 
 	$("#map").mousemove(function(e) {
 		var pos = map.fromContainerPixelToLatLng(new CM.Point(e.clientX - $(this).offset().left, e.clientY - $(this).offset().top));
-
-		if (currMarker != null) {
-			currMarker.setLatLng(pos);
-		}
 	});
 
 	CM.Event.addListener(map, 'moveend', function() {
