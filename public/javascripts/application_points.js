@@ -140,7 +140,7 @@ var createContextMenu = function() {
 				$("#contextMenuItem0").html($("#create_point_here").html()); else
 					$("#contextMenuItem0").html($("#move_point_here").html());
 
-			updatemarkersUI();
+			updateMarkersUI();
 		}
 	} );
 }
