@@ -64,7 +64,7 @@ var initMap = function() {
 			}
 		}
 
-		map.setCenter(points['Ukraine'], 6);
+		map.setCenter(new CM.LatLng(48.136767,31.003418), 6);
 		
 		map.addControl(new CM.LargeMapControl());
 		map.addControl(new CM.ScaleControl());
@@ -257,12 +257,6 @@ function doLeaveMarkerAlone() {
 
 		updateMarkersUI();
 	}
-}
-
-var mapToPoint = function(name, zoom) {
-	initMap();
-
-	map.setCenter(points[name], zoom);
 }
 
 var toggleWeather = function() {
