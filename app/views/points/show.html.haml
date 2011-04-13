@@ -8,30 +8,36 @@
 
 - if @point.object_type
 	%p
-		%strong= t('admin.objectType')
+		%strong
+			= t('admin.objectType')
 		= object_type_names[@point.object_type]
 
 %p
-	%strong= t('admin.name')
+	%strong
+		= t('admin.name')
 	= @point.name.html_safe
 
 
 %p
-	%strong= t('admin.description')
+	%strong
+		= t('admin.description')
 	= @point.description.html_safe
 
 %p
-	%strong= t('admin.lat')
+	%strong
+		= t('admin.lat')
 	= @point.lat
 
 %p
-	%strong= t('admin.lon')
+	%strong
+		= t('admin.lon')
 	= @point.lon 
 
 - if not @point.image.blank?
 	%p
-		%strong= t('admin.image')
-			= image_tag @point.image
+		%strong
+			= t('admin.image')
+		= image_tag @point.image
 
 = link_to t('admin.edit'), edit_point_path(@point)
 |
