@@ -1,17 +1,15 @@
 :javascript
 	$(function() {
-		var point = new CM.LatLng(#{@point.lat}, #{@point.lon});
-		var marker = new CM.Marker(point, { title: '#{@point.name}' });
-		marker.bindInfoWindow('<h3>#{@point.name}</h3>');
-		map.addOverlay(marker);
+		var marker = createMarker(#{@point.lat}, #{@point.lon}, {'addOverlay': true, 'draggable': false});
 	});
 
 %p{ :id => "notice" }
 	= notice
 
-%p
-	%strong= t('admin.objectType')
-	= @point.object_type
+- if @point.object_type
+	%p
+		%strong= t('admin.objectType')
+		= object_type_names[@point.object_type]
 
 %p
 	%strong= t('admin.name')
@@ -30,10 +28,10 @@
 	%strong= t('admin.lon')
 	= @point.lon 
 
-%p
-	%strong= t('admin.image')
-	- if not @point.image.blank?
-		= image_tag @point.image
+- if not @point.image.blank?
+	%p
+		%strong= t('admin.image')
+			= image_tag @point.image
 
 = link_to t('admin.edit'), edit_point_path(@point)
 |

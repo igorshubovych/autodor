@@ -1,3 +1,14 @@
+:javascript
+	$(function() {
+		/*var pos = new CM.LatLng(#{@point.lat}, #{@point.lon});
+		var marker = new CM.Marker(pos, { title: '#{@point.name}' });
+		marker.bindInfoWindow('<h3>#{@point.name}</h3>');
+		map.addOverlay(marker);*/
+		
+		var marker = createMarker(#{@point.lat}, #{@point.lon}, {'addOverlay': true, 'draggable': false});
+	});
+
+
 %strong= t('admin.editingPoint')
 
 = render 'form'
