@@ -37,7 +37,12 @@ var layers = {
 	hotel: { data: null, shown: false,  icon: null },
 	monument: { data: null, shown: false,  icon: null },
 	weather: { data: null, shown: false, icon: null},
-	roadCondition: { data: null, shown: false, icon: null}
+	roadCondition: { data: null, shown: false, icon: null},
+	police: { data: null, shown: false, icon: null},
+	recreationArea: { data: null, shown: false, icon: null},
+	food: { data: null, shown: false, icon: null},
+	medicine: { data: null, shown: false, icon: null},
+	custom: { data: null, shown: false, icon: null}
 };
 
 var initMap = function() {
@@ -109,7 +114,7 @@ var initIcons = function() {
 	layers['carService']['icon'] = icon;
 	
 	icon = new CM.Icon(icon);
-	icon.image  = "/images/objects/incidents.gif";
+	icon.image  = "/images/objects/incidents.png";
 	layers['roadCondition']['icon'] = icon;
 	
 	icon = new CM.Icon(icon);
@@ -119,6 +124,26 @@ var initIcons = function() {
 	icon = new CM.Icon(icon);
 	icon.image  = "/images/objects/hotel.gif";
 	layers['hotel']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/police.png";
+	layers['police']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/recreationArea.png";
+	layers['recreationArea']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/food.png";
+	layers['food']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/medicine.gif";
+	layers['medicine']['icon'] = icon;
+	
+	icon = new CM.Icon(icon);
+	icon.image  = "/images/objects/custom.png";
+	layers['custom']['icon'] = icon;
 }
 
 var subscribeForEvents = function() {
@@ -478,10 +503,25 @@ var updateWeather = function() {
 
 var loadObjects = function(layerName) {
 	var layer = layers[layerName];
-	layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
-	CM.Event.addListener(layer['data'], 'load', function() {
-		map.addOverlay(layers[layerName]['data']);
-	});
+	// Check if routing direction overlaps 
+	if (!(layerName == "monument" || layerName == "roadCondition")) {
+		if (directions.getDistance() > 0) {
+			var p1 = directions.getBounds().getSouthWest();
+			var p2 = directions.getBounds().getNorthEast();
+			var bounds = "lat1=" + p1.lat() + "&lon1=" + p1.lng() + "&lat2=" + p2.lat() + "&lon2=" + p2.lng();
+			layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml?' + bounds, {local: true, defaultIcon: layer['icon']});
+			CM.Event.addListener(layer['data'], 'load', function() {
+				map.addOverlay(layers[layerName]['data']);
+			});
+		} else {
+			return;
+		}
+	} else {
+		layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
+		CM.Event.addListener(layer['data'], 'load', function() {
+			map.addOverlay(layers[layerName]['data']);
+		});
+	}
 }
 
 var switchLayer = function(layerName) {
