@@ -509,7 +509,7 @@ var loadObjects = function(layerName) {
 			var p1 = directions.getBounds().getSouthWest();
 			var p2 = directions.getBounds().getNorthEast();
 			var bounds = "lat1=" + p1.lat() + "&lon1=" + p1.lng() + "&lat2=" + p2.lat() + "&lon2=" + p2.lng();
-			layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml?' + bounds, {local: true, defaultIcon: layer['icon']});
+			layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml?' + bounds + "&extend=1", {local: true, defaultIcon: layer['icon']});
 			CM.Event.addListener(layer['data'], 'load', function() {
 				map.addOverlay(layers[layerName]['data']);
 			});

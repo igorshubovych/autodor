@@ -456,21 +456,25 @@ var updateWeather = function() {
 
 var loadObjects = function(layerName) {
 	var layer = layers[layerName];
-	// Check if routing direction overlaps M-11 
-	if (!(layerName == "webCam" || layerName == "weather" || layerName == "monument" || layerName == "roadCondition")) {
+	// Check if routing direction overlaps 
+	if (!(layerName == "monument" || layerName == "roadCondition")) {
 		if (directions.getDistance() > 0) {
-			routeBounds = directions.getBounds();
-			if (!(routeBounds.contains(m11bbox) || m11bbox.contains(routeBounds) || routeBounds.contains(m11bbox.getSouthWest()) || routeBounds.contains(m11bbox.getNorthEast()) || m11bbox.contains(routeBounds.getSouthWest()) || m11bbox.contains(routeBounds.getNorthEast()) )) {
-				return;
-			}
+			var p1 = directions.getBounds().getSouthWest();
+			var p2 = directions.getBounds().getNorthEast();
+			var bounds = "lat1=" + p1.lat() + "&lon1=" + p1.lng() + "&lat2=" + p2.lat() + "&lon2=" + p2.lng();
+			layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml?' + bounds + "&extend=1", {local: true, defaultIcon: layer['icon']});
+			CM.Event.addListener(layer['data'], 'load', function() {
+				map.addOverlay(layers[layerName]['data']);
+			});
 		} else {
 			return;
 		}
+	} else {
+		layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
+		CM.Event.addListener(layer['data'], 'load', function() {
+			map.addOverlay(layers[layerName]['data']);
+		});
 	}
-	layer['data'] = new CM.GeoXml('/object/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
-	CM.Event.addListener(layer['data'], 'load', function() {
-		map.addOverlay(layers[layerName]['data']);
-	});
 }
 
 var switchLayer = function(layerName) {
@@ -496,13 +500,10 @@ var switchLayer = function(layerName) {
 			webcams.showWebcams();
 		}
 	} else 	{
-		if (layer['data'] == null) {
-			loadObjects(layerName);
-		} else if (layer['shown']) {
+		if (layer['shown']) {
 			map.removeOverlay(layer['data']);
-			// TO UNLOAD DATA
-			layer['data'] = null;
 		} else {
+			loadObjects(layerName);
 			map.addOverlay(layer['data']);
 		}
 		layer['shown'] = !layer['shown'];
