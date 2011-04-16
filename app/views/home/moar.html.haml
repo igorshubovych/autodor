@@ -75,16 +75,16 @@
 
 			%ul
 				%li
-					= image_tag '/images/objects/recreationArea.png', { :id => "recreationArea", :onClick => "switchLayer('recreationArea'); $(this).toggleClass('checked');", :title => "#{t('objects.recreationArea')}" }
+					= image_tag '/images/objects/recreation.png', { :id => "recreationArea", :onClick => "switchLayer('recreationArea'); $(this).toggleClass('checked');", :title => "#{t('objects.recreationArea')}" }
 
 				%li
-					= image_tag '/images/objects/medicine.gif', { :id => "medicine", :onClick => "switchLayer('medicine'); $(this).toggleClass('checked');", :title => "#{t('objects.medicine')}" }
+					= image_tag '/images/objects/medicine.png', { :id => "medicine", :onClick => "switchLayer('medicine'); $(this).toggleClass('checked');", :title => "#{t('objects.medicine')}" }
 
 				%li
 					= image_tag '/images/objects/police.png', { :id => "police", :onClick => "switchLayer('police'); $(this).toggleClass('checked');", :title => "#{t('objects.police')}" }
 
 				%li
-					= image_tag '/images/objects/custom.png', { :id => "custom", :onClick => "switchLayer('custom'); $(this).toggleClass('checked');", :title => "#{t('objects.custom')}" }
+					= image_tag '/images/objects/customs.png', { :id => "custom", :onClick => "switchLayer('custom'); $(this).toggleClass('checked');", :title => "#{t('objects.custom')}" }
 
 		%li.search
 			%input#searchQuery{ :type => "edit", :name => "query", :size => "30" }
