@@ -547,11 +547,10 @@ var switchLayer = function(layerName) {
 			webcams.showWebcams();
 		}
 	} else 	{
-		if (layer['data'] == null) {
-			loadObjects(layerName);
-		} else if (layer['shown']) {
+		if (layer['shown']) {
 			map.removeOverlay(layer['data']);
 		} else {
+			loadObjects(layerName);
 			map.addOverlay(layer['data']);
 		}
 		layer['shown'] = !layer['shown'];

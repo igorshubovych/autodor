@@ -11,8 +11,8 @@ class Point < ActiveRecord::Base
     if extent > 0 then
       lat_min -= 0.2
       lat_max += 0.2
-      lon_min -= 0.05
-      lon_max += 0.05
+      lon_min -= 0.1
+      lon_max += 0.1
     end
     where(:object_type => object_type, :lat => (lat_min .. lat_max), :lon => (lon_min .. lon_max))
   end
