@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+%html
+	%head
+		%title Autodor
+		= stylesheet_link_tag 'regional	'
+		= stylesheet_link_tag 'map'
+		= stylesheet_link_tag 'sunny/sunny'
+		= stylesheet_link_tag 'contextmenu/jquery-contextmenu'
+		= javascript_include_tag 'jquery'
+		= javascript_include_tag 'jquery-ui'
+		= javascript_include_tag 'rails'
+		= javascript_include_tag 'http://tile.cloudmade.com/wml/latest/web-maps-lite.js'
+		= javascript_include_tag 'http://api.webcams.travel/jsapi?devid=0be425afeaead9f0893c0bae527be9a0'
+		= javascript_include_tag 'jquery-contextmenu'
+		= javascript_include_tag 'google-analytics'
+		= csrf_meta_tag
+	%body
+		.header
+			.logo
+				=image_tag "regional_header.png", :alt => "Гео-інформаційний портал"
+
+		.menu
+			%a{ :href => "/" }= t('menu.map')
+			%a{ :href => "/page/support" }= t('menu.support')
+			%a{ :href => "/page/links" }= t('menu.links')
+			%a{ :href => "/page/about" }= t('menu.about')
+
+		.language_icons
+			%a{ :href => "?locale=en" }
+				=image_tag "flags/en.png"
+			%a{ :href => "?locale=uk" }
+				=image_tag "flags/uk.png"
+			%a{ :href => "?locale=ru" }
+				=image_tag "flags/ru.png"					
+
+
+
+		.main
+			= yield

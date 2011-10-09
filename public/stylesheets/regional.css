@@ -1,0 +1,158 @@
+body {
+	font-family: Segoe UI,Arial,sans-serif;
+}
+
+a img {
+	border: none;
+}
+
+.copyright {
+	background-image: url('/images/logo/copyright.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left bottom;
+}
+
+.header{ height: 92px; }
+
+.logo{ float:left;
+	height: 117px;
+}
+
+.header .language_icons{ float:right; margin-right:7px; margin-top: 6px; }
+.header .language_icons a{ display:inline; margin-bottom: 5px; }
+
+.main {
+	background: none repeat scroll 0 0 #EEEEEE;
+	border: 1px solid #DDDDDD;
+	bottom: 2em;
+	height: 84%;
+	position: absolute;
+	top: 98px;
+	right: 10px;
+	width: 100%;
+	overflow: auto;
+	padding-left: 15px;
+}
+
+.panel {
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+	margin-right: 5px;
+	width: 355px;
+	overflow: auto;
+}
+
+.content {
+	border-top: 1px solid #DDDDDD;
+	height: 98%;
+	margin: 0 0 0 365px;
+	width: 100%;
+}
+
+#map, .map {
+	height: 100%;
+	min-height: 300px;
+	min-width: 315px;
+	width: 100%;
+	max-height: 765px;
+	vertical-align: top;
+}
+
+img.head_img {
+	float: left;
+	padding: 20px;
+	width: 80%;
+}
+
+.language_menu {
+	float: right;
+}
+
+.routeControls, .searchControls {
+	text-align: center;
+}
+
+.link {
+	margin: 10px;
+}
+
+.menu {
+	float: right;
+	padding: 0px 5px 0px 5px;
+	margin: 10px 20px 0px 50px;
+	background-color: #FCECA8;
+}
+
+.menu a {
+	display: block;
+}
+
+ul.menu {
+	display: inline;
+}
+
+ul.menu li {
+	float: right;
+	display: inline;
+	padding: 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul.lang {
+	list-style: none;
+	float: right;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.banner {
+	display: block;
+	margin-left: 50px;
+}
+
+.searchResultItem {
+	border: none;
+	padding: 5px;
+}
+
+.searchResultItem:hover, .momoClass:hover, ul.menu li:hover, ul.lang li:hover {
+	border: medium none !important;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #FBD840;
+	cursor: pointer;
+}
+
+.commentari {
+	clear: both;
+	margin: 0;
+	padding: 20px 0;
+	text-align: left;
+}
+
+.commentari_img {
+	float: left;
+	margin: 0 10px 10px 0;
+	overflow: hidden;
+	padding: 0;
+	text-align: left;
+}
+
+.commentari_img img {
+	width: 150px;
+	height: 150px;
+}
+
+.commentari_text {
+	float: left;
+	font-size: 12px;
+	margin:  0;
+	padding: 0;
+	text-align: left;
+}

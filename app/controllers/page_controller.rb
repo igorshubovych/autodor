@@ -1,5 +1,5 @@
 class PageController < ApplicationController
-  layout 'map'
+  layout 'regional'
   
   def contact
   end

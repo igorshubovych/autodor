@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-	layout 'map'
+	layout 'regional'
 	
 	def index
 		@languages = [ "ru", "ua", "en" ]
@@ -12,6 +12,11 @@ class HomeController < ApplicationController
 
 		render 'moar', :layout => 'moar'
 	end
+	
+	def map
+		@languages = [ "ru", "ua", "en" ]
+		@current_lang = "ua"
+  end
 	
 	def weather
 		url = "http://62.244.10.66/gmaps/connector.php?lang=en&type=large&"
