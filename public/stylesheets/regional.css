@@ -1,6 +1,15 @@
 body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;		/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
 	font-family: Segoe UI,Arial,sans-serif;
 }
+
 
 a img {
 	border: none;
@@ -13,16 +22,25 @@ a img {
 	background-position: left bottom;
 }
 
-.header{ height: 92px; }
-
-.logo{ float:left;
-	height: 117px;
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+	background-image: '/images/regional_header.png';
 }
 
-.header .language_icons{ float:right; margin-right:7px; margin-top: 6px; }
-.header .language_icons a{ display:inline; margin-bottom: 5px; }
+#language_icons {
+	float:right;
+	margin-right:7px;
+	margin-top: 6px;
+}
 
-.main {
+#language_icons a {
+	display:inline;
+	margin-bottom: 5px;
+}
+
+#main {
 	background: none repeat scroll 0 0 #EEEEEE;
 	border: 1px solid #DDDDDD;
 	bottom: 2em;
@@ -35,29 +53,100 @@ a img {
 	padding-left: 15px;
 }
 
-.panel {
-	height: 100%;
-	float: left;
-	margin-left: 15px;
-	margin-right: 5px;
-	width: 355px;
-	overflow: auto;
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;			/* width of page */
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead 
+					only padding top and bottom is included here, make it whatever value you need */
+	overflow:hidden;
+}
+/* 3 Column settings */
+.threecol {
+	background:#eee;		/* right column background colour */
 }
 
-.content {
-	border-top: 1px solid #DDDDDD;
-	height: 98%;
-	margin: 0 0 0 365px;
-	width: 100%;
+.threecol .colmid {
+	right:25%;			/* width of the right column */
+	background:#fff;		/* center column background colour */
 }
 
-#map, .map {
-	height: 100%;
+.threecol .colleft {
+	right:50%;			/* width of the middle column */
+	background:#f4f4f4;	/* left column background colour */
+}
+
+.threecol .col1 {
+	width:46%;			/* width of center column content (column width minus padding on either side) */
+	left:102%;			/* 100% plus left padding of center column */
+}
+
+.threecol .col2 {
+	width:21%;			/* Width of left column content (column width minus padding on either side) */
+	left:31%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+}
+
+.threecol .col3 {
+	width:21%;			/* Width of right column content (column width minus padding on either side) */
+	left:85%;			/* Please make note of the brackets here:
+					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+}
+
+.rightmenu {
+	background:#eee;		/* right column background colour */
+}
+
+.rightmenu .colleft {
+	right:30%;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+
+.rightmenu .col1 {
+	width:66%;			/* left column content width (left column width minus left and right padding) */
+	left:31%;			/* (right column width) plus (left column left padding) */
+	background: #eee;
+}
+
+.rightmenu .col2 {
+	width:26%;			/* right column content width (right column width minus left and right padding) */
+	left:35%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+}
+
+#map {
 	min-height: 300px;
 	min-width: 315px;
-	width: 100%;
-	max-height: 765px;
-	vertical-align: top;
+	max-height: 965px;
+	width: 820px;
+	height: 560px;
+}
+
+#panel {
+}
+
+.caption {
+	width: 90%;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
+	background-color: #4b514b;
+	color: #f0fcc8;
 }
 
 img.head_img {
@@ -78,31 +167,18 @@ img.head_img {
 	margin: 10px;
 }
 
-.menu {
-	float: right;
-	padding: 0px 5px 0px 5px;
-	margin: 10px 20px 0px 50px;
+#menu {
+	float: left;
+	padding: 10px 25px 10px 25px;
 	background-color: #FCECA8;
 }
 
-.menu a {
-	display: block;
+#menu a {
+	padding: 0px 10px 0px 10px;
 }
 
-ul.menu {
-	display: inline;
-}
-
-ul.menu li {
-	float: right;
-	display: inline;
-	padding: 5px;
-	margin: 0px 5px 0px 5px;
-}
-
-ul.menu li a {
-	text-decoration: none;
-	font-weight: bold;
+#menu a hover {
+	padding: 10px 20px 0px 10px;
 }
 
 ul.lang {
@@ -137,11 +213,7 @@ ul.lang {
 }
 
 .commentari_img {
-	float: left;
-	margin: 0 10px 10px 0;
-	overflow: hidden;
-	padding: 0;
-	text-align: left;
+	display: none;
 }
 
 .commentari_img img {

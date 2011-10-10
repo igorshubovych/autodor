@@ -4,6 +4,8 @@ class HomeController < ApplicationController
 	def index
 		@languages = [ "ru", "ua", "en" ]
 		@current_lang = "ua"
+		
+		@news = News.load
 	end
 	
 	def moar
@@ -16,6 +18,14 @@ class HomeController < ApplicationController
 	def map
 		@languages = [ "ru", "ua", "en" ]
 		@current_lang = "ua"
+		render 'home/map', :layout => 'map'
+  end
+  
+  def regional_map
+		@languages = [ "ru", "ua", "en" ]
+		@current_lang = "ua"
+		@news = News.load
+		render 'home/regional_map', :layout => 'regional_map'
   end
 	
 	def weather

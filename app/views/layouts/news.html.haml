@@ -2,7 +2,8 @@
 %html
 	%head
 		%title Autodor
-		= stylesheet_link_tag 'regional	'
+		= stylesheet_link_tag 'regional'
+		= stylesheet_link_tag 'news'
 		= stylesheet_link_tag 'map'
 		= stylesheet_link_tag 'sunny/sunny'
 		= stylesheet_link_tag 'contextmenu/jquery-contextmenu'
@@ -21,7 +22,7 @@
 		#top
 			#menu
 				%a{ :href => "/" }= t('menu.main')
-				%a{ :href => "/map" }= t('menu.gis')
+				%a{ :href => "/home/map" }= t('menu.gis')
 				%a{ :href => "/page/notify" }= t('menu.notify')
 				%a{ :href => "/page/about_system" }= t('menu.about_system')
 				%a{ :href => "/page/contacts" }= t('menu.contacts')
@@ -38,20 +39,19 @@
 				.colmid
 					.colleft
 						.col1
-							=yield
+							- @news.each do |e|
+								.newsItem
+									= e.to_html.html_safe
 						.col2
 							.caption Ресурсы
 							.link
-								%a{ :href => '/home/map' } ГИС
+								%a{ :href => "/home/map" } ГИС
 								%br
 								Картографическая система
 							.link
-								%a{ :href => ''} АвтоГИД
+								%a{ :href => ""} АвтоГИД
 								%br
 								Система навигации для мобильного телефона
 							.caption Разделы
 							%a{ :href => '/laws' } Нормативно-правовые акты
 						.col3
-							- @news.each do |e|
-								.newsItem
-									= e.to_html.html_safe

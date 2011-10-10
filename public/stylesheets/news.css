@@ -1,0 +1,28 @@
+.commentari {
+	clear: both;
+	margin: 0;
+	padding: 20px 0;
+	text-align: left;
+}
+
+.commentari_img {
+	float: left;
+	margin: 0 10px 10px 0;
+	overflow: hidden;
+	padding: 0;
+	text-align: left;
+	display: block;
+}
+
+.commentari_img img {
+	width: 150px;
+	height: 150px;
+}
+
+.commentari_text {
+	float: left;
+	font-size: 12px;
+	margin:  0;
+	padding: 0;
+	text-align: left;
+}

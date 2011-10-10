@@ -15,6 +15,8 @@ Autodor::Application.routes.draw do
   match 'moar' => 'home#moar'
   match 'news' => 'page#news'
   match 'points' => 'points'
+  match 'map' => 'home#regional_map'
+  match 'laws' => 'page#laws'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

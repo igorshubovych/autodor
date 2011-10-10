@@ -1,18 +1,3 @@
-var IEmode = (navigator.appName.indexOf("Microsoft") > -1);
-
-function moolog(msg) {
-	if (IEmode) {
-		return;
-	} else {
-		console.log(msg);
-	}
-}
-
-window.onerror = function(e) {
-	//alert(e);
-	moolog(e);
-}
-
 var cloudmade = null, map = null;
 var directions = null, geocoder = null;
 var webcams = null;
@@ -25,7 +10,8 @@ var points = {
 	'Kharkiv stadium': new CM.LatLng(49.980, 36.261),
 	'Donetsk stadium': new CM.LatLng(48.021, 37.810),
 	'Kyiv stadium': new CM.LatLng(50.433, 30.521),
-	'Lviv stadium': new CM.LatLng(49.775, 24.026)
+	'Lviv stadium': new CM.LatLng(49.775, 24.026),
+	'Mykolaiv region': new CM.LatLng(47.237,32.022)
 }
 
 var m11bbox = new CM.LatLngBounds([
@@ -51,9 +37,11 @@ var layers = {
 };
 
 var initMap = function() {
-	var curr_lang = $('[curr_lang]').attr('curr_lang');
+	var curr_moolog = $('[curr_lang]').attr('curr_lang');
 	
 	if (map == null || cloudmade == null) {
+		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
+		/*
 		if (curr_lang != 'en') {
 			cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
 		} else {
@@ -62,8 +50,7 @@ var initMap = function() {
 				title: 'English map',
 				copyright: '&copy; 2010 Kosmosnimki.ru'
 			});
-		}
-		
+		}*/
 		map = new CM.Map('map', cloudmade);
 		
 		var CompassCtl = function() {};
@@ -84,7 +71,7 @@ var initMap = function() {
 			}
 		}
 
-		map.setCenter(points['Ukraine'], 6);
+		map.setCenter(points['Mykolaiv region'], 8);
 		
 		map.addControl(new CM.LargeMapControl());
 		map.addControl(new CM.ScaleControl());
@@ -293,8 +280,6 @@ var updateRoute = function () {
 	if (routeType == null)
 		routeType = 'car';
 
-	moolog('Route Type: ', routeType);
-
 	for (m = 0; m < markers.length; m++) {
 		keyPoints.push(markers[m].getLatLng());
 	}
@@ -425,8 +410,6 @@ var toggleWeather = function() {
 		
 		updateWeather();
 	}
-	
-	moolog('shown? ' + map.containsOverlay(weatherLayer));
 }
 
 var updateWeather = function() {
@@ -450,8 +433,6 @@ var updateWeather = function() {
 		map.addOverlay(weather['data']);
 		
 	layers['weather'] = weather;
-	
-	moolog(_url, 'weather layer is updated');
 }
 
 var loadObjects = function(layerName) {
@@ -521,7 +502,6 @@ var geoSearch = function() {
 	
 	geocoder.getLocations($("#searchQuery").val() + ",Ukraine", function(response) {
 			if (response == null || response.features == null) {
-				moolog('no valid response given');
 				
 				return;
 			}
@@ -592,7 +572,6 @@ var printRoute = function() {
 
 $(document).ready(function() {
 	initMap();
-	//map.setCenter(new CM.LatLng(49.8107, 23.8867), 12);
 	initIcons();
 	subscribeForEvents();
 	createContextMenu();

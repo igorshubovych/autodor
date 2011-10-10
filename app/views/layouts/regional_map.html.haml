@@ -2,17 +2,22 @@
 %html
 	%head
 		%title Autodor
-		= stylesheet_link_tag 'regional	'
+		= stylesheet_link_tag 'regional'
 		= stylesheet_link_tag 'map'
 		= stylesheet_link_tag 'sunny/sunny'
 		= stylesheet_link_tag 'contextmenu/jquery-contextmenu'
 		= javascript_include_tag 'jquery'
 		= javascript_include_tag 'jquery-ui'
 		= javascript_include_tag 'rails'
+		= javascript_include_tag 'jquery.ui.datepicker-ru'
+		= javascript_include_tag 'jquery.ui.datepicker-uk'
 		= javascript_include_tag 'http://tile.cloudmade.com/wml/latest/web-maps-lite.js'
 		= javascript_include_tag 'http://api.webcams.travel/jsapi?devid=0be425afeaead9f0893c0bae527be9a0'
 		= javascript_include_tag 'jquery-contextmenu'
-		= javascript_include_tag 'google-analytics'
+		= javascript_include_tag 'cities'
+		= javascript_include_tag 'application'
+		= javascript_include_tag 'patchy'
+		= javascript_include_tag 'http://gostats.com/js/counter.js'
 		= csrf_meta_tag
 	%body
 		#header
@@ -33,25 +38,7 @@
 					=image_tag "flags/uk.png"
 				%a{ :href => "?locale=ru" }
 					=image_tag "flags/ru.png"
-			
-			.colmask.threecol
-				.colmid
-					.colleft
-						.col1
-							=yield
-						.col2
-							.caption Ресурсы
-							.link
-								%a{ :href => '/home/map' } ГИС
-								%br
-								Картографическая система
-							.link
-								%a{ :href => ''} АвтоГИД
-								%br
-								Система навигации для мобильного телефона
-							.caption Разделы
-							%a{ :href => '/laws' } Нормативно-правовые акты
-						.col3
-							- @news.each do |e|
-								.newsItem
-									= e.to_html.html_safe
+
+		.colmask.rightmenu
+			.colleft
+				=yield

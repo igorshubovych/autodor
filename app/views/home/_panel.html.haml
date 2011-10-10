@@ -5,27 +5,24 @@
 		$(".routeType").buttonset();
 	});
 
-.panel
-	#tabs
-		%ul
-			%li
-				%a{ :href => "#tabsRouting" }
-					= t('panel.routes')
-					
-			%li
-				%a{ :href => "#tabsSearch" }
-					= t('panel.search')
-					
-			%li
-				%a{ :href => "#tabsObjects" }
-					= t('panel.objects')
+#tabs
+	%ul
+		%li
+			%a{ :href => "#tabsRouting" }
+				= t('panel.routes')
+				
+		%li
+			%a{ :href => "#tabsSearch" }
+				= t('panel.search')
+				
+		%li
+			%a{ :href => "#tabsObjects" }
+				= t('panel.objects')
 
-		= render :partial => 'home/tabRoute'
+	= render :partial => 'home/tabRoute'
 
-		= render :partial => 'home/tabSearch'
+	= render :partial => 'home/tabSearch'
 
-		= render :partial => 'home/tabObjects'
+	= render :partial => 'home/tabObjects'
 
-	%br/
-
-	= render :partial => 'home/panelQuickLinks'
+%br/

@@ -44,6 +44,10 @@ en:
         map: "Map"
         main: "Main"
         change_lang: "Change locale to %s"
+        about_system: "About system"
+        notify: "Notify about accident"
+        gis: "GIS - Euro 2012"
+        contacts: "Contacts"
     about:
         about: "About this site"
         description: "This site was created as part of the social program of Ukrainian Government, the National Agency for Euro-2012 and the Public Service of highways of Ukraine on information support of drivers of road transport and reviews UEFA EURO 2012. <br /> The site allows you to obtain prompt and accurate information about the route road transport. Choosing the optimal route and weather conditions on the roads, road service and tourist facilities, traffic conditions and operational ties with 'DorInfoCenter'- the main problem."
