@@ -88,9 +88,12 @@ var initMap = function() {
 	}
 	
 	if (webcams == null) {
-		webcamstravel.easymap.load(map, function(instance, params) {
-			webcams = instance;
-		}, { showwebcams: false });
+		try {
+			webcamstravel.easymap.load(map, function(instance, params) {
+				webcams = instance;
+			}, { showwebcams: false });
+		} catch (e) {
+		}
 	}
 }
 
@@ -289,7 +292,7 @@ var updateRoute = function () {
 	try {
 		directions.loadFromWaypoints(keyPoints, { travelMode: routeType, draggableWaypoints: true, lang: curr_lang });
 	} catch (e) {
-		alert(e);
+		/* alert(e); */
 	}
 
 	for (m = 0; m < markers.length; m++) {
