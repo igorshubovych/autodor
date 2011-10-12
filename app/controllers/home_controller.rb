@@ -1,30 +1,20 @@
 class HomeController < ApplicationController
 	layout 'regional'
 	
-	def index
-		@languages = [ "ru", "ua", "en" ]
-		@current_lang = "ua"
-		
-		@news = News.load
-	end
+	before_filter :page_setup, :except => [ :weather ]
 	
-	def moar
-		@languages = [ "ru", "ua", "en" ]
-		@current_lang = "ua"
+	def index
+	end
 
+	def moar
 		render 'moar', :layout => 'moar'
 	end
 	
 	def map
-		@languages = [ "ru", "ua", "en" ]
-		@current_lang = "ua"
 		render 'home/map', :layout => 'map'
   end
   
   def regional_map
-		@languages = [ "ru", "ua", "en" ]
-		@current_lang = "ua"
-		@news = News.load
 		render 'home/regional_map', :layout => 'regional_map'
   end
 	
@@ -68,5 +58,13 @@ class HomeController < ApplicationController
 			}
 			
 		render :xml => kml
+	end
+
+	private
+
+	def page_setup
+		@languages = [ "ru", "ua", "en" ]
+		@current_lang = "ua"
+		@news = News.load
 	end
 end

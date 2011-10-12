@@ -1,5 +1,5 @@
 development:
-  adapter: postgresql
+  adapter: postgresql 
   host: localhost
   database: autodor
   username: autodor

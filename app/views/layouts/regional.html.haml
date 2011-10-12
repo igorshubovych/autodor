@@ -23,7 +23,7 @@
 				%a{ :href => "/" }= t('menu.main')
 				%a{ :href => "/map" }= t('menu.gis')
 				%a{ :href => "/page/notify" }= t('menu.notify')
-				%a{ :href => "/page/about_system" }= t('menu.about_system')
+				%a{ :href => "/page/about_system" }= t('menu.about')
 				%a{ :href => "/page/contacts" }= t('menu.contacts')
 
 			#language_icons
@@ -40,17 +40,22 @@
 						.col1
 							=yield
 						.col2
-							.caption Ресурсы
+							.caption
+								Ресурсы
 							.link
-								%a{ :href => '/map' } ГИС
+								%a{ :href => '/map' }
+									ГИС
 								%br
 								Картографическая система
 							.link
-								%a{ :href => ''} АвтоГИД
+								%a{ :href => ''}
+									АвтоГИД
 								%br
 								Система навигации для мобильного телефона
-							.caption Разделы
-							%a{ :href => '/laws' } Нормативно-правовые акты
+							.caption
+								Разделы
+							%a{ :href => '/laws' }
+								Нормативно-правовые акты
 						.col3
 							- @news.each do |e|
 								.newsItem

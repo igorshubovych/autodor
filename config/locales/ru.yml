@@ -90,4 +90,5 @@ ru:
         createPoint: "Создать точку"
         updatePoint: "Править точку"
         areYouSure: "Ви уверены?"
-
+    notify:
+        header: "Сообщить об инциденте"

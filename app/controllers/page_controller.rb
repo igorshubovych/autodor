@@ -1,7 +1,9 @@
 class PageController < ApplicationController
   layout 'regional'
+
+	before_filter :news_loader
   
-  def contact
+  def contacts
   end
 
   def support
@@ -9,28 +11,33 @@ class PageController < ApplicationController
 
   def about
   end
+
+	def notify
+	end
   
-  def links
-    @links = [ 
+  def laws
+  end
+
+	def news
+    render 'news', :layout => 'news'
+  end
+
+	def links
+    @links = [
 				MLink.new('links.euro2012highway', 'http://euro2012highway.blogspot.com/', 'euro2012highway_thumb.png'),
 				MLink.new('links.diprodor', 'http://diprodor.com', 'diprodor_thumb.png'),
 				MLink.new('links.ukrautodor', 'http://ukravtodor.gov.ua/clients/ukrautodor.nsf', '0.jpg'),
 				MLink.new('links.uefa_com', 'http://www.uefa.com/uefaeuro2012/', '1.jpg'),
 				MLink.new('links.euro_2012', 'http://euro-2012.com.ua/', '2.jpg'),
 				MLink.new('links._2012ua', 'http://2012ua.net/', '3.jpg'),
-			 ]
+		]
   end
 
-  def news
-    @news = News.load
-    
-    render 'news', :layout => 'news'
-  end
-  
-  def laws
-    @news = News.load
-  end
+	private
 
+	def news_loader
+		@news = News.load
+	end
 end
 
 class MLink

@@ -50,6 +50,7 @@ class ObjectController < ApplicationController
   end
     
   private
+
   def send_kml(file_name)
     full_file_name = "#{Rails.root}/db/data/#{file_name}"
     contents = File.open(full_file_name).read

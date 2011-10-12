@@ -91,3 +91,5 @@ en:
         createPoint: "Create point"
         updatePoint: "Update point"
         areYouSure: "Are you sure?"
+    notify:
+        header: "Notify about incident"

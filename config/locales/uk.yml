@@ -90,3 +90,5 @@ uk:
         createPoint: "Створити точку"
         updatePoint: "Правити точку"
         areYouSure: "Ви впевнені?"
+    notify:
+        header: "Сповістити про інцидент"

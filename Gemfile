@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '>=3.0.5'
+gem 'rails', '=3.0.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -36,7 +36,9 @@ gem 'pg'
 #   gem 'webrat'
 # end
 
-gem 'pg'
+gem 'postgres-pr'
 gem 'curb'
 gem 'curb-fu'
 gem 'json'
+#gem 'prototype-rails'
+
