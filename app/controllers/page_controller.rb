@@ -3,7 +3,7 @@ class PageController < ApplicationController
 
 	before_filter :news_loader
   
-  def contacts
+  def contact
   end
 
   def support
