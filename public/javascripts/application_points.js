@@ -34,15 +34,7 @@ var initMap = function() {
 	var curr_lang = $('[curr_lang]').attr('curr_lang');
 	
 	if (map == null || cloudmade == null) {
-		if (curr_lang != 'en') {
-			cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
-		} else {
-			cloudmade = new CM.Tiles.Base({
-				tileUrlTemplate: 'http://tile.osmosnimki.ru/kosmo-en/#{zoom}/#{x}/#{y}.png',
-				title: 'moofoo map',
-				copyright: '&copy; 2010 Космоснимки.Ру'
-			});
-		}
+		cloudmade = new CM.Tiles.CloudMade.Web({key: CM_APIKEY});
 		
 		map = new CM.Map('map', cloudmade);
 

@@ -10,7 +10,8 @@ class ObjectController < ApplicationController
   end
   
   def roadCondition
-    send_kml 'roadCondition.kml'
+    #send_kml 'roadCondition.kml'
+	render_kml 'incidents'
   end
   
   def monument
@@ -55,6 +56,30 @@ class ObjectController < ApplicationController
     full_file_name = "#{Rails.root}/db/data/#{file_name}"
     contents = File.open(full_file_name).read
     send_data contents, :type => :kml
+  end
+
+  def render_kml(type)
+	if (type == 'incidents')
+		points = Point.all
+
+	    kml = %{<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>Incidents</name>
+        <open>1</open>
+        %s
+    </Document>
+</kml>
+	    }
+
+	    points_str = ""
+
+		points.each do |p| 
+			points_str += "\n<Placemark>\n<name>#{p.name}</name>\n<description>#{p.description}</description>\n<Point>\n<coordinates>#{p.lon},#{p.lat}</coordinates>\n</Point>\n</Placemark>\n"
+		end
+
+		send_data kml % points_str, :type => :kml
+	end
   end
 
 end

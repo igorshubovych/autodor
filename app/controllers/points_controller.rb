@@ -49,7 +49,7 @@ class PointsController < ApplicationController
     end
 
 		if @point.save
-			updateIncidentsKML()
+			#updateIncidentsKML()
 			redirect_to(@point, :notice => 'Point was successfully created.')
 		else
 			render :action => "new"
@@ -71,7 +71,7 @@ class PointsController < ApplicationController
     end
     
     if @point.update_attributes(params[:point])
-	  updateIncidentsKML()
+	  #updateIncidentsKML()
       redirect_to(@point, :notice => 'Point was successfully updated.')
     else
       render :action => "edit"
