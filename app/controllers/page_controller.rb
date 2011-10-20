@@ -1,8 +1,6 @@
 class PageController < ApplicationController
   layout 'regional'
 
-	before_filter :news_loader
-  
   def contact
   end
 
@@ -38,12 +36,6 @@ class PageController < ApplicationController
 				MLink.new('links._2012ua', 'http://2012ua.net/', '3.jpg'),
 		]
   end
-
-	private
-
-	def news_loader
-		@news = News.load
-	end
 end
 
 class MLink
