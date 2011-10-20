@@ -9,7 +9,7 @@ class PointsController < ApplicationController
     lon2 = params[:lon2]
     extent = params[:extend]
 
-		if not object_type then
+	if not object_type then
       @points = []
     elsif lat1 && lon1 && lat2 && lon2 then
       @points = Point.by_object_type_in_bbox object_type, lat1.to_f, lon1.to_f, lat2.to_f, lon2.to_f, extent.to_f

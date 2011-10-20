@@ -1,11 +1,20 @@
 :javascript
 	$(function() {
-		/*var pos = new CM.LatLng(#{@point.lat}, #{@point.lon});
-		var marker = new CM.Marker(pos, { title: '#{@point.name}' });
-		marker.bindInfoWindow('<h3>#{@point.name}</h3>');
-		map.addOverlay(marker);*/
+		// var pos = new CM.LatLng(#{@point.lat}, #{@point.lon});
+		var marker = null, updateMarker = function() {
+			if (!marker)
+				return;
+
+			var pos = marker.getLatLng();
+			$('#point_lat').val(pos.lat());
+			$('#point_lon').val(pos.lng());
+		};
+
+		//marker = new CM.Marker(pos, { title: '#{@point.name}', icon: '#{@point.image}', draggable: true, draggedEvent: updateMarker });
+		//marker.bindInfoWindow('<h3>#{@point.name}</h3>');
+		//map.addOverlay(marker);
 		
-		var marker = createMarker(#{@point.lat}, #{@point.lon}, {'addOverlay': true, 'draggable': false});
+		var marker = createMarker(#{@point.lat}, #{@point.lon}, {'addOverlay': true, 'draggable': true, 'moveEvent': updateMarker});
 	});
 
 
