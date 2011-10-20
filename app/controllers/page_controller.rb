@@ -21,6 +21,12 @@ class PageController < ApplicationController
 	def news
     render 'news', :layout => 'news'
   end
+  
+  def send_notify
+  	ReportMailer.new_report(params[:message]).deliver
+	session[:return_to] ||= request.referer
+	redirect_to session[:return_to]
+  end
 
 	def links
     @links = [
