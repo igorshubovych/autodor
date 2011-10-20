@@ -3,7 +3,7 @@ class ReportMailer < ActionMailer::Base
 
   def new_report(description)
   	@message = description
-  	mail( :to => "dispetcher@avtodor.mk.ua", :subject => "New report" )
+  	mail( :to => "shybovycha@gmail.com", :subject => "New report" )
   	#mail( :to => "shybovycha@gmail.com", :subject => "New report" )
   end
 end
