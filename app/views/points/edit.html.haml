@@ -1,11 +1,11 @@
 :javascript
 	$(function() {
 		// var pos = new CM.LatLng(#{@point.lat}, #{@point.lon});
-		var marker = null, updateMarker = function() {
-			if (!marker)
+		var updateMarker = function() {
+			if (!currMarker)
 				return;
 
-			var pos = marker.getLatLng();
+			var pos = currMarker.getLatLng();
 			$('#point_lat').val(pos.lat());
 			$('#point_lon').val(pos.lng());
 		};
@@ -14,7 +14,8 @@
 		//marker.bindInfoWindow('<h3>#{@point.name}</h3>');
 		//map.addOverlay(marker);
 		
-		var marker = createMarker(#{@point.lat}, #{@point.lon}, {'addOverlay': true, 'draggable': true, 'moveEvent': updateMarker});
+		if (!currMarker)
+			currMarker = createMarker(#{@point.lat}, #{@point.lon}, {'addOverlay': true, 'draggable': true, 'moveEvent': updateMarker});
 	});
 
 

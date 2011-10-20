@@ -118,6 +118,8 @@ var createContextMenu = function() {
 	var menu1 = [
 		{ 'moofoo': {
 			onclick: function(menuItem, menu) {
+				currPos = menu1.currPos;
+
 				if (currPos != null && currMarker == null) {
 					currMarker = createMarker(currPos.lat(), currPos.lng(), {'draggedEvent': updateMarkersUI, 'moveEvent': updateMarkersUI, 'addOverlay': true});
 				} else 
@@ -134,7 +136,7 @@ var createContextMenu = function() {
 	$('#map').contextMenu(menu1, {
 		theme: 'xp',
 		beforeShow: function(x, y) {
-			currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
+			menu1.currPos = map.fromContainerPixelToLatLng(new CM.Point(x, y));
 			
 			if (currMarker == null)
 				$("#contextMenuItem0").html($("#create_point_here").html()); else
