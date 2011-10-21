@@ -57,7 +57,6 @@
 							%a{ :href => '/laws' }
 								Нормативно-правовые акты
 						.col3
-							:javascript
+							%script{ :type => "text/javascript" }
 								var path='';
-								
-							= javascript_include_tag "http://www.ukravtodor.gov.ua/clients/ukrautodor.nsf/news_value.js", { :charset => "utf-8" }
+								!= @news
