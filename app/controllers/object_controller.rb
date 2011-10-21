@@ -11,7 +11,7 @@ class ObjectController < ApplicationController
   
   def roadCondition
     #send_kml 'roadCondition.kml'
-	render_kml 'incidents'
+	render_kml 'roadCondition'
   end
   
   def monument
@@ -59,13 +59,12 @@ class ObjectController < ApplicationController
   end
 
   def render_kml(type)
-	if (type == 'incidents')
-		points = Point.all
+		points = Point.where("object_type = \"#{ type }\"")
 
 	    kml = %{<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
     <Document>
-        <name>Incidents</name>
+        <name>#{ type }</name>
         <open>1</open>
         %s
     </Document>
@@ -79,7 +78,6 @@ class ObjectController < ApplicationController
 		end
 
 		send_data kml % points_str, :type => :kml
-	end
   end
 
 end
