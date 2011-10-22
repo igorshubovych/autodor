@@ -1,16 +1,9 @@
 Autodor::Application.routes.draw do
-  #get 'point/roadCondition' => 'object#roadCondition'
-  #get 'point/monument' => 'object#monument'
   get 'point/:object_type' => 'points#query'
   resources :points
 
-  #get "page/contact"
-  #get "page/support"
-  #get "page/about"
-
   get "home/links"
 
-  #get "home/index"
   match ':controller(/:action)'
   match 'moar' => 'home#moar'
   match 'news' => 'page#news'

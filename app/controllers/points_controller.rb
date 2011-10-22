@@ -84,26 +84,4 @@ class PointsController < ApplicationController
     
     redirect_to(points_url)
   end
-
-  private
-  
-  def updateIncidentsKML(points)
-	kml = %{<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-	<Document>
-		<name>%s</name>
-		<open>1</open>
-		%s
-	</Document>
-</kml>
-	}
-
-	points_str = ""
-
-	points.each do |p|
-		points_str += "\n<Placemark>\n<name>#{p.name}</name>\n<description>#{p.description}</description>\n<Point>\n<coordinates>#{p.lon},#{p.lat}</coordinates>\n</Point>\n</Placemark>\n"
-	end
-
-	(kml % ["map", points_str])
-  end
 end
