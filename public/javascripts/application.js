@@ -441,7 +441,7 @@ var updateWeather = function() {
 var loadObjects = function(layerName) {
 	var layer = layers[layerName];
 	// Check if routing direction overlaps 
-	if (!(layerName == "monument" || layerName == "roadCondition")) {
+/*	if (!(layerName == "monument" || layerName == "roadCondition")) {
 		if (directions.getDistance() > 0) {
 			var p1 = directions.getBounds().getSouthWest();
 			var p2 = directions.getBounds().getNorthEast();
@@ -453,7 +453,7 @@ var loadObjects = function(layerName) {
 		} else {
 			return;
 		}
-	} else {
+	} else */{
 		layer['data'] = new CM.GeoXml('/point/' + layerName + '.kml', {local: true, defaultIcon: layer['icon']});
 		CM.Event.addListener(layer['data'], 'load', function() {
 			map.addOverlay(layers[layerName]['data']);

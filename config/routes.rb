@@ -1,6 +1,6 @@
 Autodor::Application.routes.draw do
-  get 'point/roadCondition' => 'object#roadCondition'
-  get 'point/monument' => 'object#monument'
+  #get 'point/roadCondition' => 'object#roadCondition'
+  #get 'point/monument' => 'object#monument'
   get 'point/:object_type' => 'points#query'
   resources :points
 
