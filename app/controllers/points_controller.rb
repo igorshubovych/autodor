@@ -3,6 +3,9 @@ class PointsController < ApplicationController
 
   def query
     object_type = params[:object_type]
+
+	send_kml(object_type) if (type == 'monument')
+
     lat1 = params[:lat1]
     lat2 = params[:lat2]
     lon1 = params[:lon1]
@@ -16,6 +19,11 @@ class PointsController < ApplicationController
     else
       @points = Point.by_object_type object_type
     end
+  end
+
+  def send_kml(filename)
+	full_file_name = "#{Rails.root}/db/data/#{filename}"
+	send_data File.open(full_file_name).read, :type => :kml
   end
 
   def index
