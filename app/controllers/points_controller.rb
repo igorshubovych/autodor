@@ -4,7 +4,7 @@ class PointsController < ApplicationController
   def query
     object_type = params[:object_type]
 
-	send_kml(object_type) if (type == 'monument')
+	send_kml(object_type) if (object_type == 'monument')
 
     lat1 = params[:lat1]
     lat2 = params[:lat2]
